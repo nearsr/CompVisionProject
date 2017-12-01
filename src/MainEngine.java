@@ -70,7 +70,7 @@ public class MainEngine {
 			Graphics2D g2 = (Graphics2D)g;
 
 			if (frame != null) { //there is a picture: draw it
-				g2.drawImage(frame), 0, 0, this);
+				g2.drawImage(frame, 0, 0, this);
 			}
 		}
 	}
@@ -78,6 +78,12 @@ public class MainEngine {
 	
 	public MainEngine() {
 		connectToPepper();
+		JFrame jframe = new JFrame("Run");
+		PanelComponent panel = new PanelComponent();
+		jframe.add(panel);
+		jframe.pack();
+		jframe.setVisible(true);
+		jframe.setSize(100,100);
 	}
 
 	public void connectToPepper() {
@@ -123,10 +129,11 @@ public class MainEngine {
 
 		//Let's test!
 		sayText("Go to posture successful.");
-		motionModule.goToPosture("StandInit", 1);
-		sayText("Hello, this is Pepper, independent of A.D.E.");
+		motionModule.goToPosture("Crouch", 1);
+		//sayText("Hello, this is Pepper, independent of A.D.E.");
 
 		//Code from Nhan
+		cameraModule.startStreaming();
 		ScheduledExecutorService timer;
 		// grab a frame every 33 ms (30 frames/sec)
 		Runnable frameGrabber = new Runnable() {
@@ -140,6 +147,7 @@ public class MainEngine {
 
 		timer = Executors.newSingleThreadScheduledExecutor();
 		timer.scheduleAtFixedRate(frameGrabber, 0, 33, TimeUnit.MILLISECONDS);
+		cameraModule.stopStreaming();
 
 	}
 
