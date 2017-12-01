@@ -6,5 +6,5 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -DHAVE_PTHREAD=1 -D__OPENCV_BUILD=1
 
-CXX_INCLUDES = -I/home/stacia/opencv/3rdparty/protobuf/src -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/protobuf/src -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build 
 

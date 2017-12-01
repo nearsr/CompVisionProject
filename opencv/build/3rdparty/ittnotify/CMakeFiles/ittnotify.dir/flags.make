@@ -6,5 +6,5 @@ C_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtua
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/stacia/opencv/3rdparty/ittnotify/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build 
+C_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/ittnotify/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Utility rule file for pch_Generate_opencv_videoio.
 
@@ -59,13 +59,13 @@ modules/videoio/CMakeFiles/pch_Generate_opencv_videoio: modules/videoio/precomp.
 modules/videoio/precomp.hpp.gch/opencv_videoio_Release.gch: ../modules/videoio/src/precomp.hpp
 modules/videoio/precomp.hpp.gch/opencv_videoio_Release.gch: modules/videoio/precomp.hpp
 modules/videoio/precomp.hpp.gch/opencv_videoio_Release.gch: lib/libopencv_videoio_pch_dephelp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating precomp.hpp.gch/opencv_videoio_Release.gch"
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/cmake -E make_directory /home/stacia/opencv/build/modules/videoio/precomp.hpp.gch
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/c++ -O3 -DNDEBUG -DNDEBUG "-D__OPENCV_BUILD=1" "-D_USE_MATH_DEFINES" "-D__STDC_CONSTANT_MACROS" "-D__STDC_LIMIT_MACROS" "-D__STDC_FORMAT_MACROS" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/opencv/build" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/opencv/build" -I"/home/stacia/opencv/modules/videoio/include" -I"/home/stacia/opencv/modules/videoio/src" -I"/home/stacia/opencv/build/modules/videoio" -I"/home/stacia/opencv/modules/core/include" -I"/home/stacia/opencv/modules/imgproc/include" -I"/home/stacia/opencv/modules/imgcodecs/include" -fPIC -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -x c++-header -o /home/stacia/opencv/build/modules/videoio/precomp.hpp.gch/opencv_videoio_Release.gch /home/stacia/opencv/build/modules/videoio/precomp.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating precomp.hpp.gch/opencv_videoio_Release.gch"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/cmake -E make_directory /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/precomp.hpp.gch
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/c++ -O3 -DNDEBUG -DNDEBUG "-D__OPENCV_BUILD=1" "-D_USE_MATH_DEFINES" "-D__STDC_CONSTANT_MACROS" "-D__STDC_LIMIT_MACROS" "-D__STDC_FORMAT_MACROS" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/src" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include" -fPIC -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -x c++-header -o /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/precomp.hpp.gch/opencv_videoio_Release.gch /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/precomp.hpp
 
 modules/videoio/precomp.hpp: ../modules/videoio/src/precomp.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating precomp.hpp"
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/cmake -E copy_if_different /home/stacia/opencv/modules/videoio/src/precomp.hpp /home/stacia/opencv/build/modules/videoio/precomp.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating precomp.hpp"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/cmake -E copy_if_different /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/src/precomp.hpp /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/precomp.hpp
 
 pch_Generate_opencv_videoio: modules/videoio/CMakeFiles/pch_Generate_opencv_videoio
 pch_Generate_opencv_videoio: modules/videoio/precomp.hpp.gch/opencv_videoio_Release.gch
@@ -80,10 +80,10 @@ modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/build: pch_Generate_o
 .PHONY : modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/build
 
 modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/clean:
-	cd /home/stacia/opencv/build/modules/videoio && $(CMAKE_COMMAND) -P CMakeFiles/pch_Generate_opencv_videoio.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && $(CMAKE_COMMAND) -P CMakeFiles/pch_Generate_opencv_videoio.dir/cmake_clean.cmake
 .PHONY : modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/clean
 
 modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/videoio /home/stacia/opencv/build /home/stacia/opencv/build/modules/videoio /home/stacia/opencv/build/modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/depend
 

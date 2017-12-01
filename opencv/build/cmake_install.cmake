@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,26 +33,26 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV/3rdparty/lib" TYPE FILE FILES "/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/lib/intel64/libippicv.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV/3rdparty/lib" TYPE FILE FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/lib/intel64/libippicv.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE FILES "/home/stacia/opencv/build/cvconfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/cvconfig.h")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE FILES "/home/stacia/opencv/build/opencv2/opencv_modules.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/opencv2/opencv_modules.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stacia/opencv/build/unix-install/opencv.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/unix-install/opencv.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/OpenCV/OpenCVModules.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/OpenCV/OpenCVModules.cmake"
-         "/home/stacia/opencv/build/CMakeFiles/Export/share/OpenCV/OpenCVModules.cmake")
+         "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/Export/share/OpenCV/OpenCVModules.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/OpenCV/OpenCVModules-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -61,42 +61,42 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV" TYPE FILE FILES "/home/stacia/opencv/build/CMakeFiles/Export/share/OpenCV/OpenCVModules.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV" TYPE FILE FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/Export/share/OpenCV/OpenCVModules.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV" TYPE FILE FILES "/home/stacia/opencv/build/CMakeFiles/Export/share/OpenCV/OpenCVModules-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV" TYPE FILE FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/Export/share/OpenCV/OpenCVModules-release.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV" TYPE FILE FILES
-    "/home/stacia/opencv/build/unix-install/OpenCVConfig-version.cmake"
-    "/home/stacia/opencv/build/unix-install/OpenCVConfig.cmake"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/unix-install/OpenCVConfig-version.cmake"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/unix-install/OpenCVConfig.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV" TYPE FILE FILES
-    "/home/stacia/opencv/platforms/scripts/valgrind.supp"
-    "/home/stacia/opencv/platforms/scripts/valgrind_3rdparty.supp"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/platforms/scripts/valgrind.supp"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/platforms/scripts/valgrind_3rdparty.supp"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/stacia/opencv/build/3rdparty/zlib/cmake_install.cmake")
-  include("/home/stacia/opencv/build/3rdparty/libtiff/cmake_install.cmake")
-  include("/home/stacia/opencv/build/3rdparty/libjpeg/cmake_install.cmake")
-  include("/home/stacia/opencv/build/3rdparty/libwebp/cmake_install.cmake")
-  include("/home/stacia/opencv/build/3rdparty/libjasper/cmake_install.cmake")
-  include("/home/stacia/opencv/build/3rdparty/libpng/cmake_install.cmake")
-  include("/home/stacia/opencv/build/3rdparty/openexr/cmake_install.cmake")
-  include("/home/stacia/opencv/build/3rdparty/ippiw/cmake_install.cmake")
-  include("/home/stacia/opencv/build/3rdparty/ittnotify/cmake_install.cmake")
-  include("/home/stacia/opencv/build/include/cmake_install.cmake")
-  include("/home/stacia/opencv/build/modules/cmake_install.cmake")
-  include("/home/stacia/opencv/build/doc/cmake_install.cmake")
-  include("/home/stacia/opencv/build/data/cmake_install.cmake")
-  include("/home/stacia/opencv/build/apps/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/zlib/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libtiff/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libjpeg/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libwebp/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libjasper/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libpng/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/openexr/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippiw/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ittnotify/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/include/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/doc/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/data/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/cmake_install.cmake")
 
 endif()
 
@@ -108,5 +108,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/stacia/opencv/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

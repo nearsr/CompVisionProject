@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/opencv/build/CPackSourceConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles /home/stacia/opencv/build/apps/version/CMakeFiles/progress.marks
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/version/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/version/CMakeFiles/progress.marks
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/version/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/version/clean
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/version/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/version/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/version/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/version/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/version/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 apps/version/CMakeFiles/opencv_version.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/version/CMakeFiles/opencv_version.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/version/CMakeFiles/opencv_version.dir/rule
 .PHONY : apps/version/CMakeFiles/opencv_version.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ opencv_version: apps/version/CMakeFiles/opencv_version.dir/rule
 
 # fast build rule for target.
 opencv_version/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/version/CMakeFiles/opencv_version.dir/build.make apps/version/CMakeFiles/opencv_version.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/version/CMakeFiles/opencv_version.dir/build.make apps/version/CMakeFiles/opencv_version.dir/build
 .PHONY : opencv_version/fast
 
 opencv_version.o: opencv_version.cpp.o
@@ -208,7 +208,7 @@ opencv_version.o: opencv_version.cpp.o
 
 # target to build an object file
 opencv_version.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/version/CMakeFiles/opencv_version.dir/build.make apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/version/CMakeFiles/opencv_version.dir/build.make apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.o
 .PHONY : opencv_version.cpp.o
 
 opencv_version.i: opencv_version.cpp.i
@@ -217,7 +217,7 @@ opencv_version.i: opencv_version.cpp.i
 
 # target to preprocess a source file
 opencv_version.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/version/CMakeFiles/opencv_version.dir/build.make apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/version/CMakeFiles/opencv_version.dir/build.make apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.i
 .PHONY : opencv_version.cpp.i
 
 opencv_version.s: opencv_version.cpp.s
@@ -226,7 +226,7 @@ opencv_version.s: opencv_version.cpp.s
 
 # target to generate assembly for a file
 opencv_version.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/version/CMakeFiles/opencv_version.dir/build.make apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/version/CMakeFiles/opencv_version.dir/build.make apps/version/CMakeFiles/opencv_version.dir/opencv_version.cpp.s
 .PHONY : opencv_version.cpp.s
 
 # Help Target
@@ -259,6 +259,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

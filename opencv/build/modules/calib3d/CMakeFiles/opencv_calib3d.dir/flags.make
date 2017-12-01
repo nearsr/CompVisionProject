@@ -6,59 +6,59 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/calib3d/include -I/home/stacia/opencv/modules/calib3d/src -I/home/stacia/opencv/build/modules/calib3d -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/flann/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/videoio/include -I/home/stacia/opencv/modules/highgui/include -I/home/stacia/opencv/modules/features2d/include 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/src -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/flann/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/include 
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/homography_decomp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/homography_decomp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ptsetreg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ptsetreg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_ptsetreg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_ptsetreg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibinit.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/p3p.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/p3p.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/triangulate.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/posit.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/checkchessboard.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/levmarq.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/levmarq.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/solvepnp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/solvepnp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/calibration.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/epnp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/epnp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/dls.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/dls.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/upnp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/upnp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereosgbm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/quadsubpix.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/quadsubpix.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/circlesgrid.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/circlesgrid.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/stereobm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/rho.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/rho.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/five-point.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/five-point.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_stereo.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/compat_stereo.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fisheye.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fisheye.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ap3p.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/ap3p.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/fundam.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/polynom_solver.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/src/polynom_solver.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/opencl_kernels_calib3d.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_calib3d.dir/opencl_kernels_calib3d.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/precomp.hpp"
 

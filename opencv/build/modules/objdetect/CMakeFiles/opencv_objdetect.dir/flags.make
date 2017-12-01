@@ -6,21 +6,21 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/objdetect/include -I/home/stacia/opencv/modules/objdetect/src -I/home/stacia/opencv/build/modules/objdetect -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/imgproc/include 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/src -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include 
 
-# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/objdetect/precomp.hpp"
+# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/precomp.hpp"
 
-# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/objdetect/precomp.hpp"
+# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/precomp.hpp"
 
-# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/objdetect/precomp.hpp"
+# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/precomp.hpp"
 
-# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/objdetect/precomp.hpp"
+# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/precomp.hpp"
 
-# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/objdetect/precomp.hpp"
+# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/precomp.hpp"
 
-# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/objdetect/precomp.hpp"
+# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/precomp.hpp"
 
-# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/objdetect/precomp.hpp"
+# Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/precomp.hpp"
 
 # Custom flags: modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o_FLAGS =  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx
 

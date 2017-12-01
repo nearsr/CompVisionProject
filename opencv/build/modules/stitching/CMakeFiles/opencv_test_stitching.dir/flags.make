@@ -6,15 +6,15 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__OPENCV_TESTS=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/ts/include -I/home/stacia/opencv/modules/stitching/include -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/videoio/include -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/flann/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/highgui/include -I/home/stacia/opencv/modules/features2d/include -I/home/stacia/opencv/modules/calib3d/include -I/home/stacia/opencv/modules/stitching/test 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/flann/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/test 
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/test_precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/test_precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/test_precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/test_precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/test_precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/test_precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/test_precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/test_precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/test_precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/test_precomp.hpp"
 

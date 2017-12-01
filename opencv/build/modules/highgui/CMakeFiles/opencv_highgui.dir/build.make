@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Include any dependencies generated for this target.
 include modules/highgui/CMakeFiles/opencv_highgui.dir/depend.make
@@ -59,16 +59,16 @@ include modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 
 modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.o: modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.o: ../modules/highgui/src/window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.o"
-	cd /home/stacia/opencv/build/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/highgui/precomp.hpp" -o CMakeFiles/opencv_highgui.dir/src/window.cpp.o -c /home/stacia/opencv/modules/highgui/src/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui/precomp.hpp" -o CMakeFiles/opencv_highgui.dir/src/window.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/src/window.cpp
 
 modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/window.cpp.i"
-	cd /home/stacia/opencv/build/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/highgui/precomp.hpp" -E /home/stacia/opencv/modules/highgui/src/window.cpp > CMakeFiles/opencv_highgui.dir/src/window.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/src/window.cpp > CMakeFiles/opencv_highgui.dir/src/window.cpp.i
 
 modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/window.cpp.s"
-	cd /home/stacia/opencv/build/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/highgui/precomp.hpp" -S /home/stacia/opencv/modules/highgui/src/window.cpp -o CMakeFiles/opencv_highgui.dir/src/window.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/src/window.cpp -o CMakeFiles/opencv_highgui.dir/src/window.cpp.s
 
 modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.o.requires:
 
@@ -83,16 +83,16 @@ modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.o.provides.build: m
 
 modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o: modules/highgui/CMakeFiles/opencv_highgui.dir/flags.make
 modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o: ../modules/highgui/src/roiSelector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o"
-	cd /home/stacia/opencv/build/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/highgui/precomp.hpp" -o CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o -c /home/stacia/opencv/modules/highgui/src/roiSelector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui/precomp.hpp" -o CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/src/roiSelector.cpp
 
 modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.i"
-	cd /home/stacia/opencv/build/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/highgui/precomp.hpp" -E /home/stacia/opencv/modules/highgui/src/roiSelector.cpp > CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/src/roiSelector.cpp > CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.i
 
 modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.s"
-	cd /home/stacia/opencv/build/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/highgui/precomp.hpp" -S /home/stacia/opencv/modules/highgui/src/roiSelector.cpp -o CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/src/roiSelector.cpp -o CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.s
 
 modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o.requires:
 
@@ -117,9 +117,9 @@ lib/libopencv_highgui.a: modules/highgui/CMakeFiles/opencv_highgui.dir/src/windo
 lib/libopencv_highgui.a: modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o
 lib/libopencv_highgui.a: modules/highgui/CMakeFiles/opencv_highgui.dir/build.make
 lib/libopencv_highgui.a: modules/highgui/CMakeFiles/opencv_highgui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../lib/libopencv_highgui.a"
-	cd /home/stacia/opencv/build/modules/highgui && $(CMAKE_COMMAND) -P CMakeFiles/opencv_highgui.dir/cmake_clean_target.cmake
-	cd /home/stacia/opencv/build/modules/highgui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_highgui.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../lib/libopencv_highgui.a"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui && $(CMAKE_COMMAND) -P CMakeFiles/opencv_highgui.dir/cmake_clean_target.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_highgui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modules/highgui/CMakeFiles/opencv_highgui.dir/build: lib/libopencv_highgui.a
@@ -132,10 +132,10 @@ modules/highgui/CMakeFiles/opencv_highgui.dir/requires: modules/highgui/CMakeFil
 .PHONY : modules/highgui/CMakeFiles/opencv_highgui.dir/requires
 
 modules/highgui/CMakeFiles/opencv_highgui.dir/clean:
-	cd /home/stacia/opencv/build/modules/highgui && $(CMAKE_COMMAND) -P CMakeFiles/opencv_highgui.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui && $(CMAKE_COMMAND) -P CMakeFiles/opencv_highgui.dir/cmake_clean.cmake
 .PHONY : modules/highgui/CMakeFiles/opencv_highgui.dir/clean
 
 modules/highgui/CMakeFiles/opencv_highgui.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/highgui /home/stacia/opencv/build /home/stacia/opencv/build/modules/highgui /home/stacia/opencv/build/modules/highgui/CMakeFiles/opencv_highgui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui/CMakeFiles/opencv_highgui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/highgui/CMakeFiles/opencv_highgui.dir/depend
 

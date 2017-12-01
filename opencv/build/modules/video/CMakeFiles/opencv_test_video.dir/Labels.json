@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/ocl/test_optflow_tvl1flow.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflow_tvl1flow.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/ocl/test_optflow_farneback.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflow_farneback.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/ocl/test_bgfg_mog2.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_bgfg_mog2.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/ocl/test_optflowpyrlk.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflowpyrlk.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/test_accum.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_accum.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/test_kalman.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_kalman.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/test_camshift.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_camshift.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/test_tvl1optflow.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_tvl1optflow.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/test_main.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/test_estimaterigid.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_estimaterigid.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/test_optflowpyrlk.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_optflowpyrlk.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/test_ecc.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_ecc.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -110,7 +110,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/video/test/test_precomp.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

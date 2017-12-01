@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/stacia/opencv/modules/superres/perf/perf_main.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/perf/perf_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/superres/perf/perf_superres.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/perf/perf_superres.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/superres/perf/perf_precomp.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/perf/perf_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

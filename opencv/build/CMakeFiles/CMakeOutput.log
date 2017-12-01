@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/stacia/opencv/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/stacia/opencv/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0cd64/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0cd64.dir/build.make CMakeFiles/cmTC_0cd64.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0cd64.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_0cd64.dir/testCXXCompiler.cxx.o -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_0cd64
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cd64.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_0cd64.dir/testCXXCompiler.cxx.o  -o cmTC_0cd64 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_870d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_870d6.dir/build.make CMakeFiles/cmTC_870d6.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_870d6.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_870d6.dir/testCXXCompiler.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_870d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_870d6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_870d6.dir/testCXXCompiler.cxx.o  -o cmTC_870d6 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4954b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4954b.dir/build.make CMakeFiles/cmTC_4954b.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4954b.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_4954b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_4954b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4954b.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_4954b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4954b -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_7b3d4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b3d4.dir/build.make CMakeFiles/cmTC_7b3d4.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7b3d4.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_7b3d4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_7b3d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b3d4.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_7b3d4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7b3d4 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4954b' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc31h1zb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4954b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_4954b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b3d4' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYmWq0q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_7b3d4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_7b3d4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4954b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4954b.dir/build.make CMakeFiles/cmTC_4954b.dir/build]
-  ignore line: [make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_4954b.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_4954b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_4954b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4954b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_4954b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_4954b -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7b3d4/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7b3d4.dir/build.make CMakeFiles/cmTC_7b3d4.dir/build]
+  ignore line: [make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7b3d4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_7b3d4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_7b3d4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b3d4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_7b3d4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7b3d4 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4954b' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc31h1zb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_4954b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_4954b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b3d4' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYmWq0q.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_7b3d4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_7b3d4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc31h1zb.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccYmWq0q.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4954b] ==> ignore
+    arg [cmTC_7b3d4] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_4954b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_7b3d4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -151,17 +151,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0dcd0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0dcd0.dir/build.make CMakeFiles/cmTC_0dcd0.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0dcd0.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_0dcd0.dir/feature_tests.cxx.o -c /home/stacia/opencv/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0dcd0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dcd0.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_0dcd0.dir/feature_tests.cxx.o  -o cmTC_0dcd0 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1fa8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1fa8a.dir/build.make CMakeFiles/cmTC_1fa8a.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1fa8a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_1fa8a.dir/feature_tests.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1fa8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fa8a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_1fa8a.dir/feature_tests.cxx.o  -o cmTC_1fa8a -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -224,17 +224,17 @@ make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_56164/fast"
-/usr/bin/make -f CMakeFiles/cmTC_56164.dir/build.make CMakeFiles/cmTC_56164.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_56164.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_56164.dir/feature_tests.cxx.o -c /home/stacia/opencv/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_56164
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56164.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_56164.dir/feature_tests.cxx.o  -o cmTC_56164 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ed919/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed919.dir/build.make CMakeFiles/cmTC_ed919.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed919.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_ed919.dir/feature_tests.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ed919
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed919.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ed919.dir/feature_tests.cxx.o  -o cmTC_ed919 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -297,17 +297,17 @@ make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_79859/fast"
-/usr/bin/make -f CMakeFiles/cmTC_79859.dir/build.make CMakeFiles/cmTC_79859.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_79859.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_79859.dir/feature_tests.cxx.o -c /home/stacia/opencv/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_79859
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79859.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_79859.dir/feature_tests.cxx.o  -o cmTC_79859 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_220dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_220dd.dir/build.make CMakeFiles/cmTC_220dd.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_220dd.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_220dd.dir/feature_tests.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_220dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_220dd.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_220dd.dir/feature_tests.cxx.o  -o cmTC_220dd -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -368,30 +368,30 @@ make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_991b8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_991b8.dir/build.make CMakeFiles/cmTC_991b8.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_991b8.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_991b8.dir/testCCompiler.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_991b8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_991b8.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_991b8.dir/testCCompiler.c.o  -o cmTC_991b8 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7861f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7861f.dir/build.make CMakeFiles/cmTC_7861f.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7861f.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7861f.dir/testCCompiler.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7861f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7861f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7861f.dir/testCCompiler.c.o  -o cmTC_7861f -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fcd03/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fcd03.dir/build.make CMakeFiles/cmTC_fcd03.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fcd03.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_fcd03.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_fcd03
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcd03.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_fcd03.dir/CMakeCCompilerABI.c.o  -o cmTC_fcd03 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_6ffd1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6ffd1.dir/build.make CMakeFiles/cmTC_6ffd1.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ffd1.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6ffd1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6ffd1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ffd1.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_6ffd1.dir/CMakeCCompilerABI.c.o  -o cmTC_6ffd1 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -401,23 +401,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fcd03' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccobdRuv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_fcd03 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_fcd03.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ffd1' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjxSZhL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_6ffd1 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_6ffd1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fcd03/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fcd03.dir/build.make CMakeFiles/cmTC_fcd03.dir/build]
-  ignore line: [make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_fcd03.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_fcd03.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_fcd03]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcd03.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_fcd03.dir/CMakeCCompilerABI.c.o  -o cmTC_fcd03 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6ffd1/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6ffd1.dir/build.make CMakeFiles/cmTC_6ffd1.dir/build]
+  ignore line: [make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6ffd1.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_6ffd1.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_6ffd1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ffd1.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_6ffd1.dir/CMakeCCompilerABI.c.o  -o cmTC_6ffd1 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -427,13 +427,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fcd03' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccobdRuv.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_fcd03 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_fcd03.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6ffd1' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjxSZhL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_6ffd1 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_6ffd1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccobdRuv.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjxSZhL.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -451,7 +451,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fcd03] ==> ignore
+    arg [cmTC_6ffd1] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -463,7 +463,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_fcd03.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_6ffd1.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -495,17 +495,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9002c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9002c.dir/build.make CMakeFiles/cmTC_9002c.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9002c.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_9002c.dir/feature_tests.c.o   -c /home/stacia/opencv/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9002c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9002c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_9002c.dir/feature_tests.c.o  -o cmTC_9002c -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_dc3a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc3a5.dir/build.make CMakeFiles/cmTC_dc3a5.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc3a5.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_dc3a5.dir/feature_tests.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dc3a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc3a5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dc3a5.dir/feature_tests.c.o  -o cmTC_dc3a5 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -515,17 +515,17 @@ make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0ac46/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0ac46.dir/build.make CMakeFiles/cmTC_0ac46.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0ac46.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_0ac46.dir/feature_tests.c.o   -c /home/stacia/opencv/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0ac46
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ac46.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_0ac46.dir/feature_tests.c.o  -o cmTC_0ac46 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e7e27/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e7e27.dir/build.make CMakeFiles/cmTC_e7e27.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7e27.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_e7e27.dir/feature_tests.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e7e27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7e27.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e7e27.dir/feature_tests.c.o  -o cmTC_e7e27 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -535,17 +535,17 @@ make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_502a9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_502a9.dir/build.make CMakeFiles/cmTC_502a9.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_502a9.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_502a9.dir/feature_tests.c.o   -c /home/stacia/opencv/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_502a9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_502a9.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_502a9.dir/feature_tests.c.o  -o cmTC_502a9 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4b32f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b32f.dir/build.make CMakeFiles/cmTC_4b32f.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b32f.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_4b32f.dir/feature_tests.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4b32f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b32f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_4b32f.dir/feature_tests.c.o  -o cmTC_4b32f -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -553,33 +553,33 @@ make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c17a0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c17a0.dir/build.make CMakeFiles/cmTC_c17a0.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c17a0.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_c17a0.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_c17a0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c17a0.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_c17a0.dir/CheckIncludeFile.c.o  -o cmTC_c17a0 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ac318/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac318.dir/build.make CMakeFiles/cmTC_ac318.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac318.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_ac318.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ac318
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac318.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_ac318.dir/CheckIncludeFile.c.o  -o cmTC_ac318 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the posix_memalign exist passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_66063/fast"
-/usr/bin/make -f CMakeFiles/cmTC_66063.dir/build.make CMakeFiles/cmTC_66063.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66063.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_66063.dir/CheckSymbolExists.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_66063
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66063.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_66063.dir/CheckSymbolExists.c.o  -o cmTC_66063 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7183b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7183b.dir/build.make CMakeFiles/cmTC_7183b.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7183b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_7183b.dir/CheckSymbolExists.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7183b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7183b.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_7183b.dir/CheckSymbolExists.c.o  -o cmTC_7183b -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
-File /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdlib.h>
 
@@ -595,33 +595,33 @@ int main(int argc, char** argv)
 }
 
 Determining if the include file malloc.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_91aed/fast"
-/usr/bin/make -f CMakeFiles/cmTC_91aed.dir/build.make CMakeFiles/cmTC_91aed.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_91aed.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_91aed.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_91aed
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91aed.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_91aed.dir/CheckIncludeFile.c.o  -o cmTC_91aed -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5cd2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5cd2e.dir/build.make CMakeFiles/cmTC_5cd2e.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cd2e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_5cd2e.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5cd2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cd2e.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_5cd2e.dir/CheckIncludeFile.c.o  -o cmTC_5cd2e -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the memalign exist passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dae12/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dae12.dir/build.make CMakeFiles/cmTC_dae12.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dae12.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_dae12.dir/CheckSymbolExists.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_dae12
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dae12.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_dae12.dir/CheckSymbolExists.c.o  -o cmTC_dae12 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2908d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2908d.dir/build.make CMakeFiles/cmTC_2908d.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2908d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_2908d.dir/CheckSymbolExists.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2908d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2908d.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_2908d.dir/CheckSymbolExists.c.o  -o cmTC_2908d -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
-File /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <malloc.h>
 
@@ -637,235 +637,235 @@ int main(int argc, char** argv)
 }
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e3aeb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e3aeb.dir/build.make CMakeFiles/cmTC_e3aeb.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e3aeb.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_e3aeb.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e3aeb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3aeb.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_e3aeb.dir/CheckIncludeFile.c.o  -o cmTC_e3aeb -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_26340/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26340.dir/build.make CMakeFiles/cmTC_26340.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26340.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_26340.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_26340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26340.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_26340.dir/CheckIncludeFile.c.o  -o cmTC_26340 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ee7ff/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ee7ff.dir/build.make CMakeFiles/cmTC_ee7ff.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ee7ff.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_ee7ff.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_ee7ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee7ff.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_ee7ff.dir/CheckIncludeFile.c.o  -o cmTC_ee7ff -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4e1a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e1a8.dir/build.make CMakeFiles/cmTC_4e1a8.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e1a8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_4e1a8.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4e1a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e1a8.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_4e1a8.dir/CheckIncludeFile.c.o  -o cmTC_4e1a8 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e7c4b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e7c4b.dir/build.make CMakeFiles/cmTC_e7c4b.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e7c4b.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_e7c4b.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_e7c4b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7c4b.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_e7c4b.dir/CheckIncludeFile.c.o  -o cmTC_e7c4b -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_de040/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de040.dir/build.make CMakeFiles/cmTC_de040.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de040.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_de040.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_de040
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de040.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_de040.dir/CheckIncludeFile.c.o  -o cmTC_de040 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining size of unsigned short passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b677e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b677e.dir/build.make CMakeFiles/cmTC_b677e.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b677e.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_b677e.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/stacia/opencv/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
-Linking C executable cmTC_b677e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b677e.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_b677e.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_b677e -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9a681/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a681.dir/build.make CMakeFiles/cmTC_9a681.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a681.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_9a681.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_9a681
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a681.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_9a681.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_9a681 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function fseeko exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3aeb1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3aeb1.dir/build.make CMakeFiles/cmTC_3aeb1.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3aeb1.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG   -o CMakeFiles/cmTC_3aeb1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Run Build Command:"/usr/bin/make" "cmTC_ae35d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae35d.dir/build.make CMakeFiles/cmTC_ae35d.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae35d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG   -o CMakeFiles/cmTC_ae35d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
 /usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
  char CHECK_FUNCTION_EXISTS();
  ^
-Linking C executable cmTC_3aeb1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aeb1.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG     CMakeFiles/cmTC_3aeb1.dir/CheckFunctionExists.c.o  -o cmTC_3aeb1 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_ae35d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae35d.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG     CMakeFiles/cmTC_ae35d.dir/CheckFunctionExists.c.o  -o cmTC_ae35d -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file unistd.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2783b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2783b.dir/build.make CMakeFiles/cmTC_2783b.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2783b.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_2783b.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_2783b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2783b.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_2783b.dir/CheckIncludeFile.c.o  -o cmTC_2783b -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a4b52/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a4b52.dir/build.make CMakeFiles/cmTC_a4b52.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4b52.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_a4b52.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a4b52
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4b52.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_a4b52.dir/CheckIncludeFile.c.o  -o cmTC_a4b52 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file assert.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_582d3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_582d3.dir/build.make CMakeFiles/cmTC_582d3.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_582d3.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_582d3.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_582d3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_582d3.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_582d3.dir/CheckIncludeFile.c.o  -o cmTC_582d3 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_57663/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57663.dir/build.make CMakeFiles/cmTC_57663.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57663.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_57663.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_57663
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57663.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_57663.dir/CheckIncludeFile.c.o  -o cmTC_57663 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file fcntl.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_38d5f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_38d5f.dir/build.make CMakeFiles/cmTC_38d5f.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_38d5f.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_38d5f.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_38d5f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38d5f.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_38d5f.dir/CheckIncludeFile.c.o  -o cmTC_38d5f -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0f4d3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f4d3.dir/build.make CMakeFiles/cmTC_0f4d3.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f4d3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_0f4d3.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0f4d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f4d3.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_0f4d3.dir/CheckIncludeFile.c.o  -o cmTC_0f4d3 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file search.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_81347/fast"
-/usr/bin/make -f CMakeFiles/cmTC_81347.dir/build.make CMakeFiles/cmTC_81347.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_81347.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_81347.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_81347
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81347.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_81347.dir/CheckIncludeFile.c.o  -o cmTC_81347 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_26bf0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26bf0.dir/build.make CMakeFiles/cmTC_26bf0.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26bf0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_26bf0.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_26bf0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26bf0.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_26bf0.dir/CheckIncludeFile.c.o  -o cmTC_26bf0 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file string.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_00d08/fast"
-/usr/bin/make -f CMakeFiles/cmTC_00d08.dir/build.make CMakeFiles/cmTC_00d08.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_00d08.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_00d08.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_00d08
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00d08.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_00d08.dir/CheckIncludeFile.c.o  -o cmTC_00d08 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a8a4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8a4d.dir/build.make CMakeFiles/cmTC_a8a4d.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8a4d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_a8a4d.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a8a4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8a4d.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_a8a4d.dir/CheckIncludeFile.c.o  -o cmTC_a8a4d -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file unistd.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1afea/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1afea.dir/build.make CMakeFiles/cmTC_1afea.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1afea.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_1afea.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_1afea
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1afea.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_1afea.dir/CheckIncludeFile.c.o  -o cmTC_1afea -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f39d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f39d7.dir/build.make CMakeFiles/cmTC_f39d7.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f39d7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_f39d7.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f39d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f39d7.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_f39d7.dir/CheckIncludeFile.c.o  -o cmTC_f39d7 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function mmap exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c32fb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c32fb.dir/build.make CMakeFiles/cmTC_c32fb.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c32fb.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG   -o CMakeFiles/cmTC_c32fb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Run Build Command:"/usr/bin/make" "cmTC_d3a0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3a0b.dir/build.make CMakeFiles/cmTC_d3a0b.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3a0b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG   -o CMakeFiles/cmTC_d3a0b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
 /usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
  char CHECK_FUNCTION_EXISTS();
  ^
-Linking C executable cmTC_c32fb
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c32fb.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG     CMakeFiles/cmTC_c32fb.dir/CheckFunctionExists.c.o  -o cmTC_c32fb -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_d3a0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3a0b.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG     CMakeFiles/cmTC_d3a0b.dir/CheckFunctionExists.c.o  -o cmTC_d3a0b -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file semaphore.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_41a1b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_41a1b.dir/build.make CMakeFiles/cmTC_41a1b.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_41a1b.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_41a1b.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_41a1b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41a1b.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_41a1b.dir/CheckIncludeFile.c.o  -o cmTC_41a1b -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d7691/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7691.dir/build.make CMakeFiles/cmTC_d7691.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7691.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_d7691.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d7691
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7691.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_d7691.dir/CheckIncludeFile.c.o  -o cmTC_d7691 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file linux/videodev2.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5c556/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5c556.dir/build.make CMakeFiles/cmTC_5c556.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5c556.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_5c556.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5c556
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c556.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_5c556.dir/CheckIncludeFile.c.o  -o cmTC_5c556 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_559d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_559d5.dir/build.make CMakeFiles/cmTC_559d5.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_559d5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_559d5.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_559d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_559d5.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_559d5.dir/CheckIncludeFile.c.o  -o cmTC_559d5 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8c941/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8c941.dir/build.make CMakeFiles/cmTC_8c941.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8c941.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_8c941.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_8c941
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c941.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_8c941.dir/CheckIncludeFile.c.o  -o cmTC_8c941 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d64c1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d64c1.dir/build.make CMakeFiles/cmTC_d64c1.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d64c1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_d64c1.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d64c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d64c1.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_d64c1.dir/CheckIncludeFile.c.o  -o cmTC_d64c1 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the pthread_create exist passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69916/fast"
-/usr/bin/make -f CMakeFiles/cmTC_69916.dir/build.make CMakeFiles/cmTC_69916.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_69916.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_69916.dir/CheckSymbolExists.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_69916
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69916.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_69916.dir/CheckSymbolExists.c.o  -o cmTC_69916 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c5c96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5c96.dir/build.make CMakeFiles/cmTC_c5c96.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5c96.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_c5c96.dir/CheckSymbolExists.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c5c96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5c96.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_c5c96.dir/CheckSymbolExists.c.o  -o cmTC_c5c96 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
-File /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -881,19 +881,19 @@ int main(int argc, char** argv)
 }
 
 Determining if the function dlerror exists in the dl passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1f8f7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1f8f7.dir/build.make CMakeFiles/cmTC_1f8f7.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1f8f7.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG   -o CMakeFiles/cmTC_1f8f7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Run Build Command:"/usr/bin/make" "cmTC_28411/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28411.dir/build.make CMakeFiles/cmTC_28411.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28411.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG   -o CMakeFiles/cmTC_28411.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
 /usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
  char CHECK_FUNCTION_EXISTS();
  ^
-Linking C executable cmTC_1f8f7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f8f7.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG     CMakeFiles/cmTC_1f8f7.dir/CheckFunctionExists.c.o  -o cmTC_1f8f7 -rdynamic -ldl 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_28411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28411.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG     CMakeFiles/cmTC_28411.dir/CheckFunctionExists.c.o  -o cmTC_28411 -rdynamic -ldl 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 

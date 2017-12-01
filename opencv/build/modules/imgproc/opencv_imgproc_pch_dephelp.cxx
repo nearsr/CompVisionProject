@@ -1,4 +1,4 @@
-#include "/home/stacia/opencv/modules/imgproc/src/precomp.hpp"
+#include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/src/precomp.hpp"
 int testfunction();
 int testfunction()
 {

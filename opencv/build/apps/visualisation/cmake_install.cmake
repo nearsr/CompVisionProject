@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/apps/visualisation
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/visualisation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/opencv_visualisation"
          RPATH "/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/stacia/opencv/build/bin/opencv_visualisation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/bin/opencv_visualisation")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/opencv_visualisation" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/opencv_visualisation")
     file(RPATH_CHANGE

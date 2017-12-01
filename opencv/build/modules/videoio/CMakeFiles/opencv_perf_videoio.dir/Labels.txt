@@ -3,19 +3,19 @@
  opencv_videoio
  PerfTest
 # Source files and their labels
-/home/stacia/opencv/modules/videoio/perf/perf_main.cpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_main.cpp
  Main
  opencv_videoio
  PerfTest
-/home/stacia/opencv/modules/videoio/perf/perf_output.cpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_output.cpp
  Main
  opencv_videoio
  PerfTest
-/home/stacia/opencv/modules/videoio/perf/perf_input.cpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_input.cpp
  Main
  opencv_videoio
  PerfTest
-/home/stacia/opencv/modules/videoio/perf/perf_precomp.hpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_precomp.hpp
  Main
  opencv_videoio
  PerfTest

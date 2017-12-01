@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Utility rule file for pch_Generate_opencv_ts.
 
@@ -59,13 +59,13 @@ modules/ts/CMakeFiles/pch_Generate_opencv_ts: modules/ts/precomp.hpp.gch/opencv_
 modules/ts/precomp.hpp.gch/opencv_ts_Release.gch: ../modules/ts/src/precomp.hpp
 modules/ts/precomp.hpp.gch/opencv_ts_Release.gch: modules/ts/precomp.hpp
 modules/ts/precomp.hpp.gch/opencv_ts_Release.gch: lib/libopencv_ts_pch_dephelp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating precomp.hpp.gch/opencv_ts_Release.gch"
-	cd /home/stacia/opencv/build/modules/ts && /usr/bin/cmake -E make_directory /home/stacia/opencv/build/modules/ts/precomp.hpp.gch
-	cd /home/stacia/opencv/build/modules/ts && /usr/bin/c++ -O3 -DNDEBUG -DNDEBUG "-D__OPENCV_BUILD=1" "-D_USE_MATH_DEFINES" "-D__STDC_CONSTANT_MACROS" "-D__STDC_LIMIT_MACROS" "-D__STDC_FORMAT_MACROS" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/opencv/build" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/opencv/build" -I"/home/stacia/opencv/modules/ts/include" -I"/home/stacia/opencv/modules/ts/src" -I"/home/stacia/opencv/build/modules/ts" -I"/home/stacia/opencv/modules/core/include" -I"/home/stacia/opencv/modules/imgproc/include" -I"/home/stacia/opencv/modules/imgcodecs/include" -I"/home/stacia/opencv/modules/videoio/include" -I"/home/stacia/opencv/modules/highgui/include" -fPIC -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -x c++-header -o /home/stacia/opencv/build/modules/ts/precomp.hpp.gch/opencv_ts_Release.gch /home/stacia/opencv/build/modules/ts/precomp.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating precomp.hpp.gch/opencv_ts_Release.gch"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts && /usr/bin/cmake -E make_directory /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts/precomp.hpp.gch
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts && /usr/bin/c++ -O3 -DNDEBUG -DNDEBUG "-D__OPENCV_BUILD=1" "-D_USE_MATH_DEFINES" "-D__STDC_CONSTANT_MACROS" "-D__STDC_LIMIT_MACROS" "-D__STDC_FORMAT_MACROS" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts/src" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include" -fPIC -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -x c++-header -o /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts/precomp.hpp.gch/opencv_ts_Release.gch /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts/precomp.hpp
 
 modules/ts/precomp.hpp: ../modules/ts/src/precomp.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating precomp.hpp"
-	cd /home/stacia/opencv/build/modules/ts && /usr/bin/cmake -E copy_if_different /home/stacia/opencv/modules/ts/src/precomp.hpp /home/stacia/opencv/build/modules/ts/precomp.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating precomp.hpp"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts && /usr/bin/cmake -E copy_if_different /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts/src/precomp.hpp /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts/precomp.hpp
 
 pch_Generate_opencv_ts: modules/ts/CMakeFiles/pch_Generate_opencv_ts
 pch_Generate_opencv_ts: modules/ts/precomp.hpp.gch/opencv_ts_Release.gch
@@ -80,10 +80,10 @@ modules/ts/CMakeFiles/pch_Generate_opencv_ts.dir/build: pch_Generate_opencv_ts
 .PHONY : modules/ts/CMakeFiles/pch_Generate_opencv_ts.dir/build
 
 modules/ts/CMakeFiles/pch_Generate_opencv_ts.dir/clean:
-	cd /home/stacia/opencv/build/modules/ts && $(CMAKE_COMMAND) -P CMakeFiles/pch_Generate_opencv_ts.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts && $(CMAKE_COMMAND) -P CMakeFiles/pch_Generate_opencv_ts.dir/cmake_clean.cmake
 .PHONY : modules/ts/CMakeFiles/pch_Generate_opencv_ts.dir/clean
 
 modules/ts/CMakeFiles/pch_Generate_opencv_ts.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/ts /home/stacia/opencv/build /home/stacia/opencv/build/modules/ts /home/stacia/opencv/build/modules/ts/CMakeFiles/pch_Generate_opencv_ts.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts/CMakeFiles/pch_Generate_opencv_ts.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/ts/CMakeFiles/pch_Generate_opencv_ts.dir/depend
 

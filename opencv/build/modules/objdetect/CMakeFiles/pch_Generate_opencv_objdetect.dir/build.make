@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Utility rule file for pch_Generate_opencv_objdetect.
 
@@ -59,13 +59,13 @@ modules/objdetect/CMakeFiles/pch_Generate_opencv_objdetect: modules/objdetect/pr
 modules/objdetect/precomp.hpp.gch/opencv_objdetect_Release.gch: ../modules/objdetect/src/precomp.hpp
 modules/objdetect/precomp.hpp.gch/opencv_objdetect_Release.gch: modules/objdetect/precomp.hpp
 modules/objdetect/precomp.hpp.gch/opencv_objdetect_Release.gch: lib/libopencv_objdetect_pch_dephelp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating precomp.hpp.gch/opencv_objdetect_Release.gch"
-	cd /home/stacia/opencv/build/modules/objdetect && /usr/bin/cmake -E make_directory /home/stacia/opencv/build/modules/objdetect/precomp.hpp.gch
-	cd /home/stacia/opencv/build/modules/objdetect && /usr/bin/c++ -O3 -DNDEBUG -DNDEBUG "-D__OPENCV_BUILD=1" "-D_USE_MATH_DEFINES" "-D__STDC_CONSTANT_MACROS" "-D__STDC_LIMIT_MACROS" "-D__STDC_FORMAT_MACROS" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/opencv/build" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/opencv/build" -I"/home/stacia/opencv/modules/objdetect/include" -I"/home/stacia/opencv/modules/objdetect/src" -I"/home/stacia/opencv/build/modules/objdetect" -I"/home/stacia/opencv/modules/core/include" -I"/home/stacia/opencv/modules/imgproc/include" -fPIC -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -x c++-header -o /home/stacia/opencv/build/modules/objdetect/precomp.hpp.gch/opencv_objdetect_Release.gch /home/stacia/opencv/build/modules/objdetect/precomp.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating precomp.hpp.gch/opencv_objdetect_Release.gch"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect && /usr/bin/cmake -E make_directory /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/precomp.hpp.gch
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect && /usr/bin/c++ -O3 -DNDEBUG -DNDEBUG "-D__OPENCV_BUILD=1" "-D_USE_MATH_DEFINES" "-D__STDC_CONSTANT_MACROS" "-D__STDC_LIMIT_MACROS" "-D__STDC_FORMAT_MACROS" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/src" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include" -fPIC -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -x c++-header -o /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/precomp.hpp.gch/opencv_objdetect_Release.gch /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/precomp.hpp
 
 modules/objdetect/precomp.hpp: ../modules/objdetect/src/precomp.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating precomp.hpp"
-	cd /home/stacia/opencv/build/modules/objdetect && /usr/bin/cmake -E copy_if_different /home/stacia/opencv/modules/objdetect/src/precomp.hpp /home/stacia/opencv/build/modules/objdetect/precomp.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating precomp.hpp"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect && /usr/bin/cmake -E copy_if_different /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/src/precomp.hpp /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/precomp.hpp
 
 pch_Generate_opencv_objdetect: modules/objdetect/CMakeFiles/pch_Generate_opencv_objdetect
 pch_Generate_opencv_objdetect: modules/objdetect/precomp.hpp.gch/opencv_objdetect_Release.gch
@@ -80,10 +80,10 @@ modules/objdetect/CMakeFiles/pch_Generate_opencv_objdetect.dir/build: pch_Genera
 .PHONY : modules/objdetect/CMakeFiles/pch_Generate_opencv_objdetect.dir/build
 
 modules/objdetect/CMakeFiles/pch_Generate_opencv_objdetect.dir/clean:
-	cd /home/stacia/opencv/build/modules/objdetect && $(CMAKE_COMMAND) -P CMakeFiles/pch_Generate_opencv_objdetect.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect && $(CMAKE_COMMAND) -P CMakeFiles/pch_Generate_opencv_objdetect.dir/cmake_clean.cmake
 .PHONY : modules/objdetect/CMakeFiles/pch_Generate_opencv_objdetect.dir/clean
 
 modules/objdetect/CMakeFiles/pch_Generate_opencv_objdetect.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/objdetect /home/stacia/opencv/build /home/stacia/opencv/build/modules/objdetect /home/stacia/opencv/build/modules/objdetect/CMakeFiles/pch_Generate_opencv_objdetect.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/CMakeFiles/pch_Generate_opencv_objdetect.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/objdetect/CMakeFiles/pch_Generate_opencv_objdetect.dir/depend
 

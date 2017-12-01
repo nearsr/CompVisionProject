@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Include any dependencies generated for this target.
 include modules/videoio/CMakeFiles/opencv_perf_videoio.dir/depend.make
@@ -59,16 +59,16 @@ include modules/videoio/CMakeFiles/opencv_perf_videoio.dir/flags.make
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o: modules/videoio/CMakeFiles/opencv_perf_videoio.dir/flags.make
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o: ../modules/videoio/perf/perf_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o"
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/perf_precomp.hpp" -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o -c /home/stacia/opencv/modules/videoio/perf/perf_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/perf_precomp.hpp" -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_main.cpp
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.i"
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/perf_precomp.hpp" -E /home/stacia/opencv/modules/videoio/perf/perf_main.cpp > CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/perf_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_main.cpp > CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.i
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.s"
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/perf_precomp.hpp" -S /home/stacia/opencv/modules/videoio/perf/perf_main.cpp -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/perf_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_main.cpp -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.s
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o.provides
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o: modules/videoio/CMakeFiles/opencv_perf_videoio.dir/flags.make
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o: ../modules/videoio/perf/perf_output.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o"
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/perf_precomp.hpp" -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o -c /home/stacia/opencv/modules/videoio/perf/perf_output.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/perf_precomp.hpp" -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_output.cpp
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.i"
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/perf_precomp.hpp" -E /home/stacia/opencv/modules/videoio/perf/perf_output.cpp > CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/perf_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_output.cpp > CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.i
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.s"
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/perf_precomp.hpp" -S /home/stacia/opencv/modules/videoio/perf/perf_output.cpp -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/perf_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_output.cpp -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.s
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o.requires:
 
@@ -107,16 +107,16 @@ modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o.provid
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o: modules/videoio/CMakeFiles/opencv_perf_videoio.dir/flags.make
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o: ../modules/videoio/perf/perf_input.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o"
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/perf_precomp.hpp" -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o -c /home/stacia/opencv/modules/videoio/perf/perf_input.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/perf_precomp.hpp" -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_input.cpp
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.i"
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/perf_precomp.hpp" -E /home/stacia/opencv/modules/videoio/perf/perf_input.cpp > CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/perf_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_input.cpp > CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.i
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.s"
-	cd /home/stacia/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/perf_precomp.hpp" -S /home/stacia/opencv/modules/videoio/perf/perf_input.cpp -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/perf_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/perf/perf_input.cpp -o CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.s
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o.requires:
 
@@ -173,8 +173,8 @@ bin/opencv_perf_videoio: 3rdparty/lib/libittnotify.a
 bin/opencv_perf_videoio: 3rdparty/lib/libippiw.a
 bin/opencv_perf_videoio: 3rdparty/ippicv/ippicv_lnx/lib/intel64/libippicv.a
 bin/opencv_perf_videoio: modules/videoio/CMakeFiles/opencv_perf_videoio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../bin/opencv_perf_videoio"
-	cd /home/stacia/opencv/build/modules/videoio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_perf_videoio.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../bin/opencv_perf_videoio"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_perf_videoio.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build: bin/opencv_perf_videoio
@@ -188,10 +188,10 @@ modules/videoio/CMakeFiles/opencv_perf_videoio.dir/requires: modules/videoio/CMa
 .PHONY : modules/videoio/CMakeFiles/opencv_perf_videoio.dir/requires
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/clean:
-	cd /home/stacia/opencv/build/modules/videoio && $(CMAKE_COMMAND) -P CMakeFiles/opencv_perf_videoio.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio && $(CMAKE_COMMAND) -P CMakeFiles/opencv_perf_videoio.dir/cmake_clean.cmake
 .PHONY : modules/videoio/CMakeFiles/opencv_perf_videoio.dir/clean
 
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/videoio /home/stacia/opencv/build /home/stacia/opencv/build/modules/videoio /home/stacia/opencv/build/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/CMakeFiles/opencv_perf_videoio.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/videoio/CMakeFiles/opencv_perf_videoio.dir/depend
 

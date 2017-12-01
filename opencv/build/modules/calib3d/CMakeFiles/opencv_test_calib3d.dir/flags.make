@@ -6,63 +6,63 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__OPENCV_TESTS=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/ts/include -I/home/stacia/opencv/modules/calib3d/include -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/videoio/include -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/flann/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/highgui/include -I/home/stacia/opencv/modules/features2d/include -I/home/stacia/opencv/modules/calib3d/test 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/flann/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test 
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 
-# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp"
+# Custom flags: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp"
 

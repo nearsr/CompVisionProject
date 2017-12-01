@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stacia/opencv/build/modules/objdetect/opencl_kernels_objdetect.cpp" "/home/stacia/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o"
-  "/home/stacia/opencv/modules/objdetect/src/cascadedetect.cpp" "/home/stacia/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o"
-  "/home/stacia/opencv/modules/objdetect/src/cascadedetect_convert.cpp" "/home/stacia/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o"
-  "/home/stacia/opencv/modules/objdetect/src/detection_based_tracker.cpp" "/home/stacia/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o"
-  "/home/stacia/opencv/modules/objdetect/src/haar.avx.cpp" "/home/stacia/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o"
-  "/home/stacia/opencv/modules/objdetect/src/haar.cpp" "/home/stacia/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o"
-  "/home/stacia/opencv/modules/objdetect/src/hog.cpp" "/home/stacia/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o"
-  "/home/stacia/opencv/modules/objdetect/src/main.cpp" "/home/stacia/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/opencl_kernels_objdetect.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/opencl_kernels_objdetect.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/src/cascadedetect.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/src/cascadedetect_convert.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/cascadedetect_convert.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/src/detection_based_tracker.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/detection_based_tracker.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/src/haar.avx.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.avx.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/src/haar.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/haar.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/src/hog.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/hog.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/src/main.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/objdetect/CMakeFiles/opencv_objdetect.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -38,11 +38,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/stacia/opencv/build/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/ippiw/CMakeFiles/ippiw.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippiw/CMakeFiles/ippiw.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

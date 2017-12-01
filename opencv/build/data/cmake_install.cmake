@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/data
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/data
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,33 +34,33 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libs")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV/haarcascades" TYPE FILE FILES
-    "/home/stacia/opencv/data/haarcascades/haarcascade_frontalcatface.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_eye.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_lefteye_2splits.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_smile.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_fullbody.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_righteye_2splits.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_frontalface_alt2.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_licence_plate_rus_16stages.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_profileface.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_russian_plate_number.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_frontalface_alt.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_lowerbody.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_frontalface_alt_tree.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_frontalcatface_extended.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_upperbody.xml"
-    "/home/stacia/opencv/data/haarcascades/haarcascade_frontalface_default.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_frontalcatface.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_eye.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_lefteye_2splits.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_smile.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_fullbody.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_righteye_2splits.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_frontalface_alt2.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_licence_plate_rus_16stages.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_profileface.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_russian_plate_number.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_frontalface_alt.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_lowerbody.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_frontalface_alt_tree.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_frontalcatface_extended.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_upperbody.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/haarcascades/haarcascade_frontalface_default.xml"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "libs")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV/lbpcascades" TYPE FILE FILES
-    "/home/stacia/opencv/data/lbpcascades/lbpcascade_frontalface.xml"
-    "/home/stacia/opencv/data/lbpcascades/lbpcascade_frontalface_improved.xml"
-    "/home/stacia/opencv/data/lbpcascades/lbpcascade_frontalcatface.xml"
-    "/home/stacia/opencv/data/lbpcascades/lbpcascade_profileface.xml"
-    "/home/stacia/opencv/data/lbpcascades/lbpcascade_silverware.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/lbpcascades/lbpcascade_frontalface.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/lbpcascades/lbpcascade_frontalface_improved.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/lbpcascades/lbpcascade_frontalcatface.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/lbpcascades/lbpcascade_profileface.xml"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/data/lbpcascades/lbpcascade_silverware.xml"
     )
 endif()
 

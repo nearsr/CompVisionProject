@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/stacia/opencv/modules/highgui/include/opencv2/highgui.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include/opencv2/highgui.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/highgui/src/window.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/src/window.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/highgui/src/roiSelector.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/src/roiSelector.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/highgui/src/precomp.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/src/precomp.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,10 +56,10 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/build/cvconfig.h"
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/cvconfig.h"
 		},
 		{
-			"file" : "/home/stacia/opencv/build/opencv2/opencv_modules.hpp"
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/opencv2/opencv_modules.hpp"
 		}
 	],
 	"target" : 

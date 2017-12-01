@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Include any dependencies generated for this target.
 include modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/depend.make
@@ -59,16 +59,16 @@ include modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o: ../modules/imgcodecs/src/loadsave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/loadsave.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/loadsave.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/loadsave.cpp > CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/loadsave.cpp > CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/loadsave.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/loadsave.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o.requires:
 
@@ -83,16 +83,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o.provides.bu
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o: ../modules/imgcodecs/src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/utils.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/utils.cpp > CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/utils.cpp > CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/utils.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/utils.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o.requires:
 
@@ -107,16 +107,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o.provides.build
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o: ../modules/imgcodecs/src/grfmt_jpeg2000.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_jpeg2000.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o.requires:
 
@@ -131,16 +131,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o.provi
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o: ../modules/imgcodecs/src/grfmt_pxm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_pxm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_pxm.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_pxm.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_pxm.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_pxm.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_pxm.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o.requires:
 
@@ -155,16 +155,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o.provides.b
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o: ../modules/imgcodecs/src/grfmt_bmp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_bmp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_bmp.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_bmp.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_bmp.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_bmp.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_bmp.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o.requires:
 
@@ -179,16 +179,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o.provides.b
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o: ../modules/imgcodecs/src/grfmt_gdcm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_gdcm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_gdcm.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_gdcm.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_gdcm.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_gdcm.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_gdcm.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o.requires:
 
@@ -203,16 +203,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o.provides.
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o: ../modules/imgcodecs/src/grfmt_pam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_pam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_pam.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_pam.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_pam.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_pam.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_pam.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o.requires:
 
@@ -227,16 +227,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o.provides.b
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o: ../modules/imgcodecs/src/grfmt_webp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_webp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_webp.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_webp.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_webp.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_webp.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_webp.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o.requires:
 
@@ -251,16 +251,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o.provides.
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o: ../modules/imgcodecs/src/grfmt_jpeg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_jpeg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_jpeg.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_jpeg.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_jpeg.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_jpeg.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_jpeg.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o.requires:
 
@@ -275,16 +275,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o.provides.
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o: ../modules/imgcodecs/src/grfmt_png.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_png.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_png.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_png.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_png.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_png.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_png.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o.requires:
 
@@ -299,16 +299,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o.provides.b
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o: ../modules/imgcodecs/src/grfmt_gdal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_gdal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_gdal.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_gdal.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_gdal.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_gdal.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_gdal.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o.requires:
 
@@ -323,16 +323,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o.provides.
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o: ../modules/imgcodecs/src/grfmt_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_base.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_base.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_base.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_base.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_base.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o.requires:
 
@@ -347,16 +347,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o.provides.
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o: ../modules/imgcodecs/src/grfmt_sunras.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_sunras.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_sunras.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_sunras.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_sunras.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_sunras.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_sunras.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o.requires:
 
@@ -371,16 +371,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o.provide
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o: ../modules/imgcodecs/src/grfmt_tiff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_tiff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_tiff.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_tiff.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_tiff.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_tiff.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_tiff.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o.requires:
 
@@ -395,16 +395,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o.provides.
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o: ../modules/imgcodecs/src/grfmt_exr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_exr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_exr.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_exr.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_exr.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_exr.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_exr.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o.requires:
 
@@ -419,16 +419,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o.provides.b
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o: ../modules/imgcodecs/src/grfmt_hdr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/grfmt_hdr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_hdr.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/grfmt_hdr.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_hdr.cpp > CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/grfmt_hdr.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/grfmt_hdr.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o.requires:
 
@@ -443,16 +443,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o.provides.b
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o: ../modules/imgcodecs/src/bitstrm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/bitstrm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/bitstrm.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/bitstrm.cpp > CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/bitstrm.cpp > CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/bitstrm.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/bitstrm.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o.requires:
 
@@ -467,16 +467,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o.provides.bui
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o: ../modules/imgcodecs/src/rgbe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/rgbe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/rgbe.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/rgbe.cpp > CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/rgbe.cpp > CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/rgbe.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/rgbe.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o.requires:
 
@@ -491,16 +491,16 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o.provides.build:
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/flags.make
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o: ../modules/imgcodecs/src/exif.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o -c /home/stacia/opencv/modules/imgcodecs/src/exif.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -o CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/exif.cpp
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.i"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/opencv/modules/imgcodecs/src/exif.cpp > CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/exif.cpp > CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.i
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.s"
-	cd /home/stacia/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/opencv/modules/imgcodecs/src/exif.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src/exif.cpp -o CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.s
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o.requires:
 
@@ -559,9 +559,9 @@ lib/libopencv_imgcodecs.a: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src
 lib/libopencv_imgcodecs.a: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o
 lib/libopencv_imgcodecs.a: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make
 lib/libopencv_imgcodecs.a: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX static library ../../lib/libopencv_imgcodecs.a"
-	cd /home/stacia/opencv/build/modules/imgcodecs && $(CMAKE_COMMAND) -P CMakeFiles/opencv_imgcodecs.dir/cmake_clean_target.cmake
-	cd /home/stacia/opencv/build/modules/imgcodecs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_imgcodecs.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX static library ../../lib/libopencv_imgcodecs.a"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && $(CMAKE_COMMAND) -P CMakeFiles/opencv_imgcodecs.dir/cmake_clean_target.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_imgcodecs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build: lib/libopencv_imgcodecs.a
@@ -591,10 +591,10 @@ modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/requires: modules/imgcodecs/CM
 .PHONY : modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/requires
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/clean:
-	cd /home/stacia/opencv/build/modules/imgcodecs && $(CMAKE_COMMAND) -P CMakeFiles/opencv_imgcodecs.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs && $(CMAKE_COMMAND) -P CMakeFiles/opencv_imgcodecs.dir/cmake_clean.cmake
 .PHONY : modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/clean
 
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/imgcodecs /home/stacia/opencv/build /home/stacia/opencv/build/modules/imgcodecs /home/stacia/opencv/build/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/depend
 

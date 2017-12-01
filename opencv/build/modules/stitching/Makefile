@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/opencv/build/CPackSourceConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles /home/stacia/opencv/build/modules/stitching/CMakeFiles/progress.marks
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/CMakeFiles/progress.marks
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/clean
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 modules/stitching/CMakeFiles/opencv_test_stitching.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_test_stitching.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_test_stitching.dir/rule
 .PHONY : modules/stitching/CMakeFiles/opencv_test_stitching.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ opencv_test_stitching: modules/stitching/CMakeFiles/opencv_test_stitching.dir/ru
 
 # fast build rule for target.
 opencv_test_stitching/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/build
 .PHONY : opencv_test_stitching/fast
 
 # Convenience name for target.
 modules/stitching/CMakeFiles/opencv_perf_stitching.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_perf_stitching.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_perf_stitching.dir/rule
 .PHONY : modules/stitching/CMakeFiles/opencv_perf_stitching.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ opencv_perf_stitching: modules/stitching/CMakeFiles/opencv_perf_stitching.dir/ru
 
 # fast build rule for target.
 opencv_perf_stitching/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build
 .PHONY : opencv_perf_stitching/fast
 
 # Convenience name for target.
 modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/rule
 .PHONY : modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -229,12 +229,12 @@ opencv_test_stitching_pch_dephelp: modules/stitching/CMakeFiles/opencv_test_stit
 
 # fast build rule for target.
 opencv_test_stitching_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/build
 .PHONY : opencv_test_stitching_pch_dephelp/fast
 
 # Convenience name for target.
 modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/rule
 .PHONY : modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ opencv_stitching_pch_dephelp: modules/stitching/CMakeFiles/opencv_stitching_pch_
 
 # fast build rule for target.
 opencv_stitching_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/build
 .PHONY : opencv_stitching_pch_dephelp/fast
 
 # Convenience name for target.
 modules/stitching/CMakeFiles/opencv_stitching.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_stitching.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_stitching.dir/rule
 .PHONY : modules/stitching/CMakeFiles/opencv_stitching.dir/rule
 
 # Convenience name for target.
@@ -259,12 +259,12 @@ opencv_stitching: modules/stitching/CMakeFiles/opencv_stitching.dir/rule
 
 # fast build rule for target.
 opencv_stitching/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/build
 .PHONY : opencv_stitching/fast
 
 # Convenience name for target.
 modules/stitching/CMakeFiles/pch_Generate_opencv_stitching.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/pch_Generate_opencv_stitching.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/pch_Generate_opencv_stitching.dir/rule
 .PHONY : modules/stitching/CMakeFiles/pch_Generate_opencv_stitching.dir/rule
 
 # Convenience name for target.
@@ -274,12 +274,12 @@ pch_Generate_opencv_stitching: modules/stitching/CMakeFiles/pch_Generate_opencv_
 
 # fast build rule for target.
 pch_Generate_opencv_stitching/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/pch_Generate_opencv_stitching.dir/build.make modules/stitching/CMakeFiles/pch_Generate_opencv_stitching.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/pch_Generate_opencv_stitching.dir/build.make modules/stitching/CMakeFiles/pch_Generate_opencv_stitching.dir/build
 .PHONY : pch_Generate_opencv_stitching/fast
 
 # Convenience name for target.
 modules/stitching/CMakeFiles/pch_Generate_opencv_test_stitching.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/pch_Generate_opencv_test_stitching.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/pch_Generate_opencv_test_stitching.dir/rule
 .PHONY : modules/stitching/CMakeFiles/pch_Generate_opencv_test_stitching.dir/rule
 
 # Convenience name for target.
@@ -289,12 +289,12 @@ pch_Generate_opencv_test_stitching: modules/stitching/CMakeFiles/pch_Generate_op
 
 # fast build rule for target.
 pch_Generate_opencv_test_stitching/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/pch_Generate_opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/pch_Generate_opencv_test_stitching.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/pch_Generate_opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/pch_Generate_opencv_test_stitching.dir/build
 .PHONY : pch_Generate_opencv_test_stitching/fast
 
 # Convenience name for target.
 modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/rule
 .PHONY : modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -304,12 +304,12 @@ opencv_perf_stitching_pch_dephelp: modules/stitching/CMakeFiles/opencv_perf_stit
 
 # fast build rule for target.
 opencv_perf_stitching_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/build
 .PHONY : opencv_perf_stitching_pch_dephelp/fast
 
 # Convenience name for target.
 modules/stitching/CMakeFiles/pch_Generate_opencv_perf_stitching.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/pch_Generate_opencv_perf_stitching.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/stitching/CMakeFiles/pch_Generate_opencv_perf_stitching.dir/rule
 .PHONY : modules/stitching/CMakeFiles/pch_Generate_opencv_perf_stitching.dir/rule
 
 # Convenience name for target.
@@ -319,7 +319,7 @@ pch_Generate_opencv_perf_stitching: modules/stitching/CMakeFiles/pch_Generate_op
 
 # fast build rule for target.
 pch_Generate_opencv_perf_stitching/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/pch_Generate_opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/pch_Generate_opencv_perf_stitching.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/pch_Generate_opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/pch_Generate_opencv_perf_stitching.dir/build
 .PHONY : pch_Generate_opencv_perf_stitching/fast
 
 opencl_kernels_stitching.o: opencl_kernels_stitching.cpp.o
@@ -328,7 +328,7 @@ opencl_kernels_stitching.o: opencl_kernels_stitching.cpp.o
 
 # target to build an object file
 opencl_kernels_stitching.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o
 .PHONY : opencl_kernels_stitching.cpp.o
 
 opencl_kernels_stitching.i: opencl_kernels_stitching.cpp.i
@@ -337,7 +337,7 @@ opencl_kernels_stitching.i: opencl_kernels_stitching.cpp.i
 
 # target to preprocess a source file
 opencl_kernels_stitching.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.i
 .PHONY : opencl_kernels_stitching.cpp.i
 
 opencl_kernels_stitching.s: opencl_kernels_stitching.cpp.s
@@ -346,7 +346,7 @@ opencl_kernels_stitching.s: opencl_kernels_stitching.cpp.s
 
 # target to generate assembly for a file
 opencl_kernels_stitching.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.s
 .PHONY : opencl_kernels_stitching.cpp.s
 
 opencv_perf_stitching_pch_dephelp.o: opencv_perf_stitching_pch_dephelp.cxx.o
@@ -355,7 +355,7 @@ opencv_perf_stitching_pch_dephelp.o: opencv_perf_stitching_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_perf_stitching_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/opencv_perf_stitching_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/opencv_perf_stitching_pch_dephelp.cxx.o
 .PHONY : opencv_perf_stitching_pch_dephelp.cxx.o
 
 opencv_perf_stitching_pch_dephelp.i: opencv_perf_stitching_pch_dephelp.cxx.i
@@ -364,7 +364,7 @@ opencv_perf_stitching_pch_dephelp.i: opencv_perf_stitching_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_perf_stitching_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/opencv_perf_stitching_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/opencv_perf_stitching_pch_dephelp.cxx.i
 .PHONY : opencv_perf_stitching_pch_dephelp.cxx.i
 
 opencv_perf_stitching_pch_dephelp.s: opencv_perf_stitching_pch_dephelp.cxx.s
@@ -373,7 +373,7 @@ opencv_perf_stitching_pch_dephelp.s: opencv_perf_stitching_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_perf_stitching_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/opencv_perf_stitching_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching_pch_dephelp.dir/opencv_perf_stitching_pch_dephelp.cxx.s
 .PHONY : opencv_perf_stitching_pch_dephelp.cxx.s
 
 opencv_stitching_pch_dephelp.o: opencv_stitching_pch_dephelp.cxx.o
@@ -382,7 +382,7 @@ opencv_stitching_pch_dephelp.o: opencv_stitching_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_stitching_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/opencv_stitching_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/opencv_stitching_pch_dephelp.cxx.o
 .PHONY : opencv_stitching_pch_dephelp.cxx.o
 
 opencv_stitching_pch_dephelp.i: opencv_stitching_pch_dephelp.cxx.i
@@ -391,7 +391,7 @@ opencv_stitching_pch_dephelp.i: opencv_stitching_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_stitching_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/opencv_stitching_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/opencv_stitching_pch_dephelp.cxx.i
 .PHONY : opencv_stitching_pch_dephelp.cxx.i
 
 opencv_stitching_pch_dephelp.s: opencv_stitching_pch_dephelp.cxx.s
@@ -400,7 +400,7 @@ opencv_stitching_pch_dephelp.s: opencv_stitching_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_stitching_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/opencv_stitching_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_stitching_pch_dephelp.dir/opencv_stitching_pch_dephelp.cxx.s
 .PHONY : opencv_stitching_pch_dephelp.cxx.s
 
 opencv_test_stitching_pch_dephelp.o: opencv_test_stitching_pch_dephelp.cxx.o
@@ -409,7 +409,7 @@ opencv_test_stitching_pch_dephelp.o: opencv_test_stitching_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_test_stitching_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/opencv_test_stitching_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/opencv_test_stitching_pch_dephelp.cxx.o
 .PHONY : opencv_test_stitching_pch_dephelp.cxx.o
 
 opencv_test_stitching_pch_dephelp.i: opencv_test_stitching_pch_dephelp.cxx.i
@@ -418,7 +418,7 @@ opencv_test_stitching_pch_dephelp.i: opencv_test_stitching_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_test_stitching_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/opencv_test_stitching_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/opencv_test_stitching_pch_dephelp.cxx.i
 .PHONY : opencv_test_stitching_pch_dephelp.cxx.i
 
 opencv_test_stitching_pch_dephelp.s: opencv_test_stitching_pch_dephelp.cxx.s
@@ -427,7 +427,7 @@ opencv_test_stitching_pch_dephelp.s: opencv_test_stitching_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_test_stitching_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/opencv_test_stitching_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching_pch_dephelp.dir/opencv_test_stitching_pch_dephelp.cxx.s
 .PHONY : opencv_test_stitching_pch_dephelp.cxx.s
 
 perf/opencl/perf_stitch.o: perf/opencl/perf_stitch.cpp.o
@@ -436,7 +436,7 @@ perf/opencl/perf_stitch.o: perf/opencl/perf_stitch.cpp.o
 
 # target to build an object file
 perf/opencl/perf_stitch.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.o
 .PHONY : perf/opencl/perf_stitch.cpp.o
 
 perf/opencl/perf_stitch.i: perf/opencl/perf_stitch.cpp.i
@@ -445,7 +445,7 @@ perf/opencl/perf_stitch.i: perf/opencl/perf_stitch.cpp.i
 
 # target to preprocess a source file
 perf/opencl/perf_stitch.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.i
 .PHONY : perf/opencl/perf_stitch.cpp.i
 
 perf/opencl/perf_stitch.s: perf/opencl/perf_stitch.cpp.s
@@ -454,7 +454,7 @@ perf/opencl/perf_stitch.s: perf/opencl/perf_stitch.cpp.s
 
 # target to generate assembly for a file
 perf/opencl/perf_stitch.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.s
 .PHONY : perf/opencl/perf_stitch.cpp.s
 
 perf/opencl/perf_warpers.o: perf/opencl/perf_warpers.cpp.o
@@ -463,7 +463,7 @@ perf/opencl/perf_warpers.o: perf/opencl/perf_warpers.cpp.o
 
 # target to build an object file
 perf/opencl/perf_warpers.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.o
 .PHONY : perf/opencl/perf_warpers.cpp.o
 
 perf/opencl/perf_warpers.i: perf/opencl/perf_warpers.cpp.i
@@ -472,7 +472,7 @@ perf/opencl/perf_warpers.i: perf/opencl/perf_warpers.cpp.i
 
 # target to preprocess a source file
 perf/opencl/perf_warpers.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.i
 .PHONY : perf/opencl/perf_warpers.cpp.i
 
 perf/opencl/perf_warpers.s: perf/opencl/perf_warpers.cpp.s
@@ -481,7 +481,7 @@ perf/opencl/perf_warpers.s: perf/opencl/perf_warpers.cpp.s
 
 # target to generate assembly for a file
 perf/opencl/perf_warpers.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.s
 .PHONY : perf/opencl/perf_warpers.cpp.s
 
 perf/perf_estimators.o: perf/perf_estimators.cpp.o
@@ -490,7 +490,7 @@ perf/perf_estimators.o: perf/perf_estimators.cpp.o
 
 # target to build an object file
 perf/perf_estimators.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.o
 .PHONY : perf/perf_estimators.cpp.o
 
 perf/perf_estimators.i: perf/perf_estimators.cpp.i
@@ -499,7 +499,7 @@ perf/perf_estimators.i: perf/perf_estimators.cpp.i
 
 # target to preprocess a source file
 perf/perf_estimators.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.i
 .PHONY : perf/perf_estimators.cpp.i
 
 perf/perf_estimators.s: perf/perf_estimators.cpp.s
@@ -508,7 +508,7 @@ perf/perf_estimators.s: perf/perf_estimators.cpp.s
 
 # target to generate assembly for a file
 perf/perf_estimators.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.s
 .PHONY : perf/perf_estimators.cpp.s
 
 perf/perf_main.o: perf/perf_main.cpp.o
@@ -517,7 +517,7 @@ perf/perf_main.o: perf/perf_main.cpp.o
 
 # target to build an object file
 perf/perf_main.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.o
 .PHONY : perf/perf_main.cpp.o
 
 perf/perf_main.i: perf/perf_main.cpp.i
@@ -526,7 +526,7 @@ perf/perf_main.i: perf/perf_main.cpp.i
 
 # target to preprocess a source file
 perf/perf_main.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.i
 .PHONY : perf/perf_main.cpp.i
 
 perf/perf_main.s: perf/perf_main.cpp.s
@@ -535,7 +535,7 @@ perf/perf_main.s: perf/perf_main.cpp.s
 
 # target to generate assembly for a file
 perf/perf_main.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.s
 .PHONY : perf/perf_main.cpp.s
 
 perf/perf_matchers.o: perf/perf_matchers.cpp.o
@@ -544,7 +544,7 @@ perf/perf_matchers.o: perf/perf_matchers.cpp.o
 
 # target to build an object file
 perf/perf_matchers.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.o
 .PHONY : perf/perf_matchers.cpp.o
 
 perf/perf_matchers.i: perf/perf_matchers.cpp.i
@@ -553,7 +553,7 @@ perf/perf_matchers.i: perf/perf_matchers.cpp.i
 
 # target to preprocess a source file
 perf/perf_matchers.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.i
 .PHONY : perf/perf_matchers.cpp.i
 
 perf/perf_matchers.s: perf/perf_matchers.cpp.s
@@ -562,7 +562,7 @@ perf/perf_matchers.s: perf/perf_matchers.cpp.s
 
 # target to generate assembly for a file
 perf/perf_matchers.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.s
 .PHONY : perf/perf_matchers.cpp.s
 
 perf/perf_stich.o: perf/perf_stich.cpp.o
@@ -571,7 +571,7 @@ perf/perf_stich.o: perf/perf_stich.cpp.o
 
 # target to build an object file
 perf/perf_stich.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.o
 .PHONY : perf/perf_stich.cpp.o
 
 perf/perf_stich.i: perf/perf_stich.cpp.i
@@ -580,7 +580,7 @@ perf/perf_stich.i: perf/perf_stich.cpp.i
 
 # target to preprocess a source file
 perf/perf_stich.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.i
 .PHONY : perf/perf_stich.cpp.i
 
 perf/perf_stich.s: perf/perf_stich.cpp.s
@@ -589,7 +589,7 @@ perf/perf_stich.s: perf/perf_stich.cpp.s
 
 # target to generate assembly for a file
 perf/perf_stich.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_perf_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.s
 .PHONY : perf/perf_stich.cpp.s
 
 src/autocalib.o: src/autocalib.cpp.o
@@ -598,7 +598,7 @@ src/autocalib.o: src/autocalib.cpp.o
 
 # target to build an object file
 src/autocalib.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o
 .PHONY : src/autocalib.cpp.o
 
 src/autocalib.i: src/autocalib.cpp.i
@@ -607,7 +607,7 @@ src/autocalib.i: src/autocalib.cpp.i
 
 # target to preprocess a source file
 src/autocalib.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.i
 .PHONY : src/autocalib.cpp.i
 
 src/autocalib.s: src/autocalib.cpp.s
@@ -616,7 +616,7 @@ src/autocalib.s: src/autocalib.cpp.s
 
 # target to generate assembly for a file
 src/autocalib.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.s
 .PHONY : src/autocalib.cpp.s
 
 src/blenders.o: src/blenders.cpp.o
@@ -625,7 +625,7 @@ src/blenders.o: src/blenders.cpp.o
 
 # target to build an object file
 src/blenders.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o
 .PHONY : src/blenders.cpp.o
 
 src/blenders.i: src/blenders.cpp.i
@@ -634,7 +634,7 @@ src/blenders.i: src/blenders.cpp.i
 
 # target to preprocess a source file
 src/blenders.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.i
 .PHONY : src/blenders.cpp.i
 
 src/blenders.s: src/blenders.cpp.s
@@ -643,7 +643,7 @@ src/blenders.s: src/blenders.cpp.s
 
 # target to generate assembly for a file
 src/blenders.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.s
 .PHONY : src/blenders.cpp.s
 
 src/camera.o: src/camera.cpp.o
@@ -652,7 +652,7 @@ src/camera.o: src/camera.cpp.o
 
 # target to build an object file
 src/camera.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o
 .PHONY : src/camera.cpp.o
 
 src/camera.i: src/camera.cpp.i
@@ -661,7 +661,7 @@ src/camera.i: src/camera.cpp.i
 
 # target to preprocess a source file
 src/camera.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.i
 .PHONY : src/camera.cpp.i
 
 src/camera.s: src/camera.cpp.s
@@ -670,7 +670,7 @@ src/camera.s: src/camera.cpp.s
 
 # target to generate assembly for a file
 src/camera.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.s
 .PHONY : src/camera.cpp.s
 
 src/exposure_compensate.o: src/exposure_compensate.cpp.o
@@ -679,7 +679,7 @@ src/exposure_compensate.o: src/exposure_compensate.cpp.o
 
 # target to build an object file
 src/exposure_compensate.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o
 .PHONY : src/exposure_compensate.cpp.o
 
 src/exposure_compensate.i: src/exposure_compensate.cpp.i
@@ -688,7 +688,7 @@ src/exposure_compensate.i: src/exposure_compensate.cpp.i
 
 # target to preprocess a source file
 src/exposure_compensate.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.i
 .PHONY : src/exposure_compensate.cpp.i
 
 src/exposure_compensate.s: src/exposure_compensate.cpp.s
@@ -697,7 +697,7 @@ src/exposure_compensate.s: src/exposure_compensate.cpp.s
 
 # target to generate assembly for a file
 src/exposure_compensate.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.s
 .PHONY : src/exposure_compensate.cpp.s
 
 src/matchers.o: src/matchers.cpp.o
@@ -706,7 +706,7 @@ src/matchers.o: src/matchers.cpp.o
 
 # target to build an object file
 src/matchers.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o
 .PHONY : src/matchers.cpp.o
 
 src/matchers.i: src/matchers.cpp.i
@@ -715,7 +715,7 @@ src/matchers.i: src/matchers.cpp.i
 
 # target to preprocess a source file
 src/matchers.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.i
 .PHONY : src/matchers.cpp.i
 
 src/matchers.s: src/matchers.cpp.s
@@ -724,7 +724,7 @@ src/matchers.s: src/matchers.cpp.s
 
 # target to generate assembly for a file
 src/matchers.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.s
 .PHONY : src/matchers.cpp.s
 
 src/motion_estimators.o: src/motion_estimators.cpp.o
@@ -733,7 +733,7 @@ src/motion_estimators.o: src/motion_estimators.cpp.o
 
 # target to build an object file
 src/motion_estimators.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o
 .PHONY : src/motion_estimators.cpp.o
 
 src/motion_estimators.i: src/motion_estimators.cpp.i
@@ -742,7 +742,7 @@ src/motion_estimators.i: src/motion_estimators.cpp.i
 
 # target to preprocess a source file
 src/motion_estimators.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.i
 .PHONY : src/motion_estimators.cpp.i
 
 src/motion_estimators.s: src/motion_estimators.cpp.s
@@ -751,7 +751,7 @@ src/motion_estimators.s: src/motion_estimators.cpp.s
 
 # target to generate assembly for a file
 src/motion_estimators.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.s
 .PHONY : src/motion_estimators.cpp.s
 
 src/seam_finders.o: src/seam_finders.cpp.o
@@ -760,7 +760,7 @@ src/seam_finders.o: src/seam_finders.cpp.o
 
 # target to build an object file
 src/seam_finders.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o
 .PHONY : src/seam_finders.cpp.o
 
 src/seam_finders.i: src/seam_finders.cpp.i
@@ -769,7 +769,7 @@ src/seam_finders.i: src/seam_finders.cpp.i
 
 # target to preprocess a source file
 src/seam_finders.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.i
 .PHONY : src/seam_finders.cpp.i
 
 src/seam_finders.s: src/seam_finders.cpp.s
@@ -778,7 +778,7 @@ src/seam_finders.s: src/seam_finders.cpp.s
 
 # target to generate assembly for a file
 src/seam_finders.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.s
 .PHONY : src/seam_finders.cpp.s
 
 src/stitcher.o: src/stitcher.cpp.o
@@ -787,7 +787,7 @@ src/stitcher.o: src/stitcher.cpp.o
 
 # target to build an object file
 src/stitcher.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o
 .PHONY : src/stitcher.cpp.o
 
 src/stitcher.i: src/stitcher.cpp.i
@@ -796,7 +796,7 @@ src/stitcher.i: src/stitcher.cpp.i
 
 # target to preprocess a source file
 src/stitcher.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.i
 .PHONY : src/stitcher.cpp.i
 
 src/stitcher.s: src/stitcher.cpp.s
@@ -805,7 +805,7 @@ src/stitcher.s: src/stitcher.cpp.s
 
 # target to generate assembly for a file
 src/stitcher.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.s
 .PHONY : src/stitcher.cpp.s
 
 src/timelapsers.o: src/timelapsers.cpp.o
@@ -814,7 +814,7 @@ src/timelapsers.o: src/timelapsers.cpp.o
 
 # target to build an object file
 src/timelapsers.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o
 .PHONY : src/timelapsers.cpp.o
 
 src/timelapsers.i: src/timelapsers.cpp.i
@@ -823,7 +823,7 @@ src/timelapsers.i: src/timelapsers.cpp.i
 
 # target to preprocess a source file
 src/timelapsers.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.i
 .PHONY : src/timelapsers.cpp.i
 
 src/timelapsers.s: src/timelapsers.cpp.s
@@ -832,7 +832,7 @@ src/timelapsers.s: src/timelapsers.cpp.s
 
 # target to generate assembly for a file
 src/timelapsers.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.s
 .PHONY : src/timelapsers.cpp.s
 
 src/util.o: src/util.cpp.o
@@ -841,7 +841,7 @@ src/util.o: src/util.cpp.o
 
 # target to build an object file
 src/util.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o
 .PHONY : src/util.cpp.o
 
 src/util.i: src/util.cpp.i
@@ -850,7 +850,7 @@ src/util.i: src/util.cpp.i
 
 # target to preprocess a source file
 src/util.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.i
 .PHONY : src/util.cpp.i
 
 src/util.s: src/util.cpp.s
@@ -859,7 +859,7 @@ src/util.s: src/util.cpp.s
 
 # target to generate assembly for a file
 src/util.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.s
 .PHONY : src/util.cpp.s
 
 src/warpers.o: src/warpers.cpp.o
@@ -868,7 +868,7 @@ src/warpers.o: src/warpers.cpp.o
 
 # target to build an object file
 src/warpers.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o
 .PHONY : src/warpers.cpp.o
 
 src/warpers.i: src/warpers.cpp.i
@@ -877,7 +877,7 @@ src/warpers.i: src/warpers.cpp.i
 
 # target to preprocess a source file
 src/warpers.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.i
 .PHONY : src/warpers.cpp.i
 
 src/warpers.s: src/warpers.cpp.s
@@ -886,7 +886,7 @@ src/warpers.s: src/warpers.cpp.s
 
 # target to generate assembly for a file
 src/warpers.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.s
 .PHONY : src/warpers.cpp.s
 
 src/warpers_cuda.o: src/warpers_cuda.cpp.o
@@ -895,7 +895,7 @@ src/warpers_cuda.o: src/warpers_cuda.cpp.o
 
 # target to build an object file
 src/warpers_cuda.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o
 .PHONY : src/warpers_cuda.cpp.o
 
 src/warpers_cuda.i: src/warpers_cuda.cpp.i
@@ -904,7 +904,7 @@ src/warpers_cuda.i: src/warpers_cuda.cpp.i
 
 # target to preprocess a source file
 src/warpers_cuda.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.i
 .PHONY : src/warpers_cuda.cpp.i
 
 src/warpers_cuda.s: src/warpers_cuda.cpp.s
@@ -913,7 +913,7 @@ src/warpers_cuda.s: src/warpers_cuda.cpp.s
 
 # target to generate assembly for a file
 src/warpers_cuda.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.s
 .PHONY : src/warpers_cuda.cpp.s
 
 test/ocl/test_warpers.o: test/ocl/test_warpers.cpp.o
@@ -922,7 +922,7 @@ test/ocl/test_warpers.o: test/ocl/test_warpers.cpp.o
 
 # target to build an object file
 test/ocl/test_warpers.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.o
 .PHONY : test/ocl/test_warpers.cpp.o
 
 test/ocl/test_warpers.i: test/ocl/test_warpers.cpp.i
@@ -931,7 +931,7 @@ test/ocl/test_warpers.i: test/ocl/test_warpers.cpp.i
 
 # target to preprocess a source file
 test/ocl/test_warpers.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.i
 .PHONY : test/ocl/test_warpers.cpp.i
 
 test/ocl/test_warpers.s: test/ocl/test_warpers.cpp.s
@@ -940,7 +940,7 @@ test/ocl/test_warpers.s: test/ocl/test_warpers.cpp.s
 
 # target to generate assembly for a file
 test/ocl/test_warpers.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/ocl/test_warpers.cpp.s
 .PHONY : test/ocl/test_warpers.cpp.s
 
 test/test_blenders.o: test/test_blenders.cpp.o
@@ -949,7 +949,7 @@ test/test_blenders.o: test/test_blenders.cpp.o
 
 # target to build an object file
 test/test_blenders.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.o
 .PHONY : test/test_blenders.cpp.o
 
 test/test_blenders.i: test/test_blenders.cpp.i
@@ -958,7 +958,7 @@ test/test_blenders.i: test/test_blenders.cpp.i
 
 # target to preprocess a source file
 test/test_blenders.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.i
 .PHONY : test/test_blenders.cpp.i
 
 test/test_blenders.s: test/test_blenders.cpp.s
@@ -967,7 +967,7 @@ test/test_blenders.s: test/test_blenders.cpp.s
 
 # target to generate assembly for a file
 test/test_blenders.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cpp.s
 .PHONY : test/test_blenders.cpp.s
 
 test/test_blenders.cuda.o: test/test_blenders.cuda.cpp.o
@@ -976,7 +976,7 @@ test/test_blenders.cuda.o: test/test_blenders.cuda.cpp.o
 
 # target to build an object file
 test/test_blenders.cuda.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o
 .PHONY : test/test_blenders.cuda.cpp.o
 
 test/test_blenders.cuda.i: test/test_blenders.cuda.cpp.i
@@ -985,7 +985,7 @@ test/test_blenders.cuda.i: test/test_blenders.cuda.cpp.i
 
 # target to preprocess a source file
 test/test_blenders.cuda.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.i
 .PHONY : test/test_blenders.cuda.cpp.i
 
 test/test_blenders.cuda.s: test/test_blenders.cuda.cpp.s
@@ -994,7 +994,7 @@ test/test_blenders.cuda.s: test/test_blenders.cuda.cpp.s
 
 # target to generate assembly for a file
 test/test_blenders.cuda.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.s
 .PHONY : test/test_blenders.cuda.cpp.s
 
 test/test_main.o: test/test_main.cpp.o
@@ -1003,7 +1003,7 @@ test/test_main.o: test/test_main.cpp.o
 
 # target to build an object file
 test/test_main.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o
 .PHONY : test/test_main.cpp.o
 
 test/test_main.i: test/test_main.cpp.i
@@ -1012,7 +1012,7 @@ test/test_main.i: test/test_main.cpp.i
 
 # target to preprocess a source file
 test/test_main.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.i
 .PHONY : test/test_main.cpp.i
 
 test/test_main.s: test/test_main.cpp.s
@@ -1021,7 +1021,7 @@ test/test_main.s: test/test_main.cpp.s
 
 # target to generate assembly for a file
 test/test_main.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.s
 .PHONY : test/test_main.cpp.s
 
 test/test_matchers.o: test/test_matchers.cpp.o
@@ -1030,7 +1030,7 @@ test/test_matchers.o: test/test_matchers.cpp.o
 
 # target to build an object file
 test/test_matchers.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o
 .PHONY : test/test_matchers.cpp.o
 
 test/test_matchers.i: test/test_matchers.cpp.i
@@ -1039,7 +1039,7 @@ test/test_matchers.i: test/test_matchers.cpp.i
 
 # target to preprocess a source file
 test/test_matchers.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.i
 .PHONY : test/test_matchers.cpp.i
 
 test/test_matchers.s: test/test_matchers.cpp.s
@@ -1048,7 +1048,7 @@ test/test_matchers.s: test/test_matchers.cpp.s
 
 # target to generate assembly for a file
 test/test_matchers.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/stitching/CMakeFiles/opencv_test_stitching.dir/build.make modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.s
 .PHONY : test/test_matchers.cpp.s
 
 # Help Target
@@ -1167,6 +1167,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

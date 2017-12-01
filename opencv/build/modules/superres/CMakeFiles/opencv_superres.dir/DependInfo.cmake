@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stacia/opencv/build/modules/superres/opencl_kernels_superres.cpp" "/home/stacia/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/opencl_kernels_superres.cpp.o"
-  "/home/stacia/opencv/modules/superres/src/btv_l1.cpp" "/home/stacia/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1.cpp.o"
-  "/home/stacia/opencv/modules/superres/src/btv_l1_cuda.cpp" "/home/stacia/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1_cuda.cpp.o"
-  "/home/stacia/opencv/modules/superres/src/frame_source.cpp" "/home/stacia/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/frame_source.cpp.o"
-  "/home/stacia/opencv/modules/superres/src/input_array_utility.cpp" "/home/stacia/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/input_array_utility.cpp.o"
-  "/home/stacia/opencv/modules/superres/src/optical_flow.cpp" "/home/stacia/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/optical_flow.cpp.o"
-  "/home/stacia/opencv/modules/superres/src/super_resolution.cpp" "/home/stacia/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/super_resolution.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/opencl_kernels_superres.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/opencl_kernels_superres.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/src/btv_l1.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/src/btv_l1_cuda.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1_cuda.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/src/frame_source.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/frame_source.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/src/input_array_utility.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/input_array_utility.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/src/optical_flow.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/optical_flow.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/src/super_resolution.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/CMakeFiles/opencv_superres.dir/src/super_resolution.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -40,20 +40,20 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/stacia/opencv/build/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/modules/video/CMakeFiles/opencv_video.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/modules/videoio/CMakeFiles/opencv_videoio.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/ippiw/CMakeFiles/ippiw.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/libwebp/CMakeFiles/libwebp.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/libpng/CMakeFiles/libpng.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/libtiff/CMakeFiles/libtiff.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/libjasper/CMakeFiles/libjasper.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/openexr/CMakeFiles/IlmImf.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/CMakeFiles/opencv_video.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/CMakeFiles/opencv_videoio.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippiw/CMakeFiles/ippiw.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libwebp/CMakeFiles/libwebp.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libpng/CMakeFiles/libpng.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libtiff/CMakeFiles/libtiff.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libjasper/CMakeFiles/libjasper.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/openexr/CMakeFiles/IlmImf.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

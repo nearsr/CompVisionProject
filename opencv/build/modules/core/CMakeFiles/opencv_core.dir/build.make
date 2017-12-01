@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Include any dependencies generated for this target.
 include modules/core/CMakeFiles/opencv_core.dir/depend.make
@@ -81,21 +81,21 @@ modules/core/opencl_kernels_core.cpp: ../modules/core/src/opencl/reduce2.cl
 modules/core/opencl_kernels_core.cpp: ../modules/core/src/opencl/meanstddev.cl
 modules/core/opencl_kernels_core.cpp: ../modules/core/src/opencl/flip.cl
 modules/core/opencl_kernels_core.cpp: ../cmake/cl2cpp.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Processing OpenCL kernels (core)"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/cmake -DMODULE_NAME=core -DCL_DIR=/home/stacia/opencv/modules/core/src/opencl -DOUTPUT=/home/stacia/opencv/build/modules/core/opencl_kernels_core.cpp -P /home/stacia/opencv/cmake/cl2cpp.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Processing OpenCL kernels (core)"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/cmake -DMODULE_NAME=core -DCL_DIR=/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opencl -DOUTPUT=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/opencl_kernels_core.cpp -P /home/stacia/eclipse-workspace/CompVisionProject/opencv/cmake/cl2cpp.cmake
 
 modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o: ../modules/core/src/lapack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/lapack.cpp.o -c /home/stacia/opencv/modules/core/src/lapack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/lapack.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/lapack.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/lapack.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/lapack.cpp > CMakeFiles/opencv_core.dir/src/lapack.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/lapack.cpp > CMakeFiles/opencv_core.dir/src/lapack.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/lapack.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/lapack.cpp -o CMakeFiles/opencv_core.dir/src/lapack.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/lapack.cpp -o CMakeFiles/opencv_core.dir/src/lapack.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o.requires:
 
@@ -110,16 +110,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o.provides.build: modules
 
 modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.o: ../modules/core/src/split.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/split.cpp.o -c /home/stacia/opencv/modules/core/src/split.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/split.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/split.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/split.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/split.cpp > CMakeFiles/opencv_core.dir/src/split.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/split.cpp > CMakeFiles/opencv_core.dir/src/split.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/split.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/split.cpp -o CMakeFiles/opencv_core.dir/src/split.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/split.cpp -o CMakeFiles/opencv_core.dir/src/split.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.o.requires:
 
@@ -134,16 +134,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.o.provides.build: modules/
 
 modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o: ../modules/core/src/gl_core_3_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o -c /home/stacia/opencv/modules/core/src/gl_core_3_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/gl_core_3_1.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/gl_core_3_1.cpp > CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/gl_core_3_1.cpp > CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/gl_core_3_1.cpp -o CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/gl_core_3_1.cpp -o CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o.requires:
 
@@ -158,16 +158,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o.provides.build: mo
 
 modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o: ../modules/core/src/array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/array.cpp.o -c /home/stacia/opencv/modules/core/src/array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/array.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/array.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/array.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/array.cpp > CMakeFiles/opencv_core.dir/src/array.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/array.cpp > CMakeFiles/opencv_core.dir/src/array.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/array.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/array.cpp -o CMakeFiles/opencv_core.dir/src/array.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/array.cpp -o CMakeFiles/opencv_core.dir/src/array.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o.requires:
 
@@ -182,16 +182,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o.provides.build: modules/
 
 modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o: ../modules/core/src/directx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/directx.cpp.o -c /home/stacia/opencv/modules/core/src/directx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/directx.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/directx.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/directx.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/directx.cpp > CMakeFiles/opencv_core.dir/src/directx.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/directx.cpp > CMakeFiles/opencv_core.dir/src/directx.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/directx.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/directx.cpp -o CMakeFiles/opencv_core.dir/src/directx.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/directx.cpp -o CMakeFiles/opencv_core.dir/src/directx.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o.requires:
 
@@ -206,16 +206,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o.provides.build: module
 
 modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o: ../modules/core/src/softfloat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/softfloat.cpp.o -c /home/stacia/opencv/modules/core/src/softfloat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/softfloat.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/softfloat.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/softfloat.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/softfloat.cpp > CMakeFiles/opencv_core.dir/src/softfloat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/softfloat.cpp > CMakeFiles/opencv_core.dir/src/softfloat.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/softfloat.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/softfloat.cpp -o CMakeFiles/opencv_core.dir/src/softfloat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/softfloat.cpp -o CMakeFiles/opencv_core.dir/src/softfloat.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o.requires:
 
@@ -230,16 +230,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o.provides.build: modu
 
 modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o: ../modules/core/src/lda.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/lda.cpp.o -c /home/stacia/opencv/modules/core/src/lda.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/lda.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/lda.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/lda.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/lda.cpp > CMakeFiles/opencv_core.dir/src/lda.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/lda.cpp > CMakeFiles/opencv_core.dir/src/lda.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/lda.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/lda.cpp -o CMakeFiles/opencv_core.dir/src/lda.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/lda.cpp -o CMakeFiles/opencv_core.dir/src/lda.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o.requires:
 
@@ -254,16 +254,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o.provides.build: modules/co
 
 modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o: ../modules/core/src/conjugate_gradient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o -c /home/stacia/opencv/modules/core/src/conjugate_gradient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/conjugate_gradient.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/conjugate_gradient.cpp > CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/conjugate_gradient.cpp > CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/conjugate_gradient.cpp -o CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/conjugate_gradient.cpp -o CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o.requires:
 
@@ -278,16 +278,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o.provides.bu
 
 modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o: ../modules/core/src/datastructs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/datastructs.cpp.o -c /home/stacia/opencv/modules/core/src/datastructs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/datastructs.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/datastructs.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/datastructs.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/datastructs.cpp > CMakeFiles/opencv_core.dir/src/datastructs.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/datastructs.cpp > CMakeFiles/opencv_core.dir/src/datastructs.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/datastructs.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/datastructs.cpp -o CMakeFiles/opencv_core.dir/src/datastructs.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/datastructs.cpp -o CMakeFiles/opencv_core.dir/src/datastructs.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o.requires:
 
@@ -302,16 +302,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o.provides.build: mo
 
 modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o: ../modules/core/src/stat.dispatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o -c /home/stacia/opencv/modules/core/src/stat.dispatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/stat.dispatch.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/stat.dispatch.cpp > CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/stat.dispatch.cpp > CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/stat.dispatch.cpp -o CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/stat.dispatch.cpp -o CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o.requires:
 
@@ -326,16 +326,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o.provides.build: 
 
 modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.o: ../modules/core/src/merge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/merge.cpp.o -c /home/stacia/opencv/modules/core/src/merge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/merge.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/merge.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/merge.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/merge.cpp > CMakeFiles/opencv_core.dir/src/merge.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/merge.cpp > CMakeFiles/opencv_core.dir/src/merge.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/merge.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/merge.cpp -o CMakeFiles/opencv_core.dir/src/merge.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/merge.cpp -o CMakeFiles/opencv_core.dir/src/merge.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.o.requires:
 
@@ -350,16 +350,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.o.provides.build: modules/
 
 modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o: ../modules/core/src/algorithm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/algorithm.cpp.o -c /home/stacia/opencv/modules/core/src/algorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/algorithm.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/algorithm.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/algorithm.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/algorithm.cpp > CMakeFiles/opencv_core.dir/src/algorithm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/algorithm.cpp > CMakeFiles/opencv_core.dir/src/algorithm.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/algorithm.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/algorithm.cpp -o CMakeFiles/opencv_core.dir/src/algorithm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/algorithm.cpp -o CMakeFiles/opencv_core.dir/src/algorithm.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o.requires:
 
@@ -374,16 +374,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o.provides.build: modu
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.o: ../modules/core/src/convert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/convert.cpp.o -c /home/stacia/opencv/modules/core/src/convert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/convert.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/convert.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/convert.cpp > CMakeFiles/opencv_core.dir/src/convert.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.cpp > CMakeFiles/opencv_core.dir/src/convert.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/convert.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/convert.cpp -o CMakeFiles/opencv_core.dir/src/convert.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.cpp -o CMakeFiles/opencv_core.dir/src/convert.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.o.requires:
 
@@ -398,16 +398,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.o.provides.build: module
 
 modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o: ../modules/core/src/copy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/copy.cpp.o -c /home/stacia/opencv/modules/core/src/copy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/copy.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/copy.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/copy.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/copy.cpp > CMakeFiles/opencv_core.dir/src/copy.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/copy.cpp > CMakeFiles/opencv_core.dir/src/copy.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/copy.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/copy.cpp -o CMakeFiles/opencv_core.dir/src/copy.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/copy.cpp -o CMakeFiles/opencv_core.dir/src/copy.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o.requires:
 
@@ -422,16 +422,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o.provides.build: modules/c
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o: ../modules/core/src/opencl/runtime/opencl_core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o -c /home/stacia/opencv/modules/core/src/opencl/runtime/opencl_core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opencl/runtime/opencl_core.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/opencl/runtime/opencl_core.cpp > CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opencl/runtime/opencl_core.cpp > CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/opencl/runtime/opencl_core.cpp -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opencl/runtime/opencl_core.cpp -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o.requires:
 
@@ -446,16 +446,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o.pro
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o: ../modules/core/src/opencl/runtime/opencl_clamdblas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o -c /home/stacia/opencv/modules/core/src/opencl/runtime/opencl_clamdblas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opencl/runtime/opencl_clamdblas.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/opencl/runtime/opencl_clamdblas.cpp > CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opencl/runtime/opencl_clamdblas.cpp > CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/opencl/runtime/opencl_clamdblas.cpp -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opencl/runtime/opencl_clamdblas.cpp -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o.requires:
 
@@ -470,16 +470,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o: ../modules/core/src/opencl/runtime/opencl_clamdfft.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o -c /home/stacia/opencv/modules/core/src/opencl/runtime/opencl_clamdfft.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opencl/runtime/opencl_clamdfft.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/opencl/runtime/opencl_clamdfft.cpp > CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opencl/runtime/opencl_clamdfft.cpp > CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/opencl/runtime/opencl_clamdfft.cpp -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opencl/runtime/opencl_clamdfft.cpp -o CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o.requires:
 
@@ -494,16 +494,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o: ../modules/core/src/cuda_info.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o -c /home/stacia/opencv/modules/core/src/cuda_info.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_info.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/cuda_info.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/cuda_info.cpp > CMakeFiles/opencv_core.dir/src/cuda_info.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_info.cpp > CMakeFiles/opencv_core.dir/src/cuda_info.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/cuda_info.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/cuda_info.cpp -o CMakeFiles/opencv_core.dir/src/cuda_info.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_info.cpp -o CMakeFiles/opencv_core.dir/src/cuda_info.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o.requires:
 
@@ -518,16 +518,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o.provides.build: modu
 
 modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o: ../modules/core/src/va_intel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/va_intel.cpp.o -c /home/stacia/opencv/modules/core/src/va_intel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/va_intel.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/va_intel.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/va_intel.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/va_intel.cpp > CMakeFiles/opencv_core.dir/src/va_intel.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/va_intel.cpp > CMakeFiles/opencv_core.dir/src/va_intel.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/va_intel.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/va_intel.cpp -o CMakeFiles/opencv_core.dir/src/va_intel.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/va_intel.cpp -o CMakeFiles/opencv_core.dir/src/va_intel.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o.requires:
 
@@ -542,16 +542,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o.provides.build: modul
 
 modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o: ../modules/core/src/parallel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/parallel.cpp.o -c /home/stacia/opencv/modules/core/src/parallel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/parallel.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/parallel.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/parallel.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/parallel.cpp > CMakeFiles/opencv_core.dir/src/parallel.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/parallel.cpp > CMakeFiles/opencv_core.dir/src/parallel.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/parallel.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/parallel.cpp -o CMakeFiles/opencv_core.dir/src/parallel.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/parallel.cpp -o CMakeFiles/opencv_core.dir/src/parallel.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o.requires:
 
@@ -566,16 +566,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o.provides.build: modul
 
 modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o: ../modules/core/src/trace.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/trace.cpp.o -c /home/stacia/opencv/modules/core/src/trace.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/trace.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/trace.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/trace.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/trace.cpp > CMakeFiles/opencv_core.dir/src/trace.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/trace.cpp > CMakeFiles/opencv_core.dir/src/trace.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/trace.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/trace.cpp -o CMakeFiles/opencv_core.dir/src/trace.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/trace.cpp -o CMakeFiles/opencv_core.dir/src/trace.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o.requires:
 
@@ -590,16 +590,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o.provides.build: modules/
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o: ../modules/core/src/cuda_gpu_mat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o -c /home/stacia/opencv/modules/core/src/cuda_gpu_mat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_gpu_mat.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/cuda_gpu_mat.cpp > CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_gpu_mat.cpp > CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/cuda_gpu_mat.cpp -o CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_gpu_mat.cpp -o CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o.requires:
 
@@ -614,16 +614,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o.provides.build: m
 
 modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o: ../modules/core/src/command_line_parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o -c /home/stacia/opencv/modules/core/src/command_line_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/command_line_parser.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/command_line_parser.cpp > CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/command_line_parser.cpp > CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/command_line_parser.cpp -o CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/command_line_parser.cpp -o CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o.requires:
 
@@ -638,16 +638,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o.provides.b
 
 modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o: ../modules/core/src/alloc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DHAVE_MALLOC_H=1 -DHAVE_MEMALIGN=1 -DHAVE_POSIX_MEMALIGN=1 $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/alloc.cpp.o -c /home/stacia/opencv/modules/core/src/alloc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DHAVE_MALLOC_H=1 -DHAVE_MEMALIGN=1 -DHAVE_POSIX_MEMALIGN=1 $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/src/alloc.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/alloc.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/alloc.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DHAVE_MALLOC_H=1 -DHAVE_MEMALIGN=1 -DHAVE_POSIX_MEMALIGN=1 $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/opencv/modules/core/src/alloc.cpp > CMakeFiles/opencv_core.dir/src/alloc.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DHAVE_MALLOC_H=1 -DHAVE_MEMALIGN=1 -DHAVE_POSIX_MEMALIGN=1 $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/alloc.cpp > CMakeFiles/opencv_core.dir/src/alloc.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/alloc.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DHAVE_MALLOC_H=1 -DHAVE_MEMALIGN=1 -DHAVE_POSIX_MEMALIGN=1 $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/opencv/modules/core/src/alloc.cpp -o CMakeFiles/opencv_core.dir/src/alloc.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DHAVE_MALLOC_H=1 -DHAVE_MEMALIGN=1 -DHAVE_POSIX_MEMALIGN=1 $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/alloc.cpp -o CMakeFiles/opencv_core.dir/src/alloc.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o.requires:
 
@@ -662,16 +662,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o.provides.build: modules/
 
 modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o: ../modules/core/src/parallel_pthreads.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o -c /home/stacia/opencv/modules/core/src/parallel_pthreads.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/parallel_pthreads.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/parallel_pthreads.cpp > CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/parallel_pthreads.cpp > CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/parallel_pthreads.cpp -o CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/parallel_pthreads.cpp -o CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o.requires:
 
@@ -686,16 +686,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o.provides.bui
 
 modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o: ../modules/core/src/out.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/out.cpp.o -c /home/stacia/opencv/modules/core/src/out.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/out.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/out.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/out.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/out.cpp > CMakeFiles/opencv_core.dir/src/out.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/out.cpp > CMakeFiles/opencv_core.dir/src/out.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/out.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/out.cpp -o CMakeFiles/opencv_core.dir/src/out.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/out.cpp -o CMakeFiles/opencv_core.dir/src/out.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o.requires:
 
@@ -710,16 +710,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o.provides.build: modules/co
 
 modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o: ../modules/core/src/umatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/umatrix.cpp.o -c /home/stacia/opencv/modules/core/src/umatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/umatrix.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/umatrix.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/umatrix.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/umatrix.cpp > CMakeFiles/opencv_core.dir/src/umatrix.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/umatrix.cpp > CMakeFiles/opencv_core.dir/src/umatrix.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/umatrix.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/umatrix.cpp -o CMakeFiles/opencv_core.dir/src/umatrix.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/umatrix.cpp -o CMakeFiles/opencv_core.dir/src/umatrix.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o.requires:
 
@@ -734,16 +734,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o.provides.build: module
 
 modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o: ../modules/core/src/types.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/types.cpp.o -c /home/stacia/opencv/modules/core/src/types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/types.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/types.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/types.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/types.cpp > CMakeFiles/opencv_core.dir/src/types.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/types.cpp > CMakeFiles/opencv_core.dir/src/types.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/types.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/types.cpp -o CMakeFiles/opencv_core.dir/src/types.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/types.cpp -o CMakeFiles/opencv_core.dir/src/types.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o.requires:
 
@@ -758,16 +758,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o.provides.build: modules/
 
 modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o: ../modules/core/src/tables.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/tables.cpp.o -c /home/stacia/opencv/modules/core/src/tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/tables.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/tables.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/tables.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/tables.cpp > CMakeFiles/opencv_core.dir/src/tables.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/tables.cpp > CMakeFiles/opencv_core.dir/src/tables.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/tables.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/tables.cpp -o CMakeFiles/opencv_core.dir/src/tables.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/tables.cpp -o CMakeFiles/opencv_core.dir/src/tables.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o.requires:
 
@@ -782,16 +782,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o.provides.build: modules
 
 modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o: ../modules/core/src/stl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/stl.cpp.o -c /home/stacia/opencv/modules/core/src/stl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/stl.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/stl.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/stl.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/stl.cpp > CMakeFiles/opencv_core.dir/src/stl.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/stl.cpp > CMakeFiles/opencv_core.dir/src/stl.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/stl.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/stl.cpp -o CMakeFiles/opencv_core.dir/src/stl.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/stl.cpp -o CMakeFiles/opencv_core.dir/src/stl.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o.requires:
 
@@ -806,16 +806,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o.provides.build: modules/co
 
 modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o: ../modules/core/src/mathfuncs_core.dispatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o -c /home/stacia/opencv/modules/core/src/mathfuncs_core.dispatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/mathfuncs_core.dispatch.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/mathfuncs_core.dispatch.cpp > CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/mathfuncs_core.dispatch.cpp > CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/mathfuncs_core.dispatch.cpp -o CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/mathfuncs_core.dispatch.cpp -o CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o.requires:
 
@@ -830,16 +830,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o.provid
 
 modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o: ../modules/core/src/hal_internal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o -c /home/stacia/opencv/modules/core/src/hal_internal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/hal_internal.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/hal_internal.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/hal_internal.cpp > CMakeFiles/opencv_core.dir/src/hal_internal.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/hal_internal.cpp > CMakeFiles/opencv_core.dir/src/hal_internal.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/hal_internal.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/hal_internal.cpp -o CMakeFiles/opencv_core.dir/src/hal_internal.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/hal_internal.cpp -o CMakeFiles/opencv_core.dir/src/hal_internal.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o.requires:
 
@@ -854,16 +854,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o.provides.build: m
 
 modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o: ../modules/core/src/opengl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/opengl.cpp.o -c /home/stacia/opencv/modules/core/src/opengl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/opengl.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opengl.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/opengl.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/opengl.cpp > CMakeFiles/opencv_core.dir/src/opengl.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opengl.cpp > CMakeFiles/opencv_core.dir/src/opengl.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/opengl.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/opengl.cpp -o CMakeFiles/opencv_core.dir/src/opengl.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/opengl.cpp -o CMakeFiles/opencv_core.dir/src/opengl.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o.requires:
 
@@ -878,16 +878,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o.provides.build: modules
 
 modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.o: ../modules/core/src/stat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/stat.cpp.o -c /home/stacia/opencv/modules/core/src/stat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/stat.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/stat.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/stat.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/stat.cpp > CMakeFiles/opencv_core.dir/src/stat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/stat.cpp > CMakeFiles/opencv_core.dir/src/stat.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/stat.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/stat.cpp -o CMakeFiles/opencv_core.dir/src/stat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/stat.cpp -o CMakeFiles/opencv_core.dir/src/stat.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.o.requires:
 
@@ -902,16 +902,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.o.provides.build: modules/c
 
 modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o: ../modules/core/src/kmeans.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/kmeans.cpp.o -c /home/stacia/opencv/modules/core/src/kmeans.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/kmeans.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/kmeans.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/kmeans.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/kmeans.cpp > CMakeFiles/opencv_core.dir/src/kmeans.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/kmeans.cpp > CMakeFiles/opencv_core.dir/src/kmeans.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/kmeans.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/kmeans.cpp -o CMakeFiles/opencv_core.dir/src/kmeans.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/kmeans.cpp -o CMakeFiles/opencv_core.dir/src/kmeans.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o.requires:
 
@@ -926,16 +926,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o.provides.build: modules
 
 modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o: ../modules/core/src/mathfuncs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o -c /home/stacia/opencv/modules/core/src/mathfuncs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/mathfuncs.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/mathfuncs.cpp > CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/mathfuncs.cpp > CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/mathfuncs.cpp -o CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/mathfuncs.cpp -o CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o.requires:
 
@@ -950,16 +950,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o.provides.build: modu
 
 modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o: ../modules/core/src/rand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/rand.cpp.o -c /home/stacia/opencv/modules/core/src/rand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/rand.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/rand.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/rand.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/rand.cpp > CMakeFiles/opencv_core.dir/src/rand.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/rand.cpp > CMakeFiles/opencv_core.dir/src/rand.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/rand.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/rand.cpp -o CMakeFiles/opencv_core.dir/src/rand.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/rand.cpp -o CMakeFiles/opencv_core.dir/src/rand.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o.requires:
 
@@ -974,16 +974,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o.provides.build: modules/c
 
 modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o: ../modules/core/src/matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/matrix.cpp.o -c /home/stacia/opencv/modules/core/src/matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/matrix.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matrix.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/matrix.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/matrix.cpp > CMakeFiles/opencv_core.dir/src/matrix.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matrix.cpp > CMakeFiles/opencv_core.dir/src/matrix.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/matrix.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/matrix.cpp -o CMakeFiles/opencv_core.dir/src/matrix.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matrix.cpp -o CMakeFiles/opencv_core.dir/src/matrix.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o.requires:
 
@@ -998,16 +998,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o.provides.build: modules
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o: ../modules/core/src/cuda_stream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o -c /home/stacia/opencv/modules/core/src/cuda_stream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_stream.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/cuda_stream.cpp > CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_stream.cpp > CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/cuda_stream.cpp -o CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_stream.cpp -o CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o.requires:
 
@@ -1022,16 +1022,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o.provides.build: mo
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o: ../modules/core/src/cuda_host_mem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o -c /home/stacia/opencv/modules/core/src/cuda_host_mem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_host_mem.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/cuda_host_mem.cpp > CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_host_mem.cpp > CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/cuda_host_mem.cpp -o CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/cuda_host_mem.cpp -o CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o.requires:
 
@@ -1046,16 +1046,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o.provides.build: 
 
 modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o: ../modules/core/src/ovx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/ovx.cpp.o -c /home/stacia/opencv/modules/core/src/ovx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/ovx.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/ovx.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/ovx.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/ovx.cpp > CMakeFiles/opencv_core.dir/src/ovx.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/ovx.cpp > CMakeFiles/opencv_core.dir/src/ovx.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/ovx.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/ovx.cpp -o CMakeFiles/opencv_core.dir/src/ovx.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/ovx.cpp -o CMakeFiles/opencv_core.dir/src/ovx.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o.requires:
 
@@ -1070,16 +1070,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o.provides.build: modules/co
 
 modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o: ../modules/core/src/ocl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/ocl.cpp.o -c /home/stacia/opencv/modules/core/src/ocl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/ocl.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/ocl.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/ocl.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/ocl.cpp > CMakeFiles/opencv_core.dir/src/ocl.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/ocl.cpp > CMakeFiles/opencv_core.dir/src/ocl.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/ocl.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/ocl.cpp -o CMakeFiles/opencv_core.dir/src/ocl.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/ocl.cpp -o CMakeFiles/opencv_core.dir/src/ocl.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o.requires:
 
@@ -1094,16 +1094,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o.provides.build: modules/co
 
 modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o: ../modules/core/src/arithm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/arithm.cpp.o -c /home/stacia/opencv/modules/core/src/arithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/arithm.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/arithm.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/arithm.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/arithm.cpp > CMakeFiles/opencv_core.dir/src/arithm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/arithm.cpp > CMakeFiles/opencv_core.dir/src/arithm.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/arithm.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/arithm.cpp -o CMakeFiles/opencv_core.dir/src/arithm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/arithm.cpp -o CMakeFiles/opencv_core.dir/src/arithm.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o.requires:
 
@@ -1118,16 +1118,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o.provides.build: modules
 
 modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o: ../modules/core/src/pca.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/pca.cpp.o -c /home/stacia/opencv/modules/core/src/pca.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/pca.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/pca.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/pca.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/pca.cpp > CMakeFiles/opencv_core.dir/src/pca.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/pca.cpp > CMakeFiles/opencv_core.dir/src/pca.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/pca.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/pca.cpp -o CMakeFiles/opencv_core.dir/src/pca.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/pca.cpp -o CMakeFiles/opencv_core.dir/src/pca.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o.requires:
 
@@ -1142,16 +1142,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o.provides.build: modules/co
 
 modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.o: ../modules/core/src/matop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/matop.cpp.o -c /home/stacia/opencv/modules/core/src/matop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/matop.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matop.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/matop.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/matop.cpp > CMakeFiles/opencv_core.dir/src/matop.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matop.cpp > CMakeFiles/opencv_core.dir/src/matop.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/matop.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/matop.cpp -o CMakeFiles/opencv_core.dir/src/matop.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matop.cpp -o CMakeFiles/opencv_core.dir/src/matop.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.o.requires:
 
@@ -1166,16 +1166,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.o.provides.build: modules/
 
 modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o: ../modules/core/src/system.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/system.cpp.o -c /home/stacia/opencv/modules/core/src/system.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/system.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/system.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/system.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/system.cpp > CMakeFiles/opencv_core.dir/src/system.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/system.cpp > CMakeFiles/opencv_core.dir/src/system.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/system.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/system.cpp -o CMakeFiles/opencv_core.dir/src/system.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/system.cpp -o CMakeFiles/opencv_core.dir/src/system.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o.requires:
 
@@ -1190,16 +1190,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o.provides.build: modules
 
 modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o: ../modules/core/src/matrix_decomp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o -c /home/stacia/opencv/modules/core/src/matrix_decomp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matrix_decomp.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/matrix_decomp.cpp > CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matrix_decomp.cpp > CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/matrix_decomp.cpp -o CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matrix_decomp.cpp -o CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o.requires:
 
@@ -1214,16 +1214,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o.provides.build: 
 
 modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o: ../modules/core/src/downhill_simplex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o -c /home/stacia/opencv/modules/core/src/downhill_simplex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/downhill_simplex.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/downhill_simplex.cpp > CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/downhill_simplex.cpp > CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/downhill_simplex.cpp -o CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/downhill_simplex.cpp -o CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o.requires:
 
@@ -1238,16 +1238,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o.provides.buil
 
 modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o: ../modules/core/src/glob.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/glob.cpp.o -c /home/stacia/opencv/modules/core/src/glob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/glob.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/glob.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/glob.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/glob.cpp > CMakeFiles/opencv_core.dir/src/glob.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/glob.cpp > CMakeFiles/opencv_core.dir/src/glob.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/glob.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/glob.cpp -o CMakeFiles/opencv_core.dir/src/glob.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/glob.cpp -o CMakeFiles/opencv_core.dir/src/glob.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o.requires:
 
@@ -1262,16 +1262,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o.provides.build: modules/c
 
 modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.o: ../modules/core/src/matmul.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/matmul.cpp.o -c /home/stacia/opencv/modules/core/src/matmul.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/matmul.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matmul.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/matmul.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/matmul.cpp > CMakeFiles/opencv_core.dir/src/matmul.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matmul.cpp > CMakeFiles/opencv_core.dir/src/matmul.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/matmul.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/matmul.cpp -o CMakeFiles/opencv_core.dir/src/matmul.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/matmul.cpp -o CMakeFiles/opencv_core.dir/src/matmul.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.o.requires:
 
@@ -1286,16 +1286,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.o.provides.build: modules
 
 modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o: ../modules/core/src/lpsolver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o -c /home/stacia/opencv/modules/core/src/lpsolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/lpsolver.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/lpsolver.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/lpsolver.cpp > CMakeFiles/opencv_core.dir/src/lpsolver.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/lpsolver.cpp > CMakeFiles/opencv_core.dir/src/lpsolver.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/lpsolver.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/lpsolver.cpp -o CMakeFiles/opencv_core.dir/src/lpsolver.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/lpsolver.cpp -o CMakeFiles/opencv_core.dir/src/lpsolver.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o.requires:
 
@@ -1310,16 +1310,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o.provides.build: modul
 
 modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o: ../modules/core/src/dxt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/dxt.cpp.o -c /home/stacia/opencv/modules/core/src/dxt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/dxt.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/dxt.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/dxt.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/dxt.cpp > CMakeFiles/opencv_core.dir/src/dxt.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/dxt.cpp > CMakeFiles/opencv_core.dir/src/dxt.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/dxt.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/dxt.cpp -o CMakeFiles/opencv_core.dir/src/dxt.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/dxt.cpp -o CMakeFiles/opencv_core.dir/src/dxt.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o.requires:
 
@@ -1334,16 +1334,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o.provides.build: modules/co
 
 modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o: ../modules/core/src/persistence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/persistence.cpp.o -c /home/stacia/opencv/modules/core/src/persistence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/src/persistence.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/persistence.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/persistence.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/modules/core/src/persistence.cpp > CMakeFiles/opencv_core.dir/src/persistence.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/persistence.cpp > CMakeFiles/opencv_core.dir/src/persistence.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/persistence.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/modules/core/src/persistence.cpp -o CMakeFiles/opencv_core.dir/src/persistence.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/persistence.cpp -o CMakeFiles/opencv_core.dir/src/persistence.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o.requires:
 
@@ -1358,16 +1358,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o.provides.build: mo
 
 modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o: modules/core/opencl_kernels_core.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o -c /home/stacia/opencv/build/modules/core/opencl_kernels_core.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -o CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/opencl_kernels_core.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -E /home/stacia/opencv/build/modules/core/opencl_kernels_core.cpp > CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/opencl_kernels_core.cpp > CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/precomp.hpp" -S /home/stacia/opencv/build/modules/core/opencl_kernels_core.cpp -o CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/opencl_kernels_core.cpp -o CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o.requires:
 
@@ -1382,16 +1382,16 @@ modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o.provides.build
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.o: modules/core/mathfuncs_core.sse2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_DISPATCH_MODE=SSE2 $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.o -c /home/stacia/opencv/build/modules/core/mathfuncs_core.sse2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_DISPATCH_MODE=SSE2 $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/mathfuncs_core.sse2.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_DISPATCH_MODE=SSE2 $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/opencv/build/modules/core/mathfuncs_core.sse2.cpp > CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_DISPATCH_MODE=SSE2 $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/mathfuncs_core.sse2.cpp > CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_DISPATCH_MODE=SSE2 $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/opencv/build/modules/core/mathfuncs_core.sse2.cpp -o CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_DISPATCH_MODE=SSE2 $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/mathfuncs_core.sse2.cpp -o CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.o.requires:
 
@@ -1406,16 +1406,16 @@ modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.o.provides.build
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.o: ../modules/core/src/convert.sse4_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_1 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -o CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.o -c /home/stacia/opencv/modules/core/src/convert.sse4_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_1 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -o CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.sse4_1.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_1 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -E /home/stacia/opencv/modules/core/src/convert.sse4_1.cpp > CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_1 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.sse4_1.cpp > CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_1 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -S /home/stacia/opencv/modules/core/src/convert.sse4_1.cpp -o CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_1 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.sse4_1.cpp -o CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.o.requires:
 
@@ -1430,16 +1430,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.o.provides.build:
 
 modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o: modules/core/stat.sse4_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -o CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o -c /home/stacia/opencv/build/modules/core/stat.sse4_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -o CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/stat.sse4_2.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -E /home/stacia/opencv/build/modules/core/stat.sse4_2.cpp > CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/stat.sse4_2.cpp > CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -S /home/stacia/opencv/build/modules/core/stat.sse4_2.cpp -o CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=SSE4_2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/stat.sse4_2.cpp -o CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o.requires:
 
@@ -1454,16 +1454,16 @@ modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o.provides.build: module
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.o: ../modules/core/src/convert.fp16.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=FP16 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mavx -o CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.o -c /home/stacia/opencv/modules/core/src/convert.fp16.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=FP16 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mavx -o CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.fp16.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=FP16 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mavx -E /home/stacia/opencv/modules/core/src/convert.fp16.cpp > CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=FP16 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mavx -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.fp16.cpp > CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=FP16 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mavx -S /home/stacia/opencv/modules/core/src/convert.fp16.cpp -o CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=FP16 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mavx -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.fp16.cpp -o CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.o.requires:
 
@@ -1478,16 +1478,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.o.provides.build: m
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o: modules/core/mathfuncs_core.avx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx -o CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o -c /home/stacia/opencv/build/modules/core/mathfuncs_core.avx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx -o CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/mathfuncs_core.avx.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx -E /home/stacia/opencv/build/modules/core/mathfuncs_core.avx.cpp > CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/mathfuncs_core.avx.cpp > CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx -S /home/stacia/opencv/build/modules/core/mathfuncs_core.avx.cpp -o CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mavx -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/mathfuncs_core.avx.cpp -o CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o.requires:
 
@@ -1502,16 +1502,16 @@ modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o.provides.build:
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.o: ../modules/core/src/convert.avx2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -o CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.o -c /home/stacia/opencv/modules/core/src/convert.avx2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -o CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.avx2.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -E /home/stacia/opencv/modules/core/src/convert.avx2.cpp > CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.avx2.cpp > CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -S /home/stacia/opencv/modules/core/src/convert.avx2.cpp -o CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/src/convert.avx2.cpp -o CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.o.requires:
 
@@ -1526,16 +1526,16 @@ modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.o.provides.build: m
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o: modules/core/mathfuncs_core.avx2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -o CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o -c /home/stacia/opencv/build/modules/core/mathfuncs_core.avx2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -o CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/mathfuncs_core.avx2.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -E /home/stacia/opencv/build/modules/core/mathfuncs_core.avx2.cpp > CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/mathfuncs_core.avx2.cpp > CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -S /home/stacia/opencv/build/modules/core/mathfuncs_core.avx2.cpp -o CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/mathfuncs_core.avx2.cpp -o CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o.requires:
 
@@ -1550,16 +1550,16 @@ modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o.provides.build
 
 modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.o: modules/core/CMakeFiles/opencv_core.dir/flags.make
 modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.o: modules/core/stat.avx2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.o"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -o CMakeFiles/opencv_core.dir/stat.avx2.cpp.o -c /home/stacia/opencv/build/modules/core/stat.avx2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++   $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -o CMakeFiles/opencv_core.dir/stat.avx2.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/stat.avx2.cpp
 
 modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_core.dir/stat.avx2.cpp.i"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -E /home/stacia/opencv/build/modules/core/stat.avx2.cpp > CMakeFiles/opencv_core.dir/stat.avx2.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/stat.avx2.cpp > CMakeFiles/opencv_core.dir/stat.avx2.cpp.i
 
 modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_core.dir/stat.avx2.cpp.s"
-	cd /home/stacia/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -S /home/stacia/opencv/build/modules/core/stat.avx2.cpp -o CMakeFiles/opencv_core.dir/stat.avx2.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && /usr/bin/c++  $(CXX_DEFINES) -DCV_CPU_COMPILE_AVX2=1 -DCV_CPU_COMPILE_AVX=1 -DCV_CPU_COMPILE_FMA3=1 -DCV_CPU_COMPILE_FP16=1 -DCV_CPU_COMPILE_POPCNT=1 -DCV_CPU_COMPILE_SSE4_1=1 -DCV_CPU_COMPILE_SSE4_2=1 -DCV_CPU_COMPILE_SSSE3=1 -DCV_CPU_DISPATCH_MODE=AVX2 $(CXX_INCLUDES) $(CXX_FLAGS)  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mfma -mavx -mavx2 -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/stat.avx2.cpp -o CMakeFiles/opencv_core.dir/stat.avx2.cpp.s
 
 modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.o.requires:
 
@@ -1704,9 +1704,9 @@ lib/libopencv_core.a: modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx
 lib/libopencv_core.a: modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.o
 lib/libopencv_core.a: modules/core/CMakeFiles/opencv_core.dir/build.make
 lib/libopencv_core.a: modules/core/CMakeFiles/opencv_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Linking CXX static library ../../lib/libopencv_core.a"
-	cd /home/stacia/opencv/build/modules/core && $(CMAKE_COMMAND) -P CMakeFiles/opencv_core.dir/cmake_clean_target.cmake
-	cd /home/stacia/opencv/build/modules/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_core.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Linking CXX static library ../../lib/libopencv_core.a"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && $(CMAKE_COMMAND) -P CMakeFiles/opencv_core.dir/cmake_clean_target.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modules/core/CMakeFiles/opencv_core.dir/build: lib/libopencv_core.a
@@ -1779,10 +1779,10 @@ modules/core/CMakeFiles/opencv_core.dir/requires: modules/core/CMakeFiles/opencv
 .PHONY : modules/core/CMakeFiles/opencv_core.dir/requires
 
 modules/core/CMakeFiles/opencv_core.dir/clean:
-	cd /home/stacia/opencv/build/modules/core && $(CMAKE_COMMAND) -P CMakeFiles/opencv_core.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core && $(CMAKE_COMMAND) -P CMakeFiles/opencv_core.dir/cmake_clean.cmake
 .PHONY : modules/core/CMakeFiles/opencv_core.dir/clean
 
 modules/core/CMakeFiles/opencv_core.dir/depend: modules/core/opencl_kernels_core.cpp
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/core /home/stacia/opencv/build /home/stacia/opencv/build/modules/core /home/stacia/opencv/build/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/core/CMakeFiles/opencv_core.dir/depend
 

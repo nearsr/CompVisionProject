@@ -207,189 +207,189 @@ set_target_properties(opencv_videostab PROPERTIES
 set_property(TARGET zlib APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(zlib PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/3rdparty/lib/libzlib.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/lib/libzlib.a"
   )
 
 # Import target "libtiff" for configuration "Release"
 set_property(TARGET libtiff APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(libtiff PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C;CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/3rdparty/lib/liblibtiff.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/lib/liblibtiff.a"
   )
 
 # Import target "libjpeg" for configuration "Release"
 set_property(TARGET libjpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(libjpeg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/3rdparty/lib/liblibjpeg.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/lib/liblibjpeg.a"
   )
 
 # Import target "libwebp" for configuration "Release"
 set_property(TARGET libwebp APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(libwebp PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/3rdparty/lib/liblibwebp.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/lib/liblibwebp.a"
   )
 
 # Import target "libjasper" for configuration "Release"
 set_property(TARGET libjasper APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(libjasper PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/3rdparty/lib/liblibjasper.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/lib/liblibjasper.a"
   )
 
 # Import target "libpng" for configuration "Release"
 set_property(TARGET libpng APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(libpng PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/3rdparty/lib/liblibpng.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/lib/liblibpng.a"
   )
 
 # Import target "IlmImf" for configuration "Release"
 set_property(TARGET IlmImf APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(IlmImf PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/3rdparty/lib/libIlmImf.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/lib/libIlmImf.a"
   )
 
 # Import target "ippiw" for configuration "Release"
 set_property(TARGET ippiw APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(ippiw PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/3rdparty/lib/libippiw.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/lib/libippiw.a"
   )
 
 # Import target "ittnotify" for configuration "Release"
 set_property(TARGET ittnotify APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(ittnotify PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/3rdparty/lib/libittnotify.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/lib/libittnotify.a"
   )
 
 # Import target "libprotobuf" for configuration "Release"
 set_property(TARGET libprotobuf APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(libprotobuf PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/3rdparty/lib/liblibprotobuf.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/lib/liblibprotobuf.a"
   )
 
 # Import target "opencv_core" for configuration "Release"
 set_property(TARGET opencv_core APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_core PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_core.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_core.a"
   )
 
 # Import target "opencv_flann" for configuration "Release"
 set_property(TARGET opencv_flann APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_flann PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_flann.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_flann.a"
   )
 
 # Import target "opencv_imgproc" for configuration "Release"
 set_property(TARGET opencv_imgproc APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_imgproc PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_imgproc.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_imgproc.a"
   )
 
 # Import target "opencv_ml" for configuration "Release"
 set_property(TARGET opencv_ml APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_ml PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_ml.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_ml.a"
   )
 
 # Import target "opencv_objdetect" for configuration "Release"
 set_property(TARGET opencv_objdetect APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_objdetect PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_objdetect.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_objdetect.a"
   )
 
 # Import target "opencv_photo" for configuration "Release"
 set_property(TARGET opencv_photo APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_photo PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_photo.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_photo.a"
   )
 
 # Import target "opencv_video" for configuration "Release"
 set_property(TARGET opencv_video APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_video PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_video.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_video.a"
   )
 
 # Import target "opencv_dnn" for configuration "Release"
 set_property(TARGET opencv_dnn APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_dnn PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_dnn.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_dnn.a"
   )
 
 # Import target "opencv_imgcodecs" for configuration "Release"
 set_property(TARGET opencv_imgcodecs APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_imgcodecs PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_imgcodecs.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_imgcodecs.a"
   )
 
 # Import target "opencv_shape" for configuration "Release"
 set_property(TARGET opencv_shape APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_shape PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_shape.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_shape.a"
   )
 
 # Import target "opencv_videoio" for configuration "Release"
 set_property(TARGET opencv_videoio APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_videoio PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_videoio.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_videoio.a"
   )
 
 # Import target "opencv_highgui" for configuration "Release"
 set_property(TARGET opencv_highgui APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_highgui PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_highgui.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_highgui.a"
   )
 
 # Import target "opencv_superres" for configuration "Release"
 set_property(TARGET opencv_superres APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_superres PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_superres.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_superres.a"
   )
 
 # Import target "opencv_features2d" for configuration "Release"
 set_property(TARGET opencv_features2d APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_features2d PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_features2d.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_features2d.a"
   )
 
 # Import target "opencv_calib3d" for configuration "Release"
 set_property(TARGET opencv_calib3d APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_calib3d PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_calib3d.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_calib3d.a"
   )
 
 # Import target "opencv_stitching" for configuration "Release"
 set_property(TARGET opencv_stitching APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_stitching PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_stitching.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_stitching.a"
   )
 
 # Import target "opencv_videostab" for configuration "Release"
 set_property(TARGET opencv_videostab APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(opencv_videostab PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/stacia/opencv/build/lib/libopencv_videostab.a"
+  IMPORTED_LOCATION_RELEASE "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_videostab.a"
   )
 
 # This file does not depend on other imported targets which have

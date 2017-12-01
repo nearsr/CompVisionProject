@@ -6,5 +6,5 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/flann/include -I/home/stacia/opencv/modules/flann/src -I/home/stacia/opencv/build/modules/flann -I/home/stacia/opencv/modules/core/include 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/flann/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/flann/src -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/flann -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include 
 

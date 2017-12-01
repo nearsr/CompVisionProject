@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/modules/world
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/world
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

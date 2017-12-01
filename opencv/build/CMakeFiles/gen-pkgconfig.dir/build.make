@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Utility rule file for gen-pkgconfig.
 
@@ -55,8 +55,8 @@ include CMakeFiles/gen-pkgconfig.dir/progress.make
 
 unix-install/opencv.pc: OpenCVGenPkgConfig.info.cmake
 unix-install/opencv.pc: ../cmake/OpenCVGenPkgconfig.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate opencv.pc"
-	/usr/bin/cmake -DCMAKE_HELPER_SCRIPT=/home/stacia/opencv/build/OpenCVGenPkgConfig.info.cmake -P /home/stacia/opencv/cmake/OpenCVGenPkgconfig.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate opencv.pc"
+	/usr/bin/cmake -DCMAKE_HELPER_SCRIPT=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/OpenCVGenPkgConfig.info.cmake -P /home/stacia/eclipse-workspace/CompVisionProject/opencv/cmake/OpenCVGenPkgconfig.cmake
 
 gen-pkgconfig: unix-install/opencv.pc
 gen-pkgconfig: CMakeFiles/gen-pkgconfig.dir/build.make
@@ -73,6 +73,6 @@ CMakeFiles/gen-pkgconfig.dir/clean:
 .PHONY : CMakeFiles/gen-pkgconfig.dir/clean
 
 CMakeFiles/gen-pkgconfig.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv /home/stacia/opencv/build /home/stacia/opencv/build /home/stacia/opencv/build/CMakeFiles/gen-pkgconfig.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/gen-pkgconfig.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gen-pkgconfig.dir/depend
 

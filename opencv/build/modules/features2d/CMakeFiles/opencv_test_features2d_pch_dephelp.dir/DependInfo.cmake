@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stacia/opencv/build/modules/features2d/opencv_test_features2d_pch_dephelp.cxx" "/home/stacia/opencv/build/modules/features2d/CMakeFiles/opencv_test_features2d_pch_dephelp.dir/opencv_test_features2d_pch_dephelp.cxx.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/opencv_test_features2d_pch_dephelp.cxx" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/CMakeFiles/opencv_test_features2d_pch_dephelp.dir/opencv_test_features2d_pch_dephelp.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

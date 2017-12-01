@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/modules/cudaimgproc
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/cudaimgproc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

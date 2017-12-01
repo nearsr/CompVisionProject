@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stacia/opencv/build/modules/calib3d/opencv_perf_calib3d_pch_dephelp.cxx" "/home/stacia/opencv/build/modules/calib3d/CMakeFiles/opencv_perf_calib3d_pch_dephelp.dir/opencv_perf_calib3d_pch_dephelp.cxx.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/opencv_perf_calib3d_pch_dephelp.cxx" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/CMakeFiles/opencv_perf_calib3d_pch_dephelp.dir/opencv_perf_calib3d_pch_dephelp.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -3,15 +3,15 @@
  opencv_videostab
  AccuracyTest
 # Source files and their labels
-/home/stacia/opencv/modules/videostab/test/test_main.cpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videostab/test/test_main.cpp
  Main
  opencv_videostab
  AccuracyTest
-/home/stacia/opencv/modules/videostab/test/test_motion_estimation.cpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videostab/test/test_motion_estimation.cpp
  Main
  opencv_videostab
  AccuracyTest
-/home/stacia/opencv/modules/videostab/test/test_precomp.hpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videostab/test/test_precomp.hpp
  Main
  opencv_videostab
  AccuracyTest

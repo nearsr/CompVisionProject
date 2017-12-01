@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Include any dependencies generated for this target.
 include modules/features2d/CMakeFiles/opencv_features2d.dir/depend.make
@@ -62,21 +62,21 @@ modules/features2d/opencl_kernels_features2d.cpp: ../modules/features2d/src/open
 modules/features2d/opencl_kernels_features2d.cpp: ../modules/features2d/src/opencl/akaze.cl
 modules/features2d/opencl_kernels_features2d.cpp: ../modules/features2d/src/opencl/brute_force_match.cl
 modules/features2d/opencl_kernels_features2d.cpp: ../cmake/cl2cpp.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Processing OpenCL kernels (features2d)"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/cmake -DMODULE_NAME=features2d -DCL_DIR=/home/stacia/opencv/modules/features2d/src/opencl -DOUTPUT=/home/stacia/opencv/build/modules/features2d/opencl_kernels_features2d.cpp -P /home/stacia/opencv/cmake/cl2cpp.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Processing OpenCL kernels (features2d)"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/cmake -DMODULE_NAME=features2d -DCL_DIR=/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/opencl -DOUTPUT=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/opencl_kernels_features2d.cpp -P /home/stacia/eclipse-workspace/CompVisionProject/opencv/cmake/cl2cpp.cmake
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.o: ../modules/features2d/src/mser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/mser.cpp.o -c /home/stacia/opencv/modules/features2d/src/mser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/mser.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/mser.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/mser.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/mser.cpp > CMakeFiles/opencv_features2d.dir/src/mser.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/mser.cpp > CMakeFiles/opencv_features2d.dir/src/mser.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/mser.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/mser.cpp -o CMakeFiles/opencv_features2d.dir/src/mser.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/mser.cpp -o CMakeFiles/opencv_features2d.dir/src/mser.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.o.requires:
 
@@ -91,16 +91,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/mser.cpp.o.provides.buil
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o: ../modules/features2d/src/agast_score.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o -c /home/stacia/opencv/modules/features2d/src/agast_score.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/agast_score.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/agast_score.cpp > CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/agast_score.cpp > CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/agast_score.cpp -o CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/agast_score.cpp -o CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o.requires:
 
@@ -115,16 +115,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast_score.cpp.o.provid
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o: ../modules/features2d/src/feature2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o -c /home/stacia/opencv/modules/features2d/src/feature2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/feature2d.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/feature2d.cpp > CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/feature2d.cpp > CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/feature2d.cpp -o CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/feature2d.cpp -o CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o.requires:
 
@@ -139,16 +139,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/feature2d.cpp.o.provides
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o: ../modules/features2d/src/gftt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o -c /home/stacia/opencv/modules/features2d/src/gftt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/gftt.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/gftt.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/gftt.cpp > CMakeFiles/opencv_features2d.dir/src/gftt.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/gftt.cpp > CMakeFiles/opencv_features2d.dir/src/gftt.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/gftt.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/gftt.cpp -o CMakeFiles/opencv_features2d.dir/src/gftt.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/gftt.cpp -o CMakeFiles/opencv_features2d.dir/src/gftt.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o.requires:
 
@@ -163,16 +163,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/gftt.cpp.o.provides.buil
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.o: ../modules/features2d/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/main.cpp.o -c /home/stacia/opencv/modules/features2d/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/main.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/main.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/main.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/main.cpp > CMakeFiles/opencv_features2d.dir/src/main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/main.cpp > CMakeFiles/opencv_features2d.dir/src/main.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/main.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/main.cpp -o CMakeFiles/opencv_features2d.dir/src/main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/main.cpp -o CMakeFiles/opencv_features2d.dir/src/main.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.o.requires:
 
@@ -187,16 +187,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/main.cpp.o.provides.buil
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o: ../modules/features2d/src/evaluation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o -c /home/stacia/opencv/modules/features2d/src/evaluation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/evaluation.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/evaluation.cpp > CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/evaluation.cpp > CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/evaluation.cpp -o CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/evaluation.cpp -o CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o.requires:
 
@@ -211,16 +211,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/evaluation.cpp.o.provide
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.o: ../modules/features2d/src/draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/draw.cpp.o -c /home/stacia/opencv/modules/features2d/src/draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/draw.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/draw.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/draw.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/draw.cpp > CMakeFiles/opencv_features2d.dir/src/draw.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/draw.cpp > CMakeFiles/opencv_features2d.dir/src/draw.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/draw.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/draw.cpp -o CMakeFiles/opencv_features2d.dir/src/draw.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/draw.cpp -o CMakeFiles/opencv_features2d.dir/src/draw.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.o.requires:
 
@@ -235,16 +235,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/draw.cpp.o.provides.buil
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o: ../modules/features2d/src/kaze.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o -c /home/stacia/opencv/modules/features2d/src/kaze.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/kaze.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/kaze.cpp > CMakeFiles/opencv_features2d.dir/src/kaze.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze.cpp > CMakeFiles/opencv_features2d.dir/src/kaze.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/kaze.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/kaze.cpp -o CMakeFiles/opencv_features2d.dir/src/kaze.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze.cpp -o CMakeFiles/opencv_features2d.dir/src/kaze.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o.requires:
 
@@ -259,16 +259,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze.cpp.o.provides.buil
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o: ../modules/features2d/src/brisk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o -c /home/stacia/opencv/modules/features2d/src/brisk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/brisk.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/brisk.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/brisk.cpp > CMakeFiles/opencv_features2d.dir/src/brisk.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/brisk.cpp > CMakeFiles/opencv_features2d.dir/src/brisk.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/brisk.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/brisk.cpp -o CMakeFiles/opencv_features2d.dir/src/brisk.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/brisk.cpp -o CMakeFiles/opencv_features2d.dir/src/brisk.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o.requires:
 
@@ -283,16 +283,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/brisk.cpp.o.provides.bui
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o: ../modules/features2d/src/matchers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o -c /home/stacia/opencv/modules/features2d/src/matchers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/matchers.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/matchers.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/matchers.cpp > CMakeFiles/opencv_features2d.dir/src/matchers.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/matchers.cpp > CMakeFiles/opencv_features2d.dir/src/matchers.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/matchers.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/matchers.cpp -o CMakeFiles/opencv_features2d.dir/src/matchers.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/matchers.cpp -o CMakeFiles/opencv_features2d.dir/src/matchers.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o.requires:
 
@@ -307,16 +307,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/matchers.cpp.o.provides.
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o: ../modules/features2d/src/dynamic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o -c /home/stacia/opencv/modules/features2d/src/dynamic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/dynamic.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/dynamic.cpp > CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/dynamic.cpp > CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/dynamic.cpp -o CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/dynamic.cpp -o CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o.requires:
 
@@ -331,16 +331,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/dynamic.cpp.o.provides.b
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.o: ../modules/features2d/src/orb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/orb.cpp.o -c /home/stacia/opencv/modules/features2d/src/orb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/orb.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/orb.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/orb.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/orb.cpp > CMakeFiles/opencv_features2d.dir/src/orb.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/orb.cpp > CMakeFiles/opencv_features2d.dir/src/orb.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/orb.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/orb.cpp -o CMakeFiles/opencv_features2d.dir/src/orb.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/orb.cpp -o CMakeFiles/opencv_features2d.dir/src/orb.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.o.requires:
 
@@ -355,16 +355,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/orb.cpp.o.provides.build
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o: ../modules/features2d/src/akaze.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o -c /home/stacia/opencv/modules/features2d/src/akaze.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/akaze.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/akaze.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/akaze.cpp > CMakeFiles/opencv_features2d.dir/src/akaze.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/akaze.cpp > CMakeFiles/opencv_features2d.dir/src/akaze.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/akaze.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/akaze.cpp -o CMakeFiles/opencv_features2d.dir/src/akaze.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/akaze.cpp -o CMakeFiles/opencv_features2d.dir/src/akaze.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o.requires:
 
@@ -379,16 +379,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/akaze.cpp.o.provides.bui
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o: ../modules/features2d/src/fast_score.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o -c /home/stacia/opencv/modules/features2d/src/fast_score.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/fast_score.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/fast_score.cpp > CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/fast_score.cpp > CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/fast_score.cpp -o CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/fast_score.cpp -o CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o.requires:
 
@@ -403,16 +403,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast_score.cpp.o.provide
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o: ../modules/features2d/src/kaze/KAZEFeatures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o -c /home/stacia/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp > CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp > CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp -o CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/KAZEFeatures.cpp -o CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o.requires:
 
@@ -427,16 +427,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/KAZEFeatures.cpp.o.
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o: ../modules/features2d/src/kaze/AKAZEFeatures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o -c /home/stacia/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp > CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp > CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp -o CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/AKAZEFeatures.cpp -o CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o.requires:
 
@@ -451,16 +451,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/AKAZEFeatures.cpp.o
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o: ../modules/features2d/src/kaze/nldiffusion_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o -c /home/stacia/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp > CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp > CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp -o CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/nldiffusion_functions.cpp -o CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functions.cpp.o.requires:
 
@@ -475,16 +475,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/nldiffusion_functio
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o: ../modules/features2d/src/kaze/fed.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o -c /home/stacia/opencv/modules/features2d/src/kaze/fed.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/fed.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/kaze/fed.cpp > CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/fed.cpp > CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/kaze/fed.cpp -o CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/kaze/fed.cpp -o CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o.requires:
 
@@ -499,16 +499,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/kaze/fed.cpp.o.provides.
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.o: ../modules/features2d/src/fast.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/fast.cpp.o -c /home/stacia/opencv/modules/features2d/src/fast.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/fast.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/fast.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/fast.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/fast.cpp > CMakeFiles/opencv_features2d.dir/src/fast.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/fast.cpp > CMakeFiles/opencv_features2d.dir/src/fast.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/fast.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/fast.cpp -o CMakeFiles/opencv_features2d.dir/src/fast.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/fast.cpp -o CMakeFiles/opencv_features2d.dir/src/fast.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.o.requires:
 
@@ -523,16 +523,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/fast.cpp.o.provides.buil
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o: ../modules/features2d/src/keypoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o -c /home/stacia/opencv/modules/features2d/src/keypoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/keypoint.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/keypoint.cpp > CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/keypoint.cpp > CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/keypoint.cpp -o CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/keypoint.cpp -o CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o.requires:
 
@@ -547,16 +547,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/keypoint.cpp.o.provides.
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o: ../modules/features2d/src/blobdetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o -c /home/stacia/opencv/modules/features2d/src/blobdetector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/blobdetector.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/blobdetector.cpp > CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/blobdetector.cpp > CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/blobdetector.cpp -o CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/blobdetector.cpp -o CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o.requires:
 
@@ -571,16 +571,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/blobdetector.cpp.o.provi
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.o: ../modules/features2d/src/agast.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/agast.cpp.o -c /home/stacia/opencv/modules/features2d/src/agast.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/agast.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/agast.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/agast.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/agast.cpp > CMakeFiles/opencv_features2d.dir/src/agast.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/agast.cpp > CMakeFiles/opencv_features2d.dir/src/agast.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/agast.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/agast.cpp -o CMakeFiles/opencv_features2d.dir/src/agast.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/agast.cpp -o CMakeFiles/opencv_features2d.dir/src/agast.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.o.requires:
 
@@ -595,16 +595,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/agast.cpp.o.provides.bui
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o: ../modules/features2d/src/bagofwords.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o -c /home/stacia/opencv/modules/features2d/src/bagofwords.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/bagofwords.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/modules/features2d/src/bagofwords.cpp > CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/bagofwords.cpp > CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/modules/features2d/src/bagofwords.cpp -o CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/src/bagofwords.cpp -o CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o.requires:
 
@@ -619,16 +619,16 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/src/bagofwords.cpp.o.provide
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o: modules/features2d/CMakeFiles/opencv_features2d.dir/flags.make
 modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o: modules/features2d/opencl_kernels_features2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o -c /home/stacia/opencv/build/modules/features2d/opencl_kernels_features2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -o CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/opencl_kernels_features2d.cpp
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.i"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/opencv/build/modules/features2d/opencl_kernels_features2d.cpp > CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/opencl_kernels_features2d.cpp > CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.i
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.s"
-	cd /home/stacia/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/opencv/build/modules/features2d/opencl_kernels_features2d.cpp -o CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/opencl_kernels_features2d.cpp -o CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.s
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o.requires:
 
@@ -697,9 +697,9 @@ lib/libopencv_features2d.a: modules/features2d/CMakeFiles/opencv_features2d.dir/
 lib/libopencv_features2d.a: modules/features2d/CMakeFiles/opencv_features2d.dir/opencl_kernels_features2d.cpp.o
 lib/libopencv_features2d.a: modules/features2d/CMakeFiles/opencv_features2d.dir/build.make
 lib/libopencv_features2d.a: modules/features2d/CMakeFiles/opencv_features2d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library ../../lib/libopencv_features2d.a"
-	cd /home/stacia/opencv/build/modules/features2d && $(CMAKE_COMMAND) -P CMakeFiles/opencv_features2d.dir/cmake_clean_target.cmake
-	cd /home/stacia/opencv/build/modules/features2d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_features2d.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library ../../lib/libopencv_features2d.a"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && $(CMAKE_COMMAND) -P CMakeFiles/opencv_features2d.dir/cmake_clean_target.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_features2d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modules/features2d/CMakeFiles/opencv_features2d.dir/build: lib/libopencv_features2d.a
@@ -734,10 +734,10 @@ modules/features2d/CMakeFiles/opencv_features2d.dir/requires: modules/features2d
 .PHONY : modules/features2d/CMakeFiles/opencv_features2d.dir/requires
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/clean:
-	cd /home/stacia/opencv/build/modules/features2d && $(CMAKE_COMMAND) -P CMakeFiles/opencv_features2d.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d && $(CMAKE_COMMAND) -P CMakeFiles/opencv_features2d.dir/cmake_clean.cmake
 .PHONY : modules/features2d/CMakeFiles/opencv_features2d.dir/clean
 
 modules/features2d/CMakeFiles/opencv_features2d.dir/depend: modules/features2d/opencl_kernels_features2d.cpp
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/features2d /home/stacia/opencv/build /home/stacia/opencv/build/modules/features2d /home/stacia/opencv/build/modules/features2d/CMakeFiles/opencv_features2d.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/CMakeFiles/opencv_features2d.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/features2d/CMakeFiles/opencv_features2d.dir/depend
 

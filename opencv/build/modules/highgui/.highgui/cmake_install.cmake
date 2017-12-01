@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/modules/highgui
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

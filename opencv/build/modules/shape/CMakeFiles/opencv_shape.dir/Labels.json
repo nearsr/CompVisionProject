@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/stacia/opencv/modules/shape/include/opencv2/shape.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/include/opencv2/shape.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/include/opencv2/shape/emdL1.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/include/opencv2/shape/emdL1.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/include/opencv2/shape/hist_cost.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/include/opencv2/shape/hist_cost.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/include/opencv2/shape/shape_transformer.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/include/opencv2/shape/shape_transformer.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/include/opencv2/shape/shape_distance.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/include/opencv2/shape/shape_distance.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/include/opencv2/shape/shape.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/include/opencv2/shape/shape.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/src/aff_trans.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/src/aff_trans.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/src/haus_dis.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/src/haus_dis.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/src/emdL1.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/src/emdL1.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/src/sc_dis.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/src/sc_dis.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/src/tps_trans.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/src/tps_trans.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/src/hist_cost.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/src/hist_cost.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -110,7 +110,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/src/emdL1_def.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/src/emdL1_def.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/src/precomp.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/src/precomp.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -128,7 +128,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/shape/src/scd_def.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/src/scd_def.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -137,10 +137,10 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/build/cvconfig.h"
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/cvconfig.h"
 		},
 		{
-			"file" : "/home/stacia/opencv/build/opencv2/opencv_modules.hpp"
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/opencv2/opencv_modules.hpp"
 		}
 	],
 	"target" : 

@@ -6,19 +6,19 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/superres/include -I/home/stacia/opencv/modules/superres/src -I/home/stacia/opencv/build/modules/superres -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/video/include -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/videoio/include 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/src -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include 
 
-# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1_cuda.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/superres/precomp.hpp"
+# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1_cuda.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/precomp.hpp"
 
-# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/frame_source.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/superres/precomp.hpp"
+# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/frame_source.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/precomp.hpp"
 
-# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/input_array_utility.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/superres/precomp.hpp"
+# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/input_array_utility.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/precomp.hpp"
 
-# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/super_resolution.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/superres/precomp.hpp"
+# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/super_resolution.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/precomp.hpp"
 
-# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/superres/precomp.hpp"
+# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/btv_l1.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/precomp.hpp"
 
-# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/optical_flow.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/superres/precomp.hpp"
+# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/src/optical_flow.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/precomp.hpp"
 
-# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/opencl_kernels_superres.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/superres/precomp.hpp"
+# Custom flags: modules/superres/CMakeFiles/opencv_superres.dir/opencl_kernels_superres.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/superres/precomp.hpp"
 

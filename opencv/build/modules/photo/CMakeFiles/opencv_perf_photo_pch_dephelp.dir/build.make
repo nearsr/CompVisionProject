@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Include any dependencies generated for this target.
 include modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/depend.make
@@ -59,16 +59,16 @@ include modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/flags.make
 
 modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.o: modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/flags.make
 modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.o: modules/photo/opencv_perf_photo_pch_dephelp.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.o"
-	cd /home/stacia/opencv/build/modules/photo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.o -c /home/stacia/opencv/build/modules/photo/opencv_perf_photo_pch_dephelp.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/opencv_perf_photo_pch_dephelp.cxx
 
 modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.i"
-	cd /home/stacia/opencv/build/modules/photo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/opencv/build/modules/photo/opencv_perf_photo_pch_dephelp.cxx > CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/opencv_perf_photo_pch_dephelp.cxx > CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.i
 
 modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.s"
-	cd /home/stacia/opencv/build/modules/photo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/opencv/build/modules/photo/opencv_perf_photo_pch_dephelp.cxx -o CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/opencv_perf_photo_pch_dephelp.cxx -o CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.s
 
 modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.o.requires:
 
@@ -91,9 +91,9 @@ opencv_perf_photo_pch_dephelp_EXTERNAL_OBJECTS =
 lib/libopencv_perf_photo_pch_dephelp.a: modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/opencv_perf_photo_pch_dephelp.cxx.o
 lib/libopencv_perf_photo_pch_dephelp.a: modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/build.make
 lib/libopencv_perf_photo_pch_dephelp.a: modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libopencv_perf_photo_pch_dephelp.a"
-	cd /home/stacia/opencv/build/modules/photo && $(CMAKE_COMMAND) -P CMakeFiles/opencv_perf_photo_pch_dephelp.dir/cmake_clean_target.cmake
-	cd /home/stacia/opencv/build/modules/photo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_perf_photo_pch_dephelp.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libopencv_perf_photo_pch_dephelp.a"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo && $(CMAKE_COMMAND) -P CMakeFiles/opencv_perf_photo_pch_dephelp.dir/cmake_clean_target.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_perf_photo_pch_dephelp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/build: lib/libopencv_perf_photo_pch_dephelp.a
@@ -105,10 +105,10 @@ modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/requires: modules/pho
 .PHONY : modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/requires
 
 modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/clean:
-	cd /home/stacia/opencv/build/modules/photo && $(CMAKE_COMMAND) -P CMakeFiles/opencv_perf_photo_pch_dephelp.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo && $(CMAKE_COMMAND) -P CMakeFiles/opencv_perf_photo_pch_dephelp.dir/cmake_clean.cmake
 .PHONY : modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/clean
 
 modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/photo /home/stacia/opencv/build /home/stacia/opencv/build/modules/photo /home/stacia/opencv/build/modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/photo /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/photo/CMakeFiles/opencv_perf_photo_pch_dephelp.dir/depend
 

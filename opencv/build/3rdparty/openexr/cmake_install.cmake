@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/3rdparty/openexr
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/openexr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV/3rdparty/lib" TYPE STATIC_LIBRARY FILES "/home/stacia/opencv/build/3rdparty/lib/libIlmImf.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/OpenCV/3rdparty/lib" TYPE STATIC_LIBRARY FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/lib/libIlmImf.a")
 endif()
 

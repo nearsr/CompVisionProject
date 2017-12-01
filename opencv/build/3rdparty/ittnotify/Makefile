@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/opencv/build/CPackSourceConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles /home/stacia/opencv/build/3rdparty/ittnotify/CMakeFiles/progress.marks
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/ittnotify/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ittnotify/CMakeFiles/progress.marks
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/ittnotify/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/ittnotify/clean
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/ittnotify/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/ittnotify/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/ittnotify/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/ittnotify/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/ittnotify/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/rule
 .PHONY : 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ ittnotify: 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/rule
 
 # fast build rule for target.
 ittnotify/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build
 .PHONY : ittnotify/fast
 
 src/ittnotify/ittnotify_static.o: src/ittnotify/ittnotify_static.c.o
@@ -208,7 +208,7 @@ src/ittnotify/ittnotify_static.o: src/ittnotify/ittnotify_static.c.o
 
 # target to build an object file
 src/ittnotify/ittnotify_static.c.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o
 .PHONY : src/ittnotify/ittnotify_static.c.o
 
 src/ittnotify/ittnotify_static.i: src/ittnotify/ittnotify_static.c.i
@@ -217,7 +217,7 @@ src/ittnotify/ittnotify_static.i: src/ittnotify/ittnotify_static.c.i
 
 # target to preprocess a source file
 src/ittnotify/ittnotify_static.c.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.i
 .PHONY : src/ittnotify/ittnotify_static.c.i
 
 src/ittnotify/ittnotify_static.s: src/ittnotify/ittnotify_static.c.s
@@ -226,7 +226,7 @@ src/ittnotify/ittnotify_static.s: src/ittnotify/ittnotify_static.c.s
 
 # target to generate assembly for a file
 src/ittnotify/ittnotify_static.c.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.s
 .PHONY : src/ittnotify/ittnotify_static.c.s
 
 src/ittnotify/jitprofiling.o: src/ittnotify/jitprofiling.c.o
@@ -235,7 +235,7 @@ src/ittnotify/jitprofiling.o: src/ittnotify/jitprofiling.c.o
 
 # target to build an object file
 src/ittnotify/jitprofiling.c.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o
 .PHONY : src/ittnotify/jitprofiling.c.o
 
 src/ittnotify/jitprofiling.i: src/ittnotify/jitprofiling.c.i
@@ -244,7 +244,7 @@ src/ittnotify/jitprofiling.i: src/ittnotify/jitprofiling.c.i
 
 # target to preprocess a source file
 src/ittnotify/jitprofiling.c.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.i
 .PHONY : src/ittnotify/jitprofiling.c.i
 
 src/ittnotify/jitprofiling.s: src/ittnotify/jitprofiling.c.s
@@ -253,7 +253,7 @@ src/ittnotify/jitprofiling.s: src/ittnotify/jitprofiling.c.s
 
 # target to generate assembly for a file
 src/ittnotify/jitprofiling.c.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/build.make 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.s
 .PHONY : src/ittnotify/jitprofiling.c.s
 
 # Help Target
@@ -289,6 +289,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/modules/python
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/stacia/opencv/build/modules/python/.python/python2/cmake_install.cmake")
-  include("/home/stacia/opencv/build/modules/python/.python/python3/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/python/.python/python2/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/python/.python/python3/cmake_install.cmake")
 
 endif()
 

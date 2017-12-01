@@ -6,43 +6,43 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -DHAVE_WEBP -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/3rdparty/libjasper -I/home/stacia/opencv/build/3rdparty/libtiff -I/home/stacia/opencv/3rdparty/libtiff -I/home/stacia/opencv/3rdparty/libpng -I/home/stacia/opencv/3rdparty/libwebp -I/home/stacia/opencv/3rdparty/libjpeg -I/home/stacia/opencv/build/3rdparty/zlib -I/home/stacia/opencv/3rdparty/zlib -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -isystem /home/stacia/opencv/3rdparty/openexr/Half -isystem /home/stacia/opencv/3rdparty/openexr/Iex -isystem /home/stacia/opencv/3rdparty/openexr/IlmThread -isystem /home/stacia/opencv/3rdparty/openexr/Imath -isystem /home/stacia/opencv/3rdparty/openexr/IlmImf -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/imgcodecs/src -I/home/stacia/opencv/build/modules/imgcodecs -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/imgproc/include 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/libjasper -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libtiff -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/libtiff -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/libpng -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/libwebp -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/libjpeg -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/zlib -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/zlib -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -isystem /home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/openexr/Half -isystem /home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/openexr/Iex -isystem /home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/openexr/IlmThread -isystem /home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/openexr/Imath -isystem /home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/openexr/IlmImf -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/src -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include 
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 
-# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/imgcodecs/precomp.hpp"
+# Custom flags: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/precomp.hpp"
 

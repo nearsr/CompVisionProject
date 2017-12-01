@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stacia/opencv/modules/flann/src/flann.cpp" "/home/stacia/opencv/build/modules/flann/CMakeFiles/opencv_flann.dir/src/flann.cpp.o"
-  "/home/stacia/opencv/modules/flann/src/miniflann.cpp" "/home/stacia/opencv/build/modules/flann/CMakeFiles/opencv_flann.dir/src/miniflann.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/flann/src/flann.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/flann/CMakeFiles/opencv_flann.dir/src/flann.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/flann/src/miniflann.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/flann/CMakeFiles/opencv_flann.dir/src/miniflann.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,10 +31,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/stacia/opencv/build/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/ippiw/CMakeFiles/ippiw.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippiw/CMakeFiles/ippiw.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

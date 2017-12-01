@@ -6,67 +6,67 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -DOPENCV_WITH_ITT=1 -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__OPENCV_TESTS=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/ts/include -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/videoio/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/highgui/include -I/home/stacia/opencv/modules/core/test 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/test 
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_lpsolver.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_lpsolver.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_rotatedrect.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_rotatedrect.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_mat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_mat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_arithm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_arithm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_channels.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_channels.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_image2d.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_image2d.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_gemm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_gemm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_operation.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_operation.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_expr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_expr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_dft.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_dft.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_arithm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_arithm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_misc.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_misc.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_countnonzero.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_countnonzero.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_ptr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_ptr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_conjugate_gradient.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_conjugate_gradient.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_downhill_simplex.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_downhill_simplex.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_concatenation.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_concatenation.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_operations.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_operations.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_rand.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_rand.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_hal_core.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_hal_core.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_utils.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_utils.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_ds.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_ds.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_io.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_io.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_dxt.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_dxt.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_math.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_math.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_eigen.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_eigen.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_ippasync.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/test_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_ippasync.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/test_precomp.hpp"
 
 # Custom flags: modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.fp16.cpp.o_FLAGS =  -mssse3 -msse4.1 -mpopcnt -msse4.2 -mf16c -mavx
 

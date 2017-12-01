@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/modules/cudafeatures2d
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/cudafeatures2d
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Include any dependencies generated for this target.
 include modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/depend.make
@@ -59,16 +59,16 @@ include modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o: ../modules/calib3d/test/test_compose_rt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_compose_rt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_compose_rt.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_compose_rt.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_compose_rt.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_compose_rt.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_compose_rt.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o.requires:
 
@@ -83,16 +83,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_compose_rt.cpp.o.pr
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.o: ../modules/calib3d/test/test_affine3d_estimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_affine3d_estimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine3d_estimator.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_affine3d_estimator.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine3d_estimator.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_affine3d_estimator.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine3d_estimator.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.cpp.o.requires:
 
@@ -107,16 +107,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3d_estimator.
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o: ../modules/calib3d/test/test_affine3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_affine3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine3.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_affine3.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine3.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_affine3.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine3.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o.requires:
 
@@ -131,16 +131,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine3.cpp.o.provi
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.o: ../modules/calib3d/test/test_cameracalibration_tilt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_cameracalibration_tilt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration_tilt.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_cameracalibration_tilt.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration_tilt.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_cameracalibration_tilt.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration_tilt.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_tilt.cpp.o.requires:
 
@@ -155,16 +155,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_t
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.o: ../modules/calib3d/test/test_chessboardgenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_chessboardgenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chessboardgenerator.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_chessboardgenerator.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chessboardgenerator.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_chessboardgenerator.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chessboardgenerator.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator.cpp.o.requires:
 
@@ -179,16 +179,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chessboardgenerator
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.o: ../modules/calib3d/test/test_affine_partial2d_estimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_estimator.cpp.o.requires:
 
@@ -203,16 +203,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine_partial2d_es
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o: ../modules/calib3d/test/test_undistort_points.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_undistort_points.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_undistort_points.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_undistort_points.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_undistort_points.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_undistort_points.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_undistort_points.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cpp.o.requires:
 
@@ -227,16 +227,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_points.cp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.o: ../modules/calib3d/test/test_chesscorners_timing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_chesscorners_timing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chesscorners_timing.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_chesscorners_timing.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chesscorners_timing.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_chesscorners_timing.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chesscorners_timing.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing.cpp.o.requires:
 
@@ -251,16 +251,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_timing
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o: ../modules/calib3d/test/test_cornerssubpix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_cornerssubpix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cornerssubpix.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_cornerssubpix.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cornerssubpix.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_cornerssubpix.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cornerssubpix.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o.requires:
 
@@ -275,16 +275,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cornerssubpix.cpp.o
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o: ../modules/calib3d/test/test_stereomatching.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_stereomatching.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_stereomatching.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_stereomatching.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_stereomatching.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_stereomatching.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_stereomatching.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.o.requires:
 
@@ -299,16 +299,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_stereomatching.cpp.
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.o: ../modules/calib3d/test/opencl/test_stereobm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.o -c /home/stacia/opencv/modules/calib3d/test/opencl/test_stereobm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/opencl/test_stereobm.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/opencl/test_stereobm.cpp > CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/opencl/test_stereobm.cpp > CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/opencl/test_stereobm.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/opencl/test_stereobm.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp.o.requires:
 
@@ -323,16 +323,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/opencl/test_stereobm.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.o: ../modules/calib3d/test/test_chesscorners_badarg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg.cpp.o.requires:
 
@@ -347,16 +347,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners_badarg
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.o: ../modules/calib3d/test/test_homography_decomp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_homography_decomp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_homography_decomp.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_homography_decomp.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_homography_decomp.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_homography_decomp.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_homography_decomp.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.cpp.o.requires:
 
@@ -371,16 +371,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography_decomp.c
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o: ../modules/calib3d/test/test_chesscorners.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_chesscorners.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chesscorners.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_chesscorners.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chesscorners.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_chesscorners.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_chesscorners.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o.requires:
 
@@ -395,16 +395,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_chesscorners.cpp.o.
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o: ../modules/calib3d/test/test_undistort_badarg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_undistort_badarg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_undistort_badarg.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_undistort_badarg.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_undistort_badarg.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_undistort_badarg.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_undistort_badarg.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cpp.o.requires:
 
@@ -419,16 +419,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort_badarg.cp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o: ../modules/calib3d/test/test_fisheye.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_fisheye.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_fisheye.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_fisheye.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_fisheye.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_fisheye.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_fisheye.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o.requires:
 
@@ -443,16 +443,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fisheye.cpp.o.provi
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o: ../modules/calib3d/test/test_homography.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_homography.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_homography.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_homography.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_homography.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_homography.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_homography.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o.requires:
 
@@ -467,16 +467,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_homography.cpp.o.pr
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.o: ../modules/calib3d/test/test_decompose_projection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_decompose_projection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_decompose_projection.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_decompose_projection.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_decompose_projection.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_decompose_projection.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_decompose_projection.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projection.cpp.o.requires:
 
@@ -491,16 +491,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_decompose_projectio
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o: ../modules/calib3d/test/test_posit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_posit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_posit.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_posit.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_posit.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_posit.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_posit.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o.requires:
 
@@ -515,16 +515,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_posit.cpp.o.provide
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o: ../modules/calib3d/test/test_undistort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_undistort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_undistort.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_undistort.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_undistort.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_undistort.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_undistort.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o.requires:
 
@@ -539,16 +539,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_undistort.cpp.o.pro
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o: ../modules/calib3d/test/test_fundam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_fundam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_fundam.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_fundam.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_fundam.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_fundam.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_fundam.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o.requires:
 
@@ -563,16 +563,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_fundam.cpp.o.provid
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.o: ../modules/calib3d/test/test_affine2d_estimator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_affine2d_estimator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine2d_estimator.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_affine2d_estimator.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine2d_estimator.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_affine2d_estimator.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_affine2d_estimator.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.cpp.o.requires:
 
@@ -587,16 +587,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_affine2d_estimator.
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o: ../modules/calib3d/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_main.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_main.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_main.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_main.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_main.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o.requires:
 
@@ -611,16 +611,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_main.cpp.o.provides
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.o: ../modules/calib3d/test/test_cameracalibration_artificial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_artificial.cpp.o.requires:
 
@@ -635,16 +635,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_a
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o: ../modules/calib3d/test/test_modelest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_modelest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_modelest.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_modelest.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_modelest.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_modelest.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_modelest.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o.requires:
 
@@ -659,16 +659,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_modelest.cpp.o.prov
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.o: ../modules/calib3d/test/test_reproject_image_to_3d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_3d.cpp.o.requires:
 
@@ -683,16 +683,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_reproject_image_to_
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.o: ../modules/calib3d/test/test_cameracalibration_badarg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_badarg.cpp.o.requires:
 
@@ -707,16 +707,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration_b
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.o: ../modules/calib3d/test/test_cameracalibration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_cameracalibration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_cameracalibration.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_cameracalibration.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_cameracalibration.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.cpp.o.requires:
 
@@ -731,16 +731,16 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_cameracalibration.c
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/flags.make
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o: ../modules/calib3d/test/test_solvepnp_ransac.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o -c /home/stacia/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -o CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.i"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp > CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.i
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.s"
-	cd /home/stacia/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp -o CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.s
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/test/test_solvepnp_ransac.cpp.o.requires:
 
@@ -860,8 +860,8 @@ bin/opencv_test_calib3d: 3rdparty/lib/libittnotify.a
 bin/opencv_test_calib3d: 3rdparty/lib/libippiw.a
 bin/opencv_test_calib3d: 3rdparty/ippicv/ippicv_lnx/lib/intel64/libippicv.a
 bin/opencv_test_calib3d: modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable ../../bin/opencv_test_calib3d"
-	cd /home/stacia/opencv/build/modules/calib3d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_test_calib3d.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable ../../bin/opencv_test_calib3d"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_test_calib3d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/build: bin/opencv_test_calib3d
@@ -901,10 +901,10 @@ modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/requires: modules/calib3d/CMa
 .PHONY : modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/requires
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/clean:
-	cd /home/stacia/opencv/build/modules/calib3d && $(CMAKE_COMMAND) -P CMakeFiles/opencv_test_calib3d.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d && $(CMAKE_COMMAND) -P CMakeFiles/opencv_test_calib3d.dir/cmake_clean.cmake
 .PHONY : modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/clean
 
 modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/calib3d /home/stacia/opencv/build /home/stacia/opencv/build/modules/calib3d /home/stacia/opencv/build/modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/calib3d/CMakeFiles/opencv_test_calib3d.dir/depend
 

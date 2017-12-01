@@ -6,35 +6,35 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/ml/include -I/home/stacia/opencv/modules/ml/src -I/home/stacia/opencv/build/modules/ml -I/home/stacia/opencv/modules/core/include 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/src -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include 
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/kdtree.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/kdtree.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/boost.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/boost.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/tree.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/tree.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/ann_mlp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/ann_mlp.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/svmsgd.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/svmsgd.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/testset.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/testset.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/knearest.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/knearest.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/rtrees.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/rtrees.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/gbt.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/gbt.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/nbayes.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/nbayes.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/inner_functions.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/inner_functions.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/svm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/svm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/em.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/em.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/data.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/data.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 
-# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/lr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/ml/precomp.hpp"
+# Custom flags: modules/ml/CMakeFiles/opencv_ml.dir/src/lr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ml/precomp.hpp"
 

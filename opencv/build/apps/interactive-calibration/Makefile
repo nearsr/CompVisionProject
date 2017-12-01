@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/opencv/build/CPackSourceConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles /home/stacia/opencv/build/apps/interactive-calibration/CMakeFiles/progress.marks
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/interactive-calibration/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration/CMakeFiles/progress.marks
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/interactive-calibration/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/interactive-calibration/clean
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/interactive-calibration/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/interactive-calibration/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/interactive-calibration/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/interactive-calibration/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/interactive-calibration/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rule
 .PHONY : apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ opencv_interactive-calibration: apps/interactive-calibration/CMakeFiles/opencv_i
 
 # fast build rule for target.
 opencv_interactive-calibration/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build
 .PHONY : opencv_interactive-calibration/fast
 
 calibController.o: calibController.cpp.o
@@ -208,7 +208,7 @@ calibController.o: calibController.cpp.o
 
 # target to build an object file
 calibController.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o
 .PHONY : calibController.cpp.o
 
 calibController.i: calibController.cpp.i
@@ -217,7 +217,7 @@ calibController.i: calibController.cpp.i
 
 # target to preprocess a source file
 calibController.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.i
 .PHONY : calibController.cpp.i
 
 calibController.s: calibController.cpp.s
@@ -226,7 +226,7 @@ calibController.s: calibController.cpp.s
 
 # target to generate assembly for a file
 calibController.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.s
 .PHONY : calibController.cpp.s
 
 calibPipeline.o: calibPipeline.cpp.o
@@ -235,7 +235,7 @@ calibPipeline.o: calibPipeline.cpp.o
 
 # target to build an object file
 calibPipeline.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o
 .PHONY : calibPipeline.cpp.o
 
 calibPipeline.i: calibPipeline.cpp.i
@@ -244,7 +244,7 @@ calibPipeline.i: calibPipeline.cpp.i
 
 # target to preprocess a source file
 calibPipeline.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.i
 .PHONY : calibPipeline.cpp.i
 
 calibPipeline.s: calibPipeline.cpp.s
@@ -253,7 +253,7 @@ calibPipeline.s: calibPipeline.cpp.s
 
 # target to generate assembly for a file
 calibPipeline.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.s
 .PHONY : calibPipeline.cpp.s
 
 frameProcessor.o: frameProcessor.cpp.o
@@ -262,7 +262,7 @@ frameProcessor.o: frameProcessor.cpp.o
 
 # target to build an object file
 frameProcessor.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o
 .PHONY : frameProcessor.cpp.o
 
 frameProcessor.i: frameProcessor.cpp.i
@@ -271,7 +271,7 @@ frameProcessor.i: frameProcessor.cpp.i
 
 # target to preprocess a source file
 frameProcessor.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.i
 .PHONY : frameProcessor.cpp.i
 
 frameProcessor.s: frameProcessor.cpp.s
@@ -280,7 +280,7 @@ frameProcessor.s: frameProcessor.cpp.s
 
 # target to generate assembly for a file
 frameProcessor.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.s
 .PHONY : frameProcessor.cpp.s
 
 main.o: main.cpp.o
@@ -289,7 +289,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -298,7 +298,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -307,7 +307,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 parametersController.o: parametersController.cpp.o
@@ -316,7 +316,7 @@ parametersController.o: parametersController.cpp.o
 
 # target to build an object file
 parametersController.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o
 .PHONY : parametersController.cpp.o
 
 parametersController.i: parametersController.cpp.i
@@ -325,7 +325,7 @@ parametersController.i: parametersController.cpp.i
 
 # target to preprocess a source file
 parametersController.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.i
 .PHONY : parametersController.cpp.i
 
 parametersController.s: parametersController.cpp.s
@@ -334,7 +334,7 @@ parametersController.s: parametersController.cpp.s
 
 # target to generate assembly for a file
 parametersController.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.s
 .PHONY : parametersController.cpp.s
 
 rotationConverters.o: rotationConverters.cpp.o
@@ -343,7 +343,7 @@ rotationConverters.o: rotationConverters.cpp.o
 
 # target to build an object file
 rotationConverters.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o
 .PHONY : rotationConverters.cpp.o
 
 rotationConverters.i: rotationConverters.cpp.i
@@ -352,7 +352,7 @@ rotationConverters.i: rotationConverters.cpp.i
 
 # target to preprocess a source file
 rotationConverters.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.i
 .PHONY : rotationConverters.cpp.i
 
 rotationConverters.s: rotationConverters.cpp.s
@@ -361,7 +361,7 @@ rotationConverters.s: rotationConverters.cpp.s
 
 # target to generate assembly for a file
 rotationConverters.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build.make apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.s
 .PHONY : rotationConverters.cpp.s
 
 # Help Target
@@ -409,6 +409,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

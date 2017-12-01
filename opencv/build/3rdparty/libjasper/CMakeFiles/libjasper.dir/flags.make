@@ -6,5 +6,5 @@ C_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtua
 
 C_DEFINES = -DEXCLUDE_BMP_SUPPORT -DEXCLUDE_JPG_SUPPORT -DEXCLUDE_MIF_SUPPORT -DEXCLUDE_PGX_SUPPORT -DEXCLUDE_PNM_SUPPORT -DEXCLUDE_RAS_SUPPORT
 
-C_INCLUDES = -I/home/stacia/opencv/3rdparty/libjasper -I/home/stacia/opencv/build 
+C_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/libjasper -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build 
 

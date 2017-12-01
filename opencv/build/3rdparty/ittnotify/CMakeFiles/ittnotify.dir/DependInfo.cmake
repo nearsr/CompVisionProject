@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/stacia/opencv/3rdparty/ittnotify/src/ittnotify/ittnotify_static.c" "/home/stacia/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o"
-  "/home/stacia/opencv/3rdparty/ittnotify/src/ittnotify/jitprofiling.c" "/home/stacia/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/ittnotify/src/ittnotify/ittnotify_static.c" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/ittnotify/src/ittnotify/jitprofiling.c" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/jitprofiling.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

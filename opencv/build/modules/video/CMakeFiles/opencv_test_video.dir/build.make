@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Include any dependencies generated for this target.
 include modules/video/CMakeFiles/opencv_test_video.dir/depend.make
@@ -59,16 +59,16 @@ include modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.o: ../modules/video/test/ocl/test_optflow_tvl1flow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.o -c /home/stacia/opencv/modules/video/test/ocl/test_optflow_tvl1flow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflow_tvl1flow.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/ocl/test_optflow_tvl1flow.cpp > CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflow_tvl1flow.cpp > CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/ocl/test_optflow_tvl1flow.cpp -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflow_tvl1flow.cpp -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cpp.o.requires:
 
@@ -83,16 +83,16 @@ modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_tvl1flow.cp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.o: ../modules/video/test/ocl/test_optflow_farneback.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.o -c /home/stacia/opencv/modules/video/test/ocl/test_optflow_farneback.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflow_farneback.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/ocl/test_optflow_farneback.cpp > CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflow_farneback.cpp > CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/ocl/test_optflow_farneback.cpp -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflow_farneback.cpp -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.cpp.o.requires:
 
@@ -107,16 +107,16 @@ modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflow_farneback.c
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.o: ../modules/video/test/ocl/test_bgfg_mog2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.o -c /home/stacia/opencv/modules/video/test/ocl/test_bgfg_mog2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_bgfg_mog2.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/ocl/test_bgfg_mog2.cpp > CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_bgfg_mog2.cpp > CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/ocl/test_bgfg_mog2.cpp -o CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_bgfg_mog2.cpp -o CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.o.requires:
 
@@ -131,16 +131,16 @@ modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_bgfg_mog2.cpp.o.pro
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.o: ../modules/video/test/ocl/test_optflowpyrlk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.o -c /home/stacia/opencv/modules/video/test/ocl/test_optflowpyrlk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflowpyrlk.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/ocl/test_optflowpyrlk.cpp > CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflowpyrlk.cpp > CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/ocl/test_optflowpyrlk.cpp -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/ocl/test_optflowpyrlk.cpp -o CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.o.requires:
 
@@ -155,16 +155,16 @@ modules/video/CMakeFiles/opencv_test_video.dir/test/ocl/test_optflowpyrlk.cpp.o.
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.o: ../modules/video/test/test_accum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.o -c /home/stacia/opencv/modules/video/test/test_accum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_accum.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/test_accum.cpp > CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_accum.cpp > CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/test_accum.cpp -o CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_accum.cpp -o CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.o.requires:
 
@@ -179,16 +179,16 @@ modules/video/CMakeFiles/opencv_test_video.dir/test/test_accum.cpp.o.provides.bu
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.o: ../modules/video/test/test_kalman.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.o -c /home/stacia/opencv/modules/video/test/test_kalman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_kalman.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/test_kalman.cpp > CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_kalman.cpp > CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/test_kalman.cpp -o CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_kalman.cpp -o CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.o.requires:
 
@@ -203,16 +203,16 @@ modules/video/CMakeFiles/opencv_test_video.dir/test/test_kalman.cpp.o.provides.b
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.o: ../modules/video/test/test_camshift.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.o -c /home/stacia/opencv/modules/video/test/test_camshift.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_camshift.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/test_camshift.cpp > CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_camshift.cpp > CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/test_camshift.cpp -o CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_camshift.cpp -o CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.o.requires:
 
@@ -227,16 +227,16 @@ modules/video/CMakeFiles/opencv_test_video.dir/test/test_camshift.cpp.o.provides
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.o: ../modules/video/test/test_tvl1optflow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.o -c /home/stacia/opencv/modules/video/test/test_tvl1optflow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_tvl1optflow.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/test_tvl1optflow.cpp > CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_tvl1optflow.cpp > CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/test_tvl1optflow.cpp -o CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_tvl1optflow.cpp -o CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.o.requires:
 
@@ -251,16 +251,16 @@ modules/video/CMakeFiles/opencv_test_video.dir/test/test_tvl1optflow.cpp.o.provi
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_main.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_main.cpp.o: ../modules/video/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_main.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_main.cpp.o -c /home/stacia/opencv/modules/video/test/test_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_main.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_main.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_main.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/test_main.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/test_main.cpp > CMakeFiles/opencv_test_video.dir/test/test_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_main.cpp > CMakeFiles/opencv_test_video.dir/test/test_main.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/test_main.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/test_main.cpp -o CMakeFiles/opencv_test_video.dir/test/test_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_main.cpp -o CMakeFiles/opencv_test_video.dir/test/test_main.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_main.cpp.o.requires:
 
@@ -275,16 +275,16 @@ modules/video/CMakeFiles/opencv_test_video.dir/test/test_main.cpp.o.provides.bui
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.o: ../modules/video/test/test_estimaterigid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.o -c /home/stacia/opencv/modules/video/test/test_estimaterigid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_estimaterigid.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/test_estimaterigid.cpp > CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_estimaterigid.cpp > CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/test_estimaterigid.cpp -o CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_estimaterigid.cpp -o CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.o.requires:
 
@@ -299,16 +299,16 @@ modules/video/CMakeFiles/opencv_test_video.dir/test/test_estimaterigid.cpp.o.pro
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.o: ../modules/video/test/test_optflowpyrlk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.o -c /home/stacia/opencv/modules/video/test/test_optflowpyrlk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_optflowpyrlk.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/test_optflowpyrlk.cpp > CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_optflowpyrlk.cpp > CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/test_optflowpyrlk.cpp -o CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_optflowpyrlk.cpp -o CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.o.requires:
 
@@ -323,16 +323,16 @@ modules/video/CMakeFiles/opencv_test_video.dir/test/test_optflowpyrlk.cpp.o.prov
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.o: modules/video/CMakeFiles/opencv_test_video.dir/flags.make
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.o: ../modules/video/test/test_ecc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.o"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.o -c /home/stacia/opencv/modules/video/test/test_ecc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/video/CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -o CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_ecc.cpp
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.i"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/opencv/modules/video/test/test_ecc.cpp > CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_ecc.cpp > CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.i
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.s"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/opencv/modules/video/test/test_ecc.cpp -o CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/test_precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/test/test_ecc.cpp -o CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.s
 
 modules/video/CMakeFiles/opencv_test_video.dir/test/test_ecc.cpp.o.requires:
 
@@ -406,8 +406,8 @@ bin/opencv_test_video: 3rdparty/lib/libittnotify.a
 bin/opencv_test_video: 3rdparty/lib/libippiw.a
 bin/opencv_test_video: 3rdparty/ippicv/ippicv_lnx/lib/intel64/libippicv.a
 bin/opencv_test_video: modules/video/CMakeFiles/opencv_test_video.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ../../bin/opencv_test_video"
-	cd /home/stacia/opencv/build/modules/video && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_test_video.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ../../bin/opencv_test_video"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_test_video.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modules/video/CMakeFiles/opencv_test_video.dir/build: bin/opencv_test_video
@@ -430,10 +430,10 @@ modules/video/CMakeFiles/opencv_test_video.dir/requires: modules/video/CMakeFile
 .PHONY : modules/video/CMakeFiles/opencv_test_video.dir/requires
 
 modules/video/CMakeFiles/opencv_test_video.dir/clean:
-	cd /home/stacia/opencv/build/modules/video && $(CMAKE_COMMAND) -P CMakeFiles/opencv_test_video.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && $(CMAKE_COMMAND) -P CMakeFiles/opencv_test_video.dir/cmake_clean.cmake
 .PHONY : modules/video/CMakeFiles/opencv_test_video.dir/clean
 
 modules/video/CMakeFiles/opencv_test_video.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/video /home/stacia/opencv/build /home/stacia/opencv/build/modules/video /home/stacia/opencv/build/modules/video/CMakeFiles/opencv_test_video.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/CMakeFiles/opencv_test_video.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/video/CMakeFiles/opencv_test_video.dir/depend
 

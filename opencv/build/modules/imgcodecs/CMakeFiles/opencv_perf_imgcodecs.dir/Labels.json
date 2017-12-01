@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/stacia/opencv/modules/imgcodecs/perf/perf_main.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/perf/perf_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgcodecs/perf/perf_precomp.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/perf/perf_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

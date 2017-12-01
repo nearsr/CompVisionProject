@@ -1,29 +1,29 @@
 Compilation failed:
-    source file: '/home/stacia/opencv/cmake/checks/cxx11.cpp'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/cmake/checks/cxx11.cpp'
     check option: ''
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_412f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_412f5.dir/build.make CMakeFiles/cmTC_412f5.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_412f5.dir/cxx11.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_412f5.dir/cxx11.cpp.o -c /home/stacia/opencv/cmake/checks/cxx11.cpp
-/home/stacia/opencv/cmake/checks/cxx11.cpp:4:2: error: #error "C++11 is not supported"
+Run Build Command:"/usr/bin/make" "cmTC_2f732/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f732.dir/build.make CMakeFiles/cmTC_2f732.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f732.dir/cxx11.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_2f732.dir/cxx11.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/cmake/checks/cxx11.cpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/cmake/checks/cxx11.cpp:4:2: error: #error "C++11 is not supported"
  #error "C++11 is not supported"
   ^
-/home/stacia/opencv/cmake/checks/cxx11.cpp: In function ‘int main()’:
-/home/stacia/opencv/cmake/checks/cxx11.cpp:11:10: error: ‘res’ does not name a type
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/cmake/checks/cxx11.cpp: In function ‘int main()’:
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/cmake/checks/cxx11.cpp:11:10: error: ‘res’ does not name a type
      auto res = test();
           ^
-/home/stacia/opencv/cmake/checks/cxx11.cpp:12:12: error: ‘res’ was not declared in this scope
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/cmake/checks/cxx11.cpp:12:12: error: ‘res’ was not declared in this scope
      return res;
             ^
-CMakeFiles/cmTC_412f5.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_412f5.dir/cxx11.cpp.o' failed
-make[1]: *** [CMakeFiles/cmTC_412f5.dir/cxx11.cpp.o] Error 1
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_412f5/fast' failed
-make: *** [cmTC_412f5/fast] Error 2
+CMakeFiles/cmTC_2f732.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2f732.dir/cxx11.cpp.o' failed
+make[1]: *** [CMakeFiles/cmTC_2f732.dir/cxx11.cpp.o] Error 1
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2f732/fast' failed
+make: *** [cmTC_2f732/fast] Error 2
 
 ===== END =====
 
@@ -31,24 +31,24 @@ Build output check failed:
     Regex: 'command line option .* is valid for .* but not for C\+\+'
     Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f7095/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f7095.dir/build.make CMakeFiles/cmTC_f7095.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f7095.dir/src.cxx.o
-/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_f7095.dir/src.cxx.o -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command:"/usr/bin/make" "cmTC_0e9bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e9bc.dir/build.make CMakeFiles/cmTC_0e9bc.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e9bc.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTC_0e9bc.dir/src.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
-Linking CXX executable cmTC_f7095
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7095.dir/link.txt --verbose=1
-/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_f7095.dir/src.cxx.o  -o cmTC_f7095 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_0e9bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e9bc.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_0e9bc.dir/src.cxx.o  -o cmTC_0e9bc -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -56,24 +56,24 @@ Build output check failed:
     Regex: 'command line option .* is valid for .* but not for C\+\+'
     Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d9a83/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d9a83.dir/build.make CMakeFiles/cmTC_d9a83.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d9a83.dir/src.cxx.o
-/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_d9a83.dir/src.cxx.o -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command:"/usr/bin/make" "cmTC_87ad7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87ad7.dir/build.make CMakeFiles/cmTC_87ad7.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_87ad7.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTC_87ad7.dir/src.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
-Linking CXX executable cmTC_d9a83
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9a83.dir/link.txt --verbose=1
-/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_d9a83.dir/src.cxx.o  -o cmTC_d9a83 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_87ad7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87ad7.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_87ad7.dir/src.cxx.o  -o cmTC_87ad7 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -81,24 +81,24 @@ Build output check failed:
     Regex: 'command line option .* is valid for .* but not for C'
     Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d9bce/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d9bce.dir/build.make CMakeFiles/cmTC_d9bce.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d9bce.dir/src.c.o
-/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_d9bce.dir/src.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command:"/usr/bin/make" "cmTC_8e252/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e252.dir/build.make CMakeFiles/cmTC_8e252.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e252.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTC_8e252.dir/src.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
-Linking C executable cmTC_d9bce
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9bce.dir/link.txt --verbose=1
-/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_d9bce.dir/src.c.o  -o cmTC_d9bce -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_8e252
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e252.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_8e252.dir/src.c.o  -o cmTC_8e252 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -106,24 +106,24 @@ Build output check failed:
     Regex: 'command line option .* is valid for .* but not for C'
     Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-delete-non-virtual-dtor'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6d6e0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6d6e0.dir/build.make CMakeFiles/cmTC_6d6e0.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6d6e0.dir/src.c.o
-/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_6d6e0.dir/src.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command:"/usr/bin/make" "cmTC_aac29/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aac29.dir/build.make CMakeFiles/cmTC_aac29.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aac29.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_aac29.dir/src.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
-Linking C executable cmTC_6d6e0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d6e0.dir/link.txt --verbose=1
-/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_6d6e0.dir/src.c.o  -o cmTC_6d6e0 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_aac29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aac29.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_aac29.dir/src.c.o  -o cmTC_aac29 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -131,24 +131,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2feb8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2feb8.dir/build.make CMakeFiles/cmTC_2feb8.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2feb8.dir/src.cxx.o
-/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_2feb8.dir/src.cxx.o -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+Run Build Command:"/usr/bin/make" "cmTC_f02b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f02b7.dir/build.make CMakeFiles/cmTC_f02b7.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f02b7.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_f02b7.dir/src.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
 cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
-Linking CXX executable cmTC_2feb8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2feb8.dir/link.txt --verbose=1
-/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_2feb8.dir/src.cxx.o  -o cmTC_2feb8 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_f02b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f02b7.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_f02b7.dir/src.cxx.o  -o cmTC_f02b7 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -156,24 +156,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-unnamed-type-template-args'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31fad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_31fad.dir/build.make CMakeFiles/cmTC_31fad.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_31fad.dir/src.c.o
-/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_31fad.dir/src.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+Run Build Command:"/usr/bin/make" "cmTC_66dc2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66dc2.dir/build.make CMakeFiles/cmTC_66dc2.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66dc2.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_66dc2.dir/src.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
 cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
-Linking C executable cmTC_31fad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31fad.dir/link.txt --verbose=1
-/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_31fad.dir/src.c.o  -o cmTC_31fad -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_66dc2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66dc2.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_66dc2.dir/src.c.o  -o cmTC_66dc2 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -181,24 +181,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment  -Wno-implicit-fallthrough'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_12935/fast"
-/usr/bin/make -f CMakeFiles/cmTC_12935.dir/build.make CMakeFiles/cmTC_12935.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_12935.dir/src.cxx.o
-/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -o CMakeFiles/cmTC_12935.dir/src.cxx.o -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+Run Build Command:"/usr/bin/make" "cmTC_f0628/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0628.dir/build.make CMakeFiles/cmTC_f0628.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0628.dir/src.cxx.o
+/usr/bin/c++     -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -o CMakeFiles/cmTC_f0628.dir/src.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
 cc1plus: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’
-Linking CXX executable cmTC_12935
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12935.dir/link.txt --verbose=1
-/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_12935.dir/src.cxx.o  -o cmTC_12935 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_f0628
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0628.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTC_f0628.dir/src.cxx.o  -o cmTC_f0628 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -206,24 +206,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment  -Wno-implicit-fallthrough'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a1212/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a1212.dir/build.make CMakeFiles/cmTC_a1212.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a1212.dir/src.c.o
-/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -o CMakeFiles/cmTC_a1212.dir/src.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+Run Build Command:"/usr/bin/make" "cmTC_8688d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8688d.dir/build.make CMakeFiles/cmTC_8688d.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8688d.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -o CMakeFiles/cmTC_8688d.dir/src.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
 cc1: warning: unrecognized command line option ‘-Wno-implicit-fallthrough’
-Linking C executable cmTC_a1212
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1212.dir/link.txt --verbose=1
-/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_a1212.dir/src.c.o  -o cmTC_a1212 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_8688d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8688d.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_8688d.dir/src.c.o  -o cmTC_8688d -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -231,39 +231,39 @@ Build output check failed:
     Regex: 'command line option .* is valid for .* but not for C'
     Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c'
     check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a395e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a395e.dir/build.make CMakeFiles/cmTC_a395e.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a395e.dir/src.c.o
-/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_a395e.dir/src.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command:"/usr/bin/make" "cmTC_b944f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b944f.dir/build.make CMakeFiles/cmTC_b944f.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b944f.dir/src.c.o
+/usr/bin/cc    -O3 -DNDEBUG   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTC_b944f.dir/src.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c
 cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
-Linking C executable cmTC_a395e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a395e.dir/link.txt --verbose=1
-/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_a395e.dir/src.c.o  -o cmTC_a395e -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_b944f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b944f.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTC_b944f.dir/src.c.o  -o cmTC_b944f -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
 Determining if the system is big endian passed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7834e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7834e.dir/build.make CMakeFiles/cmTC_7834e.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7834e.dir/TestEndianess.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_7834e.dir/TestEndianess.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTC_7834e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7834e.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_7834e.dir/TestEndianess.c.o  -o cmTC_7834e -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7bbe6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7bbe6.dir/build.make CMakeFiles/cmTC_7bbe6.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bbe6.dir/TestEndianess.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_7bbe6.dir/TestEndianess.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_7bbe6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bbe6.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG     CMakeFiles/cmTC_7bbe6.dir/TestEndianess.c.o  -o cmTC_7bbe6 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 TestEndianess.c:
 /* A 16 bit integer is required. */
@@ -292,26 +292,26 @@ int main(int argc, char *argv[])
 
 
 Determining size of off64_t failed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_94723/fast"
-/usr/bin/make -f CMakeFiles/cmTC_94723.dir/build.make CMakeFiles/cmTC_94723.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_94723.dir/OFF64_T.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_94723.dir/OFF64_T.c.o   -c /home/stacia/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c
-/home/stacia/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: error: ‘off64_t’ undeclared here (not in a function)
+Run Build Command:"/usr/bin/make" "cmTC_4585b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4585b.dir/build.make CMakeFiles/cmTC_4585b.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4585b.dir/OFF64_T.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_4585b.dir/OFF64_T.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:17:22: error: ‘off64_t’ undeclared here (not in a function)
  #define SIZE (sizeof(off64_t))
                       ^
-/home/stacia/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:19:12: note: in expansion of macro ‘SIZE’
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:19:12: note: in expansion of macro ‘SIZE’
    ('0' + ((SIZE / 10000)%10)),
             ^
-CMakeFiles/cmTC_94723.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_94723.dir/OFF64_T.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_94723.dir/OFF64_T.c.o] Error 1
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_94723/fast' failed
-make: *** [cmTC_94723/fast] Error 2
+CMakeFiles/cmTC_4585b.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_4585b.dir/OFF64_T.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4585b.dir/OFF64_T.c.o] Error 1
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4585b/fast' failed
+make: *** [cmTC_4585b/fast] Error 2
 
-/home/stacia/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
 #include <sys/types.h>
 #include <stdint.h>
 #include <stddef.h>
@@ -358,24 +358,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c'
     check option: ' -Wno-shorten-64-to-32'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_75705/fast"
-/usr/bin/make -f CMakeFiles/cmTC_75705.dir/build.make CMakeFiles/cmTC_75705.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_75705.dir/src.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fPIC  -O3 -DNDEBUG   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_75705.dir/src.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+Run Build Command:"/usr/bin/make" "cmTC_4a887/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a887.dir/build.make CMakeFiles/cmTC_4a887.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a887.dir/src.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fPIC  -O3 -DNDEBUG   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_4a887.dir/src.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
 cc1: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
-Linking C executable cmTC_75705
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75705.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fPIC  -O3 -DNDEBUG     CMakeFiles/cmTC_75705.dir/src.c.o  -o cmTC_75705 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_4a887
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a887.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fPIC  -O3 -DNDEBUG     CMakeFiles/cmTC_4a887.dir/src.c.o  -o cmTC_4a887 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -383,90 +383,90 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1: warning: unrecognized command line option ‘-Wno-shift-negative-value’'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c'
     check option: ' -Wno-shift-negative-value'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e81d1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e81d1.dir/build.make CMakeFiles/cmTC_e81d1.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e81d1.dir/src.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG   -Wno-shift-negative-value -o CMakeFiles/cmTC_e81d1.dir/src.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+Run Build Command:"/usr/bin/make" "cmTC_4b381/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b381.dir/build.make CMakeFiles/cmTC_4b381.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b381.dir/src.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG   -Wno-shift-negative-value -o CMakeFiles/cmTC_4b381.dir/src.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
 cc1: warning: unrecognized command line option ‘-Wno-shift-negative-value’
-Linking C executable cmTC_e81d1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e81d1.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG     CMakeFiles/cmTC_e81d1.dir/src.c.o  -o cmTC_e81d1 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_4b381
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b381.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security    -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations  -O3 -DNDEBUG     CMakeFiles/cmTC_4b381.dir/src.c.o  -o cmTC_4b381 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
 Determining if the include file io.h exists failed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a5a0e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a5a0e.dir/build.make CMakeFiles/cmTC_a5a0e.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a5a0e.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_a5a0e.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: fatal error: io.h: No such file or directory
+Run Build Command:"/usr/bin/make" "cmTC_b130d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b130d.dir/build.make CMakeFiles/cmTC_b130d.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b130d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_b130d.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: fatal error: io.h: No such file or directory
 compilation terminated.
-CMakeFiles/cmTC_a5a0e.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a5a0e.dir/CheckIncludeFile.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_a5a0e.dir/CheckIncludeFile.c.o] Error 1
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_a5a0e/fast' failed
-make: *** [cmTC_a5a0e/fast] Error 2
+CMakeFiles/cmTC_b130d.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_b130d.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_b130d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b130d/fast' failed
+make: *** [cmTC_b130d/fast] Error 2
 
 
 Determining if the function jbg_newlen exists failed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b9c8d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b9c8d.dir/build.make CMakeFiles/cmTC_b9c8d.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b9c8d.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG   -o CMakeFiles/cmTC_b9c8d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Run Build Command:"/usr/bin/make" "cmTC_78dda/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78dda.dir/build.make CMakeFiles/cmTC_78dda.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78dda.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG   -o CMakeFiles/cmTC_78dda.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
 /usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
  char CHECK_FUNCTION_EXISTS();
  ^
-Linking C executable cmTC_b9c8d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9c8d.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG     CMakeFiles/cmTC_b9c8d.dir/CheckFunctionExists.c.o  -o cmTC_b9c8d -rdynamic 
-CMakeFiles/cmTC_b9c8d.dir/CheckFunctionExists.c.o: In function `main':
+Linking C executable cmTC_78dda
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78dda.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG     CMakeFiles/cmTC_78dda.dir/CheckFunctionExists.c.o  -o cmTC_78dda -rdynamic 
+CMakeFiles/cmTC_78dda.dir/CheckFunctionExists.c.o: In function `main':
 CheckFunctionExists.c:(.text.startup.main+0xe): undefined reference to `jbg_newlen'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b9c8d.dir/build.make:97: recipe for target 'cmTC_b9c8d' failed
-make[1]: *** [cmTC_b9c8d] Error 1
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b9c8d/fast' failed
-make: *** [cmTC_b9c8d/fast] Error 2
+CMakeFiles/cmTC_78dda.dir/build.make:97: recipe for target 'cmTC_78dda' failed
+make[1]: *** [cmTC_78dda] Error 1
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_78dda/fast' failed
+make: *** [cmTC_78dda/fast] Error 2
 
 
 Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1: warning: unrecognized command line option ‘-Wno-misleading-indentation’'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c'
     check option: ' -Wno-misleading-indentation'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8f15c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8f15c.dir/build.make CMakeFiles/cmTC_8f15c.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8f15c.dir/src.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG   -Wno-misleading-indentation -o CMakeFiles/cmTC_8f15c.dir/src.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+Run Build Command:"/usr/bin/make" "cmTC_81420/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81420.dir/build.make CMakeFiles/cmTC_81420.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81420.dir/src.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG   -Wno-misleading-indentation -o CMakeFiles/cmTC_81420.dir/src.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
 cc1: warning: unrecognized command line option ‘-Wno-misleading-indentation’
-Linking C executable cmTC_8f15c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f15c.dir/link.txt --verbose=1
-/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG     CMakeFiles/cmTC_8f15c.dir/src.c.o  -o cmTC_8f15c -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking C executable cmTC_81420
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81420.dir/link.txt --verbose=1
+/usr/bin/cc   -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG     CMakeFiles/cmTC_81420.dir/src.c.o  -o cmTC_81420 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -474,83 +474,83 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-misleading-indentation’'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -Wno-misleading-indentation'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3a788/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3a788.dir/build.make CMakeFiles/cmTC_3a788.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3a788.dir/src.cxx.o
-/usr/bin/c++     -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG   -Wno-misleading-indentation -o CMakeFiles/cmTC_3a788.dir/src.cxx.o -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+Run Build Command:"/usr/bin/make" "cmTC_10204/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10204.dir/build.make CMakeFiles/cmTC_10204.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_10204.dir/src.cxx.o
+/usr/bin/c++     -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG   -Wno-misleading-indentation -o CMakeFiles/cmTC_10204.dir/src.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
 cc1plus: warning: unrecognized command line option ‘-Wno-misleading-indentation’
-Linking CXX executable cmTC_3a788
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a788.dir/link.txt --verbose=1
-/usr/bin/c++    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG     CMakeFiles/cmTC_3a788.dir/src.cxx.o  -o cmTC_3a788 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_10204
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10204.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG     CMakeFiles/cmTC_10204.dir/src.cxx.o  -o cmTC_10204 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
 Determining if the include file linux/videodev.h exists failed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a8376/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a8376.dir/build.make CMakeFiles/cmTC_a8376.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a8376.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_a8376.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
+Run Build Command:"/usr/bin/make" "cmTC_7b127/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7b127.dir/build.make CMakeFiles/cmTC_7b127.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b127.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_7b127.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: No such file or directory
 compilation terminated.
-CMakeFiles/cmTC_a8376.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a8376.dir/CheckIncludeFile.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_a8376.dir/CheckIncludeFile.c.o] Error 1
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_a8376/fast' failed
-make: *** [cmTC_a8376/fast] Error 2
+CMakeFiles/cmTC_7b127.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_7b127.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_7b127.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7b127/fast' failed
+make: *** [cmTC_7b127/fast] Error 2
 
 
 Determining if the include file sys/videoio.h exists failed with the following output:
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_14568/fast"
-/usr/bin/make -f CMakeFiles/cmTC_14568.dir/build.make CMakeFiles/cmTC_14568.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_14568.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_14568.dir/CheckIncludeFile.c.o   -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
+Run Build Command:"/usr/bin/make" "cmTC_2d818/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d818.dir/build.make CMakeFiles/cmTC_2d818.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d818.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG   -o CMakeFiles/cmTC_2d818.dir/CheckIncludeFile.c.o   -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: No such file or directory
 compilation terminated.
-CMakeFiles/cmTC_14568.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_14568.dir/CheckIncludeFile.c.o' failed
-make[1]: *** [CMakeFiles/cmTC_14568.dir/CheckIncludeFile.c.o] Error 1
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_14568/fast' failed
-make: *** [cmTC_14568/fast] Error 2
+CMakeFiles/cmTC_2d818.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_2d818.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2d818.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2d818/fast' failed
+make: *** [cmTC_2d818/fast] Error 2
 
 
 Build output check failed:
     Regex: 'command line option .* is valid for .* but not for C\+\+'
     Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -Wno-missing-prototypes'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d169/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5d169.dir/build.make CMakeFiles/cmTC_5d169.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5d169.dir/src.cxx.o
-/usr/bin/c++     -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG   -Wno-missing-prototypes -o CMakeFiles/cmTC_5d169.dir/src.cxx.o -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command:"/usr/bin/make" "cmTC_df926/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df926.dir/build.make CMakeFiles/cmTC_df926.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df926.dir/src.cxx.o
+/usr/bin/c++     -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG   -Wno-missing-prototypes -o CMakeFiles/cmTC_df926.dir/src.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx
 cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
-Linking CXX executable cmTC_5d169
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d169.dir/link.txt --verbose=1
-/usr/bin/c++    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG     CMakeFiles/cmTC_5d169.dir/src.cxx.o  -o cmTC_5d169 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_df926
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df926.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG     CMakeFiles/cmTC_df926.dir/src.cxx.o  -o cmTC_df926 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -558,24 +558,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -Wno-tautological-undefined-compare'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3e0aa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3e0aa.dir/build.make CMakeFiles/cmTC_3e0aa.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3e0aa.dir/src.cxx.o
-/usr/bin/c++     -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG   -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_3e0aa.dir/src.cxx.o -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+Run Build Command:"/usr/bin/make" "cmTC_b4075/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4075.dir/build.make CMakeFiles/cmTC_b4075.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b4075.dir/src.cxx.o
+/usr/bin/c++     -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG   -Wno-tautological-undefined-compare -o CMakeFiles/cmTC_b4075.dir/src.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
 cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
-Linking CXX executable cmTC_3e0aa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e0aa.dir/link.txt --verbose=1
-/usr/bin/c++    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG     CMakeFiles/cmTC_3e0aa.dir/src.cxx.o  -o cmTC_3e0aa -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_b4075
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4075.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG     CMakeFiles/cmTC_b4075.dir/src.cxx.o  -o cmTC_b4075 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -583,24 +583,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -Wno-unused-const-variable'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_adb1c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_adb1c.dir/build.make CMakeFiles/cmTC_adb1c.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_adb1c.dir/src.cxx.o
-/usr/bin/c++     -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG   -Wno-unused-const-variable -o CMakeFiles/cmTC_adb1c.dir/src.cxx.o -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+Run Build Command:"/usr/bin/make" "cmTC_5c753/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c753.dir/build.make CMakeFiles/cmTC_5c753.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5c753.dir/src.cxx.o
+/usr/bin/c++     -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG   -Wno-unused-const-variable -o CMakeFiles/cmTC_5c753.dir/src.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
 cc1plus: warning: unrecognized command line option ‘-Wno-unused-const-variable’
-Linking CXX executable cmTC_adb1c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adb1c.dir/link.txt --verbose=1
-/usr/bin/c++    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG     CMakeFiles/cmTC_adb1c.dir/src.cxx.o  -o cmTC_adb1c -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_5c753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c753.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG     CMakeFiles/cmTC_5c753.dir/src.cxx.o  -o cmTC_5c753 -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 
@@ -608,24 +608,24 @@ Build output check failed:
     Regex: 'unrecognized .*option'
     Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
 Compilation failed:
-    source file: '/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
+    source file: '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx'
     check option: ' -Wno-shorten-64-to-32'
 ===== BUILD LOG =====
-Change Dir: /home/stacia/opencv/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_33019/fast"
-/usr/bin/make -f CMakeFiles/cmTC_33019.dir/build.make CMakeFiles/cmTC_33019.dir/build
-make[1]: Entering directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_33019.dir/src.cxx.o
-/usr/bin/c++     -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_33019.dir/src.cxx.o -c /home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx
-/home/stacia/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+Run Build Command:"/usr/bin/make" "cmTC_6c65c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c65c.dir/build.make CMakeFiles/cmTC_6c65c.dir/build
+make[1]: Entering directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c65c.dir/src.cxx.o
+/usr/bin/c++     -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG   -Wno-shorten-64-to-32 -o CMakeFiles/cmTC_6c65c.dir/src.cxx.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
  #pragma
  ^
 cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
-Linking CXX executable cmTC_33019
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33019.dir/link.txt --verbose=1
-/usr/bin/c++    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG     CMakeFiles/cmTC_33019.dir/src.cxx.o  -o cmTC_33019 -rdynamic 
-make[1]: Leaving directory '/home/stacia/opencv/build/CMakeFiles/CMakeTmp'
+Linking CXX executable cmTC_6c65c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c65c.dir/link.txt --verbose=1
+/usr/bin/c++    -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG     CMakeFiles/cmTC_6c65c.dir/src.cxx.o  -o cmTC_6c65c -rdynamic 
+make[1]: Leaving directory '/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles/CMakeTmp'
 
 ===== END =====
 

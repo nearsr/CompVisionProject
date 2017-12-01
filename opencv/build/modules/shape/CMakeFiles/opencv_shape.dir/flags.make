@@ -6,17 +6,17 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/shape/include -I/home/stacia/opencv/modules/shape/src -I/home/stacia/opencv/build/modules/shape -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/video/include 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/src -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/shape -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/include 
 
-# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/aff_trans.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/shape/precomp.hpp"
+# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/aff_trans.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/shape/precomp.hpp"
 
-# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/haus_dis.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/shape/precomp.hpp"
+# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/haus_dis.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/shape/precomp.hpp"
 
-# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/emdL1.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/shape/precomp.hpp"
+# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/emdL1.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/shape/precomp.hpp"
 
-# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/sc_dis.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/shape/precomp.hpp"
+# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/sc_dis.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/shape/precomp.hpp"
 
-# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/tps_trans.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/shape/precomp.hpp"
+# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/tps_trans.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/shape/precomp.hpp"
 
-# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/hist_cost.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/shape/precomp.hpp"
+# Custom flags: modules/shape/CMakeFiles/opencv_shape.dir/src/hist_cost.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/shape/precomp.hpp"
 

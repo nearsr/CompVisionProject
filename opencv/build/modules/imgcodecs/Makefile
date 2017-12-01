@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/opencv/build/CPackSourceConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles /home/stacia/opencv/build/modules/imgcodecs/CMakeFiles/progress.marks
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/CMakeFiles/progress.marks
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/clean
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 modules/imgcodecs/CMakeFiles/pch_Generate_opencv_imgcodecs.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/pch_Generate_opencv_imgcodecs.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/pch_Generate_opencv_imgcodecs.dir/rule
 .PHONY : modules/imgcodecs/CMakeFiles/pch_Generate_opencv_imgcodecs.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ pch_Generate_opencv_imgcodecs: modules/imgcodecs/CMakeFiles/pch_Generate_opencv_
 
 # fast build rule for target.
 pch_Generate_opencv_imgcodecs/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/pch_Generate_opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/pch_Generate_opencv_imgcodecs.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/pch_Generate_opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/pch_Generate_opencv_imgcodecs.dir/build
 .PHONY : pch_Generate_opencv_imgcodecs/fast
 
 # Convenience name for target.
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/rule
 .PHONY : modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ opencv_test_imgcodecs_pch_dephelp: modules/imgcodecs/CMakeFiles/opencv_test_imgc
 
 # fast build rule for target.
 opencv_test_imgcodecs_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/build
 .PHONY : opencv_test_imgcodecs_pch_dephelp/fast
 
 # Convenience name for target.
 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/rule
 .PHONY : modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/rule
 
 # Convenience name for target.
@@ -229,12 +229,12 @@ opencv_test_imgcodecs: modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/ru
 
 # fast build rule for target.
 opencv_test_imgcodecs/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build
 .PHONY : opencv_test_imgcodecs/fast
 
 # Convenience name for target.
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/rule
 .PHONY : modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ opencv_imgcodecs_pch_dephelp: modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_
 
 # fast build rule for target.
 opencv_imgcodecs_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/build
 .PHONY : opencv_imgcodecs_pch_dephelp/fast
 
 # Convenience name for target.
 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/rule
 .PHONY : modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/rule
 
 # Convenience name for target.
@@ -259,12 +259,12 @@ opencv_imgcodecs: modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/rule
 
 # fast build rule for target.
 opencv_imgcodecs/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build
 .PHONY : opencv_imgcodecs/fast
 
 # Convenience name for target.
 modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/rule
 .PHONY : modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/rule
 
 # Convenience name for target.
@@ -274,12 +274,12 @@ opencv_perf_imgcodecs: modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/ru
 
 # fast build rule for target.
 opencv_perf_imgcodecs/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/build
 .PHONY : opencv_perf_imgcodecs/fast
 
 # Convenience name for target.
 modules/imgcodecs/CMakeFiles/pch_Generate_opencv_test_imgcodecs.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/pch_Generate_opencv_test_imgcodecs.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/pch_Generate_opencv_test_imgcodecs.dir/rule
 .PHONY : modules/imgcodecs/CMakeFiles/pch_Generate_opencv_test_imgcodecs.dir/rule
 
 # Convenience name for target.
@@ -289,12 +289,12 @@ pch_Generate_opencv_test_imgcodecs: modules/imgcodecs/CMakeFiles/pch_Generate_op
 
 # fast build rule for target.
 pch_Generate_opencv_test_imgcodecs/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/pch_Generate_opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/pch_Generate_opencv_test_imgcodecs.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/pch_Generate_opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/pch_Generate_opencv_test_imgcodecs.dir/build
 .PHONY : pch_Generate_opencv_test_imgcodecs/fast
 
 # Convenience name for target.
 modules/imgcodecs/CMakeFiles/pch_Generate_opencv_perf_imgcodecs.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/pch_Generate_opencv_perf_imgcodecs.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/pch_Generate_opencv_perf_imgcodecs.dir/rule
 .PHONY : modules/imgcodecs/CMakeFiles/pch_Generate_opencv_perf_imgcodecs.dir/rule
 
 # Convenience name for target.
@@ -304,12 +304,12 @@ pch_Generate_opencv_perf_imgcodecs: modules/imgcodecs/CMakeFiles/pch_Generate_op
 
 # fast build rule for target.
 pch_Generate_opencv_perf_imgcodecs/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/pch_Generate_opencv_perf_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/pch_Generate_opencv_perf_imgcodecs.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/pch_Generate_opencv_perf_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/pch_Generate_opencv_perf_imgcodecs.dir/build
 .PHONY : pch_Generate_opencv_perf_imgcodecs/fast
 
 # Convenience name for target.
 modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/rule
 .PHONY : modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -319,7 +319,7 @@ opencv_perf_imgcodecs_pch_dephelp: modules/imgcodecs/CMakeFiles/opencv_perf_imgc
 
 # fast build rule for target.
 opencv_perf_imgcodecs_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/build
 .PHONY : opencv_perf_imgcodecs_pch_dephelp/fast
 
 opencv_imgcodecs_pch_dephelp.o: opencv_imgcodecs_pch_dephelp.cxx.o
@@ -328,7 +328,7 @@ opencv_imgcodecs_pch_dephelp.o: opencv_imgcodecs_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_imgcodecs_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/opencv_imgcodecs_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/opencv_imgcodecs_pch_dephelp.cxx.o
 .PHONY : opencv_imgcodecs_pch_dephelp.cxx.o
 
 opencv_imgcodecs_pch_dephelp.i: opencv_imgcodecs_pch_dephelp.cxx.i
@@ -337,7 +337,7 @@ opencv_imgcodecs_pch_dephelp.i: opencv_imgcodecs_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_imgcodecs_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/opencv_imgcodecs_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/opencv_imgcodecs_pch_dephelp.cxx.i
 .PHONY : opencv_imgcodecs_pch_dephelp.cxx.i
 
 opencv_imgcodecs_pch_dephelp.s: opencv_imgcodecs_pch_dephelp.cxx.s
@@ -346,7 +346,7 @@ opencv_imgcodecs_pch_dephelp.s: opencv_imgcodecs_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_imgcodecs_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/opencv_imgcodecs_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs_pch_dephelp.dir/opencv_imgcodecs_pch_dephelp.cxx.s
 .PHONY : opencv_imgcodecs_pch_dephelp.cxx.s
 
 opencv_perf_imgcodecs_pch_dephelp.o: opencv_perf_imgcodecs_pch_dephelp.cxx.o
@@ -355,7 +355,7 @@ opencv_perf_imgcodecs_pch_dephelp.o: opencv_perf_imgcodecs_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_perf_imgcodecs_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/opencv_perf_imgcodecs_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/opencv_perf_imgcodecs_pch_dephelp.cxx.o
 .PHONY : opencv_perf_imgcodecs_pch_dephelp.cxx.o
 
 opencv_perf_imgcodecs_pch_dephelp.i: opencv_perf_imgcodecs_pch_dephelp.cxx.i
@@ -364,7 +364,7 @@ opencv_perf_imgcodecs_pch_dephelp.i: opencv_perf_imgcodecs_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_perf_imgcodecs_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/opencv_perf_imgcodecs_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/opencv_perf_imgcodecs_pch_dephelp.cxx.i
 .PHONY : opencv_perf_imgcodecs_pch_dephelp.cxx.i
 
 opencv_perf_imgcodecs_pch_dephelp.s: opencv_perf_imgcodecs_pch_dephelp.cxx.s
@@ -373,7 +373,7 @@ opencv_perf_imgcodecs_pch_dephelp.s: opencv_perf_imgcodecs_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_perf_imgcodecs_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/opencv_perf_imgcodecs_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs_pch_dephelp.dir/opencv_perf_imgcodecs_pch_dephelp.cxx.s
 .PHONY : opencv_perf_imgcodecs_pch_dephelp.cxx.s
 
 opencv_test_imgcodecs_pch_dephelp.o: opencv_test_imgcodecs_pch_dephelp.cxx.o
@@ -382,7 +382,7 @@ opencv_test_imgcodecs_pch_dephelp.o: opencv_test_imgcodecs_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_test_imgcodecs_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/opencv_test_imgcodecs_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/opencv_test_imgcodecs_pch_dephelp.cxx.o
 .PHONY : opencv_test_imgcodecs_pch_dephelp.cxx.o
 
 opencv_test_imgcodecs_pch_dephelp.i: opencv_test_imgcodecs_pch_dephelp.cxx.i
@@ -391,7 +391,7 @@ opencv_test_imgcodecs_pch_dephelp.i: opencv_test_imgcodecs_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_test_imgcodecs_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/opencv_test_imgcodecs_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/opencv_test_imgcodecs_pch_dephelp.cxx.i
 .PHONY : opencv_test_imgcodecs_pch_dephelp.cxx.i
 
 opencv_test_imgcodecs_pch_dephelp.s: opencv_test_imgcodecs_pch_dephelp.cxx.s
@@ -400,7 +400,7 @@ opencv_test_imgcodecs_pch_dephelp.s: opencv_test_imgcodecs_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_test_imgcodecs_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/opencv_test_imgcodecs_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs_pch_dephelp.dir/opencv_test_imgcodecs_pch_dephelp.cxx.s
 .PHONY : opencv_test_imgcodecs_pch_dephelp.cxx.s
 
 perf/perf_main.o: perf/perf_main.cpp.o
@@ -409,7 +409,7 @@ perf/perf_main.o: perf/perf_main.cpp.o
 
 # target to build an object file
 perf/perf_main.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_main.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_main.cpp.o
 .PHONY : perf/perf_main.cpp.o
 
 perf/perf_main.i: perf/perf_main.cpp.i
@@ -418,7 +418,7 @@ perf/perf_main.i: perf/perf_main.cpp.i
 
 # target to preprocess a source file
 perf/perf_main.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_main.cpp.i
 .PHONY : perf/perf_main.cpp.i
 
 perf/perf_main.s: perf/perf_main.cpp.s
@@ -427,7 +427,7 @@ perf/perf_main.s: perf/perf_main.cpp.s
 
 # target to generate assembly for a file
 perf/perf_main.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_perf_imgcodecs.dir/perf/perf_main.cpp.s
 .PHONY : perf/perf_main.cpp.s
 
 src/bitstrm.o: src/bitstrm.cpp.o
@@ -436,7 +436,7 @@ src/bitstrm.o: src/bitstrm.cpp.o
 
 # target to build an object file
 src/bitstrm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.o
 .PHONY : src/bitstrm.cpp.o
 
 src/bitstrm.i: src/bitstrm.cpp.i
@@ -445,7 +445,7 @@ src/bitstrm.i: src/bitstrm.cpp.i
 
 # target to preprocess a source file
 src/bitstrm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.i
 .PHONY : src/bitstrm.cpp.i
 
 src/bitstrm.s: src/bitstrm.cpp.s
@@ -454,7 +454,7 @@ src/bitstrm.s: src/bitstrm.cpp.s
 
 # target to generate assembly for a file
 src/bitstrm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/bitstrm.cpp.s
 .PHONY : src/bitstrm.cpp.s
 
 src/exif.o: src/exif.cpp.o
@@ -463,7 +463,7 @@ src/exif.o: src/exif.cpp.o
 
 # target to build an object file
 src/exif.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.o
 .PHONY : src/exif.cpp.o
 
 src/exif.i: src/exif.cpp.i
@@ -472,7 +472,7 @@ src/exif.i: src/exif.cpp.i
 
 # target to preprocess a source file
 src/exif.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.i
 .PHONY : src/exif.cpp.i
 
 src/exif.s: src/exif.cpp.s
@@ -481,7 +481,7 @@ src/exif.s: src/exif.cpp.s
 
 # target to generate assembly for a file
 src/exif.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/exif.cpp.s
 .PHONY : src/exif.cpp.s
 
 src/grfmt_base.o: src/grfmt_base.cpp.o
@@ -490,7 +490,7 @@ src/grfmt_base.o: src/grfmt_base.cpp.o
 
 # target to build an object file
 src/grfmt_base.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.o
 .PHONY : src/grfmt_base.cpp.o
 
 src/grfmt_base.i: src/grfmt_base.cpp.i
@@ -499,7 +499,7 @@ src/grfmt_base.i: src/grfmt_base.cpp.i
 
 # target to preprocess a source file
 src/grfmt_base.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.i
 .PHONY : src/grfmt_base.cpp.i
 
 src/grfmt_base.s: src/grfmt_base.cpp.s
@@ -508,7 +508,7 @@ src/grfmt_base.s: src/grfmt_base.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_base.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_base.cpp.s
 .PHONY : src/grfmt_base.cpp.s
 
 src/grfmt_bmp.o: src/grfmt_bmp.cpp.o
@@ -517,7 +517,7 @@ src/grfmt_bmp.o: src/grfmt_bmp.cpp.o
 
 # target to build an object file
 src/grfmt_bmp.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.o
 .PHONY : src/grfmt_bmp.cpp.o
 
 src/grfmt_bmp.i: src/grfmt_bmp.cpp.i
@@ -526,7 +526,7 @@ src/grfmt_bmp.i: src/grfmt_bmp.cpp.i
 
 # target to preprocess a source file
 src/grfmt_bmp.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.i
 .PHONY : src/grfmt_bmp.cpp.i
 
 src/grfmt_bmp.s: src/grfmt_bmp.cpp.s
@@ -535,7 +535,7 @@ src/grfmt_bmp.s: src/grfmt_bmp.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_bmp.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_bmp.cpp.s
 .PHONY : src/grfmt_bmp.cpp.s
 
 src/grfmt_exr.o: src/grfmt_exr.cpp.o
@@ -544,7 +544,7 @@ src/grfmt_exr.o: src/grfmt_exr.cpp.o
 
 # target to build an object file
 src/grfmt_exr.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.o
 .PHONY : src/grfmt_exr.cpp.o
 
 src/grfmt_exr.i: src/grfmt_exr.cpp.i
@@ -553,7 +553,7 @@ src/grfmt_exr.i: src/grfmt_exr.cpp.i
 
 # target to preprocess a source file
 src/grfmt_exr.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.i
 .PHONY : src/grfmt_exr.cpp.i
 
 src/grfmt_exr.s: src/grfmt_exr.cpp.s
@@ -562,7 +562,7 @@ src/grfmt_exr.s: src/grfmt_exr.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_exr.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_exr.cpp.s
 .PHONY : src/grfmt_exr.cpp.s
 
 src/grfmt_gdal.o: src/grfmt_gdal.cpp.o
@@ -571,7 +571,7 @@ src/grfmt_gdal.o: src/grfmt_gdal.cpp.o
 
 # target to build an object file
 src/grfmt_gdal.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.o
 .PHONY : src/grfmt_gdal.cpp.o
 
 src/grfmt_gdal.i: src/grfmt_gdal.cpp.i
@@ -580,7 +580,7 @@ src/grfmt_gdal.i: src/grfmt_gdal.cpp.i
 
 # target to preprocess a source file
 src/grfmt_gdal.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.i
 .PHONY : src/grfmt_gdal.cpp.i
 
 src/grfmt_gdal.s: src/grfmt_gdal.cpp.s
@@ -589,7 +589,7 @@ src/grfmt_gdal.s: src/grfmt_gdal.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_gdal.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdal.cpp.s
 .PHONY : src/grfmt_gdal.cpp.s
 
 src/grfmt_gdcm.o: src/grfmt_gdcm.cpp.o
@@ -598,7 +598,7 @@ src/grfmt_gdcm.o: src/grfmt_gdcm.cpp.o
 
 # target to build an object file
 src/grfmt_gdcm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.o
 .PHONY : src/grfmt_gdcm.cpp.o
 
 src/grfmt_gdcm.i: src/grfmt_gdcm.cpp.i
@@ -607,7 +607,7 @@ src/grfmt_gdcm.i: src/grfmt_gdcm.cpp.i
 
 # target to preprocess a source file
 src/grfmt_gdcm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.i
 .PHONY : src/grfmt_gdcm.cpp.i
 
 src/grfmt_gdcm.s: src/grfmt_gdcm.cpp.s
@@ -616,7 +616,7 @@ src/grfmt_gdcm.s: src/grfmt_gdcm.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_gdcm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_gdcm.cpp.s
 .PHONY : src/grfmt_gdcm.cpp.s
 
 src/grfmt_hdr.o: src/grfmt_hdr.cpp.o
@@ -625,7 +625,7 @@ src/grfmt_hdr.o: src/grfmt_hdr.cpp.o
 
 # target to build an object file
 src/grfmt_hdr.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.o
 .PHONY : src/grfmt_hdr.cpp.o
 
 src/grfmt_hdr.i: src/grfmt_hdr.cpp.i
@@ -634,7 +634,7 @@ src/grfmt_hdr.i: src/grfmt_hdr.cpp.i
 
 # target to preprocess a source file
 src/grfmt_hdr.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.i
 .PHONY : src/grfmt_hdr.cpp.i
 
 src/grfmt_hdr.s: src/grfmt_hdr.cpp.s
@@ -643,7 +643,7 @@ src/grfmt_hdr.s: src/grfmt_hdr.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_hdr.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_hdr.cpp.s
 .PHONY : src/grfmt_hdr.cpp.s
 
 src/grfmt_jpeg.o: src/grfmt_jpeg.cpp.o
@@ -652,7 +652,7 @@ src/grfmt_jpeg.o: src/grfmt_jpeg.cpp.o
 
 # target to build an object file
 src/grfmt_jpeg.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.o
 .PHONY : src/grfmt_jpeg.cpp.o
 
 src/grfmt_jpeg.i: src/grfmt_jpeg.cpp.i
@@ -661,7 +661,7 @@ src/grfmt_jpeg.i: src/grfmt_jpeg.cpp.i
 
 # target to preprocess a source file
 src/grfmt_jpeg.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.i
 .PHONY : src/grfmt_jpeg.cpp.i
 
 src/grfmt_jpeg.s: src/grfmt_jpeg.cpp.s
@@ -670,7 +670,7 @@ src/grfmt_jpeg.s: src/grfmt_jpeg.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_jpeg.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg.cpp.s
 .PHONY : src/grfmt_jpeg.cpp.s
 
 src/grfmt_jpeg2000.o: src/grfmt_jpeg2000.cpp.o
@@ -679,7 +679,7 @@ src/grfmt_jpeg2000.o: src/grfmt_jpeg2000.cpp.o
 
 # target to build an object file
 src/grfmt_jpeg2000.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.o
 .PHONY : src/grfmt_jpeg2000.cpp.o
 
 src/grfmt_jpeg2000.i: src/grfmt_jpeg2000.cpp.i
@@ -688,7 +688,7 @@ src/grfmt_jpeg2000.i: src/grfmt_jpeg2000.cpp.i
 
 # target to preprocess a source file
 src/grfmt_jpeg2000.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.i
 .PHONY : src/grfmt_jpeg2000.cpp.i
 
 src/grfmt_jpeg2000.s: src/grfmt_jpeg2000.cpp.s
@@ -697,7 +697,7 @@ src/grfmt_jpeg2000.s: src/grfmt_jpeg2000.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_jpeg2000.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_jpeg2000.cpp.s
 .PHONY : src/grfmt_jpeg2000.cpp.s
 
 src/grfmt_pam.o: src/grfmt_pam.cpp.o
@@ -706,7 +706,7 @@ src/grfmt_pam.o: src/grfmt_pam.cpp.o
 
 # target to build an object file
 src/grfmt_pam.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.o
 .PHONY : src/grfmt_pam.cpp.o
 
 src/grfmt_pam.i: src/grfmt_pam.cpp.i
@@ -715,7 +715,7 @@ src/grfmt_pam.i: src/grfmt_pam.cpp.i
 
 # target to preprocess a source file
 src/grfmt_pam.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.i
 .PHONY : src/grfmt_pam.cpp.i
 
 src/grfmt_pam.s: src/grfmt_pam.cpp.s
@@ -724,7 +724,7 @@ src/grfmt_pam.s: src/grfmt_pam.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_pam.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pam.cpp.s
 .PHONY : src/grfmt_pam.cpp.s
 
 src/grfmt_png.o: src/grfmt_png.cpp.o
@@ -733,7 +733,7 @@ src/grfmt_png.o: src/grfmt_png.cpp.o
 
 # target to build an object file
 src/grfmt_png.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.o
 .PHONY : src/grfmt_png.cpp.o
 
 src/grfmt_png.i: src/grfmt_png.cpp.i
@@ -742,7 +742,7 @@ src/grfmt_png.i: src/grfmt_png.cpp.i
 
 # target to preprocess a source file
 src/grfmt_png.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.i
 .PHONY : src/grfmt_png.cpp.i
 
 src/grfmt_png.s: src/grfmt_png.cpp.s
@@ -751,7 +751,7 @@ src/grfmt_png.s: src/grfmt_png.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_png.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_png.cpp.s
 .PHONY : src/grfmt_png.cpp.s
 
 src/grfmt_pxm.o: src/grfmt_pxm.cpp.o
@@ -760,7 +760,7 @@ src/grfmt_pxm.o: src/grfmt_pxm.cpp.o
 
 # target to build an object file
 src/grfmt_pxm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.o
 .PHONY : src/grfmt_pxm.cpp.o
 
 src/grfmt_pxm.i: src/grfmt_pxm.cpp.i
@@ -769,7 +769,7 @@ src/grfmt_pxm.i: src/grfmt_pxm.cpp.i
 
 # target to preprocess a source file
 src/grfmt_pxm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.i
 .PHONY : src/grfmt_pxm.cpp.i
 
 src/grfmt_pxm.s: src/grfmt_pxm.cpp.s
@@ -778,7 +778,7 @@ src/grfmt_pxm.s: src/grfmt_pxm.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_pxm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_pxm.cpp.s
 .PHONY : src/grfmt_pxm.cpp.s
 
 src/grfmt_sunras.o: src/grfmt_sunras.cpp.o
@@ -787,7 +787,7 @@ src/grfmt_sunras.o: src/grfmt_sunras.cpp.o
 
 # target to build an object file
 src/grfmt_sunras.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.o
 .PHONY : src/grfmt_sunras.cpp.o
 
 src/grfmt_sunras.i: src/grfmt_sunras.cpp.i
@@ -796,7 +796,7 @@ src/grfmt_sunras.i: src/grfmt_sunras.cpp.i
 
 # target to preprocess a source file
 src/grfmt_sunras.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.i
 .PHONY : src/grfmt_sunras.cpp.i
 
 src/grfmt_sunras.s: src/grfmt_sunras.cpp.s
@@ -805,7 +805,7 @@ src/grfmt_sunras.s: src/grfmt_sunras.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_sunras.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_sunras.cpp.s
 .PHONY : src/grfmt_sunras.cpp.s
 
 src/grfmt_tiff.o: src/grfmt_tiff.cpp.o
@@ -814,7 +814,7 @@ src/grfmt_tiff.o: src/grfmt_tiff.cpp.o
 
 # target to build an object file
 src/grfmt_tiff.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.o
 .PHONY : src/grfmt_tiff.cpp.o
 
 src/grfmt_tiff.i: src/grfmt_tiff.cpp.i
@@ -823,7 +823,7 @@ src/grfmt_tiff.i: src/grfmt_tiff.cpp.i
 
 # target to preprocess a source file
 src/grfmt_tiff.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.i
 .PHONY : src/grfmt_tiff.cpp.i
 
 src/grfmt_tiff.s: src/grfmt_tiff.cpp.s
@@ -832,7 +832,7 @@ src/grfmt_tiff.s: src/grfmt_tiff.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_tiff.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_tiff.cpp.s
 .PHONY : src/grfmt_tiff.cpp.s
 
 src/grfmt_webp.o: src/grfmt_webp.cpp.o
@@ -841,7 +841,7 @@ src/grfmt_webp.o: src/grfmt_webp.cpp.o
 
 # target to build an object file
 src/grfmt_webp.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.o
 .PHONY : src/grfmt_webp.cpp.o
 
 src/grfmt_webp.i: src/grfmt_webp.cpp.i
@@ -850,7 +850,7 @@ src/grfmt_webp.i: src/grfmt_webp.cpp.i
 
 # target to preprocess a source file
 src/grfmt_webp.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.i
 .PHONY : src/grfmt_webp.cpp.i
 
 src/grfmt_webp.s: src/grfmt_webp.cpp.s
@@ -859,7 +859,7 @@ src/grfmt_webp.s: src/grfmt_webp.cpp.s
 
 # target to generate assembly for a file
 src/grfmt_webp.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/grfmt_webp.cpp.s
 .PHONY : src/grfmt_webp.cpp.s
 
 src/loadsave.o: src/loadsave.cpp.o
@@ -868,7 +868,7 @@ src/loadsave.o: src/loadsave.cpp.o
 
 # target to build an object file
 src/loadsave.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.o
 .PHONY : src/loadsave.cpp.o
 
 src/loadsave.i: src/loadsave.cpp.i
@@ -877,7 +877,7 @@ src/loadsave.i: src/loadsave.cpp.i
 
 # target to preprocess a source file
 src/loadsave.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.i
 .PHONY : src/loadsave.cpp.i
 
 src/loadsave.s: src/loadsave.cpp.s
@@ -886,7 +886,7 @@ src/loadsave.s: src/loadsave.cpp.s
 
 # target to generate assembly for a file
 src/loadsave.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/loadsave.cpp.s
 .PHONY : src/loadsave.cpp.s
 
 src/rgbe.o: src/rgbe.cpp.o
@@ -895,7 +895,7 @@ src/rgbe.o: src/rgbe.cpp.o
 
 # target to build an object file
 src/rgbe.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.o
 .PHONY : src/rgbe.cpp.o
 
 src/rgbe.i: src/rgbe.cpp.i
@@ -904,7 +904,7 @@ src/rgbe.i: src/rgbe.cpp.i
 
 # target to preprocess a source file
 src/rgbe.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.i
 .PHONY : src/rgbe.cpp.i
 
 src/rgbe.s: src/rgbe.cpp.s
@@ -913,7 +913,7 @@ src/rgbe.s: src/rgbe.cpp.s
 
 # target to generate assembly for a file
 src/rgbe.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/rgbe.cpp.s
 .PHONY : src/rgbe.cpp.s
 
 src/utils.o: src/utils.cpp.o
@@ -922,7 +922,7 @@ src/utils.o: src/utils.cpp.o
 
 # target to build an object file
 src/utils.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.o
 .PHONY : src/utils.cpp.o
 
 src/utils.i: src/utils.cpp.i
@@ -931,7 +931,7 @@ src/utils.i: src/utils.cpp.i
 
 # target to preprocess a source file
 src/utils.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.i
 .PHONY : src/utils.cpp.i
 
 src/utils.s: src/utils.cpp.s
@@ -940,7 +940,7 @@ src/utils.s: src/utils.cpp.s
 
 # target to generate assembly for a file
 src/utils.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/src/utils.cpp.s
 .PHONY : src/utils.cpp.s
 
 test/test_grfmt.o: test/test_grfmt.cpp.o
@@ -949,7 +949,7 @@ test/test_grfmt.o: test/test_grfmt.cpp.o
 
 # target to build an object file
 test/test_grfmt.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.o
 .PHONY : test/test_grfmt.cpp.o
 
 test/test_grfmt.i: test/test_grfmt.cpp.i
@@ -958,7 +958,7 @@ test/test_grfmt.i: test/test_grfmt.cpp.i
 
 # target to preprocess a source file
 test/test_grfmt.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.i
 .PHONY : test/test_grfmt.cpp.i
 
 test/test_grfmt.s: test/test_grfmt.cpp.s
@@ -967,7 +967,7 @@ test/test_grfmt.s: test/test_grfmt.cpp.s
 
 # target to generate assembly for a file
 test/test_grfmt.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_grfmt.cpp.s
 .PHONY : test/test_grfmt.cpp.s
 
 test/test_jpeg.o: test/test_jpeg.cpp.o
@@ -976,7 +976,7 @@ test/test_jpeg.o: test/test_jpeg.cpp.o
 
 # target to build an object file
 test/test_jpeg.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.o
 .PHONY : test/test_jpeg.cpp.o
 
 test/test_jpeg.i: test/test_jpeg.cpp.i
@@ -985,7 +985,7 @@ test/test_jpeg.i: test/test_jpeg.cpp.i
 
 # target to preprocess a source file
 test/test_jpeg.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.i
 .PHONY : test/test_jpeg.cpp.i
 
 test/test_jpeg.s: test/test_jpeg.cpp.s
@@ -994,7 +994,7 @@ test/test_jpeg.s: test/test_jpeg.cpp.s
 
 # target to generate assembly for a file
 test/test_jpeg.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_jpeg.cpp.s
 .PHONY : test/test_jpeg.cpp.s
 
 test/test_main.o: test/test_main.cpp.o
@@ -1003,7 +1003,7 @@ test/test_main.o: test/test_main.cpp.o
 
 # target to build an object file
 test/test_main.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.o
 .PHONY : test/test_main.cpp.o
 
 test/test_main.i: test/test_main.cpp.i
@@ -1012,7 +1012,7 @@ test/test_main.i: test/test_main.cpp.i
 
 # target to preprocess a source file
 test/test_main.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.i
 .PHONY : test/test_main.cpp.i
 
 test/test_main.s: test/test_main.cpp.s
@@ -1021,7 +1021,7 @@ test/test_main.s: test/test_main.cpp.s
 
 # target to generate assembly for a file
 test/test_main.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_main.cpp.s
 .PHONY : test/test_main.cpp.s
 
 test/test_png.o: test/test_png.cpp.o
@@ -1030,7 +1030,7 @@ test/test_png.o: test/test_png.cpp.o
 
 # target to build an object file
 test/test_png.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.o
 .PHONY : test/test_png.cpp.o
 
 test/test_png.i: test/test_png.cpp.i
@@ -1039,7 +1039,7 @@ test/test_png.i: test/test_png.cpp.i
 
 # target to preprocess a source file
 test/test_png.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.i
 .PHONY : test/test_png.cpp.i
 
 test/test_png.s: test/test_png.cpp.s
@@ -1048,7 +1048,7 @@ test/test_png.s: test/test_png.cpp.s
 
 # target to generate assembly for a file
 test/test_png.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_png.cpp.s
 .PHONY : test/test_png.cpp.s
 
 test/test_read_write.o: test/test_read_write.cpp.o
@@ -1057,7 +1057,7 @@ test/test_read_write.o: test/test_read_write.cpp.o
 
 # target to build an object file
 test/test_read_write.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.o
 .PHONY : test/test_read_write.cpp.o
 
 test/test_read_write.i: test/test_read_write.cpp.i
@@ -1066,7 +1066,7 @@ test/test_read_write.i: test/test_read_write.cpp.i
 
 # target to preprocess a source file
 test/test_read_write.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.i
 .PHONY : test/test_read_write.cpp.i
 
 test/test_read_write.s: test/test_read_write.cpp.s
@@ -1075,7 +1075,7 @@ test/test_read_write.s: test/test_read_write.cpp.s
 
 # target to generate assembly for a file
 test/test_read_write.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_read_write.cpp.s
 .PHONY : test/test_read_write.cpp.s
 
 test/test_tiff.o: test/test_tiff.cpp.o
@@ -1084,7 +1084,7 @@ test/test_tiff.o: test/test_tiff.cpp.o
 
 # target to build an object file
 test/test_tiff.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.o
 .PHONY : test/test_tiff.cpp.o
 
 test/test_tiff.i: test/test_tiff.cpp.i
@@ -1093,7 +1093,7 @@ test/test_tiff.i: test/test_tiff.cpp.i
 
 # target to preprocess a source file
 test/test_tiff.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.i
 .PHONY : test/test_tiff.cpp.i
 
 test/test_tiff.s: test/test_tiff.cpp.s
@@ -1102,7 +1102,7 @@ test/test_tiff.s: test/test_tiff.cpp.s
 
 # target to generate assembly for a file
 test/test_tiff.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_tiff.cpp.s
 .PHONY : test/test_tiff.cpp.s
 
 test/test_webp.o: test/test_webp.cpp.o
@@ -1111,7 +1111,7 @@ test/test_webp.o: test/test_webp.cpp.o
 
 # target to build an object file
 test/test_webp.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.o
 .PHONY : test/test_webp.cpp.o
 
 test/test_webp.i: test/test_webp.cpp.i
@@ -1120,7 +1120,7 @@ test/test_webp.i: test/test_webp.cpp.i
 
 # target to preprocess a source file
 test/test_webp.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.i
 .PHONY : test/test_webp.cpp.i
 
 test/test_webp.s: test/test_webp.cpp.s
@@ -1129,7 +1129,7 @@ test/test_webp.s: test/test_webp.cpp.s
 
 # target to generate assembly for a file
 test/test_webp.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/build.make modules/imgcodecs/CMakeFiles/opencv_test_imgcodecs.dir/test/test_webp.cpp.s
 .PHONY : test/test_webp.cpp.s
 
 # Help Target
@@ -1257,6 +1257,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

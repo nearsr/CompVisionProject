@@ -6,15 +6,15 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -DENABLE_TORCH_IMPORTER=1 -DHAVE_PROTOBUF=1 -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/dnn/src/ocl4dnn/include -I/home/stacia/opencv/3rdparty/include/opencl/1.2 -I/home/stacia/opencv/modules/ts/include -I/home/stacia/opencv/modules/dnn/include -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/videoio/include -I/home/stacia/opencv/modules/highgui/include -I/home/stacia/opencv/modules/dnn/perf 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/dnn/src/ocl4dnn/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/include/opencl/1.2 -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/dnn/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/dnn/perf 
 
-# Custom flags: modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/dnn/perf_precomp.hpp"
+# Custom flags: modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/dnn/perf_precomp.hpp"
 
-# Custom flags: modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_net.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/dnn/perf_precomp.hpp"
+# Custom flags: modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_net.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/dnn/perf_precomp.hpp"
 
-# Custom flags: modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/opencl/perf_convolution.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/dnn/perf_precomp.hpp"
+# Custom flags: modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/opencl/perf_convolution.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/dnn/perf_precomp.hpp"
 
-# Custom flags: modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_caffe.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/dnn/perf_precomp.hpp"
+# Custom flags: modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_caffe.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/dnn/perf_precomp.hpp"
 
-# Custom flags: modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_convolution.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/dnn/perf_precomp.hpp"
+# Custom flags: modules/dnn/CMakeFiles/opencv_perf_dnn.dir/perf/perf_convolution.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/dnn/perf_precomp.hpp"
 

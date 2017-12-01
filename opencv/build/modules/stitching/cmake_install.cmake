@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/modules/stitching
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,62 +33,62 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "/home/stacia/opencv/build/lib/libopencv_stitching.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/lib/libopencv_stitching.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2/stitching/detail" TYPE FILE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp")
 endif()
 

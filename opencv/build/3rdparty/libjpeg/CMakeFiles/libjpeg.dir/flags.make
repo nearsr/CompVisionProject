@@ -6,7 +6,7 @@ C_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtua
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/stacia/opencv/3rdparty/libjpeg -I/home/stacia/opencv/build 
+C_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/libjpeg -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build 
 
 # Custom flags: 3rdparty/libjpeg/CMakeFiles/libjpeg.dir/jcdctmgr.c.o_FLAGS = -O1
 

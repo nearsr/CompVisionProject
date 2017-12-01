@@ -6,5 +6,5 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/stacia/opencv/3rdparty/openexr/IlmImf -I/home/stacia/opencv/3rdparty/openexr/Imath -I/home/stacia/opencv/3rdparty/openexr/IlmThread -I/home/stacia/opencv/3rdparty/openexr/Iex -I/home/stacia/opencv/3rdparty/openexr/Half -I/home/stacia/opencv/build/3rdparty/zlib -I/home/stacia/opencv/3rdparty/zlib -I/home/stacia/opencv/build/3rdparty/openexr -I/home/stacia/opencv/build 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/openexr/IlmImf -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/openexr/Imath -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/openexr/IlmThread -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/openexr/Iex -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/openexr/Half -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/zlib -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/zlib -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/openexr -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build 
 

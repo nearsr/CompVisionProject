@@ -6,37 +6,37 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__OPENCV_TESTS=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/ts/include -I/home/stacia/opencv/modules/features2d/include -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/videoio/include -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/flann/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/highgui/include -I/home/stacia/opencv/modules/features2d/test 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/flann/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/test 
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/ocl/test_feature2d.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/ocl/test_feature2d.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/ocl/test_brute_force_matcher.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/ocl/test_brute_force_matcher.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_mser.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_mser.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_detectors_invariance.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_detectors_invariance.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_agast.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_agast.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_detectors_regression.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_detectors_regression.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_akaze.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_akaze.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_fast.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_fast.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_descriptors_regression.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_descriptors_regression.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_keypoints.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_keypoints.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_matchers_algorithmic.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_matchers_algorithmic.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_nearestneighbors.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_nearestneighbors.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_descriptors_invariance.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_descriptors_invariance.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_brisk.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_brisk.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 
-# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_orb.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/features2d/test_precomp.hpp"
+# Custom flags: modules/features2d/CMakeFiles/opencv_test_features2d.dir/test/test_orb.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/features2d/test_precomp.hpp"
 

@@ -1,4 +1,4 @@
-#include "/home/stacia/opencv/modules/calib3d/src/precomp.hpp"
+#include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/src/precomp.hpp"
 int testfunction();
 int testfunction()
 {

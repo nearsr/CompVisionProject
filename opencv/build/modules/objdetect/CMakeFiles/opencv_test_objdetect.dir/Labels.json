@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/stacia/opencv/modules/objdetect/test/test_cascadeandhog.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/test/test_cascadeandhog.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/objdetect/test/opencl/test_hogdetector.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/test/opencl/test_hogdetector.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/objdetect/test/test_main.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/test/test_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/objdetect/test/test_precomp.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/objdetect/test/test_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

@@ -3,15 +3,15 @@
  opencv_shape
  AccuracyTest
 # Source files and their labels
-/home/stacia/opencv/modules/shape/test/test_main.cpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/test/test_main.cpp
  Main
  opencv_shape
  AccuracyTest
-/home/stacia/opencv/modules/shape/test/test_shape.cpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/test/test_shape.cpp
  Main
  opencv_shape
  AccuracyTest
-/home/stacia/opencv/modules/shape/test/test_precomp.hpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/shape/test/test_precomp.hpp
  Main
  opencv_shape
  AccuracyTest

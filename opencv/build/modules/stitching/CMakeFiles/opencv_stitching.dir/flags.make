@@ -6,31 +6,31 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/stitching/include -I/home/stacia/opencv/modules/stitching/src -I/home/stacia/opencv/build/modules/stitching -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/flann/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/videoio/include -I/home/stacia/opencv/modules/highgui/include -I/home/stacia/opencv/modules/features2d/include -I/home/stacia/opencv/modules/calib3d/include 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/flann/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/include 
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 
-# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp"
+# Custom flags: modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp"
 

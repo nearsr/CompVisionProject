@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/opencv/build/CPackSourceConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles /home/stacia/opencv/build/modules/core/CMakeFiles/progress.marks
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/CMakeFiles/progress.marks
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/clean
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 modules/core/CMakeFiles/opencv_core.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_core.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_core.dir/rule
 .PHONY : modules/core/CMakeFiles/opencv_core.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ opencv_core: modules/core/CMakeFiles/opencv_core.dir/rule
 
 # fast build rule for target.
 opencv_core/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/build
 .PHONY : opencv_core/fast
 
 # Convenience name for target.
 modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/rule
 .PHONY : modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ opencv_perf_core_pch_dephelp: modules/core/CMakeFiles/opencv_perf_core_pch_dephe
 
 # fast build rule for target.
 opencv_perf_core_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/build
 .PHONY : opencv_perf_core_pch_dephelp/fast
 
 # Convenience name for target.
 modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/rule
 .PHONY : modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -229,12 +229,12 @@ opencv_core_pch_dephelp: modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/rul
 
 # fast build rule for target.
 opencv_core_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/build
 .PHONY : opencv_core_pch_dephelp/fast
 
 # Convenience name for target.
 modules/core/CMakeFiles/pch_Generate_opencv_core.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/pch_Generate_opencv_core.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/pch_Generate_opencv_core.dir/rule
 .PHONY : modules/core/CMakeFiles/pch_Generate_opencv_core.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ pch_Generate_opencv_core: modules/core/CMakeFiles/pch_Generate_opencv_core.dir/r
 
 # fast build rule for target.
 pch_Generate_opencv_core/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/pch_Generate_opencv_core.dir/build.make modules/core/CMakeFiles/pch_Generate_opencv_core.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/pch_Generate_opencv_core.dir/build.make modules/core/CMakeFiles/pch_Generate_opencv_core.dir/build
 .PHONY : pch_Generate_opencv_core/fast
 
 # Convenience name for target.
 modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/rule
 .PHONY : modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -259,12 +259,12 @@ opencv_test_core_pch_dephelp: modules/core/CMakeFiles/opencv_test_core_pch_dephe
 
 # fast build rule for target.
 opencv_test_core_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/build
 .PHONY : opencv_test_core_pch_dephelp/fast
 
 # Convenience name for target.
 modules/core/CMakeFiles/pch_Generate_opencv_test_core.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/pch_Generate_opencv_test_core.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/pch_Generate_opencv_test_core.dir/rule
 .PHONY : modules/core/CMakeFiles/pch_Generate_opencv_test_core.dir/rule
 
 # Convenience name for target.
@@ -274,12 +274,12 @@ pch_Generate_opencv_test_core: modules/core/CMakeFiles/pch_Generate_opencv_test_
 
 # fast build rule for target.
 pch_Generate_opencv_test_core/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/pch_Generate_opencv_test_core.dir/build.make modules/core/CMakeFiles/pch_Generate_opencv_test_core.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/pch_Generate_opencv_test_core.dir/build.make modules/core/CMakeFiles/pch_Generate_opencv_test_core.dir/build
 .PHONY : pch_Generate_opencv_test_core/fast
 
 # Convenience name for target.
 modules/core/CMakeFiles/opencv_test_core.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_test_core.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_test_core.dir/rule
 .PHONY : modules/core/CMakeFiles/opencv_test_core.dir/rule
 
 # Convenience name for target.
@@ -289,12 +289,12 @@ opencv_test_core: modules/core/CMakeFiles/opencv_test_core.dir/rule
 
 # fast build rule for target.
 opencv_test_core/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/build
 .PHONY : opencv_test_core/fast
 
 # Convenience name for target.
 modules/core/CMakeFiles/opencv_perf_core.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_perf_core.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/opencv_perf_core.dir/rule
 .PHONY : modules/core/CMakeFiles/opencv_perf_core.dir/rule
 
 # Convenience name for target.
@@ -304,12 +304,12 @@ opencv_perf_core: modules/core/CMakeFiles/opencv_perf_core.dir/rule
 
 # fast build rule for target.
 opencv_perf_core/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/build
 .PHONY : opencv_perf_core/fast
 
 # Convenience name for target.
 modules/core/CMakeFiles/pch_Generate_opencv_perf_core.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/pch_Generate_opencv_perf_core.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/core/CMakeFiles/pch_Generate_opencv_perf_core.dir/rule
 .PHONY : modules/core/CMakeFiles/pch_Generate_opencv_perf_core.dir/rule
 
 # Convenience name for target.
@@ -319,7 +319,7 @@ pch_Generate_opencv_perf_core: modules/core/CMakeFiles/pch_Generate_opencv_perf_
 
 # fast build rule for target.
 pch_Generate_opencv_perf_core/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/pch_Generate_opencv_perf_core.dir/build.make modules/core/CMakeFiles/pch_Generate_opencv_perf_core.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/pch_Generate_opencv_perf_core.dir/build.make modules/core/CMakeFiles/pch_Generate_opencv_perf_core.dir/build
 .PHONY : pch_Generate_opencv_perf_core/fast
 
 mathfuncs_core.avx.o: mathfuncs_core.avx.cpp.o
@@ -328,7 +328,7 @@ mathfuncs_core.avx.o: mathfuncs_core.avx.cpp.o
 
 # target to build an object file
 mathfuncs_core.avx.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.o
 .PHONY : mathfuncs_core.avx.cpp.o
 
 mathfuncs_core.avx.i: mathfuncs_core.avx.cpp.i
@@ -337,7 +337,7 @@ mathfuncs_core.avx.i: mathfuncs_core.avx.cpp.i
 
 # target to preprocess a source file
 mathfuncs_core.avx.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.i
 .PHONY : mathfuncs_core.avx.cpp.i
 
 mathfuncs_core.avx.s: mathfuncs_core.avx.cpp.s
@@ -346,7 +346,7 @@ mathfuncs_core.avx.s: mathfuncs_core.avx.cpp.s
 
 # target to generate assembly for a file
 mathfuncs_core.avx.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx.cpp.s
 .PHONY : mathfuncs_core.avx.cpp.s
 
 mathfuncs_core.avx2.o: mathfuncs_core.avx2.cpp.o
@@ -355,7 +355,7 @@ mathfuncs_core.avx2.o: mathfuncs_core.avx2.cpp.o
 
 # target to build an object file
 mathfuncs_core.avx2.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.o
 .PHONY : mathfuncs_core.avx2.cpp.o
 
 mathfuncs_core.avx2.i: mathfuncs_core.avx2.cpp.i
@@ -364,7 +364,7 @@ mathfuncs_core.avx2.i: mathfuncs_core.avx2.cpp.i
 
 # target to preprocess a source file
 mathfuncs_core.avx2.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.i
 .PHONY : mathfuncs_core.avx2.cpp.i
 
 mathfuncs_core.avx2.s: mathfuncs_core.avx2.cpp.s
@@ -373,7 +373,7 @@ mathfuncs_core.avx2.s: mathfuncs_core.avx2.cpp.s
 
 # target to generate assembly for a file
 mathfuncs_core.avx2.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.avx2.cpp.s
 .PHONY : mathfuncs_core.avx2.cpp.s
 
 mathfuncs_core.sse2.o: mathfuncs_core.sse2.cpp.o
@@ -382,7 +382,7 @@ mathfuncs_core.sse2.o: mathfuncs_core.sse2.cpp.o
 
 # target to build an object file
 mathfuncs_core.sse2.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.o
 .PHONY : mathfuncs_core.sse2.cpp.o
 
 mathfuncs_core.sse2.i: mathfuncs_core.sse2.cpp.i
@@ -391,7 +391,7 @@ mathfuncs_core.sse2.i: mathfuncs_core.sse2.cpp.i
 
 # target to preprocess a source file
 mathfuncs_core.sse2.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.i
 .PHONY : mathfuncs_core.sse2.cpp.i
 
 mathfuncs_core.sse2.s: mathfuncs_core.sse2.cpp.s
@@ -400,7 +400,7 @@ mathfuncs_core.sse2.s: mathfuncs_core.sse2.cpp.s
 
 # target to generate assembly for a file
 mathfuncs_core.sse2.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/mathfuncs_core.sse2.cpp.s
 .PHONY : mathfuncs_core.sse2.cpp.s
 
 opencl_kernels_core.o: opencl_kernels_core.cpp.o
@@ -409,7 +409,7 @@ opencl_kernels_core.o: opencl_kernels_core.cpp.o
 
 # target to build an object file
 opencl_kernels_core.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.o
 .PHONY : opencl_kernels_core.cpp.o
 
 opencl_kernels_core.i: opencl_kernels_core.cpp.i
@@ -418,7 +418,7 @@ opencl_kernels_core.i: opencl_kernels_core.cpp.i
 
 # target to preprocess a source file
 opencl_kernels_core.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.i
 .PHONY : opencl_kernels_core.cpp.i
 
 opencl_kernels_core.s: opencl_kernels_core.cpp.s
@@ -427,7 +427,7 @@ opencl_kernels_core.s: opencl_kernels_core.cpp.s
 
 # target to generate assembly for a file
 opencl_kernels_core.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/opencl_kernels_core.cpp.s
 .PHONY : opencl_kernels_core.cpp.s
 
 opencv_core_pch_dephelp.o: opencv_core_pch_dephelp.cxx.o
@@ -436,7 +436,7 @@ opencv_core_pch_dephelp.o: opencv_core_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_core_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/opencv_core_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/opencv_core_pch_dephelp.cxx.o
 .PHONY : opencv_core_pch_dephelp.cxx.o
 
 opencv_core_pch_dephelp.i: opencv_core_pch_dephelp.cxx.i
@@ -445,7 +445,7 @@ opencv_core_pch_dephelp.i: opencv_core_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_core_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/opencv_core_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/opencv_core_pch_dephelp.cxx.i
 .PHONY : opencv_core_pch_dephelp.cxx.i
 
 opencv_core_pch_dephelp.s: opencv_core_pch_dephelp.cxx.s
@@ -454,7 +454,7 @@ opencv_core_pch_dephelp.s: opencv_core_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_core_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/opencv_core_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_core_pch_dephelp.dir/opencv_core_pch_dephelp.cxx.s
 .PHONY : opencv_core_pch_dephelp.cxx.s
 
 opencv_perf_core_pch_dephelp.o: opencv_perf_core_pch_dephelp.cxx.o
@@ -463,7 +463,7 @@ opencv_perf_core_pch_dephelp.o: opencv_perf_core_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_perf_core_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/opencv_perf_core_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/opencv_perf_core_pch_dephelp.cxx.o
 .PHONY : opencv_perf_core_pch_dephelp.cxx.o
 
 opencv_perf_core_pch_dephelp.i: opencv_perf_core_pch_dephelp.cxx.i
@@ -472,7 +472,7 @@ opencv_perf_core_pch_dephelp.i: opencv_perf_core_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_perf_core_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/opencv_perf_core_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/opencv_perf_core_pch_dephelp.cxx.i
 .PHONY : opencv_perf_core_pch_dephelp.cxx.i
 
 opencv_perf_core_pch_dephelp.s: opencv_perf_core_pch_dephelp.cxx.s
@@ -481,7 +481,7 @@ opencv_perf_core_pch_dephelp.s: opencv_perf_core_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_perf_core_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/opencv_perf_core_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_perf_core_pch_dephelp.dir/opencv_perf_core_pch_dephelp.cxx.s
 .PHONY : opencv_perf_core_pch_dephelp.cxx.s
 
 opencv_test_core_pch_dephelp.o: opencv_test_core_pch_dephelp.cxx.o
@@ -490,7 +490,7 @@ opencv_test_core_pch_dephelp.o: opencv_test_core_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_test_core_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/opencv_test_core_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/opencv_test_core_pch_dephelp.cxx.o
 .PHONY : opencv_test_core_pch_dephelp.cxx.o
 
 opencv_test_core_pch_dephelp.i: opencv_test_core_pch_dephelp.cxx.i
@@ -499,7 +499,7 @@ opencv_test_core_pch_dephelp.i: opencv_test_core_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_test_core_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/opencv_test_core_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/opencv_test_core_pch_dephelp.cxx.i
 .PHONY : opencv_test_core_pch_dephelp.cxx.i
 
 opencv_test_core_pch_dephelp.s: opencv_test_core_pch_dephelp.cxx.s
@@ -508,7 +508,7 @@ opencv_test_core_pch_dephelp.s: opencv_test_core_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_test_core_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/opencv_test_core_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/build.make modules/core/CMakeFiles/opencv_test_core_pch_dephelp.dir/opencv_test_core_pch_dephelp.cxx.s
 .PHONY : opencv_test_core_pch_dephelp.cxx.s
 
 perf/cuda/perf_gpumat.o: perf/cuda/perf_gpumat.cpp.o
@@ -517,7 +517,7 @@ perf/cuda/perf_gpumat.o: perf/cuda/perf_gpumat.cpp.o
 
 # target to build an object file
 perf/cuda/perf_gpumat.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/cuda/perf_gpumat.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/cuda/perf_gpumat.cpp.o
 .PHONY : perf/cuda/perf_gpumat.cpp.o
 
 perf/cuda/perf_gpumat.i: perf/cuda/perf_gpumat.cpp.i
@@ -526,7 +526,7 @@ perf/cuda/perf_gpumat.i: perf/cuda/perf_gpumat.cpp.i
 
 # target to preprocess a source file
 perf/cuda/perf_gpumat.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/cuda/perf_gpumat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/cuda/perf_gpumat.cpp.i
 .PHONY : perf/cuda/perf_gpumat.cpp.i
 
 perf/cuda/perf_gpumat.s: perf/cuda/perf_gpumat.cpp.s
@@ -535,7 +535,7 @@ perf/cuda/perf_gpumat.s: perf/cuda/perf_gpumat.cpp.s
 
 # target to generate assembly for a file
 perf/cuda/perf_gpumat.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/cuda/perf_gpumat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/cuda/perf_gpumat.cpp.s
 .PHONY : perf/cuda/perf_gpumat.cpp.s
 
 perf/opencl/perf_arithm.o: perf/opencl/perf_arithm.cpp.o
@@ -544,7 +544,7 @@ perf/opencl/perf_arithm.o: perf/opencl/perf_arithm.cpp.o
 
 # target to build an object file
 perf/opencl/perf_arithm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_arithm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_arithm.cpp.o
 .PHONY : perf/opencl/perf_arithm.cpp.o
 
 perf/opencl/perf_arithm.i: perf/opencl/perf_arithm.cpp.i
@@ -553,7 +553,7 @@ perf/opencl/perf_arithm.i: perf/opencl/perf_arithm.cpp.i
 
 # target to preprocess a source file
 perf/opencl/perf_arithm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_arithm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_arithm.cpp.i
 .PHONY : perf/opencl/perf_arithm.cpp.i
 
 perf/opencl/perf_arithm.s: perf/opencl/perf_arithm.cpp.s
@@ -562,7 +562,7 @@ perf/opencl/perf_arithm.s: perf/opencl/perf_arithm.cpp.s
 
 # target to generate assembly for a file
 perf/opencl/perf_arithm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_arithm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_arithm.cpp.s
 .PHONY : perf/opencl/perf_arithm.cpp.s
 
 perf/opencl/perf_bufferpool.o: perf/opencl/perf_bufferpool.cpp.o
@@ -571,7 +571,7 @@ perf/opencl/perf_bufferpool.o: perf/opencl/perf_bufferpool.cpp.o
 
 # target to build an object file
 perf/opencl/perf_bufferpool.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_bufferpool.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_bufferpool.cpp.o
 .PHONY : perf/opencl/perf_bufferpool.cpp.o
 
 perf/opencl/perf_bufferpool.i: perf/opencl/perf_bufferpool.cpp.i
@@ -580,7 +580,7 @@ perf/opencl/perf_bufferpool.i: perf/opencl/perf_bufferpool.cpp.i
 
 # target to preprocess a source file
 perf/opencl/perf_bufferpool.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_bufferpool.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_bufferpool.cpp.i
 .PHONY : perf/opencl/perf_bufferpool.cpp.i
 
 perf/opencl/perf_bufferpool.s: perf/opencl/perf_bufferpool.cpp.s
@@ -589,7 +589,7 @@ perf/opencl/perf_bufferpool.s: perf/opencl/perf_bufferpool.cpp.s
 
 # target to generate assembly for a file
 perf/opencl/perf_bufferpool.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_bufferpool.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_bufferpool.cpp.s
 .PHONY : perf/opencl/perf_bufferpool.cpp.s
 
 perf/opencl/perf_channels.o: perf/opencl/perf_channels.cpp.o
@@ -598,7 +598,7 @@ perf/opencl/perf_channels.o: perf/opencl/perf_channels.cpp.o
 
 # target to build an object file
 perf/opencl/perf_channels.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_channels.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_channels.cpp.o
 .PHONY : perf/opencl/perf_channels.cpp.o
 
 perf/opencl/perf_channels.i: perf/opencl/perf_channels.cpp.i
@@ -607,7 +607,7 @@ perf/opencl/perf_channels.i: perf/opencl/perf_channels.cpp.i
 
 # target to preprocess a source file
 perf/opencl/perf_channels.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_channels.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_channels.cpp.i
 .PHONY : perf/opencl/perf_channels.cpp.i
 
 perf/opencl/perf_channels.s: perf/opencl/perf_channels.cpp.s
@@ -616,7 +616,7 @@ perf/opencl/perf_channels.s: perf/opencl/perf_channels.cpp.s
 
 # target to generate assembly for a file
 perf/opencl/perf_channels.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_channels.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_channels.cpp.s
 .PHONY : perf/opencl/perf_channels.cpp.s
 
 perf/opencl/perf_dxt.o: perf/opencl/perf_dxt.cpp.o
@@ -625,7 +625,7 @@ perf/opencl/perf_dxt.o: perf/opencl/perf_dxt.cpp.o
 
 # target to build an object file
 perf/opencl/perf_dxt.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_dxt.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_dxt.cpp.o
 .PHONY : perf/opencl/perf_dxt.cpp.o
 
 perf/opencl/perf_dxt.i: perf/opencl/perf_dxt.cpp.i
@@ -634,7 +634,7 @@ perf/opencl/perf_dxt.i: perf/opencl/perf_dxt.cpp.i
 
 # target to preprocess a source file
 perf/opencl/perf_dxt.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_dxt.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_dxt.cpp.i
 .PHONY : perf/opencl/perf_dxt.cpp.i
 
 perf/opencl/perf_dxt.s: perf/opencl/perf_dxt.cpp.s
@@ -643,7 +643,7 @@ perf/opencl/perf_dxt.s: perf/opencl/perf_dxt.cpp.s
 
 # target to generate assembly for a file
 perf/opencl/perf_dxt.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_dxt.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_dxt.cpp.s
 .PHONY : perf/opencl/perf_dxt.cpp.s
 
 perf/opencl/perf_gemm.o: perf/opencl/perf_gemm.cpp.o
@@ -652,7 +652,7 @@ perf/opencl/perf_gemm.o: perf/opencl/perf_gemm.cpp.o
 
 # target to build an object file
 perf/opencl/perf_gemm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_gemm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_gemm.cpp.o
 .PHONY : perf/opencl/perf_gemm.cpp.o
 
 perf/opencl/perf_gemm.i: perf/opencl/perf_gemm.cpp.i
@@ -661,7 +661,7 @@ perf/opencl/perf_gemm.i: perf/opencl/perf_gemm.cpp.i
 
 # target to preprocess a source file
 perf/opencl/perf_gemm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_gemm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_gemm.cpp.i
 .PHONY : perf/opencl/perf_gemm.cpp.i
 
 perf/opencl/perf_gemm.s: perf/opencl/perf_gemm.cpp.s
@@ -670,7 +670,7 @@ perf/opencl/perf_gemm.s: perf/opencl/perf_gemm.cpp.s
 
 # target to generate assembly for a file
 perf/opencl/perf_gemm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_gemm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_gemm.cpp.s
 .PHONY : perf/opencl/perf_gemm.cpp.s
 
 perf/opencl/perf_matop.o: perf/opencl/perf_matop.cpp.o
@@ -679,7 +679,7 @@ perf/opencl/perf_matop.o: perf/opencl/perf_matop.cpp.o
 
 # target to build an object file
 perf/opencl/perf_matop.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_matop.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_matop.cpp.o
 .PHONY : perf/opencl/perf_matop.cpp.o
 
 perf/opencl/perf_matop.i: perf/opencl/perf_matop.cpp.i
@@ -688,7 +688,7 @@ perf/opencl/perf_matop.i: perf/opencl/perf_matop.cpp.i
 
 # target to preprocess a source file
 perf/opencl/perf_matop.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_matop.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_matop.cpp.i
 .PHONY : perf/opencl/perf_matop.cpp.i
 
 perf/opencl/perf_matop.s: perf/opencl/perf_matop.cpp.s
@@ -697,7 +697,7 @@ perf/opencl/perf_matop.s: perf/opencl/perf_matop.cpp.s
 
 # target to generate assembly for a file
 perf/opencl/perf_matop.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_matop.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_matop.cpp.s
 .PHONY : perf/opencl/perf_matop.cpp.s
 
 perf/opencl/perf_usage_flags.o: perf/opencl/perf_usage_flags.cpp.o
@@ -706,7 +706,7 @@ perf/opencl/perf_usage_flags.o: perf/opencl/perf_usage_flags.cpp.o
 
 # target to build an object file
 perf/opencl/perf_usage_flags.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_usage_flags.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_usage_flags.cpp.o
 .PHONY : perf/opencl/perf_usage_flags.cpp.o
 
 perf/opencl/perf_usage_flags.i: perf/opencl/perf_usage_flags.cpp.i
@@ -715,7 +715,7 @@ perf/opencl/perf_usage_flags.i: perf/opencl/perf_usage_flags.cpp.i
 
 # target to preprocess a source file
 perf/opencl/perf_usage_flags.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_usage_flags.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_usage_flags.cpp.i
 .PHONY : perf/opencl/perf_usage_flags.cpp.i
 
 perf/opencl/perf_usage_flags.s: perf/opencl/perf_usage_flags.cpp.s
@@ -724,7 +724,7 @@ perf/opencl/perf_usage_flags.s: perf/opencl/perf_usage_flags.cpp.s
 
 # target to generate assembly for a file
 perf/opencl/perf_usage_flags.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_usage_flags.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_usage_flags.cpp.s
 .PHONY : perf/opencl/perf_usage_flags.cpp.s
 
 perf/perf_abs.o: perf/perf_abs.cpp.o
@@ -733,7 +733,7 @@ perf/perf_abs.o: perf/perf_abs.cpp.o
 
 # target to build an object file
 perf/perf_abs.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_abs.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_abs.cpp.o
 .PHONY : perf/perf_abs.cpp.o
 
 perf/perf_abs.i: perf/perf_abs.cpp.i
@@ -742,7 +742,7 @@ perf/perf_abs.i: perf/perf_abs.cpp.i
 
 # target to preprocess a source file
 perf/perf_abs.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_abs.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_abs.cpp.i
 .PHONY : perf/perf_abs.cpp.i
 
 perf/perf_abs.s: perf/perf_abs.cpp.s
@@ -751,7 +751,7 @@ perf/perf_abs.s: perf/perf_abs.cpp.s
 
 # target to generate assembly for a file
 perf/perf_abs.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_abs.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_abs.cpp.s
 .PHONY : perf/perf_abs.cpp.s
 
 perf/perf_addWeighted.o: perf/perf_addWeighted.cpp.o
@@ -760,7 +760,7 @@ perf/perf_addWeighted.o: perf/perf_addWeighted.cpp.o
 
 # target to build an object file
 perf/perf_addWeighted.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.o
 .PHONY : perf/perf_addWeighted.cpp.o
 
 perf/perf_addWeighted.i: perf/perf_addWeighted.cpp.i
@@ -769,7 +769,7 @@ perf/perf_addWeighted.i: perf/perf_addWeighted.cpp.i
 
 # target to preprocess a source file
 perf/perf_addWeighted.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.i
 .PHONY : perf/perf_addWeighted.cpp.i
 
 perf/perf_addWeighted.s: perf/perf_addWeighted.cpp.s
@@ -778,7 +778,7 @@ perf/perf_addWeighted.s: perf/perf_addWeighted.cpp.s
 
 # target to generate assembly for a file
 perf/perf_addWeighted.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.s
 .PHONY : perf/perf_addWeighted.cpp.s
 
 perf/perf_arithm.o: perf/perf_arithm.cpp.o
@@ -787,7 +787,7 @@ perf/perf_arithm.o: perf/perf_arithm.cpp.o
 
 # target to build an object file
 perf/perf_arithm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.o
 .PHONY : perf/perf_arithm.cpp.o
 
 perf/perf_arithm.i: perf/perf_arithm.cpp.i
@@ -796,7 +796,7 @@ perf/perf_arithm.i: perf/perf_arithm.cpp.i
 
 # target to preprocess a source file
 perf/perf_arithm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.i
 .PHONY : perf/perf_arithm.cpp.i
 
 perf/perf_arithm.s: perf/perf_arithm.cpp.s
@@ -805,7 +805,7 @@ perf/perf_arithm.s: perf/perf_arithm.cpp.s
 
 # target to generate assembly for a file
 perf/perf_arithm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.s
 .PHONY : perf/perf_arithm.cpp.s
 
 perf/perf_bitwise.o: perf/perf_bitwise.cpp.o
@@ -814,7 +814,7 @@ perf/perf_bitwise.o: perf/perf_bitwise.cpp.o
 
 # target to build an object file
 perf/perf_bitwise.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_bitwise.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_bitwise.cpp.o
 .PHONY : perf/perf_bitwise.cpp.o
 
 perf/perf_bitwise.i: perf/perf_bitwise.cpp.i
@@ -823,7 +823,7 @@ perf/perf_bitwise.i: perf/perf_bitwise.cpp.i
 
 # target to preprocess a source file
 perf/perf_bitwise.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_bitwise.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_bitwise.cpp.i
 .PHONY : perf/perf_bitwise.cpp.i
 
 perf/perf_bitwise.s: perf/perf_bitwise.cpp.s
@@ -832,7 +832,7 @@ perf/perf_bitwise.s: perf/perf_bitwise.cpp.s
 
 # target to generate assembly for a file
 perf/perf_bitwise.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_bitwise.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_bitwise.cpp.s
 .PHONY : perf/perf_bitwise.cpp.s
 
 perf/perf_compare.o: perf/perf_compare.cpp.o
@@ -841,7 +841,7 @@ perf/perf_compare.o: perf/perf_compare.cpp.o
 
 # target to build an object file
 perf/perf_compare.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_compare.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_compare.cpp.o
 .PHONY : perf/perf_compare.cpp.o
 
 perf/perf_compare.i: perf/perf_compare.cpp.i
@@ -850,7 +850,7 @@ perf/perf_compare.i: perf/perf_compare.cpp.i
 
 # target to preprocess a source file
 perf/perf_compare.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_compare.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_compare.cpp.i
 .PHONY : perf/perf_compare.cpp.i
 
 perf/perf_compare.s: perf/perf_compare.cpp.s
@@ -859,7 +859,7 @@ perf/perf_compare.s: perf/perf_compare.cpp.s
 
 # target to generate assembly for a file
 perf/perf_compare.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_compare.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_compare.cpp.s
 .PHONY : perf/perf_compare.cpp.s
 
 perf/perf_convertTo.o: perf/perf_convertTo.cpp.o
@@ -868,7 +868,7 @@ perf/perf_convertTo.o: perf/perf_convertTo.cpp.o
 
 # target to build an object file
 perf/perf_convertTo.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_convertTo.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_convertTo.cpp.o
 .PHONY : perf/perf_convertTo.cpp.o
 
 perf/perf_convertTo.i: perf/perf_convertTo.cpp.i
@@ -877,7 +877,7 @@ perf/perf_convertTo.i: perf/perf_convertTo.cpp.i
 
 # target to preprocess a source file
 perf/perf_convertTo.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_convertTo.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_convertTo.cpp.i
 .PHONY : perf/perf_convertTo.cpp.i
 
 perf/perf_convertTo.s: perf/perf_convertTo.cpp.s
@@ -886,7 +886,7 @@ perf/perf_convertTo.s: perf/perf_convertTo.cpp.s
 
 # target to generate assembly for a file
 perf/perf_convertTo.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_convertTo.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_convertTo.cpp.s
 .PHONY : perf/perf_convertTo.cpp.s
 
 perf/perf_cvround.o: perf/perf_cvround.cpp.o
@@ -895,7 +895,7 @@ perf/perf_cvround.o: perf/perf_cvround.cpp.o
 
 # target to build an object file
 perf/perf_cvround.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_cvround.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_cvround.cpp.o
 .PHONY : perf/perf_cvround.cpp.o
 
 perf/perf_cvround.i: perf/perf_cvround.cpp.i
@@ -904,7 +904,7 @@ perf/perf_cvround.i: perf/perf_cvround.cpp.i
 
 # target to preprocess a source file
 perf/perf_cvround.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_cvround.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_cvround.cpp.i
 .PHONY : perf/perf_cvround.cpp.i
 
 perf/perf_cvround.s: perf/perf_cvround.cpp.s
@@ -913,7 +913,7 @@ perf/perf_cvround.s: perf/perf_cvround.cpp.s
 
 # target to generate assembly for a file
 perf/perf_cvround.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_cvround.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_cvround.cpp.s
 .PHONY : perf/perf_cvround.cpp.s
 
 perf/perf_dft.o: perf/perf_dft.cpp.o
@@ -922,7 +922,7 @@ perf/perf_dft.o: perf/perf_dft.cpp.o
 
 # target to build an object file
 perf/perf_dft.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dft.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dft.cpp.o
 .PHONY : perf/perf_dft.cpp.o
 
 perf/perf_dft.i: perf/perf_dft.cpp.i
@@ -931,7 +931,7 @@ perf/perf_dft.i: perf/perf_dft.cpp.i
 
 # target to preprocess a source file
 perf/perf_dft.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dft.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dft.cpp.i
 .PHONY : perf/perf_dft.cpp.i
 
 perf/perf_dft.s: perf/perf_dft.cpp.s
@@ -940,7 +940,7 @@ perf/perf_dft.s: perf/perf_dft.cpp.s
 
 # target to generate assembly for a file
 perf/perf_dft.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dft.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dft.cpp.s
 .PHONY : perf/perf_dft.cpp.s
 
 perf/perf_dot.o: perf/perf_dot.cpp.o
@@ -949,7 +949,7 @@ perf/perf_dot.o: perf/perf_dot.cpp.o
 
 # target to build an object file
 perf/perf_dot.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dot.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dot.cpp.o
 .PHONY : perf/perf_dot.cpp.o
 
 perf/perf_dot.i: perf/perf_dot.cpp.i
@@ -958,7 +958,7 @@ perf/perf_dot.i: perf/perf_dot.cpp.i
 
 # target to preprocess a source file
 perf/perf_dot.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dot.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dot.cpp.i
 .PHONY : perf/perf_dot.cpp.i
 
 perf/perf_dot.s: perf/perf_dot.cpp.s
@@ -967,7 +967,7 @@ perf/perf_dot.s: perf/perf_dot.cpp.s
 
 # target to generate assembly for a file
 perf/perf_dot.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dot.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dot.cpp.s
 .PHONY : perf/perf_dot.cpp.s
 
 perf/perf_inRange.o: perf/perf_inRange.cpp.o
@@ -976,7 +976,7 @@ perf/perf_inRange.o: perf/perf_inRange.cpp.o
 
 # target to build an object file
 perf/perf_inRange.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_inRange.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_inRange.cpp.o
 .PHONY : perf/perf_inRange.cpp.o
 
 perf/perf_inRange.i: perf/perf_inRange.cpp.i
@@ -985,7 +985,7 @@ perf/perf_inRange.i: perf/perf_inRange.cpp.i
 
 # target to preprocess a source file
 perf/perf_inRange.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_inRange.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_inRange.cpp.i
 .PHONY : perf/perf_inRange.cpp.i
 
 perf/perf_inRange.s: perf/perf_inRange.cpp.s
@@ -994,7 +994,7 @@ perf/perf_inRange.s: perf/perf_inRange.cpp.s
 
 # target to generate assembly for a file
 perf/perf_inRange.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_inRange.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_inRange.cpp.s
 .PHONY : perf/perf_inRange.cpp.s
 
 perf/perf_io_base64.o: perf/perf_io_base64.cpp.o
@@ -1003,7 +1003,7 @@ perf/perf_io_base64.o: perf/perf_io_base64.cpp.o
 
 # target to build an object file
 perf/perf_io_base64.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_io_base64.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_io_base64.cpp.o
 .PHONY : perf/perf_io_base64.cpp.o
 
 perf/perf_io_base64.i: perf/perf_io_base64.cpp.i
@@ -1012,7 +1012,7 @@ perf/perf_io_base64.i: perf/perf_io_base64.cpp.i
 
 # target to preprocess a source file
 perf/perf_io_base64.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_io_base64.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_io_base64.cpp.i
 .PHONY : perf/perf_io_base64.cpp.i
 
 perf/perf_io_base64.s: perf/perf_io_base64.cpp.s
@@ -1021,7 +1021,7 @@ perf/perf_io_base64.s: perf/perf_io_base64.cpp.s
 
 # target to generate assembly for a file
 perf/perf_io_base64.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_io_base64.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_io_base64.cpp.s
 .PHONY : perf/perf_io_base64.cpp.s
 
 perf/perf_lut.o: perf/perf_lut.cpp.o
@@ -1030,7 +1030,7 @@ perf/perf_lut.o: perf/perf_lut.cpp.o
 
 # target to build an object file
 perf/perf_lut.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_lut.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_lut.cpp.o
 .PHONY : perf/perf_lut.cpp.o
 
 perf/perf_lut.i: perf/perf_lut.cpp.i
@@ -1039,7 +1039,7 @@ perf/perf_lut.i: perf/perf_lut.cpp.i
 
 # target to preprocess a source file
 perf/perf_lut.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_lut.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_lut.cpp.i
 .PHONY : perf/perf_lut.cpp.i
 
 perf/perf_lut.s: perf/perf_lut.cpp.s
@@ -1048,7 +1048,7 @@ perf/perf_lut.s: perf/perf_lut.cpp.s
 
 # target to generate assembly for a file
 perf/perf_lut.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_lut.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_lut.cpp.s
 .PHONY : perf/perf_lut.cpp.s
 
 perf/perf_main.o: perf/perf_main.cpp.o
@@ -1057,7 +1057,7 @@ perf/perf_main.o: perf/perf_main.cpp.o
 
 # target to build an object file
 perf/perf_main.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_main.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_main.cpp.o
 .PHONY : perf/perf_main.cpp.o
 
 perf/perf_main.i: perf/perf_main.cpp.i
@@ -1066,7 +1066,7 @@ perf/perf_main.i: perf/perf_main.cpp.i
 
 # target to preprocess a source file
 perf/perf_main.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_main.cpp.i
 .PHONY : perf/perf_main.cpp.i
 
 perf/perf_main.s: perf/perf_main.cpp.s
@@ -1075,7 +1075,7 @@ perf/perf_main.s: perf/perf_main.cpp.s
 
 # target to generate assembly for a file
 perf/perf_main.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_main.cpp.s
 .PHONY : perf/perf_main.cpp.s
 
 perf/perf_mat.o: perf/perf_mat.cpp.o
@@ -1084,7 +1084,7 @@ perf/perf_mat.o: perf/perf_mat.cpp.o
 
 # target to build an object file
 perf/perf_mat.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_mat.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_mat.cpp.o
 .PHONY : perf/perf_mat.cpp.o
 
 perf/perf_mat.i: perf/perf_mat.cpp.i
@@ -1093,7 +1093,7 @@ perf/perf_mat.i: perf/perf_mat.cpp.i
 
 # target to preprocess a source file
 perf/perf_mat.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_mat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_mat.cpp.i
 .PHONY : perf/perf_mat.cpp.i
 
 perf/perf_mat.s: perf/perf_mat.cpp.s
@@ -1102,7 +1102,7 @@ perf/perf_mat.s: perf/perf_mat.cpp.s
 
 # target to generate assembly for a file
 perf/perf_mat.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_mat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_mat.cpp.s
 .PHONY : perf/perf_mat.cpp.s
 
 perf/perf_math.o: perf/perf_math.cpp.o
@@ -1111,7 +1111,7 @@ perf/perf_math.o: perf/perf_math.cpp.o
 
 # target to build an object file
 perf/perf_math.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_math.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_math.cpp.o
 .PHONY : perf/perf_math.cpp.o
 
 perf/perf_math.i: perf/perf_math.cpp.i
@@ -1120,7 +1120,7 @@ perf/perf_math.i: perf/perf_math.cpp.i
 
 # target to preprocess a source file
 perf/perf_math.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_math.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_math.cpp.i
 .PHONY : perf/perf_math.cpp.i
 
 perf/perf_math.s: perf/perf_math.cpp.s
@@ -1129,7 +1129,7 @@ perf/perf_math.s: perf/perf_math.cpp.s
 
 # target to generate assembly for a file
 perf/perf_math.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_math.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_math.cpp.s
 .PHONY : perf/perf_math.cpp.s
 
 perf/perf_merge.o: perf/perf_merge.cpp.o
@@ -1138,7 +1138,7 @@ perf/perf_merge.o: perf/perf_merge.cpp.o
 
 # target to build an object file
 perf/perf_merge.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_merge.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_merge.cpp.o
 .PHONY : perf/perf_merge.cpp.o
 
 perf/perf_merge.i: perf/perf_merge.cpp.i
@@ -1147,7 +1147,7 @@ perf/perf_merge.i: perf/perf_merge.cpp.i
 
 # target to preprocess a source file
 perf/perf_merge.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_merge.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_merge.cpp.i
 .PHONY : perf/perf_merge.cpp.i
 
 perf/perf_merge.s: perf/perf_merge.cpp.s
@@ -1156,7 +1156,7 @@ perf/perf_merge.s: perf/perf_merge.cpp.s
 
 # target to generate assembly for a file
 perf/perf_merge.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_merge.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_merge.cpp.s
 .PHONY : perf/perf_merge.cpp.s
 
 perf/perf_minmaxloc.o: perf/perf_minmaxloc.cpp.o
@@ -1165,7 +1165,7 @@ perf/perf_minmaxloc.o: perf/perf_minmaxloc.cpp.o
 
 # target to build an object file
 perf/perf_minmaxloc.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_minmaxloc.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_minmaxloc.cpp.o
 .PHONY : perf/perf_minmaxloc.cpp.o
 
 perf/perf_minmaxloc.i: perf/perf_minmaxloc.cpp.i
@@ -1174,7 +1174,7 @@ perf/perf_minmaxloc.i: perf/perf_minmaxloc.cpp.i
 
 # target to preprocess a source file
 perf/perf_minmaxloc.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_minmaxloc.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_minmaxloc.cpp.i
 .PHONY : perf/perf_minmaxloc.cpp.i
 
 perf/perf_minmaxloc.s: perf/perf_minmaxloc.cpp.s
@@ -1183,7 +1183,7 @@ perf/perf_minmaxloc.s: perf/perf_minmaxloc.cpp.s
 
 # target to generate assembly for a file
 perf/perf_minmaxloc.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_minmaxloc.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_minmaxloc.cpp.s
 .PHONY : perf/perf_minmaxloc.cpp.s
 
 perf/perf_norm.o: perf/perf_norm.cpp.o
@@ -1192,7 +1192,7 @@ perf/perf_norm.o: perf/perf_norm.cpp.o
 
 # target to build an object file
 perf/perf_norm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_norm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_norm.cpp.o
 .PHONY : perf/perf_norm.cpp.o
 
 perf/perf_norm.i: perf/perf_norm.cpp.i
@@ -1201,7 +1201,7 @@ perf/perf_norm.i: perf/perf_norm.cpp.i
 
 # target to preprocess a source file
 perf/perf_norm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_norm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_norm.cpp.i
 .PHONY : perf/perf_norm.cpp.i
 
 perf/perf_norm.s: perf/perf_norm.cpp.s
@@ -1210,7 +1210,7 @@ perf/perf_norm.s: perf/perf_norm.cpp.s
 
 # target to generate assembly for a file
 perf/perf_norm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_norm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_norm.cpp.s
 .PHONY : perf/perf_norm.cpp.s
 
 perf/perf_reduce.o: perf/perf_reduce.cpp.o
@@ -1219,7 +1219,7 @@ perf/perf_reduce.o: perf/perf_reduce.cpp.o
 
 # target to build an object file
 perf/perf_reduce.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_reduce.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_reduce.cpp.o
 .PHONY : perf/perf_reduce.cpp.o
 
 perf/perf_reduce.i: perf/perf_reduce.cpp.i
@@ -1228,7 +1228,7 @@ perf/perf_reduce.i: perf/perf_reduce.cpp.i
 
 # target to preprocess a source file
 perf/perf_reduce.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_reduce.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_reduce.cpp.i
 .PHONY : perf/perf_reduce.cpp.i
 
 perf/perf_reduce.s: perf/perf_reduce.cpp.s
@@ -1237,7 +1237,7 @@ perf/perf_reduce.s: perf/perf_reduce.cpp.s
 
 # target to generate assembly for a file
 perf/perf_reduce.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_reduce.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_reduce.cpp.s
 .PHONY : perf/perf_reduce.cpp.s
 
 perf/perf_sort.o: perf/perf_sort.cpp.o
@@ -1246,7 +1246,7 @@ perf/perf_sort.o: perf/perf_sort.cpp.o
 
 # target to build an object file
 perf/perf_sort.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_sort.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_sort.cpp.o
 .PHONY : perf/perf_sort.cpp.o
 
 perf/perf_sort.i: perf/perf_sort.cpp.i
@@ -1255,7 +1255,7 @@ perf/perf_sort.i: perf/perf_sort.cpp.i
 
 # target to preprocess a source file
 perf/perf_sort.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_sort.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_sort.cpp.i
 .PHONY : perf/perf_sort.cpp.i
 
 perf/perf_sort.s: perf/perf_sort.cpp.s
@@ -1264,7 +1264,7 @@ perf/perf_sort.s: perf/perf_sort.cpp.s
 
 # target to generate assembly for a file
 perf/perf_sort.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_sort.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_sort.cpp.s
 .PHONY : perf/perf_sort.cpp.s
 
 perf/perf_split.o: perf/perf_split.cpp.o
@@ -1273,7 +1273,7 @@ perf/perf_split.o: perf/perf_split.cpp.o
 
 # target to build an object file
 perf/perf_split.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_split.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_split.cpp.o
 .PHONY : perf/perf_split.cpp.o
 
 perf/perf_split.i: perf/perf_split.cpp.i
@@ -1282,7 +1282,7 @@ perf/perf_split.i: perf/perf_split.cpp.i
 
 # target to preprocess a source file
 perf/perf_split.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_split.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_split.cpp.i
 .PHONY : perf/perf_split.cpp.i
 
 perf/perf_split.s: perf/perf_split.cpp.s
@@ -1291,7 +1291,7 @@ perf/perf_split.s: perf/perf_split.cpp.s
 
 # target to generate assembly for a file
 perf/perf_split.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_split.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_split.cpp.s
 .PHONY : perf/perf_split.cpp.s
 
 perf/perf_stat.o: perf/perf_stat.cpp.o
@@ -1300,7 +1300,7 @@ perf/perf_stat.o: perf/perf_stat.cpp.o
 
 # target to build an object file
 perf/perf_stat.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_stat.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_stat.cpp.o
 .PHONY : perf/perf_stat.cpp.o
 
 perf/perf_stat.i: perf/perf_stat.cpp.i
@@ -1309,7 +1309,7 @@ perf/perf_stat.i: perf/perf_stat.cpp.i
 
 # target to preprocess a source file
 perf/perf_stat.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_stat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_stat.cpp.i
 .PHONY : perf/perf_stat.cpp.i
 
 perf/perf_stat.s: perf/perf_stat.cpp.s
@@ -1318,7 +1318,7 @@ perf/perf_stat.s: perf/perf_stat.cpp.s
 
 # target to generate assembly for a file
 perf/perf_stat.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_stat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_stat.cpp.s
 .PHONY : perf/perf_stat.cpp.s
 
 perf/perf_umat.o: perf/perf_umat.cpp.o
@@ -1327,7 +1327,7 @@ perf/perf_umat.o: perf/perf_umat.cpp.o
 
 # target to build an object file
 perf/perf_umat.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_umat.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_umat.cpp.o
 .PHONY : perf/perf_umat.cpp.o
 
 perf/perf_umat.i: perf/perf_umat.cpp.i
@@ -1336,7 +1336,7 @@ perf/perf_umat.i: perf/perf_umat.cpp.i
 
 # target to preprocess a source file
 perf/perf_umat.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_umat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_umat.cpp.i
 .PHONY : perf/perf_umat.cpp.i
 
 perf/perf_umat.s: perf/perf_umat.cpp.s
@@ -1345,7 +1345,7 @@ perf/perf_umat.s: perf/perf_umat.cpp.s
 
 # target to generate assembly for a file
 perf/perf_umat.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_umat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_perf_core.dir/build.make modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_umat.cpp.s
 .PHONY : perf/perf_umat.cpp.s
 
 src/algorithm.o: src/algorithm.cpp.o
@@ -1354,7 +1354,7 @@ src/algorithm.o: src/algorithm.cpp.o
 
 # target to build an object file
 src/algorithm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.o
 .PHONY : src/algorithm.cpp.o
 
 src/algorithm.i: src/algorithm.cpp.i
@@ -1363,7 +1363,7 @@ src/algorithm.i: src/algorithm.cpp.i
 
 # target to preprocess a source file
 src/algorithm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.i
 .PHONY : src/algorithm.cpp.i
 
 src/algorithm.s: src/algorithm.cpp.s
@@ -1372,7 +1372,7 @@ src/algorithm.s: src/algorithm.cpp.s
 
 # target to generate assembly for a file
 src/algorithm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/algorithm.cpp.s
 .PHONY : src/algorithm.cpp.s
 
 src/alloc.o: src/alloc.cpp.o
@@ -1381,7 +1381,7 @@ src/alloc.o: src/alloc.cpp.o
 
 # target to build an object file
 src/alloc.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.o
 .PHONY : src/alloc.cpp.o
 
 src/alloc.i: src/alloc.cpp.i
@@ -1390,7 +1390,7 @@ src/alloc.i: src/alloc.cpp.i
 
 # target to preprocess a source file
 src/alloc.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.i
 .PHONY : src/alloc.cpp.i
 
 src/alloc.s: src/alloc.cpp.s
@@ -1399,7 +1399,7 @@ src/alloc.s: src/alloc.cpp.s
 
 # target to generate assembly for a file
 src/alloc.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/alloc.cpp.s
 .PHONY : src/alloc.cpp.s
 
 src/arithm.o: src/arithm.cpp.o
@@ -1408,7 +1408,7 @@ src/arithm.o: src/arithm.cpp.o
 
 # target to build an object file
 src/arithm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.o
 .PHONY : src/arithm.cpp.o
 
 src/arithm.i: src/arithm.cpp.i
@@ -1417,7 +1417,7 @@ src/arithm.i: src/arithm.cpp.i
 
 # target to preprocess a source file
 src/arithm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.i
 .PHONY : src/arithm.cpp.i
 
 src/arithm.s: src/arithm.cpp.s
@@ -1426,7 +1426,7 @@ src/arithm.s: src/arithm.cpp.s
 
 # target to generate assembly for a file
 src/arithm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/arithm.cpp.s
 .PHONY : src/arithm.cpp.s
 
 src/array.o: src/array.cpp.o
@@ -1435,7 +1435,7 @@ src/array.o: src/array.cpp.o
 
 # target to build an object file
 src/array.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.o
 .PHONY : src/array.cpp.o
 
 src/array.i: src/array.cpp.i
@@ -1444,7 +1444,7 @@ src/array.i: src/array.cpp.i
 
 # target to preprocess a source file
 src/array.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.i
 .PHONY : src/array.cpp.i
 
 src/array.s: src/array.cpp.s
@@ -1453,7 +1453,7 @@ src/array.s: src/array.cpp.s
 
 # target to generate assembly for a file
 src/array.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/array.cpp.s
 .PHONY : src/array.cpp.s
 
 src/command_line_parser.o: src/command_line_parser.cpp.o
@@ -1462,7 +1462,7 @@ src/command_line_parser.o: src/command_line_parser.cpp.o
 
 # target to build an object file
 src/command_line_parser.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.o
 .PHONY : src/command_line_parser.cpp.o
 
 src/command_line_parser.i: src/command_line_parser.cpp.i
@@ -1471,7 +1471,7 @@ src/command_line_parser.i: src/command_line_parser.cpp.i
 
 # target to preprocess a source file
 src/command_line_parser.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.i
 .PHONY : src/command_line_parser.cpp.i
 
 src/command_line_parser.s: src/command_line_parser.cpp.s
@@ -1480,7 +1480,7 @@ src/command_line_parser.s: src/command_line_parser.cpp.s
 
 # target to generate assembly for a file
 src/command_line_parser.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/command_line_parser.cpp.s
 .PHONY : src/command_line_parser.cpp.s
 
 src/conjugate_gradient.o: src/conjugate_gradient.cpp.o
@@ -1489,7 +1489,7 @@ src/conjugate_gradient.o: src/conjugate_gradient.cpp.o
 
 # target to build an object file
 src/conjugate_gradient.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.o
 .PHONY : src/conjugate_gradient.cpp.o
 
 src/conjugate_gradient.i: src/conjugate_gradient.cpp.i
@@ -1498,7 +1498,7 @@ src/conjugate_gradient.i: src/conjugate_gradient.cpp.i
 
 # target to preprocess a source file
 src/conjugate_gradient.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.i
 .PHONY : src/conjugate_gradient.cpp.i
 
 src/conjugate_gradient.s: src/conjugate_gradient.cpp.s
@@ -1507,7 +1507,7 @@ src/conjugate_gradient.s: src/conjugate_gradient.cpp.s
 
 # target to generate assembly for a file
 src/conjugate_gradient.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/conjugate_gradient.cpp.s
 .PHONY : src/conjugate_gradient.cpp.s
 
 src/convert.avx2.o: src/convert.avx2.cpp.o
@@ -1516,7 +1516,7 @@ src/convert.avx2.o: src/convert.avx2.cpp.o
 
 # target to build an object file
 src/convert.avx2.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.o
 .PHONY : src/convert.avx2.cpp.o
 
 src/convert.avx2.i: src/convert.avx2.cpp.i
@@ -1525,7 +1525,7 @@ src/convert.avx2.i: src/convert.avx2.cpp.i
 
 # target to preprocess a source file
 src/convert.avx2.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.i
 .PHONY : src/convert.avx2.cpp.i
 
 src/convert.avx2.s: src/convert.avx2.cpp.s
@@ -1534,7 +1534,7 @@ src/convert.avx2.s: src/convert.avx2.cpp.s
 
 # target to generate assembly for a file
 src/convert.avx2.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.avx2.cpp.s
 .PHONY : src/convert.avx2.cpp.s
 
 src/convert.o: src/convert.cpp.o
@@ -1543,7 +1543,7 @@ src/convert.o: src/convert.cpp.o
 
 # target to build an object file
 src/convert.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.o
 .PHONY : src/convert.cpp.o
 
 src/convert.i: src/convert.cpp.i
@@ -1552,7 +1552,7 @@ src/convert.i: src/convert.cpp.i
 
 # target to preprocess a source file
 src/convert.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.i
 .PHONY : src/convert.cpp.i
 
 src/convert.s: src/convert.cpp.s
@@ -1561,7 +1561,7 @@ src/convert.s: src/convert.cpp.s
 
 # target to generate assembly for a file
 src/convert.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.cpp.s
 .PHONY : src/convert.cpp.s
 
 src/convert.fp16.o: src/convert.fp16.cpp.o
@@ -1570,7 +1570,7 @@ src/convert.fp16.o: src/convert.fp16.cpp.o
 
 # target to build an object file
 src/convert.fp16.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.o
 .PHONY : src/convert.fp16.cpp.o
 
 src/convert.fp16.i: src/convert.fp16.cpp.i
@@ -1579,7 +1579,7 @@ src/convert.fp16.i: src/convert.fp16.cpp.i
 
 # target to preprocess a source file
 src/convert.fp16.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.i
 .PHONY : src/convert.fp16.cpp.i
 
 src/convert.fp16.s: src/convert.fp16.cpp.s
@@ -1588,7 +1588,7 @@ src/convert.fp16.s: src/convert.fp16.cpp.s
 
 # target to generate assembly for a file
 src/convert.fp16.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.fp16.cpp.s
 .PHONY : src/convert.fp16.cpp.s
 
 src/convert.sse4_1.o: src/convert.sse4_1.cpp.o
@@ -1597,7 +1597,7 @@ src/convert.sse4_1.o: src/convert.sse4_1.cpp.o
 
 # target to build an object file
 src/convert.sse4_1.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.o
 .PHONY : src/convert.sse4_1.cpp.o
 
 src/convert.sse4_1.i: src/convert.sse4_1.cpp.i
@@ -1606,7 +1606,7 @@ src/convert.sse4_1.i: src/convert.sse4_1.cpp.i
 
 # target to preprocess a source file
 src/convert.sse4_1.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.i
 .PHONY : src/convert.sse4_1.cpp.i
 
 src/convert.sse4_1.s: src/convert.sse4_1.cpp.s
@@ -1615,7 +1615,7 @@ src/convert.sse4_1.s: src/convert.sse4_1.cpp.s
 
 # target to generate assembly for a file
 src/convert.sse4_1.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/convert.sse4_1.cpp.s
 .PHONY : src/convert.sse4_1.cpp.s
 
 src/copy.o: src/copy.cpp.o
@@ -1624,7 +1624,7 @@ src/copy.o: src/copy.cpp.o
 
 # target to build an object file
 src/copy.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.o
 .PHONY : src/copy.cpp.o
 
 src/copy.i: src/copy.cpp.i
@@ -1633,7 +1633,7 @@ src/copy.i: src/copy.cpp.i
 
 # target to preprocess a source file
 src/copy.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.i
 .PHONY : src/copy.cpp.i
 
 src/copy.s: src/copy.cpp.s
@@ -1642,7 +1642,7 @@ src/copy.s: src/copy.cpp.s
 
 # target to generate assembly for a file
 src/copy.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/copy.cpp.s
 .PHONY : src/copy.cpp.s
 
 src/cuda_gpu_mat.o: src/cuda_gpu_mat.cpp.o
@@ -1651,7 +1651,7 @@ src/cuda_gpu_mat.o: src/cuda_gpu_mat.cpp.o
 
 # target to build an object file
 src/cuda_gpu_mat.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.o
 .PHONY : src/cuda_gpu_mat.cpp.o
 
 src/cuda_gpu_mat.i: src/cuda_gpu_mat.cpp.i
@@ -1660,7 +1660,7 @@ src/cuda_gpu_mat.i: src/cuda_gpu_mat.cpp.i
 
 # target to preprocess a source file
 src/cuda_gpu_mat.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.i
 .PHONY : src/cuda_gpu_mat.cpp.i
 
 src/cuda_gpu_mat.s: src/cuda_gpu_mat.cpp.s
@@ -1669,7 +1669,7 @@ src/cuda_gpu_mat.s: src/cuda_gpu_mat.cpp.s
 
 # target to generate assembly for a file
 src/cuda_gpu_mat.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_gpu_mat.cpp.s
 .PHONY : src/cuda_gpu_mat.cpp.s
 
 src/cuda_host_mem.o: src/cuda_host_mem.cpp.o
@@ -1678,7 +1678,7 @@ src/cuda_host_mem.o: src/cuda_host_mem.cpp.o
 
 # target to build an object file
 src/cuda_host_mem.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.o
 .PHONY : src/cuda_host_mem.cpp.o
 
 src/cuda_host_mem.i: src/cuda_host_mem.cpp.i
@@ -1687,7 +1687,7 @@ src/cuda_host_mem.i: src/cuda_host_mem.cpp.i
 
 # target to preprocess a source file
 src/cuda_host_mem.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.i
 .PHONY : src/cuda_host_mem.cpp.i
 
 src/cuda_host_mem.s: src/cuda_host_mem.cpp.s
@@ -1696,7 +1696,7 @@ src/cuda_host_mem.s: src/cuda_host_mem.cpp.s
 
 # target to generate assembly for a file
 src/cuda_host_mem.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_host_mem.cpp.s
 .PHONY : src/cuda_host_mem.cpp.s
 
 src/cuda_info.o: src/cuda_info.cpp.o
@@ -1705,7 +1705,7 @@ src/cuda_info.o: src/cuda_info.cpp.o
 
 # target to build an object file
 src/cuda_info.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.o
 .PHONY : src/cuda_info.cpp.o
 
 src/cuda_info.i: src/cuda_info.cpp.i
@@ -1714,7 +1714,7 @@ src/cuda_info.i: src/cuda_info.cpp.i
 
 # target to preprocess a source file
 src/cuda_info.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.i
 .PHONY : src/cuda_info.cpp.i
 
 src/cuda_info.s: src/cuda_info.cpp.s
@@ -1723,7 +1723,7 @@ src/cuda_info.s: src/cuda_info.cpp.s
 
 # target to generate assembly for a file
 src/cuda_info.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_info.cpp.s
 .PHONY : src/cuda_info.cpp.s
 
 src/cuda_stream.o: src/cuda_stream.cpp.o
@@ -1732,7 +1732,7 @@ src/cuda_stream.o: src/cuda_stream.cpp.o
 
 # target to build an object file
 src/cuda_stream.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.o
 .PHONY : src/cuda_stream.cpp.o
 
 src/cuda_stream.i: src/cuda_stream.cpp.i
@@ -1741,7 +1741,7 @@ src/cuda_stream.i: src/cuda_stream.cpp.i
 
 # target to preprocess a source file
 src/cuda_stream.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.i
 .PHONY : src/cuda_stream.cpp.i
 
 src/cuda_stream.s: src/cuda_stream.cpp.s
@@ -1750,7 +1750,7 @@ src/cuda_stream.s: src/cuda_stream.cpp.s
 
 # target to generate assembly for a file
 src/cuda_stream.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/cuda_stream.cpp.s
 .PHONY : src/cuda_stream.cpp.s
 
 src/datastructs.o: src/datastructs.cpp.o
@@ -1759,7 +1759,7 @@ src/datastructs.o: src/datastructs.cpp.o
 
 # target to build an object file
 src/datastructs.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.o
 .PHONY : src/datastructs.cpp.o
 
 src/datastructs.i: src/datastructs.cpp.i
@@ -1768,7 +1768,7 @@ src/datastructs.i: src/datastructs.cpp.i
 
 # target to preprocess a source file
 src/datastructs.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.i
 .PHONY : src/datastructs.cpp.i
 
 src/datastructs.s: src/datastructs.cpp.s
@@ -1777,7 +1777,7 @@ src/datastructs.s: src/datastructs.cpp.s
 
 # target to generate assembly for a file
 src/datastructs.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/datastructs.cpp.s
 .PHONY : src/datastructs.cpp.s
 
 src/directx.o: src/directx.cpp.o
@@ -1786,7 +1786,7 @@ src/directx.o: src/directx.cpp.o
 
 # target to build an object file
 src/directx.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.o
 .PHONY : src/directx.cpp.o
 
 src/directx.i: src/directx.cpp.i
@@ -1795,7 +1795,7 @@ src/directx.i: src/directx.cpp.i
 
 # target to preprocess a source file
 src/directx.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.i
 .PHONY : src/directx.cpp.i
 
 src/directx.s: src/directx.cpp.s
@@ -1804,7 +1804,7 @@ src/directx.s: src/directx.cpp.s
 
 # target to generate assembly for a file
 src/directx.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/directx.cpp.s
 .PHONY : src/directx.cpp.s
 
 src/downhill_simplex.o: src/downhill_simplex.cpp.o
@@ -1813,7 +1813,7 @@ src/downhill_simplex.o: src/downhill_simplex.cpp.o
 
 # target to build an object file
 src/downhill_simplex.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.o
 .PHONY : src/downhill_simplex.cpp.o
 
 src/downhill_simplex.i: src/downhill_simplex.cpp.i
@@ -1822,7 +1822,7 @@ src/downhill_simplex.i: src/downhill_simplex.cpp.i
 
 # target to preprocess a source file
 src/downhill_simplex.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.i
 .PHONY : src/downhill_simplex.cpp.i
 
 src/downhill_simplex.s: src/downhill_simplex.cpp.s
@@ -1831,7 +1831,7 @@ src/downhill_simplex.s: src/downhill_simplex.cpp.s
 
 # target to generate assembly for a file
 src/downhill_simplex.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/downhill_simplex.cpp.s
 .PHONY : src/downhill_simplex.cpp.s
 
 src/dxt.o: src/dxt.cpp.o
@@ -1840,7 +1840,7 @@ src/dxt.o: src/dxt.cpp.o
 
 # target to build an object file
 src/dxt.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.o
 .PHONY : src/dxt.cpp.o
 
 src/dxt.i: src/dxt.cpp.i
@@ -1849,7 +1849,7 @@ src/dxt.i: src/dxt.cpp.i
 
 # target to preprocess a source file
 src/dxt.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.i
 .PHONY : src/dxt.cpp.i
 
 src/dxt.s: src/dxt.cpp.s
@@ -1858,7 +1858,7 @@ src/dxt.s: src/dxt.cpp.s
 
 # target to generate assembly for a file
 src/dxt.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/dxt.cpp.s
 .PHONY : src/dxt.cpp.s
 
 src/gl_core_3_1.o: src/gl_core_3_1.cpp.o
@@ -1867,7 +1867,7 @@ src/gl_core_3_1.o: src/gl_core_3_1.cpp.o
 
 # target to build an object file
 src/gl_core_3_1.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.o
 .PHONY : src/gl_core_3_1.cpp.o
 
 src/gl_core_3_1.i: src/gl_core_3_1.cpp.i
@@ -1876,7 +1876,7 @@ src/gl_core_3_1.i: src/gl_core_3_1.cpp.i
 
 # target to preprocess a source file
 src/gl_core_3_1.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.i
 .PHONY : src/gl_core_3_1.cpp.i
 
 src/gl_core_3_1.s: src/gl_core_3_1.cpp.s
@@ -1885,7 +1885,7 @@ src/gl_core_3_1.s: src/gl_core_3_1.cpp.s
 
 # target to generate assembly for a file
 src/gl_core_3_1.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/gl_core_3_1.cpp.s
 .PHONY : src/gl_core_3_1.cpp.s
 
 src/glob.o: src/glob.cpp.o
@@ -1894,7 +1894,7 @@ src/glob.o: src/glob.cpp.o
 
 # target to build an object file
 src/glob.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.o
 .PHONY : src/glob.cpp.o
 
 src/glob.i: src/glob.cpp.i
@@ -1903,7 +1903,7 @@ src/glob.i: src/glob.cpp.i
 
 # target to preprocess a source file
 src/glob.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.i
 .PHONY : src/glob.cpp.i
 
 src/glob.s: src/glob.cpp.s
@@ -1912,7 +1912,7 @@ src/glob.s: src/glob.cpp.s
 
 # target to generate assembly for a file
 src/glob.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/glob.cpp.s
 .PHONY : src/glob.cpp.s
 
 src/hal_internal.o: src/hal_internal.cpp.o
@@ -1921,7 +1921,7 @@ src/hal_internal.o: src/hal_internal.cpp.o
 
 # target to build an object file
 src/hal_internal.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.o
 .PHONY : src/hal_internal.cpp.o
 
 src/hal_internal.i: src/hal_internal.cpp.i
@@ -1930,7 +1930,7 @@ src/hal_internal.i: src/hal_internal.cpp.i
 
 # target to preprocess a source file
 src/hal_internal.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.i
 .PHONY : src/hal_internal.cpp.i
 
 src/hal_internal.s: src/hal_internal.cpp.s
@@ -1939,7 +1939,7 @@ src/hal_internal.s: src/hal_internal.cpp.s
 
 # target to generate assembly for a file
 src/hal_internal.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/hal_internal.cpp.s
 .PHONY : src/hal_internal.cpp.s
 
 src/kmeans.o: src/kmeans.cpp.o
@@ -1948,7 +1948,7 @@ src/kmeans.o: src/kmeans.cpp.o
 
 # target to build an object file
 src/kmeans.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.o
 .PHONY : src/kmeans.cpp.o
 
 src/kmeans.i: src/kmeans.cpp.i
@@ -1957,7 +1957,7 @@ src/kmeans.i: src/kmeans.cpp.i
 
 # target to preprocess a source file
 src/kmeans.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.i
 .PHONY : src/kmeans.cpp.i
 
 src/kmeans.s: src/kmeans.cpp.s
@@ -1966,7 +1966,7 @@ src/kmeans.s: src/kmeans.cpp.s
 
 # target to generate assembly for a file
 src/kmeans.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/kmeans.cpp.s
 .PHONY : src/kmeans.cpp.s
 
 src/lapack.o: src/lapack.cpp.o
@@ -1975,7 +1975,7 @@ src/lapack.o: src/lapack.cpp.o
 
 # target to build an object file
 src/lapack.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.o
 .PHONY : src/lapack.cpp.o
 
 src/lapack.i: src/lapack.cpp.i
@@ -1984,7 +1984,7 @@ src/lapack.i: src/lapack.cpp.i
 
 # target to preprocess a source file
 src/lapack.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.i
 .PHONY : src/lapack.cpp.i
 
 src/lapack.s: src/lapack.cpp.s
@@ -1993,7 +1993,7 @@ src/lapack.s: src/lapack.cpp.s
 
 # target to generate assembly for a file
 src/lapack.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lapack.cpp.s
 .PHONY : src/lapack.cpp.s
 
 src/lda.o: src/lda.cpp.o
@@ -2002,7 +2002,7 @@ src/lda.o: src/lda.cpp.o
 
 # target to build an object file
 src/lda.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.o
 .PHONY : src/lda.cpp.o
 
 src/lda.i: src/lda.cpp.i
@@ -2011,7 +2011,7 @@ src/lda.i: src/lda.cpp.i
 
 # target to preprocess a source file
 src/lda.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.i
 .PHONY : src/lda.cpp.i
 
 src/lda.s: src/lda.cpp.s
@@ -2020,7 +2020,7 @@ src/lda.s: src/lda.cpp.s
 
 # target to generate assembly for a file
 src/lda.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lda.cpp.s
 .PHONY : src/lda.cpp.s
 
 src/lpsolver.o: src/lpsolver.cpp.o
@@ -2029,7 +2029,7 @@ src/lpsolver.o: src/lpsolver.cpp.o
 
 # target to build an object file
 src/lpsolver.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.o
 .PHONY : src/lpsolver.cpp.o
 
 src/lpsolver.i: src/lpsolver.cpp.i
@@ -2038,7 +2038,7 @@ src/lpsolver.i: src/lpsolver.cpp.i
 
 # target to preprocess a source file
 src/lpsolver.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.i
 .PHONY : src/lpsolver.cpp.i
 
 src/lpsolver.s: src/lpsolver.cpp.s
@@ -2047,7 +2047,7 @@ src/lpsolver.s: src/lpsolver.cpp.s
 
 # target to generate assembly for a file
 src/lpsolver.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/lpsolver.cpp.s
 .PHONY : src/lpsolver.cpp.s
 
 src/mathfuncs.o: src/mathfuncs.cpp.o
@@ -2056,7 +2056,7 @@ src/mathfuncs.o: src/mathfuncs.cpp.o
 
 # target to build an object file
 src/mathfuncs.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.o
 .PHONY : src/mathfuncs.cpp.o
 
 src/mathfuncs.i: src/mathfuncs.cpp.i
@@ -2065,7 +2065,7 @@ src/mathfuncs.i: src/mathfuncs.cpp.i
 
 # target to preprocess a source file
 src/mathfuncs.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.i
 .PHONY : src/mathfuncs.cpp.i
 
 src/mathfuncs.s: src/mathfuncs.cpp.s
@@ -2074,7 +2074,7 @@ src/mathfuncs.s: src/mathfuncs.cpp.s
 
 # target to generate assembly for a file
 src/mathfuncs.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs.cpp.s
 .PHONY : src/mathfuncs.cpp.s
 
 src/mathfuncs_core.dispatch.o: src/mathfuncs_core.dispatch.cpp.o
@@ -2083,7 +2083,7 @@ src/mathfuncs_core.dispatch.o: src/mathfuncs_core.dispatch.cpp.o
 
 # target to build an object file
 src/mathfuncs_core.dispatch.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.o
 .PHONY : src/mathfuncs_core.dispatch.cpp.o
 
 src/mathfuncs_core.dispatch.i: src/mathfuncs_core.dispatch.cpp.i
@@ -2092,7 +2092,7 @@ src/mathfuncs_core.dispatch.i: src/mathfuncs_core.dispatch.cpp.i
 
 # target to preprocess a source file
 src/mathfuncs_core.dispatch.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.i
 .PHONY : src/mathfuncs_core.dispatch.cpp.i
 
 src/mathfuncs_core.dispatch.s: src/mathfuncs_core.dispatch.cpp.s
@@ -2101,7 +2101,7 @@ src/mathfuncs_core.dispatch.s: src/mathfuncs_core.dispatch.cpp.s
 
 # target to generate assembly for a file
 src/mathfuncs_core.dispatch.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/mathfuncs_core.dispatch.cpp.s
 .PHONY : src/mathfuncs_core.dispatch.cpp.s
 
 src/matmul.o: src/matmul.cpp.o
@@ -2110,7 +2110,7 @@ src/matmul.o: src/matmul.cpp.o
 
 # target to build an object file
 src/matmul.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.o
 .PHONY : src/matmul.cpp.o
 
 src/matmul.i: src/matmul.cpp.i
@@ -2119,7 +2119,7 @@ src/matmul.i: src/matmul.cpp.i
 
 # target to preprocess a source file
 src/matmul.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.i
 .PHONY : src/matmul.cpp.i
 
 src/matmul.s: src/matmul.cpp.s
@@ -2128,7 +2128,7 @@ src/matmul.s: src/matmul.cpp.s
 
 # target to generate assembly for a file
 src/matmul.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matmul.cpp.s
 .PHONY : src/matmul.cpp.s
 
 src/matop.o: src/matop.cpp.o
@@ -2137,7 +2137,7 @@ src/matop.o: src/matop.cpp.o
 
 # target to build an object file
 src/matop.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.o
 .PHONY : src/matop.cpp.o
 
 src/matop.i: src/matop.cpp.i
@@ -2146,7 +2146,7 @@ src/matop.i: src/matop.cpp.i
 
 # target to preprocess a source file
 src/matop.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.i
 .PHONY : src/matop.cpp.i
 
 src/matop.s: src/matop.cpp.s
@@ -2155,7 +2155,7 @@ src/matop.s: src/matop.cpp.s
 
 # target to generate assembly for a file
 src/matop.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matop.cpp.s
 .PHONY : src/matop.cpp.s
 
 src/matrix.o: src/matrix.cpp.o
@@ -2164,7 +2164,7 @@ src/matrix.o: src/matrix.cpp.o
 
 # target to build an object file
 src/matrix.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.o
 .PHONY : src/matrix.cpp.o
 
 src/matrix.i: src/matrix.cpp.i
@@ -2173,7 +2173,7 @@ src/matrix.i: src/matrix.cpp.i
 
 # target to preprocess a source file
 src/matrix.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.i
 .PHONY : src/matrix.cpp.i
 
 src/matrix.s: src/matrix.cpp.s
@@ -2182,7 +2182,7 @@ src/matrix.s: src/matrix.cpp.s
 
 # target to generate assembly for a file
 src/matrix.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix.cpp.s
 .PHONY : src/matrix.cpp.s
 
 src/matrix_decomp.o: src/matrix_decomp.cpp.o
@@ -2191,7 +2191,7 @@ src/matrix_decomp.o: src/matrix_decomp.cpp.o
 
 # target to build an object file
 src/matrix_decomp.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.o
 .PHONY : src/matrix_decomp.cpp.o
 
 src/matrix_decomp.i: src/matrix_decomp.cpp.i
@@ -2200,7 +2200,7 @@ src/matrix_decomp.i: src/matrix_decomp.cpp.i
 
 # target to preprocess a source file
 src/matrix_decomp.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.i
 .PHONY : src/matrix_decomp.cpp.i
 
 src/matrix_decomp.s: src/matrix_decomp.cpp.s
@@ -2209,7 +2209,7 @@ src/matrix_decomp.s: src/matrix_decomp.cpp.s
 
 # target to generate assembly for a file
 src/matrix_decomp.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/matrix_decomp.cpp.s
 .PHONY : src/matrix_decomp.cpp.s
 
 src/merge.o: src/merge.cpp.o
@@ -2218,7 +2218,7 @@ src/merge.o: src/merge.cpp.o
 
 # target to build an object file
 src/merge.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.o
 .PHONY : src/merge.cpp.o
 
 src/merge.i: src/merge.cpp.i
@@ -2227,7 +2227,7 @@ src/merge.i: src/merge.cpp.i
 
 # target to preprocess a source file
 src/merge.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.i
 .PHONY : src/merge.cpp.i
 
 src/merge.s: src/merge.cpp.s
@@ -2236,7 +2236,7 @@ src/merge.s: src/merge.cpp.s
 
 # target to generate assembly for a file
 src/merge.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/merge.cpp.s
 .PHONY : src/merge.cpp.s
 
 src/ocl.o: src/ocl.cpp.o
@@ -2245,7 +2245,7 @@ src/ocl.o: src/ocl.cpp.o
 
 # target to build an object file
 src/ocl.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.o
 .PHONY : src/ocl.cpp.o
 
 src/ocl.i: src/ocl.cpp.i
@@ -2254,7 +2254,7 @@ src/ocl.i: src/ocl.cpp.i
 
 # target to preprocess a source file
 src/ocl.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.i
 .PHONY : src/ocl.cpp.i
 
 src/ocl.s: src/ocl.cpp.s
@@ -2263,7 +2263,7 @@ src/ocl.s: src/ocl.cpp.s
 
 # target to generate assembly for a file
 src/ocl.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ocl.cpp.s
 .PHONY : src/ocl.cpp.s
 
 src/opencl/runtime/opencl_clamdblas.o: src/opencl/runtime/opencl_clamdblas.cpp.o
@@ -2272,7 +2272,7 @@ src/opencl/runtime/opencl_clamdblas.o: src/opencl/runtime/opencl_clamdblas.cpp.o
 
 # target to build an object file
 src/opencl/runtime/opencl_clamdblas.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.o
 .PHONY : src/opencl/runtime/opencl_clamdblas.cpp.o
 
 src/opencl/runtime/opencl_clamdblas.i: src/opencl/runtime/opencl_clamdblas.cpp.i
@@ -2281,7 +2281,7 @@ src/opencl/runtime/opencl_clamdblas.i: src/opencl/runtime/opencl_clamdblas.cpp.i
 
 # target to preprocess a source file
 src/opencl/runtime/opencl_clamdblas.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.i
 .PHONY : src/opencl/runtime/opencl_clamdblas.cpp.i
 
 src/opencl/runtime/opencl_clamdblas.s: src/opencl/runtime/opencl_clamdblas.cpp.s
@@ -2290,7 +2290,7 @@ src/opencl/runtime/opencl_clamdblas.s: src/opencl/runtime/opencl_clamdblas.cpp.s
 
 # target to generate assembly for a file
 src/opencl/runtime/opencl_clamdblas.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdblas.cpp.s
 .PHONY : src/opencl/runtime/opencl_clamdblas.cpp.s
 
 src/opencl/runtime/opencl_clamdfft.o: src/opencl/runtime/opencl_clamdfft.cpp.o
@@ -2299,7 +2299,7 @@ src/opencl/runtime/opencl_clamdfft.o: src/opencl/runtime/opencl_clamdfft.cpp.o
 
 # target to build an object file
 src/opencl/runtime/opencl_clamdfft.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.o
 .PHONY : src/opencl/runtime/opencl_clamdfft.cpp.o
 
 src/opencl/runtime/opencl_clamdfft.i: src/opencl/runtime/opencl_clamdfft.cpp.i
@@ -2308,7 +2308,7 @@ src/opencl/runtime/opencl_clamdfft.i: src/opencl/runtime/opencl_clamdfft.cpp.i
 
 # target to preprocess a source file
 src/opencl/runtime/opencl_clamdfft.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.i
 .PHONY : src/opencl/runtime/opencl_clamdfft.cpp.i
 
 src/opencl/runtime/opencl_clamdfft.s: src/opencl/runtime/opencl_clamdfft.cpp.s
@@ -2317,7 +2317,7 @@ src/opencl/runtime/opencl_clamdfft.s: src/opencl/runtime/opencl_clamdfft.cpp.s
 
 # target to generate assembly for a file
 src/opencl/runtime/opencl_clamdfft.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_clamdfft.cpp.s
 .PHONY : src/opencl/runtime/opencl_clamdfft.cpp.s
 
 src/opencl/runtime/opencl_core.o: src/opencl/runtime/opencl_core.cpp.o
@@ -2326,7 +2326,7 @@ src/opencl/runtime/opencl_core.o: src/opencl/runtime/opencl_core.cpp.o
 
 # target to build an object file
 src/opencl/runtime/opencl_core.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.o
 .PHONY : src/opencl/runtime/opencl_core.cpp.o
 
 src/opencl/runtime/opencl_core.i: src/opencl/runtime/opencl_core.cpp.i
@@ -2335,7 +2335,7 @@ src/opencl/runtime/opencl_core.i: src/opencl/runtime/opencl_core.cpp.i
 
 # target to preprocess a source file
 src/opencl/runtime/opencl_core.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.i
 .PHONY : src/opencl/runtime/opencl_core.cpp.i
 
 src/opencl/runtime/opencl_core.s: src/opencl/runtime/opencl_core.cpp.s
@@ -2344,7 +2344,7 @@ src/opencl/runtime/opencl_core.s: src/opencl/runtime/opencl_core.cpp.s
 
 # target to generate assembly for a file
 src/opencl/runtime/opencl_core.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opencl/runtime/opencl_core.cpp.s
 .PHONY : src/opencl/runtime/opencl_core.cpp.s
 
 src/opengl.o: src/opengl.cpp.o
@@ -2353,7 +2353,7 @@ src/opengl.o: src/opengl.cpp.o
 
 # target to build an object file
 src/opengl.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.o
 .PHONY : src/opengl.cpp.o
 
 src/opengl.i: src/opengl.cpp.i
@@ -2362,7 +2362,7 @@ src/opengl.i: src/opengl.cpp.i
 
 # target to preprocess a source file
 src/opengl.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.i
 .PHONY : src/opengl.cpp.i
 
 src/opengl.s: src/opengl.cpp.s
@@ -2371,7 +2371,7 @@ src/opengl.s: src/opengl.cpp.s
 
 # target to generate assembly for a file
 src/opengl.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/opengl.cpp.s
 .PHONY : src/opengl.cpp.s
 
 src/out.o: src/out.cpp.o
@@ -2380,7 +2380,7 @@ src/out.o: src/out.cpp.o
 
 # target to build an object file
 src/out.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.o
 .PHONY : src/out.cpp.o
 
 src/out.i: src/out.cpp.i
@@ -2389,7 +2389,7 @@ src/out.i: src/out.cpp.i
 
 # target to preprocess a source file
 src/out.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.i
 .PHONY : src/out.cpp.i
 
 src/out.s: src/out.cpp.s
@@ -2398,7 +2398,7 @@ src/out.s: src/out.cpp.s
 
 # target to generate assembly for a file
 src/out.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/out.cpp.s
 .PHONY : src/out.cpp.s
 
 src/ovx.o: src/ovx.cpp.o
@@ -2407,7 +2407,7 @@ src/ovx.o: src/ovx.cpp.o
 
 # target to build an object file
 src/ovx.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.o
 .PHONY : src/ovx.cpp.o
 
 src/ovx.i: src/ovx.cpp.i
@@ -2416,7 +2416,7 @@ src/ovx.i: src/ovx.cpp.i
 
 # target to preprocess a source file
 src/ovx.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.i
 .PHONY : src/ovx.cpp.i
 
 src/ovx.s: src/ovx.cpp.s
@@ -2425,7 +2425,7 @@ src/ovx.s: src/ovx.cpp.s
 
 # target to generate assembly for a file
 src/ovx.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/ovx.cpp.s
 .PHONY : src/ovx.cpp.s
 
 src/parallel.o: src/parallel.cpp.o
@@ -2434,7 +2434,7 @@ src/parallel.o: src/parallel.cpp.o
 
 # target to build an object file
 src/parallel.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.o
 .PHONY : src/parallel.cpp.o
 
 src/parallel.i: src/parallel.cpp.i
@@ -2443,7 +2443,7 @@ src/parallel.i: src/parallel.cpp.i
 
 # target to preprocess a source file
 src/parallel.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.i
 .PHONY : src/parallel.cpp.i
 
 src/parallel.s: src/parallel.cpp.s
@@ -2452,7 +2452,7 @@ src/parallel.s: src/parallel.cpp.s
 
 # target to generate assembly for a file
 src/parallel.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel.cpp.s
 .PHONY : src/parallel.cpp.s
 
 src/parallel_pthreads.o: src/parallel_pthreads.cpp.o
@@ -2461,7 +2461,7 @@ src/parallel_pthreads.o: src/parallel_pthreads.cpp.o
 
 # target to build an object file
 src/parallel_pthreads.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.o
 .PHONY : src/parallel_pthreads.cpp.o
 
 src/parallel_pthreads.i: src/parallel_pthreads.cpp.i
@@ -2470,7 +2470,7 @@ src/parallel_pthreads.i: src/parallel_pthreads.cpp.i
 
 # target to preprocess a source file
 src/parallel_pthreads.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.i
 .PHONY : src/parallel_pthreads.cpp.i
 
 src/parallel_pthreads.s: src/parallel_pthreads.cpp.s
@@ -2479,7 +2479,7 @@ src/parallel_pthreads.s: src/parallel_pthreads.cpp.s
 
 # target to generate assembly for a file
 src/parallel_pthreads.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/parallel_pthreads.cpp.s
 .PHONY : src/parallel_pthreads.cpp.s
 
 src/pca.o: src/pca.cpp.o
@@ -2488,7 +2488,7 @@ src/pca.o: src/pca.cpp.o
 
 # target to build an object file
 src/pca.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.o
 .PHONY : src/pca.cpp.o
 
 src/pca.i: src/pca.cpp.i
@@ -2497,7 +2497,7 @@ src/pca.i: src/pca.cpp.i
 
 # target to preprocess a source file
 src/pca.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.i
 .PHONY : src/pca.cpp.i
 
 src/pca.s: src/pca.cpp.s
@@ -2506,7 +2506,7 @@ src/pca.s: src/pca.cpp.s
 
 # target to generate assembly for a file
 src/pca.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/pca.cpp.s
 .PHONY : src/pca.cpp.s
 
 src/persistence.o: src/persistence.cpp.o
@@ -2515,7 +2515,7 @@ src/persistence.o: src/persistence.cpp.o
 
 # target to build an object file
 src/persistence.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.o
 .PHONY : src/persistence.cpp.o
 
 src/persistence.i: src/persistence.cpp.i
@@ -2524,7 +2524,7 @@ src/persistence.i: src/persistence.cpp.i
 
 # target to preprocess a source file
 src/persistence.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.i
 .PHONY : src/persistence.cpp.i
 
 src/persistence.s: src/persistence.cpp.s
@@ -2533,7 +2533,7 @@ src/persistence.s: src/persistence.cpp.s
 
 # target to generate assembly for a file
 src/persistence.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/persistence.cpp.s
 .PHONY : src/persistence.cpp.s
 
 src/rand.o: src/rand.cpp.o
@@ -2542,7 +2542,7 @@ src/rand.o: src/rand.cpp.o
 
 # target to build an object file
 src/rand.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.o
 .PHONY : src/rand.cpp.o
 
 src/rand.i: src/rand.cpp.i
@@ -2551,7 +2551,7 @@ src/rand.i: src/rand.cpp.i
 
 # target to preprocess a source file
 src/rand.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.i
 .PHONY : src/rand.cpp.i
 
 src/rand.s: src/rand.cpp.s
@@ -2560,7 +2560,7 @@ src/rand.s: src/rand.cpp.s
 
 # target to generate assembly for a file
 src/rand.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/rand.cpp.s
 .PHONY : src/rand.cpp.s
 
 src/softfloat.o: src/softfloat.cpp.o
@@ -2569,7 +2569,7 @@ src/softfloat.o: src/softfloat.cpp.o
 
 # target to build an object file
 src/softfloat.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.o
 .PHONY : src/softfloat.cpp.o
 
 src/softfloat.i: src/softfloat.cpp.i
@@ -2578,7 +2578,7 @@ src/softfloat.i: src/softfloat.cpp.i
 
 # target to preprocess a source file
 src/softfloat.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.i
 .PHONY : src/softfloat.cpp.i
 
 src/softfloat.s: src/softfloat.cpp.s
@@ -2587,7 +2587,7 @@ src/softfloat.s: src/softfloat.cpp.s
 
 # target to generate assembly for a file
 src/softfloat.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/softfloat.cpp.s
 .PHONY : src/softfloat.cpp.s
 
 src/split.o: src/split.cpp.o
@@ -2596,7 +2596,7 @@ src/split.o: src/split.cpp.o
 
 # target to build an object file
 src/split.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.o
 .PHONY : src/split.cpp.o
 
 src/split.i: src/split.cpp.i
@@ -2605,7 +2605,7 @@ src/split.i: src/split.cpp.i
 
 # target to preprocess a source file
 src/split.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.i
 .PHONY : src/split.cpp.i
 
 src/split.s: src/split.cpp.s
@@ -2614,7 +2614,7 @@ src/split.s: src/split.cpp.s
 
 # target to generate assembly for a file
 src/split.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/split.cpp.s
 .PHONY : src/split.cpp.s
 
 src/stat.o: src/stat.cpp.o
@@ -2623,7 +2623,7 @@ src/stat.o: src/stat.cpp.o
 
 # target to build an object file
 src/stat.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.o
 .PHONY : src/stat.cpp.o
 
 src/stat.i: src/stat.cpp.i
@@ -2632,7 +2632,7 @@ src/stat.i: src/stat.cpp.i
 
 # target to preprocess a source file
 src/stat.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.i
 .PHONY : src/stat.cpp.i
 
 src/stat.s: src/stat.cpp.s
@@ -2641,7 +2641,7 @@ src/stat.s: src/stat.cpp.s
 
 # target to generate assembly for a file
 src/stat.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.cpp.s
 .PHONY : src/stat.cpp.s
 
 src/stat.dispatch.o: src/stat.dispatch.cpp.o
@@ -2650,7 +2650,7 @@ src/stat.dispatch.o: src/stat.dispatch.cpp.o
 
 # target to build an object file
 src/stat.dispatch.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.o
 .PHONY : src/stat.dispatch.cpp.o
 
 src/stat.dispatch.i: src/stat.dispatch.cpp.i
@@ -2659,7 +2659,7 @@ src/stat.dispatch.i: src/stat.dispatch.cpp.i
 
 # target to preprocess a source file
 src/stat.dispatch.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.i
 .PHONY : src/stat.dispatch.cpp.i
 
 src/stat.dispatch.s: src/stat.dispatch.cpp.s
@@ -2668,7 +2668,7 @@ src/stat.dispatch.s: src/stat.dispatch.cpp.s
 
 # target to generate assembly for a file
 src/stat.dispatch.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stat.dispatch.cpp.s
 .PHONY : src/stat.dispatch.cpp.s
 
 src/stl.o: src/stl.cpp.o
@@ -2677,7 +2677,7 @@ src/stl.o: src/stl.cpp.o
 
 # target to build an object file
 src/stl.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.o
 .PHONY : src/stl.cpp.o
 
 src/stl.i: src/stl.cpp.i
@@ -2686,7 +2686,7 @@ src/stl.i: src/stl.cpp.i
 
 # target to preprocess a source file
 src/stl.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.i
 .PHONY : src/stl.cpp.i
 
 src/stl.s: src/stl.cpp.s
@@ -2695,7 +2695,7 @@ src/stl.s: src/stl.cpp.s
 
 # target to generate assembly for a file
 src/stl.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/stl.cpp.s
 .PHONY : src/stl.cpp.s
 
 src/system.o: src/system.cpp.o
@@ -2704,7 +2704,7 @@ src/system.o: src/system.cpp.o
 
 # target to build an object file
 src/system.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.o
 .PHONY : src/system.cpp.o
 
 src/system.i: src/system.cpp.i
@@ -2713,7 +2713,7 @@ src/system.i: src/system.cpp.i
 
 # target to preprocess a source file
 src/system.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.i
 .PHONY : src/system.cpp.i
 
 src/system.s: src/system.cpp.s
@@ -2722,7 +2722,7 @@ src/system.s: src/system.cpp.s
 
 # target to generate assembly for a file
 src/system.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/system.cpp.s
 .PHONY : src/system.cpp.s
 
 src/tables.o: src/tables.cpp.o
@@ -2731,7 +2731,7 @@ src/tables.o: src/tables.cpp.o
 
 # target to build an object file
 src/tables.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.o
 .PHONY : src/tables.cpp.o
 
 src/tables.i: src/tables.cpp.i
@@ -2740,7 +2740,7 @@ src/tables.i: src/tables.cpp.i
 
 # target to preprocess a source file
 src/tables.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.i
 .PHONY : src/tables.cpp.i
 
 src/tables.s: src/tables.cpp.s
@@ -2749,7 +2749,7 @@ src/tables.s: src/tables.cpp.s
 
 # target to generate assembly for a file
 src/tables.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/tables.cpp.s
 .PHONY : src/tables.cpp.s
 
 src/trace.o: src/trace.cpp.o
@@ -2758,7 +2758,7 @@ src/trace.o: src/trace.cpp.o
 
 # target to build an object file
 src/trace.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.o
 .PHONY : src/trace.cpp.o
 
 src/trace.i: src/trace.cpp.i
@@ -2767,7 +2767,7 @@ src/trace.i: src/trace.cpp.i
 
 # target to preprocess a source file
 src/trace.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.i
 .PHONY : src/trace.cpp.i
 
 src/trace.s: src/trace.cpp.s
@@ -2776,7 +2776,7 @@ src/trace.s: src/trace.cpp.s
 
 # target to generate assembly for a file
 src/trace.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/trace.cpp.s
 .PHONY : src/trace.cpp.s
 
 src/types.o: src/types.cpp.o
@@ -2785,7 +2785,7 @@ src/types.o: src/types.cpp.o
 
 # target to build an object file
 src/types.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.o
 .PHONY : src/types.cpp.o
 
 src/types.i: src/types.cpp.i
@@ -2794,7 +2794,7 @@ src/types.i: src/types.cpp.i
 
 # target to preprocess a source file
 src/types.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.i
 .PHONY : src/types.cpp.i
 
 src/types.s: src/types.cpp.s
@@ -2803,7 +2803,7 @@ src/types.s: src/types.cpp.s
 
 # target to generate assembly for a file
 src/types.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/types.cpp.s
 .PHONY : src/types.cpp.s
 
 src/umatrix.o: src/umatrix.cpp.o
@@ -2812,7 +2812,7 @@ src/umatrix.o: src/umatrix.cpp.o
 
 # target to build an object file
 src/umatrix.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.o
 .PHONY : src/umatrix.cpp.o
 
 src/umatrix.i: src/umatrix.cpp.i
@@ -2821,7 +2821,7 @@ src/umatrix.i: src/umatrix.cpp.i
 
 # target to preprocess a source file
 src/umatrix.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.i
 .PHONY : src/umatrix.cpp.i
 
 src/umatrix.s: src/umatrix.cpp.s
@@ -2830,7 +2830,7 @@ src/umatrix.s: src/umatrix.cpp.s
 
 # target to generate assembly for a file
 src/umatrix.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/umatrix.cpp.s
 .PHONY : src/umatrix.cpp.s
 
 src/va_intel.o: src/va_intel.cpp.o
@@ -2839,7 +2839,7 @@ src/va_intel.o: src/va_intel.cpp.o
 
 # target to build an object file
 src/va_intel.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.o
 .PHONY : src/va_intel.cpp.o
 
 src/va_intel.i: src/va_intel.cpp.i
@@ -2848,7 +2848,7 @@ src/va_intel.i: src/va_intel.cpp.i
 
 # target to preprocess a source file
 src/va_intel.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.i
 .PHONY : src/va_intel.cpp.i
 
 src/va_intel.s: src/va_intel.cpp.s
@@ -2857,7 +2857,7 @@ src/va_intel.s: src/va_intel.cpp.s
 
 # target to generate assembly for a file
 src/va_intel.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/src/va_intel.cpp.s
 .PHONY : src/va_intel.cpp.s
 
 stat.avx2.o: stat.avx2.cpp.o
@@ -2866,7 +2866,7 @@ stat.avx2.o: stat.avx2.cpp.o
 
 # target to build an object file
 stat.avx2.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.o
 .PHONY : stat.avx2.cpp.o
 
 stat.avx2.i: stat.avx2.cpp.i
@@ -2875,7 +2875,7 @@ stat.avx2.i: stat.avx2.cpp.i
 
 # target to preprocess a source file
 stat.avx2.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.i
 .PHONY : stat.avx2.cpp.i
 
 stat.avx2.s: stat.avx2.cpp.s
@@ -2884,7 +2884,7 @@ stat.avx2.s: stat.avx2.cpp.s
 
 # target to generate assembly for a file
 stat.avx2.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.avx2.cpp.s
 .PHONY : stat.avx2.cpp.s
 
 stat.sse4_2.o: stat.sse4_2.cpp.o
@@ -2893,7 +2893,7 @@ stat.sse4_2.o: stat.sse4_2.cpp.o
 
 # target to build an object file
 stat.sse4_2.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.o
 .PHONY : stat.sse4_2.cpp.o
 
 stat.sse4_2.i: stat.sse4_2.cpp.i
@@ -2902,7 +2902,7 @@ stat.sse4_2.i: stat.sse4_2.cpp.i
 
 # target to preprocess a source file
 stat.sse4_2.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.i
 .PHONY : stat.sse4_2.cpp.i
 
 stat.sse4_2.s: stat.sse4_2.cpp.s
@@ -2911,7 +2911,7 @@ stat.sse4_2.s: stat.sse4_2.cpp.s
 
 # target to generate assembly for a file
 stat.sse4_2.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_core.dir/build.make modules/core/CMakeFiles/opencv_core.dir/stat.sse4_2.cpp.s
 .PHONY : stat.sse4_2.cpp.s
 
 test/ocl/test_arithm.o: test/ocl/test_arithm.cpp.o
@@ -2920,7 +2920,7 @@ test/ocl/test_arithm.o: test/ocl/test_arithm.cpp.o
 
 # target to build an object file
 test/ocl/test_arithm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_arithm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_arithm.cpp.o
 .PHONY : test/ocl/test_arithm.cpp.o
 
 test/ocl/test_arithm.i: test/ocl/test_arithm.cpp.i
@@ -2929,7 +2929,7 @@ test/ocl/test_arithm.i: test/ocl/test_arithm.cpp.i
 
 # target to preprocess a source file
 test/ocl/test_arithm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_arithm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_arithm.cpp.i
 .PHONY : test/ocl/test_arithm.cpp.i
 
 test/ocl/test_arithm.s: test/ocl/test_arithm.cpp.s
@@ -2938,7 +2938,7 @@ test/ocl/test_arithm.s: test/ocl/test_arithm.cpp.s
 
 # target to generate assembly for a file
 test/ocl/test_arithm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_arithm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_arithm.cpp.s
 .PHONY : test/ocl/test_arithm.cpp.s
 
 test/ocl/test_channels.o: test/ocl/test_channels.cpp.o
@@ -2947,7 +2947,7 @@ test/ocl/test_channels.o: test/ocl/test_channels.cpp.o
 
 # target to build an object file
 test/ocl/test_channels.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_channels.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_channels.cpp.o
 .PHONY : test/ocl/test_channels.cpp.o
 
 test/ocl/test_channels.i: test/ocl/test_channels.cpp.i
@@ -2956,7 +2956,7 @@ test/ocl/test_channels.i: test/ocl/test_channels.cpp.i
 
 # target to preprocess a source file
 test/ocl/test_channels.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_channels.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_channels.cpp.i
 .PHONY : test/ocl/test_channels.cpp.i
 
 test/ocl/test_channels.s: test/ocl/test_channels.cpp.s
@@ -2965,7 +2965,7 @@ test/ocl/test_channels.s: test/ocl/test_channels.cpp.s
 
 # target to generate assembly for a file
 test/ocl/test_channels.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_channels.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_channels.cpp.s
 .PHONY : test/ocl/test_channels.cpp.s
 
 test/ocl/test_dft.o: test/ocl/test_dft.cpp.o
@@ -2974,7 +2974,7 @@ test/ocl/test_dft.o: test/ocl/test_dft.cpp.o
 
 # target to build an object file
 test/ocl/test_dft.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_dft.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_dft.cpp.o
 .PHONY : test/ocl/test_dft.cpp.o
 
 test/ocl/test_dft.i: test/ocl/test_dft.cpp.i
@@ -2983,7 +2983,7 @@ test/ocl/test_dft.i: test/ocl/test_dft.cpp.i
 
 # target to preprocess a source file
 test/ocl/test_dft.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_dft.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_dft.cpp.i
 .PHONY : test/ocl/test_dft.cpp.i
 
 test/ocl/test_dft.s: test/ocl/test_dft.cpp.s
@@ -2992,7 +2992,7 @@ test/ocl/test_dft.s: test/ocl/test_dft.cpp.s
 
 # target to generate assembly for a file
 test/ocl/test_dft.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_dft.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_dft.cpp.s
 .PHONY : test/ocl/test_dft.cpp.s
 
 test/ocl/test_gemm.o: test/ocl/test_gemm.cpp.o
@@ -3001,7 +3001,7 @@ test/ocl/test_gemm.o: test/ocl/test_gemm.cpp.o
 
 # target to build an object file
 test/ocl/test_gemm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_gemm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_gemm.cpp.o
 .PHONY : test/ocl/test_gemm.cpp.o
 
 test/ocl/test_gemm.i: test/ocl/test_gemm.cpp.i
@@ -3010,7 +3010,7 @@ test/ocl/test_gemm.i: test/ocl/test_gemm.cpp.i
 
 # target to preprocess a source file
 test/ocl/test_gemm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_gemm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_gemm.cpp.i
 .PHONY : test/ocl/test_gemm.cpp.i
 
 test/ocl/test_gemm.s: test/ocl/test_gemm.cpp.s
@@ -3019,7 +3019,7 @@ test/ocl/test_gemm.s: test/ocl/test_gemm.cpp.s
 
 # target to generate assembly for a file
 test/ocl/test_gemm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_gemm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_gemm.cpp.s
 .PHONY : test/ocl/test_gemm.cpp.s
 
 test/ocl/test_image2d.o: test/ocl/test_image2d.cpp.o
@@ -3028,7 +3028,7 @@ test/ocl/test_image2d.o: test/ocl/test_image2d.cpp.o
 
 # target to build an object file
 test/ocl/test_image2d.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_image2d.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_image2d.cpp.o
 .PHONY : test/ocl/test_image2d.cpp.o
 
 test/ocl/test_image2d.i: test/ocl/test_image2d.cpp.i
@@ -3037,7 +3037,7 @@ test/ocl/test_image2d.i: test/ocl/test_image2d.cpp.i
 
 # target to preprocess a source file
 test/ocl/test_image2d.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_image2d.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_image2d.cpp.i
 .PHONY : test/ocl/test_image2d.cpp.i
 
 test/ocl/test_image2d.s: test/ocl/test_image2d.cpp.s
@@ -3046,7 +3046,7 @@ test/ocl/test_image2d.s: test/ocl/test_image2d.cpp.s
 
 # target to generate assembly for a file
 test/ocl/test_image2d.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_image2d.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_image2d.cpp.s
 .PHONY : test/ocl/test_image2d.cpp.s
 
 test/ocl/test_matrix_expr.o: test/ocl/test_matrix_expr.cpp.o
@@ -3055,7 +3055,7 @@ test/ocl/test_matrix_expr.o: test/ocl/test_matrix_expr.cpp.o
 
 # target to build an object file
 test/ocl/test_matrix_expr.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_expr.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_expr.cpp.o
 .PHONY : test/ocl/test_matrix_expr.cpp.o
 
 test/ocl/test_matrix_expr.i: test/ocl/test_matrix_expr.cpp.i
@@ -3064,7 +3064,7 @@ test/ocl/test_matrix_expr.i: test/ocl/test_matrix_expr.cpp.i
 
 # target to preprocess a source file
 test/ocl/test_matrix_expr.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_expr.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_expr.cpp.i
 .PHONY : test/ocl/test_matrix_expr.cpp.i
 
 test/ocl/test_matrix_expr.s: test/ocl/test_matrix_expr.cpp.s
@@ -3073,7 +3073,7 @@ test/ocl/test_matrix_expr.s: test/ocl/test_matrix_expr.cpp.s
 
 # target to generate assembly for a file
 test/ocl/test_matrix_expr.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_expr.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_expr.cpp.s
 .PHONY : test/ocl/test_matrix_expr.cpp.s
 
 test/ocl/test_matrix_operation.o: test/ocl/test_matrix_operation.cpp.o
@@ -3082,7 +3082,7 @@ test/ocl/test_matrix_operation.o: test/ocl/test_matrix_operation.cpp.o
 
 # target to build an object file
 test/ocl/test_matrix_operation.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_operation.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_operation.cpp.o
 .PHONY : test/ocl/test_matrix_operation.cpp.o
 
 test/ocl/test_matrix_operation.i: test/ocl/test_matrix_operation.cpp.i
@@ -3091,7 +3091,7 @@ test/ocl/test_matrix_operation.i: test/ocl/test_matrix_operation.cpp.i
 
 # target to preprocess a source file
 test/ocl/test_matrix_operation.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_operation.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_operation.cpp.i
 .PHONY : test/ocl/test_matrix_operation.cpp.i
 
 test/ocl/test_matrix_operation.s: test/ocl/test_matrix_operation.cpp.s
@@ -3100,7 +3100,7 @@ test/ocl/test_matrix_operation.s: test/ocl/test_matrix_operation.cpp.s
 
 # target to generate assembly for a file
 test/ocl/test_matrix_operation.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_operation.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/ocl/test_matrix_operation.cpp.s
 .PHONY : test/ocl/test_matrix_operation.cpp.s
 
 test/test_arithm.o: test/test_arithm.cpp.o
@@ -3109,7 +3109,7 @@ test/test_arithm.o: test/test_arithm.cpp.o
 
 # target to build an object file
 test/test_arithm.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_arithm.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_arithm.cpp.o
 .PHONY : test/test_arithm.cpp.o
 
 test/test_arithm.i: test/test_arithm.cpp.i
@@ -3118,7 +3118,7 @@ test/test_arithm.i: test/test_arithm.cpp.i
 
 # target to preprocess a source file
 test/test_arithm.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_arithm.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_arithm.cpp.i
 .PHONY : test/test_arithm.cpp.i
 
 test/test_arithm.s: test/test_arithm.cpp.s
@@ -3127,7 +3127,7 @@ test/test_arithm.s: test/test_arithm.cpp.s
 
 # target to generate assembly for a file
 test/test_arithm.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_arithm.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_arithm.cpp.s
 .PHONY : test/test_arithm.cpp.s
 
 test/test_concatenation.o: test/test_concatenation.cpp.o
@@ -3136,7 +3136,7 @@ test/test_concatenation.o: test/test_concatenation.cpp.o
 
 # target to build an object file
 test/test_concatenation.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_concatenation.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_concatenation.cpp.o
 .PHONY : test/test_concatenation.cpp.o
 
 test/test_concatenation.i: test/test_concatenation.cpp.i
@@ -3145,7 +3145,7 @@ test/test_concatenation.i: test/test_concatenation.cpp.i
 
 # target to preprocess a source file
 test/test_concatenation.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_concatenation.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_concatenation.cpp.i
 .PHONY : test/test_concatenation.cpp.i
 
 test/test_concatenation.s: test/test_concatenation.cpp.s
@@ -3154,7 +3154,7 @@ test/test_concatenation.s: test/test_concatenation.cpp.s
 
 # target to generate assembly for a file
 test/test_concatenation.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_concatenation.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_concatenation.cpp.s
 .PHONY : test/test_concatenation.cpp.s
 
 test/test_conjugate_gradient.o: test/test_conjugate_gradient.cpp.o
@@ -3163,7 +3163,7 @@ test/test_conjugate_gradient.o: test/test_conjugate_gradient.cpp.o
 
 # target to build an object file
 test/test_conjugate_gradient.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_conjugate_gradient.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_conjugate_gradient.cpp.o
 .PHONY : test/test_conjugate_gradient.cpp.o
 
 test/test_conjugate_gradient.i: test/test_conjugate_gradient.cpp.i
@@ -3172,7 +3172,7 @@ test/test_conjugate_gradient.i: test/test_conjugate_gradient.cpp.i
 
 # target to preprocess a source file
 test/test_conjugate_gradient.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_conjugate_gradient.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_conjugate_gradient.cpp.i
 .PHONY : test/test_conjugate_gradient.cpp.i
 
 test/test_conjugate_gradient.s: test/test_conjugate_gradient.cpp.s
@@ -3181,7 +3181,7 @@ test/test_conjugate_gradient.s: test/test_conjugate_gradient.cpp.s
 
 # target to generate assembly for a file
 test/test_conjugate_gradient.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_conjugate_gradient.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_conjugate_gradient.cpp.s
 .PHONY : test/test_conjugate_gradient.cpp.s
 
 test/test_countnonzero.o: test/test_countnonzero.cpp.o
@@ -3190,7 +3190,7 @@ test/test_countnonzero.o: test/test_countnonzero.cpp.o
 
 # target to build an object file
 test/test_countnonzero.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_countnonzero.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_countnonzero.cpp.o
 .PHONY : test/test_countnonzero.cpp.o
 
 test/test_countnonzero.i: test/test_countnonzero.cpp.i
@@ -3199,7 +3199,7 @@ test/test_countnonzero.i: test/test_countnonzero.cpp.i
 
 # target to preprocess a source file
 test/test_countnonzero.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_countnonzero.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_countnonzero.cpp.i
 .PHONY : test/test_countnonzero.cpp.i
 
 test/test_countnonzero.s: test/test_countnonzero.cpp.s
@@ -3208,7 +3208,7 @@ test/test_countnonzero.s: test/test_countnonzero.cpp.s
 
 # target to generate assembly for a file
 test/test_countnonzero.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_countnonzero.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_countnonzero.cpp.s
 .PHONY : test/test_countnonzero.cpp.s
 
 test/test_downhill_simplex.o: test/test_downhill_simplex.cpp.o
@@ -3217,7 +3217,7 @@ test/test_downhill_simplex.o: test/test_downhill_simplex.cpp.o
 
 # target to build an object file
 test/test_downhill_simplex.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_downhill_simplex.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_downhill_simplex.cpp.o
 .PHONY : test/test_downhill_simplex.cpp.o
 
 test/test_downhill_simplex.i: test/test_downhill_simplex.cpp.i
@@ -3226,7 +3226,7 @@ test/test_downhill_simplex.i: test/test_downhill_simplex.cpp.i
 
 # target to preprocess a source file
 test/test_downhill_simplex.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_downhill_simplex.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_downhill_simplex.cpp.i
 .PHONY : test/test_downhill_simplex.cpp.i
 
 test/test_downhill_simplex.s: test/test_downhill_simplex.cpp.s
@@ -3235,7 +3235,7 @@ test/test_downhill_simplex.s: test/test_downhill_simplex.cpp.s
 
 # target to generate assembly for a file
 test/test_downhill_simplex.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_downhill_simplex.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_downhill_simplex.cpp.s
 .PHONY : test/test_downhill_simplex.cpp.s
 
 test/test_ds.o: test/test_ds.cpp.o
@@ -3244,7 +3244,7 @@ test/test_ds.o: test/test_ds.cpp.o
 
 # target to build an object file
 test/test_ds.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ds.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ds.cpp.o
 .PHONY : test/test_ds.cpp.o
 
 test/test_ds.i: test/test_ds.cpp.i
@@ -3253,7 +3253,7 @@ test/test_ds.i: test/test_ds.cpp.i
 
 # target to preprocess a source file
 test/test_ds.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ds.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ds.cpp.i
 .PHONY : test/test_ds.cpp.i
 
 test/test_ds.s: test/test_ds.cpp.s
@@ -3262,7 +3262,7 @@ test/test_ds.s: test/test_ds.cpp.s
 
 # target to generate assembly for a file
 test/test_ds.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ds.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ds.cpp.s
 .PHONY : test/test_ds.cpp.s
 
 test/test_dxt.o: test/test_dxt.cpp.o
@@ -3271,7 +3271,7 @@ test/test_dxt.o: test/test_dxt.cpp.o
 
 # target to build an object file
 test/test_dxt.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_dxt.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_dxt.cpp.o
 .PHONY : test/test_dxt.cpp.o
 
 test/test_dxt.i: test/test_dxt.cpp.i
@@ -3280,7 +3280,7 @@ test/test_dxt.i: test/test_dxt.cpp.i
 
 # target to preprocess a source file
 test/test_dxt.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_dxt.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_dxt.cpp.i
 .PHONY : test/test_dxt.cpp.i
 
 test/test_dxt.s: test/test_dxt.cpp.s
@@ -3289,7 +3289,7 @@ test/test_dxt.s: test/test_dxt.cpp.s
 
 # target to generate assembly for a file
 test/test_dxt.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_dxt.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_dxt.cpp.s
 .PHONY : test/test_dxt.cpp.s
 
 test/test_eigen.o: test/test_eigen.cpp.o
@@ -3298,7 +3298,7 @@ test/test_eigen.o: test/test_eigen.cpp.o
 
 # target to build an object file
 test/test_eigen.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_eigen.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_eigen.cpp.o
 .PHONY : test/test_eigen.cpp.o
 
 test/test_eigen.i: test/test_eigen.cpp.i
@@ -3307,7 +3307,7 @@ test/test_eigen.i: test/test_eigen.cpp.i
 
 # target to preprocess a source file
 test/test_eigen.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_eigen.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_eigen.cpp.i
 .PHONY : test/test_eigen.cpp.i
 
 test/test_eigen.s: test/test_eigen.cpp.s
@@ -3316,7 +3316,7 @@ test/test_eigen.s: test/test_eigen.cpp.s
 
 # target to generate assembly for a file
 test/test_eigen.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_eigen.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_eigen.cpp.s
 .PHONY : test/test_eigen.cpp.s
 
 test/test_hal_core.o: test/test_hal_core.cpp.o
@@ -3325,7 +3325,7 @@ test/test_hal_core.o: test/test_hal_core.cpp.o
 
 # target to build an object file
 test/test_hal_core.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_hal_core.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_hal_core.cpp.o
 .PHONY : test/test_hal_core.cpp.o
 
 test/test_hal_core.i: test/test_hal_core.cpp.i
@@ -3334,7 +3334,7 @@ test/test_hal_core.i: test/test_hal_core.cpp.i
 
 # target to preprocess a source file
 test/test_hal_core.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_hal_core.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_hal_core.cpp.i
 .PHONY : test/test_hal_core.cpp.i
 
 test/test_hal_core.s: test/test_hal_core.cpp.s
@@ -3343,7 +3343,7 @@ test/test_hal_core.s: test/test_hal_core.cpp.s
 
 # target to generate assembly for a file
 test/test_hal_core.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_hal_core.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_hal_core.cpp.s
 .PHONY : test/test_hal_core.cpp.s
 
 test/test_intrin.o: test/test_intrin.cpp.o
@@ -3352,7 +3352,7 @@ test/test_intrin.o: test/test_intrin.cpp.o
 
 # target to build an object file
 test/test_intrin.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.cpp.o
 .PHONY : test/test_intrin.cpp.o
 
 test/test_intrin.i: test/test_intrin.cpp.i
@@ -3361,7 +3361,7 @@ test/test_intrin.i: test/test_intrin.cpp.i
 
 # target to preprocess a source file
 test/test_intrin.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.cpp.i
 .PHONY : test/test_intrin.cpp.i
 
 test/test_intrin.s: test/test_intrin.cpp.s
@@ -3370,7 +3370,7 @@ test/test_intrin.s: test/test_intrin.cpp.s
 
 # target to generate assembly for a file
 test/test_intrin.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.cpp.s
 .PHONY : test/test_intrin.cpp.s
 
 test/test_intrin.fp16.o: test/test_intrin.fp16.cpp.o
@@ -3379,7 +3379,7 @@ test/test_intrin.fp16.o: test/test_intrin.fp16.cpp.o
 
 # target to build an object file
 test/test_intrin.fp16.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.fp16.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.fp16.cpp.o
 .PHONY : test/test_intrin.fp16.cpp.o
 
 test/test_intrin.fp16.i: test/test_intrin.fp16.cpp.i
@@ -3388,7 +3388,7 @@ test/test_intrin.fp16.i: test/test_intrin.fp16.cpp.i
 
 # target to preprocess a source file
 test/test_intrin.fp16.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.fp16.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.fp16.cpp.i
 .PHONY : test/test_intrin.fp16.cpp.i
 
 test/test_intrin.fp16.s: test/test_intrin.fp16.cpp.s
@@ -3397,7 +3397,7 @@ test/test_intrin.fp16.s: test/test_intrin.fp16.cpp.s
 
 # target to generate assembly for a file
 test/test_intrin.fp16.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.fp16.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin.fp16.cpp.s
 .PHONY : test/test_intrin.fp16.cpp.s
 
 test/test_io.o: test/test_io.cpp.o
@@ -3406,7 +3406,7 @@ test/test_io.o: test/test_io.cpp.o
 
 # target to build an object file
 test/test_io.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_io.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_io.cpp.o
 .PHONY : test/test_io.cpp.o
 
 test/test_io.i: test/test_io.cpp.i
@@ -3415,7 +3415,7 @@ test/test_io.i: test/test_io.cpp.i
 
 # target to preprocess a source file
 test/test_io.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_io.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_io.cpp.i
 .PHONY : test/test_io.cpp.i
 
 test/test_io.s: test/test_io.cpp.s
@@ -3424,7 +3424,7 @@ test/test_io.s: test/test_io.cpp.s
 
 # target to generate assembly for a file
 test/test_io.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_io.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_io.cpp.s
 .PHONY : test/test_io.cpp.s
 
 test/test_ippasync.o: test/test_ippasync.cpp.o
@@ -3433,7 +3433,7 @@ test/test_ippasync.o: test/test_ippasync.cpp.o
 
 # target to build an object file
 test/test_ippasync.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ippasync.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ippasync.cpp.o
 .PHONY : test/test_ippasync.cpp.o
 
 test/test_ippasync.i: test/test_ippasync.cpp.i
@@ -3442,7 +3442,7 @@ test/test_ippasync.i: test/test_ippasync.cpp.i
 
 # target to preprocess a source file
 test/test_ippasync.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ippasync.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ippasync.cpp.i
 .PHONY : test/test_ippasync.cpp.i
 
 test/test_ippasync.s: test/test_ippasync.cpp.s
@@ -3451,7 +3451,7 @@ test/test_ippasync.s: test/test_ippasync.cpp.s
 
 # target to generate assembly for a file
 test/test_ippasync.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ippasync.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ippasync.cpp.s
 .PHONY : test/test_ippasync.cpp.s
 
 test/test_lpsolver.o: test/test_lpsolver.cpp.o
@@ -3460,7 +3460,7 @@ test/test_lpsolver.o: test/test_lpsolver.cpp.o
 
 # target to build an object file
 test/test_lpsolver.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_lpsolver.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_lpsolver.cpp.o
 .PHONY : test/test_lpsolver.cpp.o
 
 test/test_lpsolver.i: test/test_lpsolver.cpp.i
@@ -3469,7 +3469,7 @@ test/test_lpsolver.i: test/test_lpsolver.cpp.i
 
 # target to preprocess a source file
 test/test_lpsolver.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_lpsolver.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_lpsolver.cpp.i
 .PHONY : test/test_lpsolver.cpp.i
 
 test/test_lpsolver.s: test/test_lpsolver.cpp.s
@@ -3478,7 +3478,7 @@ test/test_lpsolver.s: test/test_lpsolver.cpp.s
 
 # target to generate assembly for a file
 test/test_lpsolver.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_lpsolver.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_lpsolver.cpp.s
 .PHONY : test/test_lpsolver.cpp.s
 
 test/test_main.o: test/test_main.cpp.o
@@ -3487,7 +3487,7 @@ test/test_main.o: test/test_main.cpp.o
 
 # target to build an object file
 test/test_main.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_main.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_main.cpp.o
 .PHONY : test/test_main.cpp.o
 
 test/test_main.i: test/test_main.cpp.i
@@ -3496,7 +3496,7 @@ test/test_main.i: test/test_main.cpp.i
 
 # target to preprocess a source file
 test/test_main.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_main.cpp.i
 .PHONY : test/test_main.cpp.i
 
 test/test_main.s: test/test_main.cpp.s
@@ -3505,7 +3505,7 @@ test/test_main.s: test/test_main.cpp.s
 
 # target to generate assembly for a file
 test/test_main.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_main.cpp.s
 .PHONY : test/test_main.cpp.s
 
 test/test_mat.o: test/test_mat.cpp.o
@@ -3514,7 +3514,7 @@ test/test_mat.o: test/test_mat.cpp.o
 
 # target to build an object file
 test/test_mat.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_mat.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_mat.cpp.o
 .PHONY : test/test_mat.cpp.o
 
 test/test_mat.i: test/test_mat.cpp.i
@@ -3523,7 +3523,7 @@ test/test_mat.i: test/test_mat.cpp.i
 
 # target to preprocess a source file
 test/test_mat.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_mat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_mat.cpp.i
 .PHONY : test/test_mat.cpp.i
 
 test/test_mat.s: test/test_mat.cpp.s
@@ -3532,7 +3532,7 @@ test/test_mat.s: test/test_mat.cpp.s
 
 # target to generate assembly for a file
 test/test_mat.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_mat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_mat.cpp.s
 .PHONY : test/test_mat.cpp.s
 
 test/test_math.o: test/test_math.cpp.o
@@ -3541,7 +3541,7 @@ test/test_math.o: test/test_math.cpp.o
 
 # target to build an object file
 test/test_math.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_math.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_math.cpp.o
 .PHONY : test/test_math.cpp.o
 
 test/test_math.i: test/test_math.cpp.i
@@ -3550,7 +3550,7 @@ test/test_math.i: test/test_math.cpp.i
 
 # target to preprocess a source file
 test/test_math.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_math.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_math.cpp.i
 .PHONY : test/test_math.cpp.i
 
 test/test_math.s: test/test_math.cpp.s
@@ -3559,7 +3559,7 @@ test/test_math.s: test/test_math.cpp.s
 
 # target to generate assembly for a file
 test/test_math.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_math.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_math.cpp.s
 .PHONY : test/test_math.cpp.s
 
 test/test_misc.o: test/test_misc.cpp.o
@@ -3568,7 +3568,7 @@ test/test_misc.o: test/test_misc.cpp.o
 
 # target to build an object file
 test/test_misc.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_misc.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_misc.cpp.o
 .PHONY : test/test_misc.cpp.o
 
 test/test_misc.i: test/test_misc.cpp.i
@@ -3577,7 +3577,7 @@ test/test_misc.i: test/test_misc.cpp.i
 
 # target to preprocess a source file
 test/test_misc.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_misc.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_misc.cpp.i
 .PHONY : test/test_misc.cpp.i
 
 test/test_misc.s: test/test_misc.cpp.s
@@ -3586,7 +3586,7 @@ test/test_misc.s: test/test_misc.cpp.s
 
 # target to generate assembly for a file
 test/test_misc.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_misc.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_misc.cpp.s
 .PHONY : test/test_misc.cpp.s
 
 test/test_operations.o: test/test_operations.cpp.o
@@ -3595,7 +3595,7 @@ test/test_operations.o: test/test_operations.cpp.o
 
 # target to build an object file
 test/test_operations.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_operations.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_operations.cpp.o
 .PHONY : test/test_operations.cpp.o
 
 test/test_operations.i: test/test_operations.cpp.i
@@ -3604,7 +3604,7 @@ test/test_operations.i: test/test_operations.cpp.i
 
 # target to preprocess a source file
 test/test_operations.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_operations.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_operations.cpp.i
 .PHONY : test/test_operations.cpp.i
 
 test/test_operations.s: test/test_operations.cpp.s
@@ -3613,7 +3613,7 @@ test/test_operations.s: test/test_operations.cpp.s
 
 # target to generate assembly for a file
 test/test_operations.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_operations.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_operations.cpp.s
 .PHONY : test/test_operations.cpp.s
 
 test/test_ptr.o: test/test_ptr.cpp.o
@@ -3622,7 +3622,7 @@ test/test_ptr.o: test/test_ptr.cpp.o
 
 # target to build an object file
 test/test_ptr.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ptr.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ptr.cpp.o
 .PHONY : test/test_ptr.cpp.o
 
 test/test_ptr.i: test/test_ptr.cpp.i
@@ -3631,7 +3631,7 @@ test/test_ptr.i: test/test_ptr.cpp.i
 
 # target to preprocess a source file
 test/test_ptr.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ptr.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ptr.cpp.i
 .PHONY : test/test_ptr.cpp.i
 
 test/test_ptr.s: test/test_ptr.cpp.s
@@ -3640,7 +3640,7 @@ test/test_ptr.s: test/test_ptr.cpp.s
 
 # target to generate assembly for a file
 test/test_ptr.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ptr.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_ptr.cpp.s
 .PHONY : test/test_ptr.cpp.s
 
 test/test_rand.o: test/test_rand.cpp.o
@@ -3649,7 +3649,7 @@ test/test_rand.o: test/test_rand.cpp.o
 
 # target to build an object file
 test/test_rand.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rand.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rand.cpp.o
 .PHONY : test/test_rand.cpp.o
 
 test/test_rand.i: test/test_rand.cpp.i
@@ -3658,7 +3658,7 @@ test/test_rand.i: test/test_rand.cpp.i
 
 # target to preprocess a source file
 test/test_rand.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rand.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rand.cpp.i
 .PHONY : test/test_rand.cpp.i
 
 test/test_rand.s: test/test_rand.cpp.s
@@ -3667,7 +3667,7 @@ test/test_rand.s: test/test_rand.cpp.s
 
 # target to generate assembly for a file
 test/test_rand.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rand.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rand.cpp.s
 .PHONY : test/test_rand.cpp.s
 
 test/test_rotatedrect.o: test/test_rotatedrect.cpp.o
@@ -3676,7 +3676,7 @@ test/test_rotatedrect.o: test/test_rotatedrect.cpp.o
 
 # target to build an object file
 test/test_rotatedrect.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rotatedrect.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rotatedrect.cpp.o
 .PHONY : test/test_rotatedrect.cpp.o
 
 test/test_rotatedrect.i: test/test_rotatedrect.cpp.i
@@ -3685,7 +3685,7 @@ test/test_rotatedrect.i: test/test_rotatedrect.cpp.i
 
 # target to preprocess a source file
 test/test_rotatedrect.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rotatedrect.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rotatedrect.cpp.i
 .PHONY : test/test_rotatedrect.cpp.i
 
 test/test_rotatedrect.s: test/test_rotatedrect.cpp.s
@@ -3694,7 +3694,7 @@ test/test_rotatedrect.s: test/test_rotatedrect.cpp.s
 
 # target to generate assembly for a file
 test/test_rotatedrect.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rotatedrect.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_rotatedrect.cpp.s
 .PHONY : test/test_rotatedrect.cpp.s
 
 test/test_umat.o: test/test_umat.cpp.o
@@ -3703,7 +3703,7 @@ test/test_umat.o: test/test_umat.cpp.o
 
 # target to build an object file
 test/test_umat.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.o
 .PHONY : test/test_umat.cpp.o
 
 test/test_umat.i: test/test_umat.cpp.i
@@ -3712,7 +3712,7 @@ test/test_umat.i: test/test_umat.cpp.i
 
 # target to preprocess a source file
 test/test_umat.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.i
 .PHONY : test/test_umat.cpp.i
 
 test/test_umat.s: test/test_umat.cpp.s
@@ -3721,7 +3721,7 @@ test/test_umat.s: test/test_umat.cpp.s
 
 # target to generate assembly for a file
 test/test_umat.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_umat.cpp.s
 .PHONY : test/test_umat.cpp.s
 
 test/test_utils.o: test/test_utils.cpp.o
@@ -3730,7 +3730,7 @@ test/test_utils.o: test/test_utils.cpp.o
 
 # target to build an object file
 test/test_utils.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_utils.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_utils.cpp.o
 .PHONY : test/test_utils.cpp.o
 
 test/test_utils.i: test/test_utils.cpp.i
@@ -3739,7 +3739,7 @@ test/test_utils.i: test/test_utils.cpp.i
 
 # target to preprocess a source file
 test/test_utils.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_utils.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_utils.cpp.i
 .PHONY : test/test_utils.cpp.i
 
 test/test_utils.s: test/test_utils.cpp.s
@@ -3748,7 +3748,7 @@ test/test_utils.s: test/test_utils.cpp.s
 
 # target to generate assembly for a file
 test/test_utils.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_utils.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/core/CMakeFiles/opencv_test_core.dir/build.make modules/core/CMakeFiles/opencv_test_core.dir/test/test_utils.cpp.s
 .PHONY : test/test_utils.cpp.s
 
 # Help Target
@@ -4167,6 +4167,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

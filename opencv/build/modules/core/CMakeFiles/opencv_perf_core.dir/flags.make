@@ -6,67 +6,67 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -DOPENCV_WITH_ITT=1 -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/ts/include -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/videoio/include -I/home/stacia/opencv/modules/highgui/include -I/home/stacia/opencv/modules/core/perf 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/perf 
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_umat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_umat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_lut.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_lut.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_bitwise.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_bitwise.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_cvround.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_cvround.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_io_base64.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_io_base64.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_convertTo.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_convertTo.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_usage_flags.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_usage_flags.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_matop.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_matop.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_gemm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_gemm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_arithm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_arithm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_channels.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_channels.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_dxt.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_dxt.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_bufferpool.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/opencl/perf_bufferpool.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dot.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dot.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_stat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_stat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_merge.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_merge.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_inRange.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_inRange.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_minmaxloc.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_minmaxloc.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dft.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_dft.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_reduce.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_reduce.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_addWeighted.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_abs.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_abs.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_sort.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_sort.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_norm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_norm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_arithm.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/cuda/perf_gpumat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/cuda/perf_gpumat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_compare.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_compare.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_mat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_mat.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_math.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_math.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 
-# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_split.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/core/perf_precomp.hpp"
+# Custom flags: modules/core/CMakeFiles/opencv_perf_core.dir/perf/perf_split.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/perf_precomp.hpp"
 

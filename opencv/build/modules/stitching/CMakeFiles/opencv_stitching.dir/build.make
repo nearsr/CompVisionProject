@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Include any dependencies generated for this target.
 include modules/stitching/CMakeFiles/opencv_stitching.dir/depend.make
@@ -60,21 +60,21 @@ include modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/opencl_kernels_stitching.cpp: ../modules/stitching/src/opencl/multibandblend.cl
 modules/stitching/opencl_kernels_stitching.cpp: ../modules/stitching/src/opencl/warpers.cl
 modules/stitching/opencl_kernels_stitching.cpp: ../cmake/cl2cpp.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Processing OpenCL kernels (stitching)"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/cmake -DMODULE_NAME=stitching -DCL_DIR=/home/stacia/opencv/modules/stitching/src/opencl -DOUTPUT=/home/stacia/opencv/build/modules/stitching/opencl_kernels_stitching.cpp -P /home/stacia/opencv/cmake/cl2cpp.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Processing OpenCL kernels (stitching)"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/cmake -DMODULE_NAME=stitching -DCL_DIR=/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/opencl -DOUTPUT=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/opencl_kernels_stitching.cpp -P /home/stacia/eclipse-workspace/CompVisionProject/opencv/cmake/cl2cpp.cmake
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o: ../modules/stitching/src/seam_finders.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o -c /home/stacia/opencv/modules/stitching/src/seam_finders.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/seam_finders.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/seam_finders.cpp > CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/seam_finders.cpp > CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/seam_finders.cpp -o CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/seam_finders.cpp -o CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o.requires:
 
@@ -89,16 +89,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/seam_finders.cpp.o.provide
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o: ../modules/stitching/src/autocalib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o -c /home/stacia/opencv/modules/stitching/src/autocalib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/autocalib.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/autocalib.cpp > CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/autocalib.cpp > CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/autocalib.cpp -o CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/autocalib.cpp -o CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o.requires:
 
@@ -113,16 +113,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/autocalib.cpp.o.provides.b
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o: ../modules/stitching/src/timelapsers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o -c /home/stacia/opencv/modules/stitching/src/timelapsers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/timelapsers.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/timelapsers.cpp > CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/timelapsers.cpp > CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/timelapsers.cpp -o CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/timelapsers.cpp -o CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o.requires:
 
@@ -137,16 +137,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/timelapsers.cpp.o.provides
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o: ../modules/stitching/src/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/util.cpp.o -c /home/stacia/opencv/modules/stitching/src/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/util.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/util.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/util.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/util.cpp > CMakeFiles/opencv_stitching.dir/src/util.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/util.cpp > CMakeFiles/opencv_stitching.dir/src/util.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/util.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/util.cpp -o CMakeFiles/opencv_stitching.dir/src/util.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/util.cpp -o CMakeFiles/opencv_stitching.dir/src/util.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o.requires:
 
@@ -161,16 +161,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/util.cpp.o.provides.build:
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o: ../modules/stitching/src/blenders.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o -c /home/stacia/opencv/modules/stitching/src/blenders.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/blenders.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/blenders.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/blenders.cpp > CMakeFiles/opencv_stitching.dir/src/blenders.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/blenders.cpp > CMakeFiles/opencv_stitching.dir/src/blenders.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/blenders.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/blenders.cpp -o CMakeFiles/opencv_stitching.dir/src/blenders.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/blenders.cpp -o CMakeFiles/opencv_stitching.dir/src/blenders.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o.requires:
 
@@ -185,16 +185,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/blenders.cpp.o.provides.bu
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o: ../modules/stitching/src/stitcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o -c /home/stacia/opencv/modules/stitching/src/stitcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/stitcher.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/stitcher.cpp > CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/stitcher.cpp > CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/stitcher.cpp -o CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/stitcher.cpp -o CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o.requires:
 
@@ -209,16 +209,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/stitcher.cpp.o.provides.bu
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o: ../modules/stitching/src/matchers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o -c /home/stacia/opencv/modules/stitching/src/matchers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/matchers.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/matchers.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/matchers.cpp > CMakeFiles/opencv_stitching.dir/src/matchers.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/matchers.cpp > CMakeFiles/opencv_stitching.dir/src/matchers.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/matchers.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/matchers.cpp -o CMakeFiles/opencv_stitching.dir/src/matchers.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/matchers.cpp -o CMakeFiles/opencv_stitching.dir/src/matchers.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o.requires:
 
@@ -233,16 +233,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/matchers.cpp.o.provides.bu
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o: ../modules/stitching/src/camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/camera.cpp.o -c /home/stacia/opencv/modules/stitching/src/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/camera.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/camera.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/camera.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/camera.cpp > CMakeFiles/opencv_stitching.dir/src/camera.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/camera.cpp > CMakeFiles/opencv_stitching.dir/src/camera.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/camera.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/camera.cpp -o CMakeFiles/opencv_stitching.dir/src/camera.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/camera.cpp -o CMakeFiles/opencv_stitching.dir/src/camera.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o.requires:
 
@@ -257,16 +257,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/camera.cpp.o.provides.buil
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o: ../modules/stitching/src/warpers_cuda.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o -c /home/stacia/opencv/modules/stitching/src/warpers_cuda.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/warpers_cuda.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/warpers_cuda.cpp > CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/warpers_cuda.cpp > CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/warpers_cuda.cpp -o CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/warpers_cuda.cpp -o CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o.requires:
 
@@ -281,16 +281,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers_cuda.cpp.o.provide
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o: ../modules/stitching/src/exposure_compensate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o -c /home/stacia/opencv/modules/stitching/src/exposure_compensate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/exposure_compensate.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/exposure_compensate.cpp > CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/exposure_compensate.cpp > CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/exposure_compensate.cpp -o CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/exposure_compensate.cpp -o CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o.requires:
 
@@ -305,16 +305,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/exposure_compensate.cpp.o.
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o: ../modules/stitching/src/motion_estimators.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o -c /home/stacia/opencv/modules/stitching/src/motion_estimators.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/motion_estimators.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/motion_estimators.cpp > CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/motion_estimators.cpp > CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/motion_estimators.cpp -o CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/motion_estimators.cpp -o CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o.requires:
 
@@ -329,16 +329,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/motion_estimators.cpp.o.pr
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o: ../modules/stitching/src/warpers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o -c /home/stacia/opencv/modules/stitching/src/warpers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/warpers.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/src/warpers.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/modules/stitching/src/warpers.cpp > CMakeFiles/opencv_stitching.dir/src/warpers.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/warpers.cpp > CMakeFiles/opencv_stitching.dir/src/warpers.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/src/warpers.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/modules/stitching/src/warpers.cpp -o CMakeFiles/opencv_stitching.dir/src/warpers.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/src/warpers.cpp -o CMakeFiles/opencv_stitching.dir/src/warpers.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o.requires:
 
@@ -353,16 +353,16 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/src/warpers.cpp.o.provides.bui
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o: modules/stitching/CMakeFiles/opencv_stitching.dir/flags.make
 modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o: modules/stitching/opencl_kernels_stitching.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o -c /home/stacia/opencv/build/modules/stitching/opencl_kernels_stitching.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -o CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/opencl_kernels_stitching.cpp
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.i"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/opencv/build/modules/stitching/opencl_kernels_stitching.cpp > CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/opencl_kernels_stitching.cpp > CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.i
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.s"
-	cd /home/stacia/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/opencv/build/modules/stitching/opencl_kernels_stitching.cpp -o CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS)  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/precomp.hpp" -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/opencl_kernels_stitching.cpp -o CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.s
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o.requires:
 
@@ -409,9 +409,9 @@ lib/libopencv_stitching.a: modules/stitching/CMakeFiles/opencv_stitching.dir/src
 lib/libopencv_stitching.a: modules/stitching/CMakeFiles/opencv_stitching.dir/opencl_kernels_stitching.cpp.o
 lib/libopencv_stitching.a: modules/stitching/CMakeFiles/opencv_stitching.dir/build.make
 lib/libopencv_stitching.a: modules/stitching/CMakeFiles/opencv_stitching.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library ../../lib/libopencv_stitching.a"
-	cd /home/stacia/opencv/build/modules/stitching && $(CMAKE_COMMAND) -P CMakeFiles/opencv_stitching.dir/cmake_clean_target.cmake
-	cd /home/stacia/opencv/build/modules/stitching && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_stitching.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library ../../lib/libopencv_stitching.a"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && $(CMAKE_COMMAND) -P CMakeFiles/opencv_stitching.dir/cmake_clean_target.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_stitching.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modules/stitching/CMakeFiles/opencv_stitching.dir/build: lib/libopencv_stitching.a
@@ -435,10 +435,10 @@ modules/stitching/CMakeFiles/opencv_stitching.dir/requires: modules/stitching/CM
 .PHONY : modules/stitching/CMakeFiles/opencv_stitching.dir/requires
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/clean:
-	cd /home/stacia/opencv/build/modules/stitching && $(CMAKE_COMMAND) -P CMakeFiles/opencv_stitching.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching && $(CMAKE_COMMAND) -P CMakeFiles/opencv_stitching.dir/cmake_clean.cmake
 .PHONY : modules/stitching/CMakeFiles/opencv_stitching.dir/clean
 
 modules/stitching/CMakeFiles/opencv_stitching.dir/depend: modules/stitching/opencl_kernels_stitching.cpp
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/stitching /home/stacia/opencv/build /home/stacia/opencv/build/modules/stitching /home/stacia/opencv/build/modules/stitching/CMakeFiles/opencv_stitching.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/stitching/CMakeFiles/opencv_stitching.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/stitching/CMakeFiles/opencv_stitching.dir/depend
 

@@ -6,5 +6,5 @@ C_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtua
 
 C_DEFINES = -DWEBP_USE_THREAD
 
-C_INCLUDES = -I/home/stacia/opencv/3rdparty/libwebp -I/home/stacia/opencv/build 
+C_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/libwebp -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build 
 

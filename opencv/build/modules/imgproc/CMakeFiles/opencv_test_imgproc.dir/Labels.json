@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_connectedcomponents.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_connectedcomponents.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_gftt.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_gftt.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_filters.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_filters.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_pyramids.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_pyramids.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_histogram.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_histogram.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_filter2d.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_filter2d.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_sepfilter2D.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_sepfilter2D.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_boxfilter.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_boxfilter.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_warp.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_warp.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_match_template.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_match_template.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_imgproc.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_imgproc.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_medianfilter.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_medianfilter.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -110,7 +110,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_color.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_color.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -119,7 +119,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_houghlines.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_houghlines.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -128,7 +128,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_accumulate.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_accumulate.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -137,7 +137,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_blend.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_blend.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -146,7 +146,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/ocl/test_canny.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/ocl/test_canny.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -155,7 +155,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_lsd.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_lsd.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -164,7 +164,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_fitellipseAMS.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_fitellipseAMS.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -173,7 +173,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_cvtyuv.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_cvtyuv.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -182,7 +182,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_filter.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_filter.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -191,7 +191,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_watershed.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_watershed.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -200,7 +200,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_moments.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_moments.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -209,7 +209,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_convhull.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_convhull.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -218,7 +218,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_approxpoly.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_approxpoly.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -227,7 +227,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_distancetransform.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_distancetransform.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -236,7 +236,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_grabcut.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_grabcut.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -245,7 +245,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_boundingrect.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_boundingrect.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -254,7 +254,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_histograms.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_histograms.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -263,7 +263,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_goodfeaturetotrack.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_goodfeaturetotrack.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -272,7 +272,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_fitellipse.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_fitellipse.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -281,7 +281,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_thresh.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_thresh.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -290,7 +290,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_intersection.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_intersection.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -299,7 +299,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_emd.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_emd.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -308,7 +308,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_contours.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_contours.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -317,7 +317,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_houghLines.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_houghLines.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -326,7 +326,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_imgwarp.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_imgwarp.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -335,7 +335,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_fitellipseDirect.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_fitellipseDirect.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -344,7 +344,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_main.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -353,7 +353,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_color.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_color.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -362,7 +362,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_imgwarp_strict.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_imgwarp_strict.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -371,7 +371,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_floodfill.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_floodfill.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -380,7 +380,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_imgproc_umat.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_imgproc_umat.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -389,7 +389,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_pc.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_pc.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -398,7 +398,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_drawing.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_drawing.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -407,7 +407,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_canny.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_canny.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -416,7 +416,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_bilateral_filter.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_bilateral_filter.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -425,7 +425,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_templmatch.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_templmatch.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -434,7 +434,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/imgproc/test/test_precomp.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/test/test_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

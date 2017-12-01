@@ -6,15 +6,15 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__OPENCV_TESTS=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/ts/include -I/home/stacia/opencv/modules/videoio/include -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/highgui/include -I/home/stacia/opencv/modules/videoio/test 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/test 
 
-# Custom flags: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/test_precomp.hpp"
+# Custom flags: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/test_precomp.hpp"
 
-# Custom flags: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/test_precomp.hpp"
+# Custom flags: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/test_precomp.hpp"
 
-# Custom flags: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/test_precomp.hpp"
+# Custom flags: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/test_precomp.hpp"
 
-# Custom flags: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/test_precomp.hpp"
+# Custom flags: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/test_precomp.hpp"
 
-# Custom flags: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videoio/test_precomp.hpp"
+# Custom flags: modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/test_precomp.hpp"
 

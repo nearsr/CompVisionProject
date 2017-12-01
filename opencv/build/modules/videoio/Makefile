@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/opencv/build/CPackSourceConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles /home/stacia/opencv/build/modules/videoio/CMakeFiles/progress.marks
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/CMakeFiles/progress.marks
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/clean
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 modules/videoio/CMakeFiles/opencv_test_videoio.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_test_videoio.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_test_videoio.dir/rule
 .PHONY : modules/videoio/CMakeFiles/opencv_test_videoio.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ opencv_test_videoio: modules/videoio/CMakeFiles/opencv_test_videoio.dir/rule
 
 # fast build rule for target.
 opencv_test_videoio/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/build
 .PHONY : opencv_test_videoio/fast
 
 # Convenience name for target.
 modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/rule
 .PHONY : modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ opencv_test_videoio_pch_dephelp: modules/videoio/CMakeFiles/opencv_test_videoio_
 
 # fast build rule for target.
 opencv_test_videoio_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/build
 .PHONY : opencv_test_videoio_pch_dephelp/fast
 
 # Convenience name for target.
 modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/rule
 .PHONY : modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/rule
 
 # Convenience name for target.
@@ -229,12 +229,12 @@ pch_Generate_opencv_videoio: modules/videoio/CMakeFiles/pch_Generate_opencv_vide
 
 # fast build rule for target.
 pch_Generate_opencv_videoio/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/build.make modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/build.make modules/videoio/CMakeFiles/pch_Generate_opencv_videoio.dir/build
 .PHONY : pch_Generate_opencv_videoio/fast
 
 # Convenience name for target.
 modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/rule
 .PHONY : modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ opencv_videoio_pch_dephelp: modules/videoio/CMakeFiles/opencv_videoio_pch_dephel
 
 # fast build rule for target.
 opencv_videoio_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/build
 .PHONY : opencv_videoio_pch_dephelp/fast
 
 # Convenience name for target.
 modules/videoio/CMakeFiles/opencv_videoio.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_videoio.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_videoio.dir/rule
 .PHONY : modules/videoio/CMakeFiles/opencv_videoio.dir/rule
 
 # Convenience name for target.
@@ -259,12 +259,12 @@ opencv_videoio: modules/videoio/CMakeFiles/opencv_videoio.dir/rule
 
 # fast build rule for target.
 opencv_videoio/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/build
 .PHONY : opencv_videoio/fast
 
 # Convenience name for target.
 modules/videoio/CMakeFiles/pch_Generate_opencv_test_videoio.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/pch_Generate_opencv_test_videoio.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/pch_Generate_opencv_test_videoio.dir/rule
 .PHONY : modules/videoio/CMakeFiles/pch_Generate_opencv_test_videoio.dir/rule
 
 # Convenience name for target.
@@ -274,12 +274,12 @@ pch_Generate_opencv_test_videoio: modules/videoio/CMakeFiles/pch_Generate_opencv
 
 # fast build rule for target.
 pch_Generate_opencv_test_videoio/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/pch_Generate_opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/pch_Generate_opencv_test_videoio.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/pch_Generate_opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/pch_Generate_opencv_test_videoio.dir/build
 .PHONY : pch_Generate_opencv_test_videoio/fast
 
 # Convenience name for target.
 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_perf_videoio.dir/rule
 .PHONY : modules/videoio/CMakeFiles/opencv_perf_videoio.dir/rule
 
 # Convenience name for target.
@@ -289,12 +289,12 @@ opencv_perf_videoio: modules/videoio/CMakeFiles/opencv_perf_videoio.dir/rule
 
 # fast build rule for target.
 opencv_perf_videoio/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build
 .PHONY : opencv_perf_videoio/fast
 
 # Convenience name for target.
 modules/videoio/CMakeFiles/pch_Generate_opencv_perf_videoio.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/pch_Generate_opencv_perf_videoio.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/pch_Generate_opencv_perf_videoio.dir/rule
 .PHONY : modules/videoio/CMakeFiles/pch_Generate_opencv_perf_videoio.dir/rule
 
 # Convenience name for target.
@@ -304,12 +304,12 @@ pch_Generate_opencv_perf_videoio: modules/videoio/CMakeFiles/pch_Generate_opencv
 
 # fast build rule for target.
 pch_Generate_opencv_perf_videoio/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/pch_Generate_opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/pch_Generate_opencv_perf_videoio.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/pch_Generate_opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/pch_Generate_opencv_perf_videoio.dir/build
 .PHONY : pch_Generate_opencv_perf_videoio/fast
 
 # Convenience name for target.
 modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/rule
 .PHONY : modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -319,7 +319,7 @@ opencv_perf_videoio_pch_dephelp: modules/videoio/CMakeFiles/opencv_perf_videoio_
 
 # fast build rule for target.
 opencv_perf_videoio_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/build
 .PHONY : opencv_perf_videoio_pch_dephelp/fast
 
 opencv_perf_videoio_pch_dephelp.o: opencv_perf_videoio_pch_dephelp.cxx.o
@@ -328,7 +328,7 @@ opencv_perf_videoio_pch_dephelp.o: opencv_perf_videoio_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_perf_videoio_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/opencv_perf_videoio_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/opencv_perf_videoio_pch_dephelp.cxx.o
 .PHONY : opencv_perf_videoio_pch_dephelp.cxx.o
 
 opencv_perf_videoio_pch_dephelp.i: opencv_perf_videoio_pch_dephelp.cxx.i
@@ -337,7 +337,7 @@ opencv_perf_videoio_pch_dephelp.i: opencv_perf_videoio_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_perf_videoio_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/opencv_perf_videoio_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/opencv_perf_videoio_pch_dephelp.cxx.i
 .PHONY : opencv_perf_videoio_pch_dephelp.cxx.i
 
 opencv_perf_videoio_pch_dephelp.s: opencv_perf_videoio_pch_dephelp.cxx.s
@@ -346,7 +346,7 @@ opencv_perf_videoio_pch_dephelp.s: opencv_perf_videoio_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_perf_videoio_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/opencv_perf_videoio_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio_pch_dephelp.dir/opencv_perf_videoio_pch_dephelp.cxx.s
 .PHONY : opencv_perf_videoio_pch_dephelp.cxx.s
 
 opencv_test_videoio_pch_dephelp.o: opencv_test_videoio_pch_dephelp.cxx.o
@@ -355,7 +355,7 @@ opencv_test_videoio_pch_dephelp.o: opencv_test_videoio_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_test_videoio_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/opencv_test_videoio_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/opencv_test_videoio_pch_dephelp.cxx.o
 .PHONY : opencv_test_videoio_pch_dephelp.cxx.o
 
 opencv_test_videoio_pch_dephelp.i: opencv_test_videoio_pch_dephelp.cxx.i
@@ -364,7 +364,7 @@ opencv_test_videoio_pch_dephelp.i: opencv_test_videoio_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_test_videoio_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/opencv_test_videoio_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/opencv_test_videoio_pch_dephelp.cxx.i
 .PHONY : opencv_test_videoio_pch_dephelp.cxx.i
 
 opencv_test_videoio_pch_dephelp.s: opencv_test_videoio_pch_dephelp.cxx.s
@@ -373,7 +373,7 @@ opencv_test_videoio_pch_dephelp.s: opencv_test_videoio_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_test_videoio_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/opencv_test_videoio_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio_pch_dephelp.dir/opencv_test_videoio_pch_dephelp.cxx.s
 .PHONY : opencv_test_videoio_pch_dephelp.cxx.s
 
 opencv_videoio_pch_dephelp.o: opencv_videoio_pch_dephelp.cxx.o
@@ -382,7 +382,7 @@ opencv_videoio_pch_dephelp.o: opencv_videoio_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_videoio_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/opencv_videoio_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/opencv_videoio_pch_dephelp.cxx.o
 .PHONY : opencv_videoio_pch_dephelp.cxx.o
 
 opencv_videoio_pch_dephelp.i: opencv_videoio_pch_dephelp.cxx.i
@@ -391,7 +391,7 @@ opencv_videoio_pch_dephelp.i: opencv_videoio_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_videoio_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/opencv_videoio_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/opencv_videoio_pch_dephelp.cxx.i
 .PHONY : opencv_videoio_pch_dephelp.cxx.i
 
 opencv_videoio_pch_dephelp.s: opencv_videoio_pch_dephelp.cxx.s
@@ -400,7 +400,7 @@ opencv_videoio_pch_dephelp.s: opencv_videoio_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_videoio_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/opencv_videoio_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/build.make modules/videoio/CMakeFiles/opencv_videoio_pch_dephelp.dir/opencv_videoio_pch_dephelp.cxx.s
 .PHONY : opencv_videoio_pch_dephelp.cxx.s
 
 perf/perf_input.o: perf/perf_input.cpp.o
@@ -409,7 +409,7 @@ perf/perf_input.o: perf/perf_input.cpp.o
 
 # target to build an object file
 perf/perf_input.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.o
 .PHONY : perf/perf_input.cpp.o
 
 perf/perf_input.i: perf/perf_input.cpp.i
@@ -418,7 +418,7 @@ perf/perf_input.i: perf/perf_input.cpp.i
 
 # target to preprocess a source file
 perf/perf_input.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.i
 .PHONY : perf/perf_input.cpp.i
 
 perf/perf_input.s: perf/perf_input.cpp.s
@@ -427,7 +427,7 @@ perf/perf_input.s: perf/perf_input.cpp.s
 
 # target to generate assembly for a file
 perf/perf_input.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_input.cpp.s
 .PHONY : perf/perf_input.cpp.s
 
 perf/perf_main.o: perf/perf_main.cpp.o
@@ -436,7 +436,7 @@ perf/perf_main.o: perf/perf_main.cpp.o
 
 # target to build an object file
 perf/perf_main.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.o
 .PHONY : perf/perf_main.cpp.o
 
 perf/perf_main.i: perf/perf_main.cpp.i
@@ -445,7 +445,7 @@ perf/perf_main.i: perf/perf_main.cpp.i
 
 # target to preprocess a source file
 perf/perf_main.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.i
 .PHONY : perf/perf_main.cpp.i
 
 perf/perf_main.s: perf/perf_main.cpp.s
@@ -454,7 +454,7 @@ perf/perf_main.s: perf/perf_main.cpp.s
 
 # target to generate assembly for a file
 perf/perf_main.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_main.cpp.s
 .PHONY : perf/perf_main.cpp.s
 
 perf/perf_output.o: perf/perf_output.cpp.o
@@ -463,7 +463,7 @@ perf/perf_output.o: perf/perf_output.cpp.o
 
 # target to build an object file
 perf/perf_output.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.o
 .PHONY : perf/perf_output.cpp.o
 
 perf/perf_output.i: perf/perf_output.cpp.i
@@ -472,7 +472,7 @@ perf/perf_output.i: perf/perf_output.cpp.i
 
 # target to preprocess a source file
 perf/perf_output.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.i
 .PHONY : perf/perf_output.cpp.i
 
 perf/perf_output.s: perf/perf_output.cpp.s
@@ -481,7 +481,7 @@ perf/perf_output.s: perf/perf_output.cpp.s
 
 # target to generate assembly for a file
 perf/perf_output.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_perf_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_perf_videoio.dir/perf/perf_output.cpp.s
 .PHONY : perf/perf_output.cpp.s
 
 src/cap.o: src/cap.cpp.o
@@ -490,7 +490,7 @@ src/cap.o: src/cap.cpp.o
 
 # target to build an object file
 src/cap.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap.cpp.o
 .PHONY : src/cap.cpp.o
 
 src/cap.i: src/cap.cpp.i
@@ -499,7 +499,7 @@ src/cap.i: src/cap.cpp.i
 
 # target to preprocess a source file
 src/cap.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap.cpp.i
 .PHONY : src/cap.cpp.i
 
 src/cap.s: src/cap.cpp.s
@@ -508,7 +508,7 @@ src/cap.s: src/cap.cpp.s
 
 # target to generate assembly for a file
 src/cap.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap.cpp.s
 .PHONY : src/cap.cpp.s
 
 src/cap_images.o: src/cap_images.cpp.o
@@ -517,7 +517,7 @@ src/cap_images.o: src/cap_images.cpp.o
 
 # target to build an object file
 src/cap_images.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.o
 .PHONY : src/cap_images.cpp.o
 
 src/cap_images.i: src/cap_images.cpp.i
@@ -526,7 +526,7 @@ src/cap_images.i: src/cap_images.cpp.i
 
 # target to preprocess a source file
 src/cap_images.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.i
 .PHONY : src/cap_images.cpp.i
 
 src/cap_images.s: src/cap_images.cpp.s
@@ -535,7 +535,7 @@ src/cap_images.s: src/cap_images.cpp.s
 
 # target to generate assembly for a file
 src/cap_images.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_images.cpp.s
 .PHONY : src/cap_images.cpp.s
 
 src/cap_mjpeg_decoder.o: src/cap_mjpeg_decoder.cpp.o
@@ -544,7 +544,7 @@ src/cap_mjpeg_decoder.o: src/cap_mjpeg_decoder.cpp.o
 
 # target to build an object file
 src/cap_mjpeg_decoder.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.o
 .PHONY : src/cap_mjpeg_decoder.cpp.o
 
 src/cap_mjpeg_decoder.i: src/cap_mjpeg_decoder.cpp.i
@@ -553,7 +553,7 @@ src/cap_mjpeg_decoder.i: src/cap_mjpeg_decoder.cpp.i
 
 # target to preprocess a source file
 src/cap_mjpeg_decoder.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.i
 .PHONY : src/cap_mjpeg_decoder.cpp.i
 
 src/cap_mjpeg_decoder.s: src/cap_mjpeg_decoder.cpp.s
@@ -562,7 +562,7 @@ src/cap_mjpeg_decoder.s: src/cap_mjpeg_decoder.cpp.s
 
 # target to generate assembly for a file
 src/cap_mjpeg_decoder.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_decoder.cpp.s
 .PHONY : src/cap_mjpeg_decoder.cpp.s
 
 src/cap_mjpeg_encoder.o: src/cap_mjpeg_encoder.cpp.o
@@ -571,7 +571,7 @@ src/cap_mjpeg_encoder.o: src/cap_mjpeg_encoder.cpp.o
 
 # target to build an object file
 src/cap_mjpeg_encoder.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_encoder.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_encoder.cpp.o
 .PHONY : src/cap_mjpeg_encoder.cpp.o
 
 src/cap_mjpeg_encoder.i: src/cap_mjpeg_encoder.cpp.i
@@ -580,7 +580,7 @@ src/cap_mjpeg_encoder.i: src/cap_mjpeg_encoder.cpp.i
 
 # target to preprocess a source file
 src/cap_mjpeg_encoder.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_encoder.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_encoder.cpp.i
 .PHONY : src/cap_mjpeg_encoder.cpp.i
 
 src/cap_mjpeg_encoder.s: src/cap_mjpeg_encoder.cpp.s
@@ -589,7 +589,7 @@ src/cap_mjpeg_encoder.s: src/cap_mjpeg_encoder.cpp.s
 
 # target to generate assembly for a file
 src/cap_mjpeg_encoder.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_encoder.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_mjpeg_encoder.cpp.s
 .PHONY : src/cap_mjpeg_encoder.cpp.s
 
 src/cap_v4l.o: src/cap_v4l.cpp.o
@@ -598,7 +598,7 @@ src/cap_v4l.o: src/cap_v4l.cpp.o
 
 # target to build an object file
 src/cap_v4l.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_v4l.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_v4l.cpp.o
 .PHONY : src/cap_v4l.cpp.o
 
 src/cap_v4l.i: src/cap_v4l.cpp.i
@@ -607,7 +607,7 @@ src/cap_v4l.i: src/cap_v4l.cpp.i
 
 # target to preprocess a source file
 src/cap_v4l.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_v4l.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_v4l.cpp.i
 .PHONY : src/cap_v4l.cpp.i
 
 src/cap_v4l.s: src/cap_v4l.cpp.s
@@ -616,7 +616,7 @@ src/cap_v4l.s: src/cap_v4l.cpp.s
 
 # target to generate assembly for a file
 src/cap_v4l.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_v4l.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_videoio.dir/src/cap_v4l.cpp.s
 .PHONY : src/cap_v4l.cpp.s
 
 test/test_ffmpeg.o: test/test_ffmpeg.cpp.o
@@ -625,7 +625,7 @@ test/test_ffmpeg.o: test/test_ffmpeg.cpp.o
 
 # target to build an object file
 test/test_ffmpeg.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o
 .PHONY : test/test_ffmpeg.cpp.o
 
 test/test_ffmpeg.i: test/test_ffmpeg.cpp.i
@@ -634,7 +634,7 @@ test/test_ffmpeg.i: test/test_ffmpeg.cpp.i
 
 # target to preprocess a source file
 test/test_ffmpeg.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.i
 .PHONY : test/test_ffmpeg.cpp.i
 
 test/test_ffmpeg.s: test/test_ffmpeg.cpp.s
@@ -643,7 +643,7 @@ test/test_ffmpeg.s: test/test_ffmpeg.cpp.s
 
 # target to generate assembly for a file
 test/test_ffmpeg.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.s
 .PHONY : test/test_ffmpeg.cpp.s
 
 test/test_fourcc.o: test/test_fourcc.cpp.o
@@ -652,7 +652,7 @@ test/test_fourcc.o: test/test_fourcc.cpp.o
 
 # target to build an object file
 test/test_fourcc.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o
 .PHONY : test/test_fourcc.cpp.o
 
 test/test_fourcc.i: test/test_fourcc.cpp.i
@@ -661,7 +661,7 @@ test/test_fourcc.i: test/test_fourcc.cpp.i
 
 # target to preprocess a source file
 test/test_fourcc.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.i
 .PHONY : test/test_fourcc.cpp.i
 
 test/test_fourcc.s: test/test_fourcc.cpp.s
@@ -670,7 +670,7 @@ test/test_fourcc.s: test/test_fourcc.cpp.s
 
 # target to generate assembly for a file
 test/test_fourcc.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.s
 .PHONY : test/test_fourcc.cpp.s
 
 test/test_main.o: test/test_main.cpp.o
@@ -679,7 +679,7 @@ test/test_main.o: test/test_main.cpp.o
 
 # target to build an object file
 test/test_main.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o
 .PHONY : test/test_main.cpp.o
 
 test/test_main.i: test/test_main.cpp.i
@@ -688,7 +688,7 @@ test/test_main.i: test/test_main.cpp.i
 
 # target to preprocess a source file
 test/test_main.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.i
 .PHONY : test/test_main.cpp.i
 
 test/test_main.s: test/test_main.cpp.s
@@ -697,7 +697,7 @@ test/test_main.s: test/test_main.cpp.s
 
 # target to generate assembly for a file
 test/test_main.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.s
 .PHONY : test/test_main.cpp.s
 
 test/test_mfx.o: test/test_mfx.cpp.o
@@ -706,7 +706,7 @@ test/test_mfx.o: test/test_mfx.cpp.o
 
 # target to build an object file
 test/test_mfx.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o
 .PHONY : test/test_mfx.cpp.o
 
 test/test_mfx.i: test/test_mfx.cpp.i
@@ -715,7 +715,7 @@ test/test_mfx.i: test/test_mfx.cpp.i
 
 # target to preprocess a source file
 test/test_mfx.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.i
 .PHONY : test/test_mfx.cpp.i
 
 test/test_mfx.s: test/test_mfx.cpp.s
@@ -724,7 +724,7 @@ test/test_mfx.s: test/test_mfx.cpp.s
 
 # target to generate assembly for a file
 test/test_mfx.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.s
 .PHONY : test/test_mfx.cpp.s
 
 test/test_video_io.o: test/test_video_io.cpp.o
@@ -733,7 +733,7 @@ test/test_video_io.o: test/test_video_io.cpp.o
 
 # target to build an object file
 test/test_video_io.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o
 .PHONY : test/test_video_io.cpp.o
 
 test/test_video_io.i: test/test_video_io.cpp.i
@@ -742,7 +742,7 @@ test/test_video_io.i: test/test_video_io.cpp.i
 
 # target to preprocess a source file
 test/test_video_io.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.i
 .PHONY : test/test_video_io.cpp.i
 
 test/test_video_io.s: test/test_video_io.cpp.s
@@ -751,7 +751,7 @@ test/test_video_io.s: test/test_video_io.cpp.s
 
 # target to generate assembly for a file
 test/test_video_io.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/videoio/CMakeFiles/opencv_test_videoio.dir/build.make modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.s
 .PHONY : test/test_video_io.cpp.s
 
 # Help Target
@@ -837,6 +837,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

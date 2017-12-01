@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/apps
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/stacia/opencv/build/apps/traincascade/cmake_install.cmake")
-  include("/home/stacia/opencv/build/apps/createsamples/cmake_install.cmake")
-  include("/home/stacia/opencv/build/apps/annotation/cmake_install.cmake")
-  include("/home/stacia/opencv/build/apps/visualisation/cmake_install.cmake")
-  include("/home/stacia/opencv/build/apps/interactive-calibration/cmake_install.cmake")
-  include("/home/stacia/opencv/build/apps/version/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/traincascade/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/createsamples/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/annotation/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/visualisation/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration/cmake_install.cmake")
+  include("/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/version/cmake_install.cmake")
 
 endif()
 

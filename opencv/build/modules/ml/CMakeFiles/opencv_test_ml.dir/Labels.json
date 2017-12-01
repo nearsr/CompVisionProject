@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/stacia/opencv/modules/ml/test/test_lr.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/test/test_lr.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/ml/test/test_svmtrainauto.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/test/test_svmtrainauto.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/ml/test/test_svmsgd.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/test/test_svmsgd.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/ml/test/test_mltests2.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/test/test_mltests2.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/ml/test/test_mltests.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/test/test_mltests.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/ml/test/test_main.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/test/test_main.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/ml/test/test_emknearestkmeans.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/test/test_emknearestkmeans.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/ml/test/test_gbttest.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/test/test_gbttest.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/ml/test/test_save_load.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/test/test_save_load.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/ml/test/test_precomp.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ml/test/test_precomp.hpp",
 			"labels" : 
 			[
 				"Main",

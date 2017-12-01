@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -81,7 +81,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/stacia/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/opencv/build/CPackSourceConfig.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -157,14 +157,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles /home/stacia/opencv/build/modules/highgui/CMakeFiles/progress.marks
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/opencv/build/CMakeFiles 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui/CMakeFiles/progress.marks
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/clean
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/clean
 .PHONY : clean
 
 # The main clean target
@@ -174,22 +174,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/preinstall
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 modules/highgui/CMakeFiles/pch_Generate_opencv_highgui.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/pch_Generate_opencv_highgui.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/pch_Generate_opencv_highgui.dir/rule
 .PHONY : modules/highgui/CMakeFiles/pch_Generate_opencv_highgui.dir/rule
 
 # Convenience name for target.
@@ -199,12 +199,12 @@ pch_Generate_opencv_highgui: modules/highgui/CMakeFiles/pch_Generate_opencv_high
 
 # fast build rule for target.
 pch_Generate_opencv_highgui/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/pch_Generate_opencv_highgui.dir/build.make modules/highgui/CMakeFiles/pch_Generate_opencv_highgui.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/pch_Generate_opencv_highgui.dir/build.make modules/highgui/CMakeFiles/pch_Generate_opencv_highgui.dir/build
 .PHONY : pch_Generate_opencv_highgui/fast
 
 # Convenience name for target.
 modules/highgui/CMakeFiles/opencv_test_highgui.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/opencv_test_highgui.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/opencv_test_highgui.dir/rule
 .PHONY : modules/highgui/CMakeFiles/opencv_test_highgui.dir/rule
 
 # Convenience name for target.
@@ -214,12 +214,12 @@ opencv_test_highgui: modules/highgui/CMakeFiles/opencv_test_highgui.dir/rule
 
 # fast build rule for target.
 opencv_test_highgui/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/build
 .PHONY : opencv_test_highgui/fast
 
 # Convenience name for target.
 modules/highgui/CMakeFiles/opencv_highgui.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/opencv_highgui.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/opencv_highgui.dir/rule
 .PHONY : modules/highgui/CMakeFiles/opencv_highgui.dir/rule
 
 # Convenience name for target.
@@ -229,12 +229,12 @@ opencv_highgui: modules/highgui/CMakeFiles/opencv_highgui.dir/rule
 
 # fast build rule for target.
 opencv_highgui/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/build
 .PHONY : opencv_highgui/fast
 
 # Convenience name for target.
 modules/highgui/CMakeFiles/pch_Generate_opencv_test_highgui.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/pch_Generate_opencv_test_highgui.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/pch_Generate_opencv_test_highgui.dir/rule
 .PHONY : modules/highgui/CMakeFiles/pch_Generate_opencv_test_highgui.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ pch_Generate_opencv_test_highgui: modules/highgui/CMakeFiles/pch_Generate_opencv
 
 # fast build rule for target.
 pch_Generate_opencv_test_highgui/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/pch_Generate_opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/pch_Generate_opencv_test_highgui.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/pch_Generate_opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/pch_Generate_opencv_test_highgui.dir/build
 .PHONY : pch_Generate_opencv_test_highgui/fast
 
 # Convenience name for target.
 modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/rule
 .PHONY : modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -259,12 +259,12 @@ opencv_highgui_pch_dephelp: modules/highgui/CMakeFiles/opencv_highgui_pch_dephel
 
 # fast build rule for target.
 opencv_highgui_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/build
 .PHONY : opencv_highgui_pch_dephelp/fast
 
 # Convenience name for target.
 modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/rule:
-	cd /home/stacia/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/rule
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f CMakeFiles/Makefile2 modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/rule
 .PHONY : modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/rule
 
 # Convenience name for target.
@@ -274,7 +274,7 @@ opencv_test_highgui_pch_dephelp: modules/highgui/CMakeFiles/opencv_test_highgui_
 
 # fast build rule for target.
 opencv_test_highgui_pch_dephelp/fast:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/build
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/build
 .PHONY : opencv_test_highgui_pch_dephelp/fast
 
 opencv_highgui_pch_dephelp.o: opencv_highgui_pch_dephelp.cxx.o
@@ -283,7 +283,7 @@ opencv_highgui_pch_dephelp.o: opencv_highgui_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_highgui_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/opencv_highgui_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/opencv_highgui_pch_dephelp.cxx.o
 .PHONY : opencv_highgui_pch_dephelp.cxx.o
 
 opencv_highgui_pch_dephelp.i: opencv_highgui_pch_dephelp.cxx.i
@@ -292,7 +292,7 @@ opencv_highgui_pch_dephelp.i: opencv_highgui_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_highgui_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/opencv_highgui_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/opencv_highgui_pch_dephelp.cxx.i
 .PHONY : opencv_highgui_pch_dephelp.cxx.i
 
 opencv_highgui_pch_dephelp.s: opencv_highgui_pch_dephelp.cxx.s
@@ -301,7 +301,7 @@ opencv_highgui_pch_dephelp.s: opencv_highgui_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_highgui_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/opencv_highgui_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_highgui_pch_dephelp.dir/opencv_highgui_pch_dephelp.cxx.s
 .PHONY : opencv_highgui_pch_dephelp.cxx.s
 
 opencv_test_highgui_pch_dephelp.o: opencv_test_highgui_pch_dephelp.cxx.o
@@ -310,7 +310,7 @@ opencv_test_highgui_pch_dephelp.o: opencv_test_highgui_pch_dephelp.cxx.o
 
 # target to build an object file
 opencv_test_highgui_pch_dephelp.cxx.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/opencv_test_highgui_pch_dephelp.cxx.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/opencv_test_highgui_pch_dephelp.cxx.o
 .PHONY : opencv_test_highgui_pch_dephelp.cxx.o
 
 opencv_test_highgui_pch_dephelp.i: opencv_test_highgui_pch_dephelp.cxx.i
@@ -319,7 +319,7 @@ opencv_test_highgui_pch_dephelp.i: opencv_test_highgui_pch_dephelp.cxx.i
 
 # target to preprocess a source file
 opencv_test_highgui_pch_dephelp.cxx.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/opencv_test_highgui_pch_dephelp.cxx.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/opencv_test_highgui_pch_dephelp.cxx.i
 .PHONY : opencv_test_highgui_pch_dephelp.cxx.i
 
 opencv_test_highgui_pch_dephelp.s: opencv_test_highgui_pch_dephelp.cxx.s
@@ -328,7 +328,7 @@ opencv_test_highgui_pch_dephelp.s: opencv_test_highgui_pch_dephelp.cxx.s
 
 # target to generate assembly for a file
 opencv_test_highgui_pch_dephelp.cxx.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/opencv_test_highgui_pch_dephelp.cxx.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui_pch_dephelp.dir/opencv_test_highgui_pch_dephelp.cxx.s
 .PHONY : opencv_test_highgui_pch_dephelp.cxx.s
 
 src/roiSelector.o: src/roiSelector.cpp.o
@@ -337,7 +337,7 @@ src/roiSelector.o: src/roiSelector.cpp.o
 
 # target to build an object file
 src/roiSelector.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.o
 .PHONY : src/roiSelector.cpp.o
 
 src/roiSelector.i: src/roiSelector.cpp.i
@@ -346,7 +346,7 @@ src/roiSelector.i: src/roiSelector.cpp.i
 
 # target to preprocess a source file
 src/roiSelector.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.i
 .PHONY : src/roiSelector.cpp.i
 
 src/roiSelector.s: src/roiSelector.cpp.s
@@ -355,7 +355,7 @@ src/roiSelector.s: src/roiSelector.cpp.s
 
 # target to generate assembly for a file
 src/roiSelector.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/roiSelector.cpp.s
 .PHONY : src/roiSelector.cpp.s
 
 src/window.o: src/window.cpp.o
@@ -364,7 +364,7 @@ src/window.o: src/window.cpp.o
 
 # target to build an object file
 src/window.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.o
 .PHONY : src/window.cpp.o
 
 src/window.i: src/window.cpp.i
@@ -373,7 +373,7 @@ src/window.i: src/window.cpp.i
 
 # target to preprocess a source file
 src/window.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.i
 .PHONY : src/window.cpp.i
 
 src/window.s: src/window.cpp.s
@@ -382,7 +382,7 @@ src/window.s: src/window.cpp.s
 
 # target to generate assembly for a file
 src/window.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_highgui.dir/src/window.cpp.s
 .PHONY : src/window.cpp.s
 
 test/test_gui.o: test/test_gui.cpp.o
@@ -391,7 +391,7 @@ test/test_gui.o: test/test_gui.cpp.o
 
 # target to build an object file
 test/test_gui.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.o
 .PHONY : test/test_gui.cpp.o
 
 test/test_gui.i: test/test_gui.cpp.i
@@ -400,7 +400,7 @@ test/test_gui.i: test/test_gui.cpp.i
 
 # target to preprocess a source file
 test/test_gui.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.i
 .PHONY : test/test_gui.cpp.i
 
 test/test_gui.s: test/test_gui.cpp.s
@@ -409,7 +409,7 @@ test/test_gui.s: test/test_gui.cpp.s
 
 # target to generate assembly for a file
 test/test_gui.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_gui.cpp.s
 .PHONY : test/test_gui.cpp.s
 
 test/test_main.o: test/test_main.cpp.o
@@ -418,7 +418,7 @@ test/test_main.o: test/test_main.cpp.o
 
 # target to build an object file
 test/test_main.cpp.o:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.o
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.o
 .PHONY : test/test_main.cpp.o
 
 test/test_main.i: test/test_main.cpp.i
@@ -427,7 +427,7 @@ test/test_main.i: test/test_main.cpp.i
 
 # target to preprocess a source file
 test/test_main.cpp.i:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.i
 .PHONY : test/test_main.cpp.i
 
 test/test_main.s: test/test_main.cpp.s
@@ -436,7 +436,7 @@ test/test_main.s: test/test_main.cpp.s
 
 # target to generate assembly for a file
 test/test_main.cpp.s:
-	cd /home/stacia/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(MAKE) -f modules/highgui/CMakeFiles/opencv_test_highgui.dir/build.make modules/highgui/CMakeFiles/opencv_test_highgui.dir/test/test_main.cpp.s
 .PHONY : test/test_main.cpp.s
 
 # Help Target
@@ -489,6 +489,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

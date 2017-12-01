@@ -6,33 +6,33 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/photo/include -I/home/stacia/opencv/modules/photo/src -I/home/stacia/opencv/build/modules/photo -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/imgproc/include 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/photo/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/photo/src -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include 
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/contrast_preserve.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning_impl.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/seamless_cloning.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/merge.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/calibrate.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/hdr_common.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/align.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/npr.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/denoise_tvl1.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/tonemap.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/denoising.cuda.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/src/inpaint.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 
-# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/photo/precomp.hpp"
+# Custom flags: modules/photo/CMakeFiles/opencv_photo.dir/opencl_kernels_photo.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/photo/precomp.hpp"
 

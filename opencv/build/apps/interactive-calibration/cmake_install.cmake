@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/apps/interactive-calibration
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/opencv_interactive-calibration"
          RPATH "/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE OPTIONAL FILES "/home/stacia/opencv/build/bin/opencv_interactive-calibration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE OPTIONAL FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/bin/opencv_interactive-calibration")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/opencv_interactive-calibration" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/opencv_interactive-calibration")
     file(RPATH_CHANGE

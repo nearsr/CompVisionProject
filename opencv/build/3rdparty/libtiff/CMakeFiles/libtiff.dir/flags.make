@@ -7,11 +7,11 @@ C_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtua
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/stacia/opencv/build/3rdparty/zlib -I/home/stacia/opencv/3rdparty/zlib -I/home/stacia/opencv/build/3rdparty/libtiff -I/home/stacia/opencv/3rdparty/libtiff -I/home/stacia/opencv/build 
+C_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/zlib -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/zlib -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libtiff -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/libtiff -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build 
 
 CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security  -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-missing-declarations -Wno-unused-parameter -O3 -DNDEBUG  -DNDEBUG  
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/zlib -I/home/stacia/opencv/3rdparty/zlib -I/home/stacia/opencv/build/3rdparty/libtiff -I/home/stacia/opencv/3rdparty/libtiff -I/home/stacia/opencv/build 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/zlib -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/zlib -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libtiff -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/3rdparty/libtiff -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build 
 

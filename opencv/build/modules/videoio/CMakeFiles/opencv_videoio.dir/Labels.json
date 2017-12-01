@@ -2,7 +2,7 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/stacia/opencv/modules/videoio/include/opencv2/videoio.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include/opencv2/videoio.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -11,7 +11,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/videoio/include/opencv2/videoio/videoio.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include/opencv2/videoio/videoio.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/videoio/include/opencv2/videoio/videoio_c.h",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include/opencv2/videoio/videoio_c.h",
 			"labels" : 
 			[
 				"Main",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/videoio/include/opencv2/videoio/cap_ios.h",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include/opencv2/videoio/cap_ios.h",
 			"labels" : 
 			[
 				"Main",
@@ -38,7 +38,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/videoio/src/cap.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/src/cap.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -47,7 +47,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/videoio/src/cap_images.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/src/cap_images.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -56,7 +56,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/videoio/src/cap_mjpeg_encoder.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/src/cap_mjpeg_encoder.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/videoio/src/cap_mjpeg_decoder.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/src/cap_mjpeg_decoder.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -74,7 +74,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/videoio/src/cap_v4l.cpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/src/cap_v4l.cpp",
 			"labels" : 
 			[
 				"Main",
@@ -83,7 +83,7 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/modules/videoio/src/precomp.hpp",
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/src/precomp.hpp",
 			"labels" : 
 			[
 				"Main",
@@ -92,10 +92,10 @@
 			]
 		},
 		{
-			"file" : "/home/stacia/opencv/build/cvconfig.h"
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/cvconfig.h"
 		},
 		{
-			"file" : "/home/stacia/opencv/build/opencv2/opencv_modules.hpp"
+			"file" : "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/opencv2/opencv_modules.hpp"
 		}
 	],
 	"target" : 

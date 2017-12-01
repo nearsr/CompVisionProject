@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stacia/opencv/modules/videoio/test/test_ffmpeg.cpp" "/home/stacia/opencv/build/modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o"
-  "/home/stacia/opencv/modules/videoio/test/test_fourcc.cpp" "/home/stacia/opencv/build/modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o"
-  "/home/stacia/opencv/modules/videoio/test/test_main.cpp" "/home/stacia/opencv/build/modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o"
-  "/home/stacia/opencv/modules/videoio/test/test_mfx.cpp" "/home/stacia/opencv/build/modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o"
-  "/home/stacia/opencv/modules/videoio/test/test_video_io.cpp" "/home/stacia/opencv/build/modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/test/test_ffmpeg.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_ffmpeg.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/test/test_fourcc.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_fourcc.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/test/test_main.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_main.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/test/test_mfx.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_mfx.cpp.o"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/test/test_video_io.cpp" "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/CMakeFiles/opencv_test_videoio.dir/test/test_video_io.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -38,21 +38,21 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/stacia/opencv/build/modules/ts/CMakeFiles/opencv_ts.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/modules/videoio/CMakeFiles/opencv_videoio.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/modules/highgui/CMakeFiles/opencv_highgui.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/ippiw/CMakeFiles/ippiw.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/libwebp/CMakeFiles/libwebp.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/libpng/CMakeFiles/libpng.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/libtiff/CMakeFiles/libtiff.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/libjasper/CMakeFiles/libjasper.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/openexr/CMakeFiles/IlmImf.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
-  "/home/stacia/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/ts/CMakeFiles/opencv_ts.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videoio/CMakeFiles/opencv_videoio.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgcodecs/CMakeFiles/opencv_imgcodecs.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/core/CMakeFiles/opencv_core.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/imgproc/CMakeFiles/opencv_imgproc.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/highgui/CMakeFiles/opencv_highgui.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippiw/CMakeFiles/ippiw.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libjpeg/CMakeFiles/libjpeg.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libwebp/CMakeFiles/libwebp.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libpng/CMakeFiles/libpng.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libtiff/CMakeFiles/libtiff.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/libjasper/CMakeFiles/libjasper.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/openexr/CMakeFiles/IlmImf.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/zlib/CMakeFiles/zlib.dir/DependInfo.cmake"
+  "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ittnotify/CMakeFiles/ittnotify.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -6,27 +6,27 @@ CXX_FLAGS =  -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virt
 
 CXX_DEFINES = -D_USE_MATH_DEFINES -D__OPENCV_BUILD=1 -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
 
-CXX_INCLUDES = -I/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/opencv/build -I/home/stacia/opencv/modules/videostab/include -I/home/stacia/opencv/modules/videostab/src -I/home/stacia/opencv/build/modules/videostab -I/home/stacia/opencv/modules/core/include -I/home/stacia/opencv/modules/flann/include -I/home/stacia/opencv/modules/imgproc/include -I/home/stacia/opencv/modules/photo/include -I/home/stacia/opencv/modules/video/include -I/home/stacia/opencv/modules/imgcodecs/include -I/home/stacia/opencv/modules/videoio/include -I/home/stacia/opencv/modules/highgui/include -I/home/stacia/opencv/modules/features2d/include -I/home/stacia/opencv/modules/calib3d/include 
+CXX_INCLUDES = -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videostab/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videostab/src -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/flann/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/photo/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/features2d/include -I/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/calib3d/include 
 
-# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/log.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videostab/precomp.hpp"
+# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/log.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab/precomp.hpp"
 
-# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/global_motion.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videostab/precomp.hpp"
+# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/global_motion.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab/precomp.hpp"
 
-# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/outlier_rejection.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videostab/precomp.hpp"
+# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/outlier_rejection.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab/precomp.hpp"
 
-# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/deblurring.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videostab/precomp.hpp"
+# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/deblurring.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab/precomp.hpp"
 
-# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/motion_stabilizing.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videostab/precomp.hpp"
+# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/motion_stabilizing.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab/precomp.hpp"
 
-# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/frame_source.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videostab/precomp.hpp"
+# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/frame_source.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab/precomp.hpp"
 
-# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/optical_flow.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videostab/precomp.hpp"
+# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/optical_flow.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab/precomp.hpp"
 
-# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/stabilizer.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videostab/precomp.hpp"
+# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/stabilizer.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab/precomp.hpp"
 
-# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/wobble_suppression.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videostab/precomp.hpp"
+# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/wobble_suppression.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab/precomp.hpp"
 
-# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/inpainting.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videostab/precomp.hpp"
+# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/inpainting.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab/precomp.hpp"
 
-# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/fast_marching.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/opencv/build/modules/videostab/precomp.hpp"
+# Custom flags: modules/videostab/CMakeFiles/opencv_videostab.dir/src/fast_marching.cpp.o_FLAGS =  -Winvalid-pch  -include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/videostab/precomp.hpp"
 

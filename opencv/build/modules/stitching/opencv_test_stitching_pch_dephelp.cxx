@@ -1,4 +1,4 @@
-#include "/home/stacia/opencv/modules/stitching/test/test_precomp.hpp"
+#include "/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/stitching/test/test_precomp.hpp"
 int testfunction();
 int testfunction()
 {

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Utility rule file for pch_Generate_opencv_perf_video.
 
@@ -59,13 +59,13 @@ modules/video/CMakeFiles/pch_Generate_opencv_perf_video: modules/video/perf_prec
 modules/video/perf_precomp.hpp.gch/opencv_perf_video_Release.gch: ../modules/video/perf/perf_precomp.hpp
 modules/video/perf_precomp.hpp.gch/opencv_perf_video_Release.gch: modules/video/perf_precomp.hpp
 modules/video/perf_precomp.hpp.gch/opencv_perf_video_Release.gch: lib/libopencv_perf_video_pch_dephelp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating perf_precomp.hpp.gch/opencv_perf_video_Release.gch"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/cmake -E make_directory /home/stacia/opencv/build/modules/video/perf_precomp.hpp.gch
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/c++ -O3 -DNDEBUG -DNDEBUG "-D__OPENCV_BUILD=1" "-D_USE_MATH_DEFINES" "-D__STDC_CONSTANT_MACROS" "-D__STDC_LIMIT_MACROS" "-D__STDC_FORMAT_MACROS" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/opencv/build" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/opencv/build" -I"/home/stacia/opencv/modules/ts/include" -I"/home/stacia/opencv/modules/video/include" -I"/home/stacia/opencv/modules/imgcodecs/include" -I"/home/stacia/opencv/modules/core/include" -I"/home/stacia/opencv/modules/imgproc/include" -I"/home/stacia/opencv/modules/core/include" -I"/home/stacia/opencv/modules/imgproc/include" -I"/home/stacia/opencv/modules/imgcodecs/include" -I"/home/stacia/opencv/modules/videoio/include" -I"/home/stacia/opencv/modules/highgui/include" -I"/home/stacia/opencv/modules/video/perf" -fPIC -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -x c++-header -o /home/stacia/opencv/build/modules/video/perf_precomp.hpp.gch/opencv_perf_video_Release.gch /home/stacia/opencv/build/modules/video/perf_precomp.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating perf_precomp.hpp.gch/opencv_perf_video_Release.gch"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/cmake -E make_directory /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/perf_precomp.hpp.gch
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/c++ -O3 -DNDEBUG -DNDEBUG "-D__OPENCV_BUILD=1" "-D_USE_MATH_DEFINES" "-D__STDC_CONSTANT_MACROS" "-D__STDC_LIMIT_MACROS" "-D__STDC_FORMAT_MACROS" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippicv_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/3rdparty/ippicv/ippiw_lnx/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/build" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/ts/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/core/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgproc/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/imgcodecs/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/videoio/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/highgui/include" -I"/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/perf" -fPIC -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -x c++-header -o /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/perf_precomp.hpp.gch/opencv_perf_video_Release.gch /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/perf_precomp.hpp
 
 modules/video/perf_precomp.hpp: ../modules/video/perf/perf_precomp.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating perf_precomp.hpp"
-	cd /home/stacia/opencv/build/modules/video && /usr/bin/cmake -E copy_if_different /home/stacia/opencv/modules/video/perf/perf_precomp.hpp /home/stacia/opencv/build/modules/video/perf_precomp.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating perf_precomp.hpp"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && /usr/bin/cmake -E copy_if_different /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video/perf/perf_precomp.hpp /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/perf_precomp.hpp
 
 pch_Generate_opencv_perf_video: modules/video/CMakeFiles/pch_Generate_opencv_perf_video
 pch_Generate_opencv_perf_video: modules/video/perf_precomp.hpp.gch/opencv_perf_video_Release.gch
@@ -80,10 +80,10 @@ modules/video/CMakeFiles/pch_Generate_opencv_perf_video.dir/build: pch_Generate_
 .PHONY : modules/video/CMakeFiles/pch_Generate_opencv_perf_video.dir/build
 
 modules/video/CMakeFiles/pch_Generate_opencv_perf_video.dir/clean:
-	cd /home/stacia/opencv/build/modules/video && $(CMAKE_COMMAND) -P CMakeFiles/pch_Generate_opencv_perf_video.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video && $(CMAKE_COMMAND) -P CMakeFiles/pch_Generate_opencv_perf_video.dir/cmake_clean.cmake
 .PHONY : modules/video/CMakeFiles/pch_Generate_opencv_perf_video.dir/clean
 
 modules/video/CMakeFiles/pch_Generate_opencv_perf_video.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/modules/video /home/stacia/opencv/build /home/stacia/opencv/build/modules/video /home/stacia/opencv/build/modules/video/CMakeFiles/pch_Generate_opencv_perf_video.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/video /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/modules/video/CMakeFiles/pch_Generate_opencv_perf_video.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/video/CMakeFiles/pch_Generate_opencv_perf_video.dir/depend
 

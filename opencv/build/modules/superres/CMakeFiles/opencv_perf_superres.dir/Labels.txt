@@ -3,15 +3,15 @@
  opencv_superres
  PerfTest
 # Source files and their labels
-/home/stacia/opencv/modules/superres/perf/perf_main.cpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/perf/perf_main.cpp
  Main
  opencv_superres
  PerfTest
-/home/stacia/opencv/modules/superres/perf/perf_superres.cpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/perf/perf_superres.cpp
  Main
  opencv_superres
  PerfTest
-/home/stacia/opencv/modules/superres/perf/perf_precomp.hpp
+/home/stacia/eclipse-workspace/CompVisionProject/opencv/modules/superres/perf/perf_precomp.hpp
  Main
  opencv_superres
  PerfTest

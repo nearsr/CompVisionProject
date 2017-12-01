@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stacia/opencv
+CMAKE_SOURCE_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stacia/opencv/build
+CMAKE_BINARY_DIR = /home/stacia/eclipse-workspace/CompVisionProject/opencv/build
 
 # Include any dependencies generated for this target.
 include apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/depend.make
@@ -59,16 +59,16 @@ include apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.d
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o: apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/flags.make
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o: ../apps/interactive-calibration/frameProcessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o -c /home/stacia/opencv/apps/interactive-calibration/frameProcessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/frameProcessor.cpp
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.i"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/opencv/apps/interactive-calibration/frameProcessor.cpp > CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/frameProcessor.cpp > CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.i
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.s"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/opencv/apps/interactive-calibration/frameProcessor.cpp -o CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/frameProcessor.cpp -o CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.s
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frameProcessor.cpp.o.requires:
 
@@ -83,16 +83,16 @@ apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/frame
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o: apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/flags.make
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o: ../apps/interactive-calibration/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o -c /home/stacia/opencv/apps/interactive-calibration/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/main.cpp
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_interactive-calibration.dir/main.cpp.i"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/opencv/apps/interactive-calibration/main.cpp > CMakeFiles/opencv_interactive-calibration.dir/main.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/main.cpp > CMakeFiles/opencv_interactive-calibration.dir/main.cpp.i
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_interactive-calibration.dir/main.cpp.s"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/opencv/apps/interactive-calibration/main.cpp -o CMakeFiles/opencv_interactive-calibration.dir/main.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/main.cpp -o CMakeFiles/opencv_interactive-calibration.dir/main.cpp.s
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.cpp.o.requires:
 
@@ -107,16 +107,16 @@ apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/main.
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o: apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/flags.make
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o: ../apps/interactive-calibration/calibPipeline.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o -c /home/stacia/opencv/apps/interactive-calibration/calibPipeline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/calibPipeline.cpp
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.i"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/opencv/apps/interactive-calibration/calibPipeline.cpp > CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/calibPipeline.cpp > CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.i
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.s"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/opencv/apps/interactive-calibration/calibPipeline.cpp -o CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/calibPipeline.cpp -o CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.s
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibPipeline.cpp.o.requires:
 
@@ -131,16 +131,16 @@ apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calib
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o: apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/flags.make
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o: ../apps/interactive-calibration/parametersController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o -c /home/stacia/opencv/apps/interactive-calibration/parametersController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/parametersController.cpp
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.i"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/opencv/apps/interactive-calibration/parametersController.cpp > CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/parametersController.cpp > CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.i
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.s"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/opencv/apps/interactive-calibration/parametersController.cpp -o CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/parametersController.cpp -o CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.s
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/parametersController.cpp.o.requires:
 
@@ -155,16 +155,16 @@ apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/param
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o: apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/flags.make
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o: ../apps/interactive-calibration/calibController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o -c /home/stacia/opencv/apps/interactive-calibration/calibController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/calibController.cpp
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.i"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/opencv/apps/interactive-calibration/calibController.cpp > CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/calibController.cpp > CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.i
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.s"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/opencv/apps/interactive-calibration/calibController.cpp -o CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/calibController.cpp -o CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.s
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calibController.cpp.o.requires:
 
@@ -179,16 +179,16 @@ apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/calib
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o: apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/flags.make
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o: ../apps/interactive-calibration/rotationConverters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o -c /home/stacia/opencv/apps/interactive-calibration/rotationConverters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o -c /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/rotationConverters.cpp
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.i"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/opencv/apps/interactive-calibration/rotationConverters.cpp > CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.i
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/rotationConverters.cpp > CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.i
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.s"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/opencv/apps/interactive-calibration/rotationConverters.cpp -o CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.s
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration/rotationConverters.cpp -o CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.s
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/rotationConverters.cpp.o.requires:
 
@@ -246,8 +246,8 @@ bin/opencv_interactive-calibration: 3rdparty/lib/liblibjasper.a
 bin/opencv_interactive-calibration: 3rdparty/lib/libIlmImf.a
 bin/opencv_interactive-calibration: 3rdparty/lib/libzlib.a
 bin/opencv_interactive-calibration: apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../bin/opencv_interactive-calibration"
-	cd /home/stacia/opencv/build/apps/interactive-calibration && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_interactive-calibration.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stacia/eclipse-workspace/CompVisionProject/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../bin/opencv_interactive-calibration"
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencv_interactive-calibration.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/build: bin/opencv_interactive-calibration
@@ -264,10 +264,10 @@ apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/requi
 .PHONY : apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/requires
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/clean:
-	cd /home/stacia/opencv/build/apps/interactive-calibration && $(CMAKE_COMMAND) -P CMakeFiles/opencv_interactive-calibration.dir/cmake_clean.cmake
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration && $(CMAKE_COMMAND) -P CMakeFiles/opencv_interactive-calibration.dir/cmake_clean.cmake
 .PHONY : apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/clean
 
 apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/depend:
-	cd /home/stacia/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/opencv /home/stacia/opencv/apps/interactive-calibration /home/stacia/opencv/build /home/stacia/opencv/build/apps/interactive-calibration /home/stacia/opencv/build/apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stacia/eclipse-workspace/CompVisionProject/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stacia/eclipse-workspace/CompVisionProject/opencv /home/stacia/eclipse-workspace/CompVisionProject/opencv/apps/interactive-calibration /home/stacia/eclipse-workspace/CompVisionProject/opencv/build /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration /home/stacia/eclipse-workspace/CompVisionProject/opencv/build/apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : apps/interactive-calibration/CMakeFiles/opencv_interactive-calibration.dir/depend
 

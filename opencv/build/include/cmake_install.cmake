@@ -1,4 +1,4 @@
-# Install script for directory: /home/stacia/opencv/include
+# Install script for directory: /home/stacia/eclipse-workspace/CompVisionProject/opencv/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,21 +34,21 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv" TYPE FILE FILES
-    "/home/stacia/opencv/include/opencv/cvaux.hpp"
-    "/home/stacia/opencv/include/opencv/cvwimage.h"
-    "/home/stacia/opencv/include/opencv/cv.hpp"
-    "/home/stacia/opencv/include/opencv/cxcore.hpp"
-    "/home/stacia/opencv/include/opencv/cvaux.h"
-    "/home/stacia/opencv/include/opencv/cv.h"
-    "/home/stacia/opencv/include/opencv/highgui.h"
-    "/home/stacia/opencv/include/opencv/cxcore.h"
-    "/home/stacia/opencv/include/opencv/cxmisc.h"
-    "/home/stacia/opencv/include/opencv/cxeigen.hpp"
-    "/home/stacia/opencv/include/opencv/ml.h"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv/cvaux.hpp"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv/cvwimage.h"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv/cv.hpp"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv/cxcore.hpp"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv/cvaux.h"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv/cv.h"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv/highgui.h"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv/cxcore.h"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv/cxmisc.h"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv/cxeigen.hpp"
+    "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv/ml.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "dev")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE FILES "/home/stacia/opencv/include/opencv2/opencv.hpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/opencv2" TYPE FILE FILES "/home/stacia/eclipse-workspace/CompVisionProject/opencv/include/opencv2/opencv.hpp")
 endif()
 
