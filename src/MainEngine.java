@@ -1,6 +1,16 @@
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 import com.aldebaran.qi.Application;
 import com.aldebaran.qi.helper.proxies.ALAnimatedSpeech;
@@ -17,6 +27,7 @@ import com.aldebaran.qi.helper.proxies.ALSpeechRecognition;
 import com.aldebaran.qi.helper.proxies.ALTextToSpeech;
 import com.aldebaran.qi.helper.proxies.ALVideoDevice;
 import com.aldebaran.qi.helper.proxies.ALVideoRecorder;
+
 
 public class MainEngine {
 	//Speech
@@ -37,7 +48,7 @@ public class MainEngine {
 	private ALRedBallDetection redBallDetect;   
 	private ALSegmentation3D blobs3D;
 	private CameraModule cameraModule;
-	
+
 	//Gesture
 	private ALRobotPosture robotPose;
 	private ALAnimationPlayer animPlay;
@@ -45,14 +56,30 @@ public class MainEngine {
 	private ALMotion motion;
 	private MotionModule motionModule;
 	
+	public BufferedImage frame;
+
 	public static void main(String[] args) {
 		MainEngine engine = new MainEngine();
 	}
+
+	class PanelComponent extends JPanel {
+		
+		
+		public void paintComponent(Graphics g) {
+			super.paintComponent(g); //paint background
+			Graphics2D g2 = (Graphics2D)g;
+
+			if (frame != null) { //there is a picture: draw it
+				g2.drawImage(frame), 0, 0, this);
+			}
+		}
+	}
+
 	
 	public MainEngine() {
 		connectToPepper();
 	}
-	
+
 	public void connectToPepper() {
 		Application application;
 		String[] args = {};
@@ -86,9 +113,9 @@ public class MainEngine {
 			nav = new ALNavigation(application.session());
 			motion = new ALMotion(application.session());
 			motionModule = new MotionModule(robotPose, animPlay, nav, motion);
-			
 
-			
+
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -98,9 +125,24 @@ public class MainEngine {
 		sayText("Go to posture successful.");
 		motionModule.goToPosture("StandInit", 1);
 		sayText("Hello, this is Pepper, independent of A.D.E.");
-		
+
+		//Code from Nhan
+		ScheduledExecutorService timer;
+		// grab a frame every 33 ms (30 frames/sec)
+		Runnable frameGrabber = new Runnable() {
+			@Override
+			public void run()
+			{
+				// effectively grab and process a single frame
+				frame = cameraModule.startStreaming();
+			}
+		};
+
+		timer = Executors.newSingleThreadScheduledExecutor();
+		timer.scheduleAtFixedRate(frameGrabber, 0, 33, TimeUnit.MILLISECONDS);
+
 	}
-	
+
 	//Production
 	public boolean sayText(String text){
 		try {

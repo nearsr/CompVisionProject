@@ -4,6 +4,9 @@
 //we don't want that when it hooks up to ADE, we want app connection to start in PepperComponent
 //so I refactored it to take the correct parameters and not start it own connection
 
+import java.awt.image.BufferedImage;
+import java.awt.image.DataBufferShort;
+import java.awt.image.Raster;
 import java.nio.ByteBuffer;
 import java.util.List;
 
@@ -50,7 +53,7 @@ public class CameraModule {
 	
 	private ALVideoDevice camProxy;
 	private String clientName;
-	private Mat imageHeader;
+	private BufferedImage imageHeader;
 	private Boolean isConnected = false;
 	
 	
@@ -73,7 +76,8 @@ public class CameraModule {
 			clientName = camProxy.subscribe(inputClientName, videoResolution.kQVGA, colorSpace.kBGR, frameRate);
 			
 			// cv::Mat header to wrap into an opencv image.
-			imageHeader = new Mat(new org.opencv.core.Size(320, 240), CvType.CV_8UC3);
+			//imageHeader = new Mat(new org.opencv.core.Size(320, 240), CvType.CV_8UC3);
+			imageHeader = new BufferedImage(320, 240, BufferedImage.TYPE_3BYTE_BGR);
 			this.isConnected = true;
 		} catch (CallError e) {
 			// TODO Auto-generated catch block
@@ -84,14 +88,23 @@ public class CameraModule {
 		}
 	}
 	
-	public Mat startStreaming() {
+	public BufferedImage startStreaming() {
 		try {
 			if (clientName != null) {
 				// ALValue (in C++) is byte[] in Java
 				List alValueImage = (List) camProxy.getImageRemote(clientName);
 				ByteBuffer buffer = (ByteBuffer) alValueImage.get(6);
 				byte[] rawData = buffer.array();
-				imageHeader.put(0,0,rawData);
+				//imageHeader.put(0,0,rawData);
+				//imageHeader.setData(rawData);
+				
+				//Convert raw data into buffered image for java
+				//https://stackoverflow.com/a/11105035/8711488
+				byte[] pixels = rawData;
+			    short[] imgData = ((DataBufferShort)imageHeader.getRaster().getDataBuffer()).getData();
+			    System.arraycopy(pixels, 0, imgData, 0, pixels.length);     
+				
+				
 				camProxy.releaseImage(clientName);
 				return imageHeader;
 			}
